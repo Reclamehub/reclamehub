@@ -1,0 +1,18 @@
+.blog-container{
+    border:1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px
+}
+.blog-box{
+    border:1px solid blue;
+border-radius: 12px 12px 10px 10px;
+
+}
+.blog-img{
+    border-radius:10px 10px 1px 1px;
+}
+.Blog-btn{
+    margin:5px;
+    background-color: pink;
+}

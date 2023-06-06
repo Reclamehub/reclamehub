@@ -1,0 +1,18 @@
+.foot-main-container{
+    padding: 5vw;
+}
+
+.footer-desc{
+font-size: 1vw;
+
+}
+.footer-sub-heading{
+    padding-top: 25px;
+    text-align: left;
+    font-size: 1vw;
+}
+.foot-sub-text{
+margin-bottom: 10px;
+    font-size: 1vw;
+    text-align: left;
+}

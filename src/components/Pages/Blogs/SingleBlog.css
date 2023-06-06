@@ -1,0 +1,23 @@
+.single-blog-container{
+
+align-items: center;
+display: flex;
+flex-direction: column;
+gap:10px;
+
+
+}
+.single-blog-img{
+
+    
+    width:80%
+}
+.single-blog-text{
+    width: 90%;
+    font-size: 1.5vw;
+text-align: left;
+}
+.single-blog-heading{
+    
+    /* border: 1px solid red; */
+}

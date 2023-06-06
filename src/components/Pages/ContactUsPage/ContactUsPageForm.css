@@ -1,0 +1,12 @@
+
+.input-name ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+  
+
+.input-name{
+    border:1px solid red;
+    cursor: pointer;
+    background-color: rgb(241, 232, 232);
+}

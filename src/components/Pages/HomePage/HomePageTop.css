@@ -1,0 +1,70 @@
+.Home-top-container{
+    /* border:1px solid red; */
+    background-image: url("../../../../public/homtopbg.png");
+
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.home-all-heading{
+
+    /* border:1px solid red; */
+    padding: 80px 50px 1px 150px;
+}
+.home-heading-one{
+    text-align: left;
+font-size: 1vw;
+}
+
+.home-heading-two{
+    text-align: left;
+    font-size: 3.7vw;
+    width: 100%;
+    font-weight: 600;
+}
+.home-heading-three{
+    text-align: left;
+    font-size: 3.7vw;
+    color:#F47721;
+    width: 100%;
+    font-weight: 600;
+}
+.home-heading-four{
+    text-align: left;
+
+    font-size: 3vw;
+    width: 100%;
+    font-weight: 600;
+}
+.home-top-img-box{
+    margin-top: -25px;
+margin-right: 40px;
+}
+
+.home-btn-img{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.home-top-img{
+    width: 28vw;
+}
+.home-top-btn-box{
+ align-items: center;   
+    width: 40%;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: center;
+font-size: 1vw;
+}
+.home-top-btn{
+    border: 2px solid #F47721;
+    border-radius: 30px;
+    font-size: 1vw;
+    
+    margin-bottom: 50px;
+    background-color: transparent;
+    /* borderRadius={"30px"}  border={"2px solid #F47721"} bg="transparent" fontSize={"1vw"} fontWeight={"500 */
+}
+.home-top-btn :hover{
+    color:#F47721;
+}
