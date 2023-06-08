@@ -24,14 +24,14 @@ export const ContactUsPageForm=()=>{
    
    
     <Box  width={"50%"} lineHeight={"5px"} >
-<InputGroup bg={"gray.600"}  mt="15px"  borderRadius={"10px"}>
+<InputGroup bg={"gray.400"}  mt="15px"  borderRadius={"10px"}>
 <Input type='tel' placeholder='Enter Name' _placeholder={{ opacity: 1, color: 'white' }} />
 <InputRightElement pointerEvents='none'>
 <CgProfile size="2vw" color='white' height={"100%" }  />
 </InputRightElement>
 </InputGroup>
 
-<InputGroup bg={"gray.600"} mt="15px" borderRadius={"10px"}>
+<InputGroup bg={"gray.400"} mt="15px" borderRadius={"10px"}>
 <Input type='tel' placeholder='Enter Email' _placeholder={{ opacity: 1, color: 'white' }} />
 <InputRightElement pointerEvents='none'>
 <MdAlternateEmail size="2vw" color='white' height={"100%" }  />
@@ -40,7 +40,7 @@ export const ContactUsPageForm=()=>{
 
 
 
-<InputGroup bg={"gray.600"} mt="15px" borderRadius={"10px"}>
+<InputGroup bg={"gray.400"} mt="15px" borderRadius={"10px"}>
 <Input type='tel' placeholder='Enter Mobile Number' _placeholder={{ opacity: 1, color: 'white' }}/>
 <InputRightElement pointerEvents='none'>
 <AiOutlinePhone size="2vw" color='white' height={"100%" }  />
@@ -48,7 +48,7 @@ export const ContactUsPageForm=()=>{
 </InputGroup>
 </Box>
    
-<Box  width={"50%"}  bg={"gray.600"} mt="15px" borderRadius={"5px"}>
+<Box  width={"50%"}  bg={"gray.400"} mt="15px" borderRadius={"5px"}>
      <Box display={"flex"} justifyContent={"space-between"} m="5px">
       <Box color={"white"}>Enter Your Message</Box>
       <Box> <FiMail color="white" size="1.5vw" /></Box> 
