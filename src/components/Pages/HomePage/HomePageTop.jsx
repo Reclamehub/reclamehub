@@ -14,7 +14,7 @@ export const HomePageTop=()=>{
         </Box>
 <Flex className="home-btn-img">
 {/* border="2px solid #F47721" fontWeight={"500"} _hover={{bg:"#F47721",color:"white"}} borderRadius={"30px"} */}
-    <Box className="home-top-btn-box" ><Button  className="home-top-btn" fontSize={{base:"sm",sm:"md", md:"lg", lg:"xl", xl:"xl"}} fontWeight={"500"} _hover={{bg:"#F47721",color:"white"}} borderRadius={"30px"} >Get Started</Button></Box>
+    <Box className="home-top-btn-box" ><Button  className="home-top-btn" size={{base:"xs",sm:"sm", md:"sm", lg:"md", xl:"lg"}} fontSize={{base:"sm",sm:"sm", md:"sm", lg:"xl", xl:"xl"}} fontWeight={"500"} _hover={{bg:"#F47721",color:"white"}} borderRadius={"30px"} >Get Started</Button></Box>
     <Box className="home-top-img-box"><Image className="home-top-img"  src="imagegrp.png" /></Box>
 </Flex>
 
