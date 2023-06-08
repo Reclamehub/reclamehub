@@ -33,3 +33,24 @@ padding: 10px;
     
   box-shadow: 8px 8px 10px 4px #888888
 }
+
+@media screen and (max-width:540px) {
+ 
+    .home-service-container{
+    
+        background-repeat: no-repeat;
+        width: 100%;
+        /* border: 1px solid red; */
+        background-size: cover;
+    
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap:20px;
+        padding: 10px;
+    }   
+
+
+}

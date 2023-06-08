@@ -3,6 +3,7 @@ import { Box, Flex, Heading, Image, Text, useColorModeValue } from "@chakra-ui/r
 import {FaFacebookF,FaYoutube,FaTwitter,FaLinkedinIn,FaInstagram} from "react-icons/fa"
 
 import "./Footer.css"
+import { Link } from "react-router-dom";
 
 export const Footer=()=>{
 
@@ -36,7 +37,7 @@ export const Footer=()=>{
                 <Box>
                 <Heading className="footer-sub-heading" fontSize={"1.5vw"}>QUICK LINKS</Heading>
                 <br />
-                    <Text className="foot-sub-text">BLOGS</Text>
+                    <Text className="foot-sub-text" _hover={{color:"#F47721"}}><Link to="/blog"> BLOGS </Link></Text>
                     <Text className="foot-sub-text"> TERMS & CONDITION</Text>
                     <Text className="foot-sub-text">REFUND POLICY</Text>
                     <Text className="foot-sub-text">PRESS RELEASE</Text>

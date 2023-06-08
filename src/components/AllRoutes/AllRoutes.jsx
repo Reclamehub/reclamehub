@@ -5,6 +5,7 @@ import { Blog } from "../Pages/Blogs/Blog"
 import { SingleBlog } from "../Pages/Blogs/SingleBlog"
 import { SingleBlogPage } from "../Pages/Blogs/SingleBlogPage"
 import { ContactUsPage } from "../Pages/ContactUsPage/ContactUsPage"
+import { ServicePage } from "../Pages/ServicePage/ServicePage"
 
 export const AllRoutes=()=>{
 
@@ -18,6 +19,7 @@ export const AllRoutes=()=>{
             <Route path="/:id" element={<SingleBlog/>} />
             <Route path="/single" element={<SingleBlogPage />} />
             <Route path="/contact" element={<ContactUsPage />} />
+            <Route path="/service" element={<ServicePage />} />
 
         </Routes>
     </div>)

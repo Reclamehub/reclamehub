@@ -13,7 +13,8 @@ export const HomePageTop=()=>{
         <Text className="home-heading-four"> IN <span style={{color:"#F47721"}}  >INDIA</span> ENDS HERE....</Text>
         </Box>
 <Flex className="home-btn-img">
-    <Box className="home-top-btn-box" ><Button width="25%" className="home-top-btn" fontWeight={"500"} _hover={{bg:"#F47721",color:"white"}} borderRadius={"30px"}>Get Started</Button></Box>
+{/* border="2px solid #F47721" fontWeight={"500"} _hover={{bg:"#F47721",color:"white"}} borderRadius={"30px"} */}
+    <Box className="home-top-btn-box" ><Button  className="home-top-btn" fontWeight={"500"} _hover={{bg:"#F47721",color:"white"}} borderRadius={"30px"} >Get Started</Button></Box>
     <Box className="home-top-img-box"><Image className="home-top-img"  src="imagegrp.png" /></Box>
 </Flex>
 
