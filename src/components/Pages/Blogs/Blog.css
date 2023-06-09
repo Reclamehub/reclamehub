@@ -1,11 +1,12 @@
 .blog-container{
-    border:1px solid red;
+    
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap:20px
+    gap:20px;
+    justify-content: center;
 }
 .blog-box{
-    border:1px solid blue;
+    
 border-radius: 12px 12px 10px 10px;
 
 }

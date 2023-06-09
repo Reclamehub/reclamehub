@@ -5,7 +5,7 @@ import "./SingleBlog.css"
 
 const blogData=[
     {id:1,
-        title:"What is Digital Marketing?",
+        title:"What is Digital Marketing ?",
         shortDEsc:"Digital marketing employs some of the same ideas as conventional marketing and is frequently regarded as an alternative means for businesses to contact consumers and comprehend their behaviour.",
     Bimage:"blogimg1.png",
     description:`Is it a marketing strategy, a tool, or a method of promoting your company?
@@ -13,7 +13,8 @@ const blogData=[
     So here it is, the act of advertising products and services using digital channels such as social media, SEO, email, and mobile applications is known as digital marketing. Digital marketing refers to any type of marketing that uses electronic technology. 
     
     With the introduction of the internet in the 1990s, digital marketing grew in popularity.
-    
+
+
     Digital marketing employs some of the same ideas as conventional marketing and is frequently regarded as an alternative means for businesses to contact consumers and comprehend their behaviour.
     According to statistics, worldwide digital advertising spend has reached $458.16 billion in 2021. This implies that digital marketing is, was & will be an essential tool for every business owner looking to increase income. Simply looking around will reveal that digital technology has altered the environment we live in. All approaches that were employed 5-10 years ago no longer work. This is a dynamic and quickly evolving industry. 
     To know more about such data and its increase you can look into this -  https://nix-united.com/blog/digital-marketing-for-small-businesses-overview-of-main-benefits/
