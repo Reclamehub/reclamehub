@@ -18,11 +18,11 @@ export const Footer=()=>{
                     <br />
                     <Box>
                         <Flex gap="20px" >
-                        <Box ><FaFacebookF color="orangered" size="2vw" /></Box>
-                        <Box><FaInstagram color="orangered" size="2vw"/></Box>
-                        <Box><FaYoutube color="orangered" size="2vw" /></Box>
-                        <Box><FaTwitter color="orangered" size="2vw" /></Box>
-                        <Box><FaLinkedinIn color="orangered" size="2vw" /></Box>
+                        <Box _hover={{color:"#F47721"}}><a href="https://www.facebook.com/reclamehubofficial/"><FaFacebookF  size="2vw" /></a></Box>
+                        <Box _hover={{color:"#F47721"}}><a href="https://www.instagram.com/reclamehub/?hl=en"><FaInstagram  size="2vw"/></a></Box>
+                        <Box _hover={{color:"#F47721"}}><a href=""><FaYoutube  size="2vw" /></a></Box>
+                        <Box _hover={{color:"#F47721"}}><FaTwitter  size="2vw" /></Box>
+                        <Box _hover={{color:"#F47721"}}><a href="https://www.linkedin.com/company/reclame-hub/?originalSubdomain=in"><FaLinkedinIn  size="2vw" /></a></Box>
                         
                         </Flex></Box>
                 </Box>
@@ -47,8 +47,8 @@ export const Footer=()=>{
                     <br />
                     <Text className="foot-sub-text">+91-912019005</Text>
                     <Text className="foot-sub-text">info@reclamehub.com</Text>
-                    <Text className="foot-sub-text">808,8th Floor Iconic Tower</Text>
-                    <Text className="foot-sub-text">Sector 62 Noida 201301,India</Text>
+                    <Text className="foot-sub-text">808, 8th Floor Iconic Tower</Text>
+                    <Text className="foot-sub-text">Sector 62 Noida 201301, India</Text>
 
                 </Box>
             </Flex>

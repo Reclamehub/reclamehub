@@ -21,7 +21,7 @@ export const AllRoutes=()=>{
             <Route path="/single" element={<SingleBlogPage />} />
             <Route path="/contact" element={<ContactUsPage />} />
             <Route path="/service" element={<ServicePage />} />
-            <Route path="/digitalmarketing" element={<BlogOne />} />
+            <Route path="/effective-digital-marketing-startegies-for-small-businesses" element={<BlogOne />} />
 
         </Routes>
     </div>)

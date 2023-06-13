@@ -82,9 +82,9 @@ export const HomeClients=()=>{
         <Text fontSize={"1.4vw"}>Every Morning.</Text>
         </Box>
 
-
-        <Box className="clients-img-container" backgroundColor={"#FF9450"}>{clients.map((el) =><Box key={el.id}  className="clients-img-box"  boxShadow='lg' > <Image w="80%" m="auto" h="80%" src={el.teamimg} className="clients-img" alt="img" /></Box>
+<Box backgroundColor={"#FF9450"}>
+        <Box className="clients-img-container" >{clients.map((el) =><Box key={el.id}  className="clients-img-box"  boxShadow='lg' > <Image w="80%" m="auto" h="80%" src={el.teamimg} className="clients-img" alt="img" /></Box>
         )}</Box>
-
+</Box>
     </Box>)
 }

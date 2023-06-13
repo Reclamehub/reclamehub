@@ -54,9 +54,9 @@ export const HomeTeam = () => {
 
 <Box display={"flex"} justifyContent={"space-between"} margin="2% 8% 5% 8%" boxShadow={"dark-lg"}>
 <Box  ><Image src="wrupal.png"  alt="img" fluid /></Box>
-<Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="72vh" border="2px solid #888888"></Box>
+<Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="74vh" border="2px solid #888888"></Box>
 <Box > <Image src="wisha.png"  alt="img" fluid /></Box>
-<Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="72vh" border="2px solid #888888"></Box>
+<Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="74vh" border="2px solid #888888"></Box>
 <Box ><Image src="wsonali.png"  alt="img" fluid /></Box>
 </Box>
 
@@ -68,9 +68,9 @@ export const HomeTeam = () => {
 
 <Box display={"flex"} justifyContent={"space-between"} gap="2%" margin="2% 8% 5% 8%" boxShadow={"dark-lg"}>
 <Box ><Image src="wshra.png"  alt="img" fluid /></Box>
-<Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="72vh" border="2px solid #888888"></Box>
+<Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="74vh" border="2px solid #888888"></Box>
 <Box > <Image marginTop={"-22px"} src="waish.png"  alt="img" fluid /></Box>
-<Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="72vh" border="2px solid #888888"></Box>
+<Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="74vh" border="2px solid #888888"></Box>
 <Box ><Image src="wswati.png"  alt="img" fluid /></Box>
 </Box>
 

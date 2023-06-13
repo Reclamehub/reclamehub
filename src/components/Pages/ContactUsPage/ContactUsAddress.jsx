@@ -20,9 +20,9 @@ export const ContactUsAddress = () => {
                     <Box><CiLocationOn size="30px" color="orangered" /></Box>
                     <Box>
                         <Text>OUR LOCATION</Text>
-                        <Text w="85%">8th Floor Iconic Tower sector 62 Noida 201301</Text>
-                        <Text>Noida Uttar Pradesh</Text>
-                        <Text>India 201307</Text>
+                        <Text w="85%">808, 8th Floor Iconic Tower sector 62 Noida </Text>
+                        <Text> Uttar Pradesh</Text>
+                        <Text>India, 201301</Text>
                     </Box>
                     <Box width={"30%"} > <Image  src="mapgif.gif" alt="img" /></Box>
                 </Box>

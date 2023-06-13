@@ -17,3 +17,27 @@ margin: 10px 1px 20px 1px;
 
     width: 80%;
 }
+
+
+.h3-title{
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.span-link{
+    color:blue;
+    font-weight: bold;
+}
+
+.htwo-heading{
+
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.faq-htwo{
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.faq-hthree{
+    font-weight: bold;
+}

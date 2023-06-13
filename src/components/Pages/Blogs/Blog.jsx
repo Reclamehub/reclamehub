@@ -124,11 +124,10 @@ export const Blog=()=>{
             
 <Box className="blog-box"  boxShadow='xl'  rounded='md' >
     <Image className="blog-img" src={el.image} alt="blog-img" />
-    <Heading>{el.title}</Heading>
+    <Heading>15 Effective Digital Marketing Strategies for Small Businesses</Heading>
     <br />
-    <Text>{el.shortDEsc}</Text>
-
-    <Button className="Blog-btn" bg="pink"> <Link to="/digitalmarketing">Read More </Link></Button>
+    <Text> Discover 15 powerful digital marketing strategies tailored for small businesses. Boost your online presence and drive growth effectively. Start now!</Text>
+    <Button className="Blog-btn" bg="pink"> <Link to="/effective-digital-marketing-startegies-for-small-businesses">Read More </Link></Button>
 </Box>
 
 </Box>))}
