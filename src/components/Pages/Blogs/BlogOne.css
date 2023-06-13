@@ -1,0 +1,19 @@
+.sub-question-heading{
+font-size: 2vw;
+font-weight: 550;
+margin: 10px 1px 20px 1px;
+
+}
+
+.sub-img-heading{
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sub-img{
+
+    width: 80%;
+}

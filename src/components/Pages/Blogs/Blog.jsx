@@ -128,7 +128,7 @@ export const Blog=()=>{
     <br />
     <Text>{el.shortDEsc}</Text>
 
-    <Button className="Blog-btn" bg="pink"> <Link to={`/${el.id}`}>Read More </Link></Button>
+    <Button className="Blog-btn" bg="pink"> <Link to="/digitalmarketing">Read More </Link></Button>
 </Box>
 
 </Box>))}
@@ -136,3 +136,5 @@ export const Blog=()=>{
     </Box>
     )
 }
+
+// <Button className="Blog-btn" bg="pink"> <Link to={`/${el.id}`}>Read More </Link></Button>

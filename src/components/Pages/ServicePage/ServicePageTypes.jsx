@@ -80,7 +80,7 @@ In today's digital world, social media is an essential component of every effect
                
             </Flex>
         </Box>
-
+{/* web designing and development */}
         <br />
 <Box w="80%" display={"flex"} marginLeft={"auto"} p="2vw" fontFamily={"poppins"} backgroundColor={"gray"} borderRadius={"10rem 1px 1px 10rem"}>
             <Flex gap="10%" >

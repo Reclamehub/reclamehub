@@ -1,0 +1,13 @@
+.clients-img-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:3vw;
+    padding: 5vw;
+}
+
+.clients-img-box{
+    background-color: #ffa56c;
+    border-radius: 40px;
+display: flex;
+justify-content: center;
+}

@@ -3,39 +3,39 @@ import "./HomeTeam.css"
 
 const team = [{
     id: 1,
-    teamimg: "rupal.png"
+    teamimg: "wrupal.png"
 },
 {
     id: 2,
-    teamimg: "isha.png"
+    teamimg: "wisha.png"
 },
 {
     id: 3,
-    teamimg: "sonali.png"
+    teamimg: "wsonali.png"
 },
 {
     id: 4,
-    teamimg: "shravani.png"
+    teamimg: "wshra.png"
 },
 {
     id: 5,
-    teamimg: "aish.png",
+    teamimg: "waish.png",
 },
 {
     id: 6,
-    teamimg: "laxmi.png"
+    teamimg: "wlaxmi.png"
 },
 {
     id: 7,
-    teamimg: "swati.png"
+    teamimg: "wswati.png"
 },
 {
     id: 8,
-    teamimg: "pra.png",
+    teamimg: "wpra.png",
 },
 {
     id: 9,
-    teamimg: "vishnu.png"
+    teamimg: "wvishnu.png"
 }
 
 ]
@@ -48,46 +48,69 @@ export const HomeTeam = () => {
         <br />
         <Box><Heading fontSize={"4vw"}>MEET OUR <span style={{color:"orangered"}}>TEAM</span></Heading></Box>
         <br />
-        <Box w="40%" m="auto"><Text>Meet Our Warriors To Use The Force For GoodMeet Our Digital Warriors,Ready To Use The Force For Good </Text></Box>
+        <Box w="40%" m="auto"><Text> MEET OUR WARRIORS TO USE THE FORCE FOR GOODMEET OUR DIGITAL WARRIORS, READY TO USE THE FORCE FOR GOOD </Text></Box>
         <br />
         <br />
 
-        <Box className="team-img-comtainer">{team.map((el) =><Box key={el.id}  className="team-img-box"  boxShadow='dark-lg' > <Image w="100%" h="100%" src={el.teamimg} className="team-img" alt="img" /></Box>
-        )}</Box>
+<Box display={"flex"} justifyContent={"space-between"} margin="2% 8% 5% 8%" boxShadow={"dark-lg"}>
+<Box  ><Image src="wrupal.png"  alt="img" fluid /></Box>
+<Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="72vh" border="2px solid #888888"></Box>
+<Box > <Image src="wisha.png"  alt="img" fluid /></Box>
+<Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="72vh" border="2px solid #888888"></Box>
+<Box ><Image src="wsonali.png"  alt="img" fluid /></Box>
+</Box>
+
+<Box display={"flex"} justifyContent={"space-between"} gap="5%" margin="2% 8% 5% 8%">
+<Box boxShadow={"dark-lg"} ><Image src="wpra.png"  alt="img" fluid /></Box>
+<Box boxShadow={"dark-lg"}> <Image src="wlaxmi.png"  alt="img" fluid /></Box>
+<Box boxShadow={"dark-lg"}><Image src="wvishnu.png"  alt="img" fluid /></Box>
+</Box>
+
+<Box display={"flex"} justifyContent={"space-between"} gap="2%" margin="2% 8% 5% 8%" boxShadow={"dark-lg"}>
+<Box ><Image src="wshra.png"  alt="img" fluid /></Box>
+<Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="72vh" border="2px solid #888888"></Box>
+<Box > <Image marginTop={"-22px"} src="waish.png"  alt="img" fluid /></Box>
+<Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="72vh" border="2px solid #888888"></Box>
+<Box ><Image src="wswati.png"  alt="img" fluid /></Box>
+</Box>
+
+{/* 
+        <Box className="team-img-container">{team.map((el) =><Box key={el.id}  className="team-img-box"  boxShadow='dark-lg' > <Image h="200px" w="80vw"   src={el.teamimg} className="team-img" alt="img" /></Box>
+        )}</Box> */}
 
 
-
-        {/*    <Box w="82%" margin={"auto"} border="1px solid gray" boxShadow='2xl'>
+{/* 
+            <Box w="82%" margin={"auto"} border="1px solid gray" boxShadow='2xl'>
         <Flex gap={"10px"}>
-            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image src="rupal.png" alt="img"/></Box>
+            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image src="wrupal.png" alt="img"/></Box>
             <Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  height="70vh" border="2px solid #888888"></Box>
-            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image src="isha.png" alt="img"/></Box>
+            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image src="wisha.png" alt="img"/></Box>
             <Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  height="70vh" border="2px solid #888888"></Box>
-            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image  src="sonali.png"  height={"100%"} alt="img"/></Box>
+            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image  src="wsonali.png"  height={"100%"} alt="img"/></Box>
         </Flex>
     </Box>
     <br />
     <br />
     <Box w="82%" margin={"auto"} border="1px solid gray" boxShadow='2xl'>
         <Flex gap={"10px"}>
-            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image src="shravani.png" alt="img"/></Box>
+            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image src="wshra.png" alt="img"/></Box>
             <Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  height="70vh" border="2px solid #888888"></Box>
-            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image src="aish.png" alt="img"/></Box>
+            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image src="waish.png" alt="img"/></Box>
             <Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  height="70vh" border="2px solid #888888"></Box>
-            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image  src="laxmi.png"  height={"100%"} alt="img"/></Box>
+            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image  src="wlaxmi.png"  height={"100%"} alt="img"/></Box>
         </Flex>
     </Box>
     <br />
     <br />
     <Box w="82%" margin={"auto"} border="1px solid gray" boxShadow='2xl'>
         <Flex gap={"10px"}>
-            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image src="swati.png" alt="img"/></Box>
+            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image src="wswati.png" alt="img"/></Box>
             <Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  height="70vh" border="2px solid #888888"></Box>
-            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image src="pra.png" alt="img"/></Box>
+            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image src="wpra.png" alt="img"/></Box>
             <Box w="20px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  height="70vh" border="2px solid #888888"></Box>
-            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image  src="vishnu.png"  w="100%" height={"100%"} alt="img"/></Box>
+            <Box style={{boxShadow: "1px 1px 10px 1px #888888"}}><Image  src="wvishnu.png"  w="100%" height={"100%"} alt="img"/></Box>
         </Flex>
-    </Box> */}
+    </Box>  */}
 
 
 

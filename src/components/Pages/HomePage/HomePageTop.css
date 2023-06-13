@@ -70,6 +70,12 @@ margin-bottom: 10vw;
 }
 
 
+.contact-btn-link :hover{
+color:red
+
+}
+
+
 @media screen and (max-width:480px) {
     .home-top-btn-box{
         align-items: center;   
@@ -82,3 +88,4 @@ margin-bottom: 10vw;
        }   
 
 }
+
