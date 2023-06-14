@@ -1,5 +1,5 @@
-import { Box, Flex, Heading, Image, Text, useColorModeValue } from "@chakra-ui/react"
-import {AiFillStar} from "react-icons/ai"
+import { Box, Flex, Heading, Image, Spacer, Text, useColorModeValue } from "@chakra-ui/react"
+
 
 import "./BlogOne.css"
 export const BlogOne=()=>{
@@ -12,22 +12,23 @@ export const BlogOne=()=>{
     <Box textAlign={"left"} w="90%" margin={"auto"} alignItems={"center"} fontFamily={"poppins"} bg={useColorModeValue('white', 'black')}>
         <h1 style={{fontFamily:"poppins",fontSize:"4vw",fontWeight:"bold"}}  fontSize={"14vw"} color="red">15 Effective Digital Marketing Strategies for Small Businesses</h1>
 <br />
-<Box  marginTop={"3vh"} ><Image w="80%" margin={"auto"} src="feature.png" alt="banner-image" /></Box>
+<Box  marginTop={"3vh"} ><Image w="80%" margin={"auto"} src="feature.png" alt="digital-marketing" /></Box>
 
 
 <br />
         <Text>Marketing is one of the most essential things whenever you sell your product, not even sell it is also important whenever you buy something. Every little bit of product or brand is important whether it be your traditional market or digital market. 
+
 <br />
 <br />
 All you need is why to rely, whom to rely, and how to rely. So to answer your such questions and give an amazing perspective related to such things. Here we are up with such services. 
 <br />
-<br />
+
 Just hop into it and get your answers!!
 </Text>
 <br />
-<br />
-<h2 className="sub-question-heading">What is Digital Marketing? </h2>
-<Box className="sub-img-heading"><Image src="blogimg1.png" className="sub-img"  alt="digital-marketing-img" /></Box>
+
+<h2 className="sub-question-heading">What is Digital Marketing ? </h2>
+<Box className="sub-img-heading"><Image src="blogimg1.png" className="sub-img"  alt="digital-marketing-solution" /></Box>
 
 <Text>Is it a marketing strategy, a tool, or a method of promoting your company?
 <br />
@@ -52,7 +53,7 @@ According to statistics, worldwide digital advertising spend has reached $458.16
 
 To know more about such data and its increase you can look into this - 
 <br />
-<a style={{color:"blue"}} href="https://nix-united.com/blog/digital-marketing-for-small-businesses-overview-of-main-benefits/"> https://nix-united.com/blog/digital-marketing-for-small-businesses-overview-of-main-benefits/</a>
+<a style={{color:"#F47721"}} href="https://nix-united.com/blog/digital-marketing-for-small-businesses-overview-of-main-benefits/"> https://nix-united.com/blog/digital-marketing-for-small-businesses-overview-of-main-benefits/</a>
 
 <br />
 <br /> 
@@ -88,7 +89,7 @@ There are more such approaches but then it also depends to the size and complexi
 
 Digital marketing presents unique obstacles to those that practise it. Digital channels are continually proliferating, and digital marketers must stay up with how these channels function and how receivers utilise them. Marketers must understand how to effectively sell their products or services through various platforms.
 
-<br />
+
 <br /> 
 
 So, in order to tackle this difficulty and overcome them, below are some tactics and strategies you should know.
@@ -97,10 +98,10 @@ So, in order to tackle this difficulty and overcome them, below are some tactics
 <br />
 <br />
 
-<h2 style={{fontWeight:"bold"}}>Digital Marketing Services for Small Businesses: Kickstart Your Growth</h2>
+<h2 style={{fontWeight:"bold"}} className="htwo-heading">Digital Marketing Services for Small Businesses: Kickstart Your Growth</h2>
 
 <br />
-<br />
+
 <h3 className="h3-title" >1. Define Your Target Audience and Buyer Personas </h3>
 <br />
  <Text>A target audience is a group of individuals who are likely to be interested in a certain product, service, or message. On the other hand, a buyer persona is a fictitious depiction of a company's ideal customer based on market research and data from actual consumers.
@@ -121,7 +122,7 @@ This information may include -
 </ul> 
 </Box>
 
-<br />
+
  <br />
 
 Businesses may better understand their consumer’s requirements and aspirations by establishing thorough buyer personas, which can help them customise their digital marketing tactics to better reach and engage their target audience. 
@@ -130,13 +131,12 @@ Businesses should establish more focused and successful digital marketing strate
 </Text>
 
 <br />
- <br />
 
+{/* two */}
 
 <h3 className="h3-title">2. Research Competitors and Carve Your Unique Niche</h3>
-<br />
 <br />       
-<Box className="sub-img-heading"><Image src="blogimg2.png" className="sub-img" alt="research-img" /></Box>
+<Box className="sub-img-heading"><Image src="blogimg2.png" className="sub-img" alt="Research Competitors" /></Box>
      <Text>
 
      Research competitor, a competition in research or a research while participating in a competition?
@@ -150,88 +150,85 @@ In order to know how to perform such task and carve out a distinct niche in any 
 <br />
 
 </Text>
-
-<Text><span style={{fontWeight:"bold"}}>Determine your competitors : </span> Begin by researching firms or individuals who provide comparable products or services to yours. This may be accomplished with a basic Google search or by using programmes such as SEMrush or Ahrefs. Make a list of your main rivals and assess their strengths, shortcomings, and market positioning.</Text>
-
-<br />
-<br />
-<Text><span style={{fontWeight:"bold"}}>Examine their marketing tactics : </span>  Investigate your rival's marketing methods to learn what works and what does not. Examine their social media profiles, website, advertising campaigns, and other promotional materials to determine their target audience and the core messaging they utilise to attract clients.</Text>
-
-<br />
+<ul style={{marginLeft:"50px"}}>
+<li><Text><span style={{fontWeight:"bold"}}>Determine your competitors : </span> Begin by researching firms or individuals who provide comparable products or services to yours. This may be accomplished with a basic Google search or by using programmes such as SEMrush or Ahrefs. Make a list of your main rivals and assess their strengths, shortcomings, and market positioning.</Text>
+</li>
 <br />
 
-<Text><span style={{fontWeight:"bold"}}>Identify market gaps : </span> Look for those gaps which your competitors are not addressing, and try to improve that area. There might be a group of underserved individuals or a product feature they are not looking for.</Text>
-
+<li><Text><span style={{fontWeight:"bold"}}>Examine their marketing tactics : </span>  Investigate your rival's marketing methods to learn what works and what does not. Examine their social media profiles, website, advertising campaigns, and other promotional materials to determine their target audience and the core messaging they utilise to attract clients.</Text>
+</li>
 <br />
+
+
+<li><Text><span style={{fontWeight:"bold"}}>Identify market gaps : </span> Look for those gaps which your competitors are not addressing, and try to improve that area. There might be a group of underserved individuals or a product feature they are not looking for.</Text>
+</li>
 <br />
 
-<Text><span style={{fontWeight:"bold"}}>Develop your USP : </span>  Use your analysis, your research and develop your unique value proposition which distinguishes your product and services from competitors. It can be product features, service , low price point, better consumer experience or more personalised approach. </Text>
+<li><Text><span style={{fontWeight:"bold"}}>Develop your USP : </span>  Use your analysis, your research and develop your unique value proposition which distinguishes your product and services from competitors. It can be product features, service , low price point, better consumer experience or more personalised approach. </Text></li>
+</ul>
  
- 
 <br />
- <br />
 
 {/* three */}
 <h3 className="h3-title">3. Optimise Your Website for Search Engines ( SEO ) </h3>
-<br />
+
 <br />       
-<Box className="sub-img-heading"><Image src="blogimg3.png" className="sub-img" alt="seo-img" /></Box>
+<Box className="sub-img-heading"><Image src="blogimg3.png" className="sub-img" alt="Search-Engines" /></Box>
      <Text>
 
     
 <br />
-<br />
+
 Nowadays each one of us wants to be perfect and on top of the list, but in order to achieve that image and position, we all need to follow some theorems, formulas and those important norms. Similarly to get your website on the top of your search list we use a tool i.e. SEO. SEO is the process of improving your website visibility, how to increase traffic and make it more engaging and credible to your target audience. 
 It is one of the most important aspects of digital marketing. 
 
 <br />
-<br />
+
 
 In order to achieve your goals and optimise your website we have brought some tips which will help you to generate traffic on your website. 
-
-
-
 <br />
 <br />
 
 </Text>
-
-<Text><span style={{fontWeight:"bold"}}>Keyword research: </span> Determine which keywords and phrases your target audience is likely to use when looking for similar items or services to yours. To locate the most relevant and high-traffic terms, use keyword research tools like Google Keyword Planner or Ahrefs.</Text>
-
-<br />
-<br />
-<Text><span style={{fontWeight:"bold"}}>On-page optimisation: </span> Improve the on-page parts of your website, including as title tags, meta descriptions, header tags, and content, to contain your target keywords and offer a clear and succinct summary of your page content.
-</Text>
+<ul style={{marginLeft:"50px"}}>
+<li><Text><span style={{fontWeight:"bold"}}>Keyword research: </span> Determine which keywords and phrases your target audience is likely to use when looking for similar items or services to yours. To locate the most relevant and high-traffic terms, use keyword research tools like Google Keyword Planner or Ahrefs.</Text>
+</li>
 
 <br />
+<li><Text><span style={{fontWeight:"bold"}}>On-page optimisation: </span> Improve the on-page parts of your website, including as title tags, meta descriptions, header tags, and content, to contain your target keywords and offer a clear and succinct summary of your page content.
+</Text></li>
+
 <br />
 
-<Text><span style={{fontWeight:"bold"}}>Mobile optimisation: </span>  With mobile devices now accounting for the bulk of internet searches, it's vital to optimise your website for mobile consumers. Make sure your website is mobile-friendly and that the pages load swiftly.</Text>
 
-<br />
+<li><Text><span style={{fontWeight:"bold"}}>Mobile optimisation: </span>  With mobile devices now accounting for the bulk of internet searches, it's vital to optimise your website for mobile consumers. Make sure your website is mobile-friendly and that the pages load swiftly.</Text>
+</li>
 <br />
 
-<Text><span style={{fontWeight:"bold"}}>Link building: </span> Obtaining backlinks from credible and relevant websites can assist increase the authority and visibility of your website in search results. Guest blogging, broken link building, and resource page link building are all effective link building strategies. </Text>
+
+<li><Text><span style={{fontWeight:"bold"}}>Link building: </span> Obtaining backlinks from credible and relevant websites can assist increase the authority and visibility of your website in search results. Guest blogging, broken link building, and resource page link building are all effective link building strategies. </Text>
+</li>
 <br />
-<br />
-<Text><span style={{fontWeight:"bold"}}>Continuously Monitor and Analyse : </span>   Analyse your website's search engine rankings and traffic to discover opportunities for development. Track your site's success with analytics tools like Google Analytics and alter your <span style={{color:"blue",fontWeight:"bold"}}>SEO approach </span>as needed.
- </Text>
+
+<li><Text><span style={{fontWeight:"bold"}}>Continuously Monitor and Analyse : </span>   Analyse your website's search engine rankings and traffic to discover opportunities for development. Track your site's success with analytics tools like Google Analytics and alter your <span style={{color:"#F47721",fontWeight:"bold"}}>SEO approach </span>as needed.
+ </Text></li>
+ </ul>
  {/* four */}
  <br />
 <br />  
 
  <h3 className="h3-title">4. Leverage Local SEO  </h3>
 <br />
-<br />  
+  
 <Text>Leverage which means adding strength to your company. It means to put an upper hand against your potential competitors and gain more than they do.</Text>
 <br />
-<br />  
-<Box className="sub-img-heading"><Image src="blogimg4.png" className="sub-img" alt="local-seo-img" /></Box>
+  
+<Box className="sub-img-heading"><Image src="blogimg4.png" className="sub-img" alt="local-SEO" /></Box>
      <Text>
 
     
 <br />
-<br />
+
 Now lets come to local SEO which actually means identify the gaps in your strategies like whether it be marketing content  or ideation. This needs to be connected with the local people and the areas as well, at times it happens that we focus internationally but forgets to target our own locals And this in turn results in low visibility. 
 So this is an effective way to improve your online visibility and attract more potential customers. 
 
@@ -251,24 +248,26 @@ Some key pointers how to use local SEO in order to get more traffic on website -
 <br />
 
 </Text>
-
+<ul style={{marginLeft:"50px"}}>
+<li>
 <Text><span style={{fontWeight:"bold"}}>Local keywords: </span>  Research and target appropriate local keywords to your business, such as location-specific phrases or industry-specific keywords paired with a local modifier (for example, “best beach in Mumbai”). To optimise your local search rankings, use these keywords in your website content, metadata, and Google My Business description.</Text>
+</li>
+<br />
 
-<br />
-<br />
-<Text><span style={{fontWeight:"bold"}}>Localised content: </span> Create localised material that corresponds to the interests and demands of your target audience or which may generate interest of your audience. This might be blog articles, videos, or social media material on local events, news, or other pertinent issues.
+<li><Text><span style={{fontWeight:"bold"}}>Localised content: </span> Create localised material that corresponds to the interests and demands of your target audience or which may generate interest of your audience. This might be blog articles, videos, or social media material on local events, news, or other pertinent issues.
 </Text>
-
-<br />
-<br />
-
-<Text><span style={{fontWeight:"bold"}}>Online Reviews: </span>   Encourage customers to post online reviews on platforms and relevant sites. Positive reviews may boost your local search rankings and encourage potential clients to trust and pick your company. Nowadays reviews work more than that of your word of mouth. </Text>
-
-<br />
+</li>
 <br />
 
-<Text><span style={{fontWeight:"bold"}}>Local Backlinks: </span>  Create local backlinks from other reputable websites of your area and niche. This may assist you to enhance your local search rankings and visibility in local search results and its outcomes. </Text>
 
+<li><Text><span style={{fontWeight:"bold"}}>Online Reviews: </span>   Encourage customers to post online reviews on platforms and relevant sites. Positive reviews may boost your local search rankings and encourage potential clients to trust and pick your company. Nowadays reviews work more than that of your word of mouth. </Text>
+</li>
+<br />
+
+
+<li><Text><span style={{fontWeight:"bold"}}>Local Backlinks: </span>  Create local backlinks from other reputable websites of your area and niche. This may assist you to enhance your local search rankings and visibility in local search results and its outcomes. </Text>
+</li>
+</ul>
 <br />
 <br />
  
@@ -278,9 +277,8 @@ Some key pointers how to use local SEO in order to get more traffic on website -
 
 <br />
 
-This tech savvy world and its influence on the users, has made Google introduce a <span style={{color:"blue",fontWeight:"bold"}}><a href="https://www.google.com/intl/en_in/business/">Google business profile</a></span>, a tool that maintains a business’s image. 
+This tech savvy world and its influence on the users, has made Google introduce a <span style={{color:"#F47721",fontWeight:"bold"}}><a href="https://www.google.com/intl/en_in/business/">Google business profile</a></span>, a tool that maintains a business’s image. 
 <br />
-
 
 It is an easy- to-use tool for businesses and organisations to manage their online presence and their business image. It helps customers to find your business and verify your business profile.
 <br />
@@ -301,13 +299,19 @@ You can take it as motivation for your small business’s online presence.
 Some tips to focus on Google Business Profile : 
 <br />
 <br />
+<ul style={{marginLeft:"50px"}}>
+  <li>
 <Text><span style={{fontWeight:"bold"}}>Optimise your Profile : </span>Provide accurate and up-to-date information about your company such as its name address images about and other important information. This could help the potential customers to learn and find your company.</Text>
+</li>
 <br />
+<li>
 <Text><span style={{fontWeight:"bold"}}>Customer’s Reviews :  </span>The most important and can be said as mandatory key to make your presence in this field. Encourage your customers to post a their reviews on your Business profile. This will boost your local search rankings and encourage other potential customers to step in. </Text>
+</li>
 <br />
+<li>
 <Text><span style={{fontWeight:"bold"}}>Always Reply back to your customers :  </span> Replying back to your customers reviews whether it be good or bad, demonstrates that you value your customers response and care about their experience.  </Text>
-
-
+</li>
+</ul>
 <br />
 <br />
 
@@ -332,8 +336,8 @@ In order to make your customers your loyal towards your business, here are some 
 <br />
 <br />
 
-<Box  marginLeft={"2%"}>
-<ul>
+<Box  >
+ <ul style={{marginLeft:"50px"}}>
   <li><Text><span style={{fontWeight:"bold"}}>Optimise your website speed :  </span>  A quick website may increase your user experience and lower your bouncer rates. Use tools like GooglePageInsights to detect problems where your website lacks and how to optimise its performance. 
   </Text></li>
   <br />
@@ -361,7 +365,7 @@ In order to make your customers your loyal towards your business, here are some 
 <br />
 <h3 className="h3-title">7. Attract Customers with Visual Content   </h3> 
 <br />
-<Text>One of the most powerful weapon of any site or platforms is visual content. Not a scientist but heard, that visually we grab things more than listening to those stuff. Isn’t it true that we don’t read an advertisement on hoarding until its attractive or had some visuals on it. Why <span style={{color:"blue"}}> <a href="https://www.youtube.com/">Youtube</a></span> is used more, its because whatever we watch retains in our mind. </Text>
+<Text>One of the most powerful weapon of any site or platforms is visual content. Not a scientist but heard, that visually we grab things more than listening to those stuff. Isn’t it true that we don’t read an advertisement on hoarding until its attractive or had some visuals on it. Why <span style={{color:"#F47721"}}> <a href="https://www.youtube.com/">Youtube</a></span> is used more, its because whatever we watch retains in our mind. </Text>
  
  <Text>
  This is the reason being a YouTuber is new job culture. So in order to attract customers and make them take action on your website, the best thing to add is visual content. Add it, Get it !!!
@@ -373,8 +377,8 @@ To increase the engagement attention and drives customers to your site.
  <br />
  </Text>
 
- <Box  marginLeft={"2%"}>
-<ul>
+ <Box  >
+  <ul style={{marginLeft:"50px"}}>
   <li>Make use of high-quality photos that are related to your message and brand identity. To guarantee that your photographs are aesthetically appealing and consistent with your brand, hire a professional photographer or purchase stock photos.
 </li>
 <br />
@@ -392,7 +396,7 @@ To increase the engagement attention and drives customers to your site.
 <h3 className="h3-title">8. Develop a Content Marketing Plan   </h3> 
 
 <br />
-<Box className="sub-img-heading"><Image src="blogimg10.png" className="sub-img" alt="local-seo-img" /></Box>
+<Box className="sub-img-heading"><Image src="blogimg10.png" className="sub-img" alt="Content-Marketing" /></Box>
  <br />
  <Text>
  Content Marketing plan is as simple to make but somewhat difficult to implement. Those who plan it and implement it on their business are the only one who generates traffic. 
@@ -413,8 +417,8 @@ So, here are some crucial stages to develop a content marketing plan:
 
  </Text>
 
- <Box  marginLeft={"2%"}>
-<ul>
+ <Box  >
+ <ul style={{marginLeft:"50px"}}>
   <li><Text><span style={{fontWeight:"bold"}}>Define your objectives :  </span>   Determine your business goals and what you hope to achieve through content marketing. This might involve raising brand exposure, generating leads, or increasing revenue. 
   </Text></li>
   <br />
@@ -434,7 +438,7 @@ So, here are some crucial stages to develop a content marketing plan:
  
  </Text></li>
 <br />
- <li><Text><span style={{fontWeight:"bold"}}>Analyse and evaluate results :  </span>       Use analytics tools to assess the effectiveness of your material and discover areas for improvement. This will assist you in refining your <span style={{color:"blue",fontWeight:"bold"}}>content marketing approach </span> and ensuring that your company objectives are met. 
+ <li><Text><span style={{fontWeight:"bold"}}>Analyse and evaluate results :  </span>       Use analytics tools to assess the effectiveness of your material and discover areas for improvement. This will assist you in refining your <span style={{color:"#F47721",fontWeight:"bold"}}>content marketing approach </span> and ensuring that your company objectives are met. 
  
  </Text></li>
 </ul> 
@@ -457,7 +461,7 @@ Some important actions to take while using social media marketing in the context
 <br />
 <br />
   </Text>
-  <Box  marginLeft={"2%"}>
+  <Box  marginLeft={"5%"}>
 <ul>
   <li><Text><span style={{fontWeight:"bold"}}>Define your social media objectives :  </span>    Determine your business goals and what you hope to achieve through social media marketing. This might involve raising brand recognition, boosting traffic to a website, or generating leads. 
   </Text></li>
@@ -485,7 +489,7 @@ Some important actions to take while using social media marketing in the context
 
 <h3 className="h3-title">10. Implement Email Marketing   </h3> 
 <br />
-<Box className="sub-img-heading"><Image src="blogimg9.png" className="sub-img" alt="Social-Media-img" /></Box>
+<Box className="sub-img-heading"><Image src="blogimg9.png" className="sub-img" alt="Social-Media" /></Box>
  
  <Text className="blog-text-desc">
  Email marketing is a form of direct digital marketing approach in which emails are used to communicate with a company's target audiences. This involves sending promotional or informational content to your potential customers. Like you must have received cheesy lines from Swiggy and Zomato. For eg: Hey!! Still hungry, go and grab your favourite mela now. Such emails grab attention and force the user to take action and buy that particular thing. 
@@ -499,7 +503,7 @@ Some important pointers which you should keep in mind are :
 <br />
  </Text>
  
- <Box  marginLeft={"2%"}>
+ <Box  marginLeft={"5%"}>
 <ul>
   <li><Text><span style={{fontWeight:"bold"}}>Create an email list :  </span>     Collect email addresses from your website, social media, events, and other sources to create an email list. Make certain that you have authorization to send emails to your subscribers and that you maintain your list up to date.
   </Text></li>
@@ -528,7 +532,7 @@ Some important pointers which you should keep in mind are :
 
  <h3 className="h3-title">11. Invest in Pay-Per-Click Advertising (PPC)   </h3> 
 <br />
-<Box className="sub-img-heading"><Image src="blogimg5.png" className="sub-img" alt="Social-Media-img" /></Box>
+<Box className="sub-img-heading"><Image src="blogimg5.png" className="sub-img" alt="Social-Media" /></Box>
  
  <Text className="blog-text-desc">
  Pay-per-click (PPC) advertising is a <span className="span-link">digital advertising technique </span>in which a company pays an ad publisher for each user click on their adverts. Although the term "pay per click" is sometimes used only to represent search engine advertising platforms such as Google AdWords, the business model is employed by a wide range of marketers. 
@@ -542,7 +546,7 @@ Some key things to consider :
 <br />
  </Text>
  
- <Box  marginLeft={"2%"}>
+ <Box  marginLeft={"5%"}>
 <ul>
   <li><Text><span style={{fontWeight:"bold"}}>Define your PPC objectives :  </span>     Determine your business goals and what you hope to achieve with PPC advertising. Increasing website traffic, generating prospects, or driving conversions are all examples of this.
   </Text></li>
@@ -583,7 +587,7 @@ Voice search is a function that allows user to search for information by speakin
 <br />
  </Text>
  
- <Box  marginLeft={"2%"}>
+ <Box  marginLeft={"5%"}>
 <ul>
   <li><Text>When utilising voice search, people utilise different terminology and wording than when typing into a search engine. As a result, it is critical to optimise your material for conversational language that corresponds to how people communicate.
   </Text></li>
@@ -609,7 +613,7 @@ Voice search is a function that allows user to search for information by speakin
 
 <h3 className="h3-title">13. Harness the Power of Video Marketing   </h3> 
 <br />
-<Box className="sub-img-heading"><Image src="blogimg7.png" className="sub-img" alt="Social-Media-img" /></Box>
+<Box className="sub-img-heading"><Image src="blogimg7.png" className="sub-img" alt="Video-Marketing" /></Box>
  <br />
  <Text className="blog-text-desc">
  The use of video material to promote or enlighten consumers about your brand and products is referred to as video marketing. Brands can employ video on their own website, <span className="span-link">social media marketing</span>, programmatic advertising, and other digital channels and formats.
@@ -620,27 +624,31 @@ Video marketing is a strong tool that may assist organisations in engaging with 
 <br />
 There are some essential measures to leverage the potential of video marketing in the context of digital marketing:
  </Text>
- <Text><span style={{fontWeight:"bold"}}>Define your video marketing objectives : </span>  Determine your business goals and what you hope to achieve with video marketing. This might involve raising brand recognition, generating leads, or enhancing conversions.</Text>
+ <ul style={{marginLeft:"5%"}}>
+ <li><Text><span style={{fontWeight:"bold"}}>Define your video marketing objectives : </span>  Determine your business goals and what you hope to achieve with video marketing. This might involve raising brand recognition, generating leads, or enhancing conversions.</Text>
+ </li>
  <br />
- <br />
-
+ 
+<li>
  <Text><span style={{fontWeight:"bold"}}>Identify your target audience : </span>   Develop video content that is customised to their interests, tastes, and requirements. This can assist you in increasing engagement and forging better bonds with your audience.</Text>
-        
+ </li>    
  <br />
- <br />
-
+ 
+<li>
  <Text><span style={{fontWeight:"bold"}}>Create visually engaging, informative, and entertaining video content : </span>    Create visually engaging, informative, and entertaining video content. To fascinate your audience, use narrative approaches.</Text>
-
+ </li>
  <br />
- <br />
-
+ 
+<li>
  <Text><span style={{fontWeight:"bold"}}>Optimise your videos for SEO : </span>   Include important keywords in your video titles, descriptions, and tags to optimise your videos for search engines. This might boost your search engine exposure and attract more traffic to your website.</Text>
-
+ </li>
         
  <br />
- <br />
-
+ 
+<li>
  <Text><span style={{fontWeight:"bold"}}>Analyse and optimise your video marketing strategy : </span>  Review the effectiveness of your video marketing efforts on a regular basis and make changes to better your outcomes. Track indicators such as engagement rates, click-through rates, and conversion rates using analytics tools.</Text>
+ </li>
+ </ul>
    <br />
    <br />
 
@@ -649,7 +657,7 @@ There are some essential measures to leverage the potential of video marketing i
    
    <h3 className="h3-title">14. Collaborate with Influencers and Partnerships   </h3> 
 <br />
- <br />
+ 
  <Text className="blog-text-desc">
  Influencer marketing, also known as brand alliances, entails working with influencers to increase your business's social media exposure. To flourish and develop, both companies and influencers require communication, cooperation, and nurturing. Brand collaboration not only enhances your images but also lets people be aware of your brand. That could also be said as brand awareness or building your image strategy.
  <br />
@@ -662,23 +670,26 @@ Some important actions to consider when working with influencers and creating pa
 <br />
  <br />
  </Text>
+ <ul style={{marginLeft:"50px"}}>
+ <li>
  <Text><span style={{fontWeight:"bold"}}>Determine relevant influencers and partners : </span>   Determine influencers and possible partners who have a relevant audience and share your brand values. Look for people or businesses with a strong online presence and a high degree of engagement with their audience.</Text>
+ </li>
  <br />
- <br />
-
+ 
+<li>
  <Text><span style={{fontWeight:"bold"}}> Create a mutually beneficial alliance : </span>   Create a collaboration that benefits both sides. This might include working together to create content, giving discounts or promotions to each other's audiences, or sponsoring events or campaigns.</Text>
-        
+ </li>    
  <br />
- <br />
-
+ 
+<li>
  <Text><span style={{fontWeight:"bold"}}>Results should be measured and tracked : </span>    Utilise  analytics tools and metrics like engagement rates, click-through rates, and conversion rates. This might assist you in determining the success of your partnership and making any improvements.</Text>
-
+ </li>
  <br />
- <br />
-
+ 
+<li>
  <Text><span style={{fontWeight:"bold"}}>Maintain a positive connection with your influencers and partners :  </span>  Communicating often, giving support and feedback, and expressing gratitude for their efforts. This can assist you in developing long-term relationships that can lead to future partnerships.</Text>
-
-        
+ </li>
+ </ul>
  <br />
  <br />
 
@@ -686,7 +697,7 @@ Some important actions to consider when working with influencers and creating pa
 
  <h3 className="h3-title">15. Monitor, Analyze, and Adjust Your Digital Marketing Strategy   </h3> 
 <br />
-<br />
+
 <Text className="blog-text-desc">
 In today's continuously changing digital marketplace, monitoring, analysing, and adapting your digital marketing approach is vital to success.
 <br />
@@ -695,7 +706,7 @@ Set specific and quantifiable goals as well as key performance indicators (KPIs)
 
 </Text>
 <br />
-<Box className="sub-img-heading"><Image src="blogimg6.png" className="sub-img" alt="Social-Media-img" /></Box>
+<Box className="sub-img-heading"><Image src="blogimg6.png" className="sub-img" alt="Social-Media" /></Box>
  <br />
  <Text className="blog-text-desc">
  Track metrics like traffic, engagement, and conversion rates using analytics solutions such as Google Analytics, social media analytics, and email marketing analytics. This will assist you in determining where your plan is succeeding and where it needs to be improved.
@@ -726,16 +737,24 @@ All you need to know is :
 </Text>
 <br />
 
-
+<ul style={{marginLeft:"50px"}}>
+<li>
 <Text><span style={{fontWeight:"bold"}}>Enhance your online exposure: </span>     Search engine optimisation (SEO), pay-per-click advertising (PPC), and social media marketing may all assist small companies enhance their online presence. This can help them attract more traffic and produce more leads.</Text>
+</li>
 <br />
+<li>
 <Text><span style={{fontWeight:"bold"}}>Create brand awareness: </span>      Through content marketing, social media marketing, and influencer collaborations, digital marketing services may assist small businesses in creating brand recognition. This may assist their brand position themselves as a trusted expert in their sector and improve consumer loyalty.</Text>
+</li>
 <br />
+<li>
 <Text><span style={{fontWeight:"bold"}}>Drive conversions: </span>       Through focused email marketing campaigns, retargeting advertisements, and conversion rate optimisation (CRO) tactics, digital marketing services may assist small businesses in driving conversions. This can assist in converting website visitors into paying consumers.
 </Text>
+</li>
 <br />
+<li>
 <Text><span style={{fontWeight:"bold"}}>Improve customer engagement: </span>        Through social media management, online reputation management, and customer review management, digital marketing services may assist small companies in improving client engagement. This can improve client happiness and brand loyalty.</Text>
-
+</li>
+</ul>
 <br />
 <Text>
 Small companies can compete in the digital marketplace, reach their target audience, and drive growth by providing them with digital marketing services. Digital marketing services may help small companies reach their goals and prosper in today's digital environment by enhancing online exposure, growing brand recognition, driving conversions, improving customer interaction, or offering data-driven insights.
@@ -747,29 +766,35 @@ Small companies can compete in the digital marketplace, reach their target audie
 <Box>
 <h2 className="faq-htwo">FAQs</h2>
 <br />
-<Flex alignItems={"center"} gap="10px"><Box><AiFillStar /></Box><Box><h3 className="faq-hthree">What is a digital marketing service?</h3></Box></Flex>
+<Flex alignItems={"center"}><Box></Box><Box><h3 className="faq-hthree">What is a digital marketing service?</h3></Box></Flex>
 <Text>A digital marketing service is a collection of services aimed to assist businesses in promoting their products or services online. Customers and prospects are reached through digital channels such as search engines, social media, email, and websites. </Text>
 <br />
 
-<Flex alignItems={"center"} gap="10px"><Box><AiFillStar /></Box><Box><h3 className="faq-hthree">Why is digital marketing important for small businesses?</h3></Box></Flex>
+<Flex alignItems={"center"} ><Box></Box><Box><h3 className="faq-hthree">Why is digital marketing important for small businesses?</h3></Box></Flex>
 <Text>In today’s scenario digital marketing is important for several reasons as :  </Text>
 <br />
-
+<ul style={{marginLeft:"50px"}}>
+  <li>
 <Text><span style={{fontWeight:"bold"}}>Cost-effective: </span>        Digital marketing allows small firms to reach their target audience at a low cost. Digital marketing approaches such as social media or email marketing can be less expensive and more targeted than traditional advertising methods such as television or radio commercials.
 </Text>
+</li>
 <br />
-
+<li>
 <Text><span style={{fontWeight:"bold"}}>Increased visibility: </span>         Small companies may use digital marketing to boost their online presence and reach a larger audience. Businesses may boost their positions in search engine results pages by using SEO and PPC advertising, making it simpler for potential consumers to find them.
 </Text>
+</li>
 <br />
+<li>
 <Text><span style={{fontWeight:"bold"}}>Increases brand awareness and credibility: </span> Digital marketing enables small firms to increase brand recognition and credibility. Businesses may position themselves as industry experts and acquire the trust of potential consumers through content marketing, social media, and influencer collaborations.
 </Text>
+</li>
+</ul>
 <br />
 <Text>Digital marketing gives small companies the tools and tactics they need to reach their target audience, create their brand, and flourish. Small firms may compete with larger rivals and position themselves as industry leaders by embracing digital marketing.</Text>
 
 <br />
 <br />
-<Flex alignItems={"center"} gap="10px"><Box><AiFillStar /></Box><Box><h3 className="faq-hthree">What is seo in digital marketing?</h3></Box></Flex>
+<Flex alignItems={"center"} ><Box></Box><Box><h3 className="faq-hthree">What is SEO in digital marketing?</h3></Box></Flex>
 <br />
 <Text>
 SEO (Search Engine Optimisation) is a digital marketing method that focuses on increasing a website's or webpage's exposure and rating in organic (non-paid) search engine results pages (SERPs). The fundamental purpose of SEO is to enhance the amount and quality of search engine traffic to a website.
@@ -777,27 +802,38 @@ SEO (Search Engine Optimisation) is a digital marketing method that focuses on i
 {/* dfd */}
 <br />
 <br />
-<Flex alignItems={"center"} gap="10px"><Box><AiFillStar /></Box><Box><h3 className="faq-hthree">How to start digital marketing?</h3></Box></Flex>
+<Flex alignItems={"center"} ><Box></Box><Box><h3 className="faq-hthree">How to start digital marketing?</h3></Box></Flex>
 <br />
 <Text>
 Starting out in digital marketing might be daunting at first, but here are some pointers to get you started:
 </Text>
 <br />
-
+<ul style={{marginLeft:"50px"}}>
+  <li>
 <Text><span style={{fontWeight:"bold"}}>Define your objectives: </span>  It is critical to set your goals before embarking on any digital marketing strategy. What are your goals for digital marketing? Do you want to improve website traffic, create prospects, or enhance sales? Defining your objectives can assist you in developing a more successful and targeted digital marketing plan.
 </Text>
+</li>
 <br />
+<li>
 <Text><span style={{fontWeight:"bold"}}>Determine your target audience: </span>   After you've set your objectives, it's time to narrow down your target audience. Who are your ideal clients? What are their demographics, interests, and problems? Understanding your target audience can assist you in developing content and advertising that will appeal to them.
 </Text>
+</li>
 <br />
+<li>
 <Text><span style={{fontWeight:"bold"}}>Create a website: </span>    The basis of your digital marketing approach is your website. It should be user-friendly, quick, and search engine optimised. Include clear calls to action and contact information.
 </Text>
+</li>
 <br />
+<li>
 <Text><span style={{fontWeight:"bold"}}>Create content: </span>     In digital marketing, content is king. Create high-quality content for your target audience that is useful, interesting, and relevant. This can include blog articles, videos, infographics, social media postings, and other types of content.
 </Text>
+</li>
 <br />
+<li>
 <Text><span style={{fontWeight:"bold"}}>Select your digital marketing channels: </span>      There are several digital marketing channels to select from, such as social media, email marketing, SEO, PPC advertising, and others. Choose the channels that best fit your objectives and target audience.
 </Text>
+</li>
+</ul>
 <br />
 <Text>
 Finally, it's critical to track and analyse the results of your digital marketing initiatives. Track website traffic with technologies such as Google Analytics.
@@ -810,63 +846,75 @@ Starting a digital marketing services might be difficult, but it is a necessary 
 
 <br />
 
-<Flex alignItems={"center"} gap="10px"><Box><AiFillStar /></Box><Box><h3 className="faq-hthree">What is a digital marketing strategy for small businesses?</h3></Box></Flex>
+<Flex alignItems={"center"} ><Box></Box><Box><h3 className="faq-hthree">What is a digital marketing strategy for small businesses?</h3></Box></Flex>
 <br />
 <Text>
 A digital marketing plan for small businesses should be adjusted to the company's specific goals and resources. This includes : 
 <br />
 <br />
-Website optimization, Content Marketing, Social media marketing, Email marketing & Local Seo. Even many more strategies are involved.
+Website optimization, Content Marketing, Social media marketing, Email marketing & Local SEO. Even many more strategies are involved.
 
 </Text>
 <br />
 
-<Flex alignItems={"center"} gap="10px"><Box><AiFillStar /></Box><Box><h3 className="faq-hthree">What is a 5 step digital marketing strategy?</h3></Box></Flex>
+<Flex alignItems={"center"} ><Box></Box><Box><h3 className="faq-hthree">What is a 5 step digital marketing strategy?</h3></Box></Flex>
 <Text>
 A 5-step digital marketing plan might vary depending on the aims and resources of the firm, but here is a common framework:
 </Text>
 <br />
 <br />
-<Text><span style={{fontWeight:"bold"}}>Define your target market: </span>  Determine your ideal consumer, their wants, and how you can provide value to their lives. To drive your marketing activities, do market research, analyse consumer data, and establish buyer personas.
+<ul style={{marginLeft:"50px"}}>
+<li><Text><span style={{fontWeight:"bold"}}>Define your target market: </span>  Determine your ideal consumer, their wants, and how you can provide value to their lives. To drive your marketing activities, do market research, analyse consumer data, and establish buyer personas.
 </Text>
+</li>
 <br />
+<li>
 <Text><span style={{fontWeight:"bold"}}>Set precise objectives: </span>   Determine defined, quantifiable objectives for your digital marketing initiatives. This might involve increasing website traffic, generating leads, increasing social media engagement, or increasing sales.
 </Text>
+</li>
 <br />
-
+<li>
 <Text><span style={{fontWeight:"bold"}}>Create a strategy and tactics: </span>    Create a complete strategy for accomplishing your goals. This should contain the particular methods and channels you will employ, such as SEO, content marketing, social media marketing, email marketing, and paid advertising. Determine the money and resources required for each technique.
 </Text>
+</li>
+<br />
+<li>
+<Text><span style={{fontWeight:"bold"}}>Refine and optimise: </span>     Based on the data and insights you receive, continuously assess and refine your digital marketing plan. Identify areas for improvement and put new strategies to the test to increase performance over time.
+</Text></li>
+</ul>
 <br />
 
-<Text><span style={{fontWeight:"bold"}}>Refine and optimise: </span>     Based on the data and insights you receive, continuously assess and refine your digital marketing plan. Identify areas for improvement and put new strategies to the test to increase performance over time.
-</Text>
-<br />
+
 <Text>Businesses may build a clear digital marketing plan that is connected with their goals and focused on reaching and engaging their target audience by following these steps.
 </Text>
+
 <br />
 <br />
-<Flex alignItems={"center"} gap="10px"><Box><AiFillStar /></Box><Box><h3 className="faq-hthree">What are the 4 types of marketing strategies?</h3></Box></Flex>
+<Flex alignItems={"center"}><Box></Box><Box><h3 className="faq-hthree">What are the 4 types of marketing strategies?</h3></Box></Flex>
 <br />
 <Text>Four types of strategies :</Text> 
 <br />
-
+<ul style={{marginLeft:"50px"}}>
+<li>
 <Text><span style={{fontWeight:"bold"}}>Product differentiation strategy : </span>     This approach focuses on developing a distinct product or service that distinguishes itself from market rivals. This might include adding new features or advantages, enhancing quality, or modifying a product's design or packaging.
 </Text>
-
+</li>
 <br />
-
+<li>
 <Text><span style={{fontWeight:"bold"}}>Cost effective : </span>      This approach focuses on supplying a product or service at a cheaper cost than rivals while retaining quality. This might include lowering manufacturing costs, increasing efficiency, or utilising economies of scale to bring down prices.
 </Text>
-
+</li>
 <br />
-
+<li>
 <Text><span style={{fontWeight:"bold"}}>Market segmentation : </span> This strategy is separating the market into smaller groups based on certain features or demands, and then producing and selling products or services that fit the specific needs of each segment. This may entail customising messaging, pricing, and promotional activities.
 </Text>
-
+</li>
 <br />
-
+<li>
 <Text><span style={{fontWeight:"bold"}}>Niche marketing : </span>  This strategy is focusing on a single, small market segment and providing products or services to fit the group's unique demands. This might entail focusing on a certain demographic, geographic location, or interest group.
 </Text>
+</li>
+</ul>
 <br />
 <Text>Depending on the aims and resources of the firm, these four marketing tactics can be employed singly or in combination. To identify the most successful company strategy, it is critical to properly analyse the market and the demands of the target audience.</Text>
 </Box>

@@ -1,6 +1,6 @@
 .clients-img-container{
     display: grid;
-    width:80%;
+    width:75%;
     margin: auto;
     grid-template-columns: repeat(4,1fr);
     gap:3vw;
@@ -8,6 +8,7 @@
 }
 
 .clients-img-box{
+padding: 5px;
     background-color: #ffa56c;
     border-radius: 40px;
 display: flex;

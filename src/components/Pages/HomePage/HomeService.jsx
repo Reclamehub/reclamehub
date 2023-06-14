@@ -57,8 +57,8 @@ export const HomeService=()=>{
 
     return (<Box p="2vw" paddingTop={"80px"} bg={useColorModeValue('#FF9450', 'black')}>
         
-        <Heading fontSize={"3vw"}>SERVICES WE PROVIDE</Heading>
-
+        <Heading fontSize={"3vw"} marginBottom={"50px"}>SERVICES WE PROVIDE</Heading>
+<Box className="sbg"></Box>
 <br />        
         <Box  className="home-service-container" bg={useColorModeValue('#FF9450', 'black')} >
 

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 export const Connect=()=>{
 
-    return(<Box alignItems={"center"} marginTop={"50px"}>
+    return(<Box alignItems={"center"} marginTop={"50px"} marginBottom={"50px"}>
 <Box><Heading>WHAT ARE YOU WAITING FOR ?</Heading></Box>
 <br />
 <br />

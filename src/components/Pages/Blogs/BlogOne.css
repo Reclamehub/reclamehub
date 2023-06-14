@@ -20,17 +20,17 @@ margin: 10px 1px 20px 1px;
 
 
 .h3-title{
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     font-weight: 600;
 }
 .span-link{
-    color:blue;
+    color:#F47721;
     font-weight: bold;
 }
 
 .htwo-heading{
 
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     font-weight: 600;
 }
 .faq-htwo{
@@ -40,4 +40,5 @@ margin: 10px 1px 20px 1px;
 
 .faq-hthree{
     font-weight: bold;
+    font-size: 2vw;
 }

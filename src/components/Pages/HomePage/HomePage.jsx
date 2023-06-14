@@ -23,7 +23,7 @@ export const HomePage=()=>{
         <Brand />
         <HomeClients />
         
-        <HomeTeam />
+        {/* <HomeTeam /> */}
 
         <Connect />
     </Box>)
