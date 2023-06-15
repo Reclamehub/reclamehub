@@ -7,11 +7,11 @@ export const AboutVision=()=>{
 
     return (<Box className="vision-container">
         <Flex className="vision-flex-box" justifyContent={"space-between"}>
-            <Box className="vision-text-heading-container" w="30%" boxShadow={"2xl"}>
+            <Box className="vision-text-heading-container" w="40%" boxShadow={"2xl"}>
                 <Box className="vision-heading-container">
                     <Heading color="orangered">OUR VISION</Heading>
                     <br />
-                    <Text w="60%" textAlign={"center"} margin={"auto"}>WebWhat is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500</Text>
+                    <Text w="80%" textAlign={"center"} margin={"auto"}>Our vision is to revolutionize the way brands connect with their audiences and drive sustainable growth in the digital age. We envision a future where businesses thrive by leveraging innovative marketing strategies that not only capture attention but also forge deep and meaningful connections with consumers.</Text>
                     </Box>
                 {/* <Box className="vision-text-container"></Box> */}
             </Box>

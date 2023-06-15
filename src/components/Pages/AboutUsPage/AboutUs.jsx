@@ -11,7 +11,7 @@ export const AboutUs=()=>{
 
 
 
-    return(<Box>
+    return(<Box fontFamily={"poppins"}>
         <AboutBanner />
         <AboutVision />
         <AboutApproch />

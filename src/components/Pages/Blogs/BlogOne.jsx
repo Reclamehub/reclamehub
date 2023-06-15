@@ -26,7 +26,7 @@ All you need is why to rely, whom to rely, and how to rely. So to answer your su
 Just hop into it and get your answers!!
 </Text>
 <br />
-
+<br />
 <h2 className="htwo-heading">What is Digital Marketing ? </h2>
 <Box className="sub-img-heading"><Image src="blogimg1.png" className="sub-img"  alt="digital-marketing-solution" /></Box>
 
@@ -46,7 +46,7 @@ Digital marketing employs some of the same ideas as conventional marketing and i
 <br />
 <br /> 
 
-According to statistics, worldwide digital advertising spend has reached <a rel="nofollow" style={{color:"#F47721"}} href="https://nix-united.com/blog/digital-marketing-for-small-businesses-overview-of-main-benefits/">$458.16 billion in 2021</a>. This implies that digital marketing is, was & will be an essential tool for every business owner looking to increase income. Simply looking around will reveal that digital technology has altered the environment we live in. All approaches that were employed 5-10 years ago no longer work. This is a dynamic and quickly evolving industry. 
+According to statistics, worldwide digital advertising spend has reached <a rel="nofollow" style={{color:"#F47721",fontWeight:"bold"}}  href="https://nix-united.com/blog/digital-marketing-for-small-businesses-overview-of-main-benefits/">$458.16 billion in 2021</a>. This implies that digital marketing is, was & will be an essential tool for every business owner looking to increase income. Simply looking around will reveal that digital technology has altered the environment we live in. All approaches that were employed 5-10 years ago no longer work. This is a dynamic and quickly evolving industry. 
 
 <br />
 <br /> 
@@ -358,7 +358,7 @@ In order to make your customers your loyal towards your business, here are some 
 <br />
 <h3 className="h3-title">7. Attract Customers with Visual Content   </h3> 
 <br />
-<Text>One of the most powerful weapon of any site or platforms is visual content. Not a scientist but heard, that visually we grab things more than listening to those stuff. Isn’t it true that we don’t read an advertisement on hoarding until its attractive or had some visuals on it. Why <span style={{color:"#F47721"}}> <a href="https://www.youtube.com/">Youtube</a></span> is used more, its because whatever we watch retains in our mind. </Text> 
+<Text>One of the most powerful weapon of any site or platforms is visual content. Not a scientist but heard, that visually we grab things more than listening to those stuff. Isn’t it true that we don’t read an advertisement on hoarding until its attractive or had some visuals on it. Why <span style={{color:"#F47721",fontWeight:"bold"}} > <a href="https://www.youtube.com/">Youtube</a></span> is used more, its because whatever we watch retains in our mind. </Text> 
  <Text>
 <br />
  This is the reason being a YouTuber is new job culture. So in order to attract customers and make them take action on your website, the best thing to add is visual content. Add it, Get it !!!
