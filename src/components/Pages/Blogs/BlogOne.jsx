@@ -176,7 +176,7 @@ Nowadays each one of us wants to be perfect and on top of the list, but in order
 It is one of the most important aspects of digital marketing. 
 
 <br />
-
+<br />
 
 In order to achieve your goals and optimise your website we have brought some tips which will help you to generate traffic on your website. 
 <br />
