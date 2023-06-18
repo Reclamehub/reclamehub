@@ -13,7 +13,7 @@ export const HomePage=()=>{
     const { colorMode, toggleColorMode } = useColorMode();
 
 
-    return(<Box>
+    return(<Box bg={useColorModeValue('white', 'black')}>
         
         <HomePageTop />
         <HomeAbout />

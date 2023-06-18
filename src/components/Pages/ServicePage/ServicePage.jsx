@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react"
+import { Box, useColorModeValue } from "@chakra-ui/react"
 import { ServicePageBanner } from "./ServicePageBanner"
 import { ServicePageLevel } from "./ServicePageLevel"
 import { ServicePageTypes } from "./ServicePageTypes"
@@ -8,7 +8,7 @@ import { Connect } from "../HomePage/Connect"
 export const ServicePage=()=>{
 
 
-    return (<Box>
+    return (<Box bg={useColorModeValue('white', "black")}>
         
         <ServicePageBanner />
         <ServicePageLevel />

@@ -1,0 +1,27 @@
+.service-top-btn{
+    border:1px solid #F47721
+}
+
+
+/* .service-top-btn-box{
+    align-items: left;   
+       width: 40vw;
+
+       display: flex;
+       justify-content: center;
+   margin-bottom: 10vw;
+   }
+
+   
+   @media screen and (max-width:480px) {
+    .service-top-btn-box{
+        align-items: left;   
+           width: 30vw;
+
+           display: flex;
+           justify-content: center;
+       margin-bottom: 10vw;
+       margin-left: 20px;
+       }   
+
+} */

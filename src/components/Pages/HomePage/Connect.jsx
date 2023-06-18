@@ -1,9 +1,9 @@
-import { Box, Button, Heading, Text } from "@chakra-ui/react"
+import { Box, Button, Heading, Text, useColorModeValue } from "@chakra-ui/react"
 import { Link } from "react-router-dom"
 
 export const Connect=()=>{
 
-    return(<Box alignItems={"center"} marginTop={"50px"} marginBottom={"50px"}>
+    return(<Box alignItems={"center"} marginTop={"50px"} paddingBottom={"50px"} bg={useColorModeValue('white', 'black')}>
 <Box><Heading>WHAT ARE YOU WAITING FOR ?</Heading></Box>
 <br />
 <br />
