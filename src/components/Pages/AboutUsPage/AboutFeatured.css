@@ -1,0 +1,6 @@
+.abt-featured-gif-box{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center
+}

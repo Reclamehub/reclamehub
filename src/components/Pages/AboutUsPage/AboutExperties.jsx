@@ -4,24 +4,24 @@ export const AboutExperties=()=>{
 
 
 return(<Box>
-    <Box><Heading>OUR <span style={{color:"orangered"}}>EXPERTIES</span></Heading></Box>
+    <Box><Heading>OUR <span style={{color:"#FF7721"}}>EXPERTIES</span></Heading></Box>
     
     <br />
-    <Box><Text fontWeight={"500"}>Our expertise is in determining what makes a firm unique, attractive, and lucrative</Text></Box>
+    <Box><Text fontWeight={"500"}>Our expertise is in determining what makes a firm unique, attractive and lucrative.</Text></Box>
 <Box>
-    <Flex alignItems={"end"}>
-        <Box>
-        <Box><Image src="gif1.gif" alt="gif" /></Box>
-            <Box> <Text color="orangered" fontWeight={"bold"}> SOCIAL MEDIA MANAGMENT</Text></Box>
+    <Flex justifyContent={"space-around"}>
+        <Box border="1px solid gray" p="10px" m="10px" borderRadius={"10px"}>
+        <Box><Image boxSize={"300px"} src="gif1.gif" alt="social media managment"  /></Box>
+            <Box> <Text color="#FF7721" fontWeight={"bold"}> SOCIAL MEDIA MANAGMENT</Text></Box>
         </Box>
-        <Box> 
-        <Box><Image src="gif3.gif" alt="gif" /></Box>
-            <Box> <Text color="orangered" fontWeight={"bold"}>GRAPHIC DESIGNING</Text></Box>
+        <Box border="1px solid gray" p="10px" m="10px" borderRadius={"10px"}> 
+        <Box><Image boxSize={"300px"} src="gif3.gif" alt="graphic designing" /></Box>
+            <Box> <Text color="#FF7721" fontWeight={"bold"}>GRAPHIC DESIGNING</Text></Box>
 
         </Box>
-        <Box>
-        <Box border="1px solid red"><Image src="gif2.gif" alt="gif" /></Box>
-            <Box> <Text color="orangered" fontWeight={"bold"}> WEB DESIGN & DEVELOPMENT</Text></Box>
+        <Box border="1px solid gray" p="10px" m="10px" borderRadius={"10px"}>
+        <Box ><Image boxSize={"300px"} src="gif2.gif" alt="web design and development" /></Box>
+            <Box> <Text color="#FF7721" fontWeight={"bold"}> WEB DESIGN & DEVELOPMENT</Text></Box>
         </Box>
     </Flex>
 </Box>

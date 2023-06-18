@@ -1,0 +1,48 @@
+.approch-container{
+    /* border:1px solid red; */
+    padding: 5%;
+}
+
+.vision-flex-box{
+
+}
+
+.approch-text-heading-container{
+border:1px solid white;
+    width:"10%";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.approch-text-container{
+width: 50%;
+margin: auto;    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border:1px solid firebrick
+
+}
+.abt-light-content{
+    font-size: 6vw;
+    font-weight: 800;
+    border:1px solid red;
+}
+
+.approch-img{
+    
+    
+width: 120%;    
+}
+.approch-img-box{
+    
+    
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}

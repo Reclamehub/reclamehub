@@ -45,7 +45,7 @@ export const Footer=()=>{
                 <Box>
                 <Heading className="footer-sub-heading" fontSize={"1.5vw"}>CONTACT US</Heading>
                     <br />
-                    <Text className="foot-sub-text">+91-912019005</Text>
+                    <Text className="foot-sub-text">+91-9120190055</Text>
                     <Text className="foot-sub-text">info@reclamehub.com</Text>
                     <Text className="foot-sub-text">808, 8th Floor Iconic Tower</Text>
                     <Text className="foot-sub-text">Sector 62 Noida 201301, India</Text>

@@ -12,10 +12,10 @@ export const AboutForm=()=>{
 
 
 
-    return(<Box w="80%" m="auto" p="10px" mb={"20px"} bg={useColorModeValue('white', "black")} boxShadow={"xl"}>
-        <Box><Heading color="orangered">TALK TO OUR EXPERTS</Heading></Box>
+    return(<Box w="80%" m="auto"  p="10px" paddingTop={"50px"} mb={"20px"} bg={useColorModeValue('white', "black")} boxShadow={"xl"}>
+        <Box><Heading color="#F47721">TALK TO OUR EXPERTS</Heading></Box>
         <br />
-        <Box fontWeight={"500"}>We are available for a friendly chat to discuss your business needs,no obligation</Box>
+        <Box fontWeight={"500"}>We are available for a friendly chat to discuss your business needs, no obligation.</Box>
 <br />
 <Box width={"55%"} margin={"auto"} >
     <form>
@@ -25,39 +25,39 @@ export const AboutForm=()=>{
    
     <Box  width={"50%"} lineHeight={"5px"} >
 <InputGroup bg={"gray.600"}  mt="15px"  borderRadius={"10px"}>
-<Input type='tel' placeholder='Enter Name' _placeholder={{ opacity: 1, color: 'white' }} />
+<Input type='tel' placeholder='Enter Name' backgroundColor={useColorModeValue("#f5f5f5", "gray")}   _placeholder={{ opacity:useColorModeValue("1","1"), color: useColorModeValue("black","white") }} />
 <InputRightElement pointerEvents='none'>
-<CgProfile size="2vw" color='white' height={"100%" }  />
+<CgProfile size="2vw" color={useColorModeValue("black", "white")} height={"100%" }  />
 </InputRightElement>
 </InputGroup>
 
 <InputGroup bg={"gray.600"} mt="15px" borderRadius={"10px"}>
-<Input type='tel' placeholder='Enter Email' _placeholder={{ opacity: 1, color: 'white' }} />
+<Input type='tel' placeholder='Enter Email' backgroundColor={useColorModeValue("#f5f5f5", "gray")}   _placeholder={{ opacity:useColorModeValue("1","1"), color: useColorModeValue("black","white") }} />
 <InputRightElement pointerEvents='none'>
-<MdAlternateEmail size="2vw" color='white' height={"100%" }  />
+<MdAlternateEmail size="2vw" color={useColorModeValue("black", "white")} height={"100%" }  />
 </InputRightElement>
 </InputGroup>
 
 
 
 <InputGroup bg={"gray.600"} mt="15px" borderRadius={"10px"}>
-<Input type='tel' placeholder='Enter Mobile Number' _placeholder={{ opacity: 1, color: 'white' }}/>
+<Input type='number' placeholder='Enter Mobile Number' backgroundColor={useColorModeValue("#f5f5f5", "gray")}   _placeholder={{ opacity:useColorModeValue("1","1"), color: useColorModeValue("black","white") }}/>
 <InputRightElement pointerEvents='none'>
-<AiOutlinePhone size="2vw" color='white' height={"100%" }  />
+<AiOutlinePhone size="2vw" color={useColorModeValue("black", "white")} height={"100%" }  />
 </InputRightElement>
 </InputGroup>
 </Box>
    
-<Box  width={"50%"}  bg={"gray.600"} mt="15px" borderRadius={"5px"}>
-     <Box display={"flex"} justifyContent={"space-between"} m="5px">
-      <Box color={"white"}>Enter Your Message</Box>
-      <Box> <FiMail color="white" size="1.5vw" /></Box> 
+<Box  width={"50%"}  bg={"gray.600"} mt="15px" borderRadius={"5px"} backgroundColor={useColorModeValue("#f5f5f5", "gray")}>
+     <Box display={"flex"} justifyContent={"space-between"} m="5px" >
+      <Box color={useColorModeValue("black", "white")} >Enter Your Message</Box>
+      <Box backgroundColor={useColorModeValue("#f5f5f5", "gray")}> <FiMail color={useColorModeValue("black", "white")} size="1.5vw" /></Box> 
       </Box>
-      <Textarea height={"80%"} ></Textarea>
+      <Textarea height={"80%"} backgroundColor={useColorModeValue("#f5f5f5", "gray")}  ></Textarea>
     </Box>
 
   </Box>
-<Button backgroundColor={"orangered"}>Send Message</Button>
+<Button backgroundColor={"#F47721"}>SEND MESSAGE</Button>
     </form>
 </Box>
     </Box>)
