@@ -5,6 +5,8 @@ export const AboutCoreValue=()=>{
     return (<Box fontFamily={"poppins"}>
         <Heading as="h1"> OUR <span style={{color:"#F47721"}}>CORE</span> VALUES</Heading>
        <Text fontWeight={"550"} mt="20px" mb="20px" fontSize={"1.5vw"}>"WE'RE YOUNG, WE'RE PASSIONATE AND WE'RE ENTHUSIAST TO TRANSFORM YOUR BRAND IN THIS DIGITAL WORLD."</Text>
+        
+        <br />
         <Flex justifyContent={"space-around"} color="white">
             <Box  w="40%">
                 <Box backgroundColor="#F47721" borderRadius={"20px"}><Image src="coreimg.gif" alt="core-value-reclame" /></Box>

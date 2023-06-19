@@ -44,7 +44,7 @@ export default function FeaturedSlider() {
 
  
   return (
-    <Box className="carousel-main" marginBottom={"50px"} >
+    <Box className="carousel-main" marginBottom={"50px"}  paddingBottom={"50px"} >
 
       <Box className="carousel-wrapper">
       

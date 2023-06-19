@@ -21,7 +21,7 @@ export const Footer=()=>{
                         <Box _hover={{color:"#F47721"}}><a href="https://www.facebook.com/reclamehubofficial/"><FaFacebookF  size="2vw" /></a></Box>
                         <Box _hover={{color:"#F47721"}}><a href="https://www.instagram.com/reclamehub/?hl=en"><FaInstagram  size="2vw"/></a></Box>
                         <Box _hover={{color:"#F47721"}}><a href=""><FaYoutube  size="2vw" /></a></Box>
-                        <Box _hover={{color:"#F47721"}}><FaTwitter  size="2vw" /></Box>
+                        <Box _hover={{color:"#F47721"}}><a href="https://twitter.com/Reclamehubindia"><FaTwitter  size="2vw" /></a></Box>
                         <Box _hover={{color:"#F47721"}}><a href="https://www.linkedin.com/company/reclame-hub/?originalSubdomain=in"><FaLinkedinIn  size="2vw" /></a></Box>
                         
                         </Flex></Box>
