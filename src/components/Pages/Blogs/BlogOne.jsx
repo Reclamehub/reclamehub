@@ -12,7 +12,7 @@ export const BlogOne=()=>{
     <Box textAlign={"left"} w="90%" margin={"auto"} alignItems={"center"} fontFamily={"poppins"} bg={useColorModeValue('white', 'black')}>
         <h1 style={{fontFamily:"poppins",fontSize:"4vw",fontWeight:"bold"}}  fontSize={"14vw"} color="red">15 Effective Digital Marketing Strategies for Small Businesses</h1>
 <br />
-<Box  marginTop={"3vh"} ><Image w="80%" margin={"auto"} src="feature.png" alt="digital-marketing" /></Box>
+<Box   ><Image w="80%" margin={"auto"} src="feature.png" alt="digital-marketing" /></Box>
 
 
 <br />
@@ -28,8 +28,9 @@ Just hop into it and get your answers!!
 <br />
 <br />
 <h2 className="htwo-heading">What is Digital Marketing ? </h2>
+<br />
 <Box className="sub-img-heading"><Image src="blogimg1.png" className="sub-img"  alt="digital-marketing-solution" /></Box>
-
+<br />
 <Text>Is it a marketing strategy, a tool, or a method of promoting your company?
 <br />
 <br />
@@ -84,7 +85,7 @@ Digital marketing presents unique obstacles to those that practise it. Digital c
 
 
 <br /> 
-
+<br />
 So, in order to tackle this difficulty and overcome them, below are some tactics and strategies you should know.
 </Text>
 
@@ -98,10 +99,15 @@ So, in order to tackle this difficulty and overcome them, below are some tactics
 <h3 className="h3-title" >1. Define Your Target Audience and Buyer Personas </h3>
 <br />
  <Text>A target audience is a group of individuals who are likely to be interested in a certain product, service, or message. On the other hand, a buyer persona is a fictitious depiction of a company's ideal customer based on market research and data from actual consumers.
+  <br />
+  <br />
 
 Buyer personas and target audiences are important because they enable organisations to generate more focused and successful marketing efforts. Businesses may customise their language and offers to better resonate with their consumers by knowing their target audience's requirements, tastes, and behaviours.
-
+<br />
+<br />
 Buyer personas, on the other hand, are made-up depictions of a brand's ideal buyer. They are created by collecting and analysing data on actual consumers' behaviours and preferences.
+<br />
+<br />
 This information may include - 
  <br />
  <br />
@@ -119,8 +125,12 @@ This information may include -
  <br />
 
 Businesses may better understand their consumer’s requirements and aspirations by establishing thorough buyer personas, which can help them customise their digital marketing tactics to better reach and engage their target audience. 
+<br />
+<br />
 Businesses may employ a variety of digital marketing methods to reach their target audience, including social media advertising, content marketing, email marketing, and search engine optimization (SEO). 
-Businesses should establish more focused and successful digital marketing strategies by knowing their target demographic and buyer profiles.
+<br />
+<br />
+<Text fontWeight={"bold"}>Businesses should establish more focused and successful digital marketing strategies by knowing their target demographic and buyer profiles.</Text>
 </Text>
 
 <br />
@@ -130,6 +140,7 @@ Businesses should establish more focused and successful digital marketing strate
 <h3 className="h3-title">2. Research Competitors and Carve Your Unique Niche</h3>
 <br />       
 <Box className="sub-img-heading"><Image src="blogimg2.png" className="sub-img" alt="Research Competitors" /></Box>
+<br />
      <Text>
 
      Research competitor, a competition in research or a research while participating in a competition?
@@ -172,7 +183,12 @@ In order to know how to perform such task and carve out a distinct niche in any 
     
 <br />
 
-Nowadays each one of us wants to be perfect and on top of the list, but in order to achieve that image and position, we all need to follow some theorems, formulas and those important norms. Similarly to get your website on the top of your search list we use a tool i.e. SEO. SEO is the process of improving your website visibility, how to increase traffic and make it more engaging and credible to your target audience. 
+Nowadays each one of us wants to be perfect and on top of the list, but in order to achieve that image and position, we all need to follow some theorems, formulas and those important norms. Similarly to get your website on the top of your search list we use a tool i.e. SEO.
+<br />
+<br />
+ SEO is the process of improving your website visibility, how to increase traffic and make it more engaging and credible to your target audience. 
+<br />
+<br />
 It is one of the most important aspects of digital marketing. 
 
 <br />
@@ -223,6 +239,8 @@ In order to achieve your goals and optimise your website we have brought some ti
 <br />
 
 Now lets come to local SEO which actually means identify the gaps in your strategies like whether it be marketing content  or ideation. This needs to be connected with the local people and the areas as well, at times it happens that we focus internationally but forgets to target our own locals And this in turn results in low visibility. 
+<br />
+<br />
 So this is an effective way to improve your online visibility and attract more potential customers. 
 
 <br />
@@ -397,18 +415,20 @@ To increase the engagement attention and drives customers to your site.
  Content Marketing plan is as simple to make but somewhat difficult to implement. Those who plan it and implement it on their business are the only one who generates traffic. 
  <br />
  <br />
-Content marketing plan is a strategy that follows the Five W and 1H
+Content marketing plan is a strategy that follows the Five W and 1H.
+<br />
+<br />
  This states that a plan which answers (who you target, when to target, Why to target, What to target And Where to target ) And also How to target those audience. 
  <br />
  <br />
-It should contain all answers in documented strategy which could generate a good traffic 
+It should contain all answers in documented strategy which could generate a good traffic. 
 <br />
 <br />
 Creating a content marketing strategy is critical for any company seeking to develop a strong online presence and attract and engage consumers. 
 <br />
 <br />
 So, here are some crucial stages to develop a content marketing plan:
-
+<br />
 <br />
  </Text>
 
@@ -444,6 +464,7 @@ So, here are some crucial stages to develop a content marketing plan:
 <h3 className="h3-title">9. Utilise Social Media Marketing   </h3> 
 <br />
 <Box className="sub-img-heading"><Image src="blogimg8.png" className="sub-img" alt="Social-Media-img" /></Box>
+  <br />
   <Text className="blog-text-desc">
   Social media Marketing a form of internet marketing which uses various  social media platforms or apps to generate leads for their business. This not only helps to generates traffic but also connects the brand with audience, increase sales and many such activities. 
 <br />
@@ -487,7 +508,7 @@ Some important actions to take while using social media marketing in the context
 <h3 className="h3-title">10. Implement Email Marketing   </h3> 
 <br />
 <Box className="sub-img-heading"><Image src="blogimg9.png" className="sub-img" alt="Email Marketing" /></Box>
- 
+ <br />
  <Text className="blog-text-desc">
  Email marketing is a form of direct digital marketing approach in which emails are used to communicate with a company's target audiences. This involves sending promotional or informational content to your potential customers. Like you must have received cheesy lines from Swiggy and Zomato. For eg: Hey!! Still hungry, go and grab your favourite mela now. Such emails grab attention and force the user to take action and buy that particular thing. 
 <br />
@@ -517,7 +538,7 @@ Some important pointers which you should keep in mind are :
  
  </Text></li>
  <br />
- <li><Text><span style={{fontWeight:"bold"}}>Test and measure results :  </span>   Use analytics tools to track open rates, click-through rates, and other data to test and assess the performance of your email campaigns. Use this information to better your email strategy and outcomes  
+ <li><Text><span style={{fontWeight:"bold"}}>Test and measure results :  </span>   Use analytics tools to track open rates, click-through rates, and other data to test and assess the performance of your email campaigns. Use this information to better your email strategy and outcomes.  
  
  </Text></li>
 <br />
@@ -531,7 +552,7 @@ Some important pointers which you should keep in mind are :
  <h3 className="h3-title">11. Invest in Pay-Per-Click Advertising (PPC)   </h3> 
 <br />
 <Box className="sub-img-heading"><Image src="blogimg5.png" className="sub-img" alt="Pay-Per-Click Advertising" /></Box>
- 
+ <br />
  <Text className="blog-text-desc">
  Pay-per-click (PPC) advertising is a <span className="span-link">digital advertising technique </span>in which a company pays an ad publisher for each user click on their adverts. Although the term "pay per click" is sometimes used only to represent search engine advertising platforms such as Google AdWords, the business model is employed by a wide range of marketers. 
 <br />
@@ -570,7 +591,6 @@ Some key things to consider :
 </Box>
  <br />
  <br />
- 
  {/* twelve */}
  <h3 className="h3-title">12. Implement Voice Search   </h3> 
 <br />
@@ -601,9 +621,6 @@ Voice search is a function that allows user to search for information by speakin
   <li><Text>As the answer to a user's inquiry, voice search devices frequently read out featured snippets. As a result, optimising your content for featured snippets by offering clear, succinct answers to frequently asked topics is critical.
  
  </Text></li>
- <br />
-
-<br />
 
 </ul> 
 </Box>
@@ -771,10 +788,12 @@ Small companies can compete in the digital marketplace, reach their target audie
 <h2 className="htwo-heading">FAQs</h2>
 <br />
 <Flex alignItems={"center"}><Box></Box><Box><h3 className="h3-title">What is a digital marketing service?</h3></Box></Flex>
+<br />
 <Text>A digital marketing service is a collection of services aimed to assist businesses in promoting their products or services online. Customers and prospects are reached through digital channels such as search engines, social media, email, and websites. </Text>
 <br />
-<br />
+
 <Flex alignItems={"center"} ><Box></Box><Box><h3 className="h3-title">Why is digital marketing important for small businesses?</h3></Box></Flex>
+<br />
 <Text>In today’s scenario digital marketing is important for several reasons as :  </Text>
 <br />
 <ul style={{marginLeft:"5%"}}>
@@ -797,7 +816,7 @@ Small companies can compete in the digital marketplace, reach their target audie
 <Text>Digital marketing gives small companies the tools and tactics they need to reach their target audience, create their brand, and flourish. Small firms may compete with larger rivals and position themselves as industry leaders by embracing digital marketing.</Text>
 
 <br />
-<br />
+
 <Flex alignItems={"center"} ><Box></Box><Box><h3 className="h3-title">What is SEO in digital marketing?</h3></Box></Flex>
 <br />
 <Text>
@@ -805,7 +824,7 @@ SEO (Search Engine Optimisation) is a digital marketing method that focuses on i
 </Text>
 {/* dfd */}
 <br />
-<br />
+
 <Flex alignItems={"center"} ><Box></Box><Box><h3 className="h3-title">How to start digital marketing?</h3></Box></Flex>
 <br />
 <Text>
@@ -849,7 +868,7 @@ Starting a digital marketing services might be difficult, but it is a necessary 
 
 
 <br />
-<br />
+
 <Flex alignItems={"center"} ><Box></Box><Box><h3 className="h3-title">What is a digital marketing strategy for small businesses?</h3></Box></Flex>
 <br />
 <Text>
