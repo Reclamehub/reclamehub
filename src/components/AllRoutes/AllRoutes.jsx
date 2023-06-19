@@ -7,6 +7,9 @@ import { SingleBlogPage } from "../Pages/Blogs/SingleBlogPage"
 import { ContactUsPage } from "../Pages/ContactUsPage/ContactUsPage"
 import { ServicePage } from "../Pages/ServicePage/ServicePage"
 import { BlogOne } from "../Pages/Blogs/BlogOne"
+import { ContentWriterPage } from "../Pages/SingleServicePage/ContentWriter"
+import { Orm } from "../Pages/SingleServicePage/OrmPage"
+import { SocialMediaManagmentPage } from "../Pages/SingleServicePage/SocialMediaManagment"
 
 export const AllRoutes=()=>{
 
@@ -21,6 +24,9 @@ export const AllRoutes=()=>{
             <Route path="/single" element={<SingleBlogPage />} />
             <Route path="/contact" element={<ContactUsPage />} />
             <Route path="/service" element={<ServicePage />} />
+            <Route path="/content-writing" element={<ContentWriterPage />} />
+            <Route path="/online-reputation-managment" element={<Orm />} />
+            <Route path="/social-media-managment" element={<SocialMediaManagmentPage />} />
             <Route path="/effective-digital-marketing-startegies-for-small-businesses" element={<BlogOne />} />
 
         </Routes>
