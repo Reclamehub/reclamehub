@@ -55,9 +55,9 @@ const serviceData=[
 export const HomeService=()=>{
 
 
-    return (<Box p="2vw" paddingTop={"80px"} bg={useColorModeValue('#FF9450', 'black')}>
+    return (<Box p="2vw" paddingTop={{base:"20px",sm:"20px",md:"40px",lg:"60px",xl:"80px"}} bg={useColorModeValue('#FF9450', 'black')}>
         
-        <Heading fontSize={"3vw"} marginBottom={"50px"}>SERVICES WE PROVIDE</Heading>
+        <Heading fontSize={"3vw"} marginBottom={{base:"10px",sm:"30px",md:"30px",lg:"40px",xl:"50px"}}>SERVICES WE PROVIDE</Heading>
 <Box className="sbg"></Box>
 <br />        
         <Box  className="home-service-container" bg={useColorModeValue('#FF9450', 'black')} >
@@ -71,7 +71,7 @@ export const HomeService=()=>{
             
             <Box w={"55%"} className="home-service-heading-box"><Text fontSize={"1.8vw"} fontWeight={"600"} >{el.heading}</Text></Box>
             <Box w={"55%"} className="home-service-heading-box"><Text fontSize={"1.8vw"} fontWeight={"600"} >{el.headingTwo}</Text></Box>            
-            <Box w="95%" className="home-service-text-box"><Text fontSize={"1.2vw"}> {el.desc}</Text></Box>
+            <Box w="95%" className="home-service-text-box"><Text > {el.desc}</Text></Box>
         
         </Box>
 

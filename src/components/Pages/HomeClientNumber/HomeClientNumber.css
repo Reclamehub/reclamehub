@@ -3,3 +3,11 @@
     height: 80px;
     margin-top: 20px;
   }
+  @media screen and (max-width:480px) {
+    .vl {
+      border-left: 2px solid gray;
+      height: 30px;
+      margin-top: 20px;
+    }
+
+}

@@ -57,7 +57,7 @@ export const AboutForm=()=>{
     </Box>
 
   </Box>
-<Button backgroundColor={"#F47721"}>SEND MESSAGE</Button>
+<Button backgroundColor={"#F47721"} fontWeight={"550"}>SEND MESSAGE</Button>
     </form>
 </Box>
     </Box>)

@@ -1,4 +1,5 @@
 import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react"
+import { Link } from "react-router-dom"
 
 export const ServicePageTypes=()=>{
 
@@ -13,7 +14,7 @@ export const ServicePageTypes=()=>{
                     <Box ><Text fontSize={"1.2vw"}>Social Media Management Services in Noida, India  Elevate Your Brand's Online Presence.
 </Text></Box>
 <br />
-<Box><Button border="2px solid #fe611d" borderRadius={"20px"} w="10vw" p="10px 10px 10px 10px" fontSize={"1.2vw"} fontWeight={"550"}>Know More</Button></Box>
+<Box><Link to="/social-media-managment" ><Button border="2px solid #fe611d" _hover={{color:"white",backgroundColor:"#fe611d"}} borderRadius={"20px"} w="10vw" p="10px 10px 10px 10px" fontSize={"1.2vw"} fontWeight={"550"}>Know More</Button></Link></Box>
                 </Box>
                 <Box w="25%" backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"}><Image src="smmgif.gif"  objectFit={"contain"} alt="gif" /> </Box>
             </Flex>

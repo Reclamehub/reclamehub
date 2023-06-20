@@ -879,7 +879,7 @@ Website optimization, Content Marketing, Social media marketing, Email marketing
 
 </Text>
 <br />
-<br />
+
 <Flex alignItems={"center"} ><Box></Box><Box><h3 className="h3-title">What is a 5 step digital marketing strategy?</h3></Box></Flex>
 <br />
 <Text>
@@ -913,7 +913,7 @@ A 5-step digital marketing plan might vary depending on the aims and resources o
 </Text>
 
 <br />
-<br />
+
 <Flex alignItems={"center"}><Box></Box><Box><h3 className="h3-title">What are the 4 types of marketing strategies?</h3></Box></Flex>
 <br />
 <Text>Four types of strategies :</Text> 
@@ -935,13 +935,16 @@ A 5-step digital marketing plan might vary depending on the aims and resources o
 </li>
 <br />
 <li>
+
 <Text><span style={{fontWeight:"bold"}}>Niche marketing : </span>  This strategy is focusing on a single, small market segment and providing products or services to fit the group's unique demands. This might entail focusing on a certain demographic, geographic location, or interest group.
 </Text>
 </li>
 </ul>
 <br />
+
 <Text>Depending on the aims and resources of the firm, these four marketing tactics can be employed singly or in combination. To identify the most successful company strategy, it is critical to properly analyse the market and the demands of the target audience.</Text>
 </Box>
+ 
         </Box>
         </Box>
         )

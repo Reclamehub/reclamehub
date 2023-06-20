@@ -74,12 +74,12 @@ export const HomeClients=()=>{
 
 
 
-    return (<Box paddingTop={"50px"} fontFamily={"poppins"} >
+    return (<Box paddingTop={{base:"1px",sm:"20px",md:"40px",lg:"50px",xl:"50px"}} fontFamily={"poppins"} >
 
-        <Box><Heading fontSize={"4vw"} paddingTop={"50px"} fontFamily={"poppins"}>SOME OF OUR <span>CLIENTS</span></Heading></Box>
+        <Box><Heading fontSize={{base:"6vw",sm:"5vw",md:"4vw",lg:"4vw",xl:"4vw"}} paddingTop={"50px"} fontFamily={"poppins"}>SOME OF OUR <span>CLIENTS</span></Heading></Box>
       
-        <Box w="70%" m="auto" paddingTop={"20px"} paddingBottom={"50px"}><Text fontSize={"1.4vw"} fontFamily={"poppins"}>Helping These  and Many Other  Incredible Clients Reach For The Stars Is What Pulls Us Out Of Bed  </Text>
-        <Text fontSize={"1.4vw"}>Every Morning.</Text>
+        <Box w={{base:"90%",sm:"80%",md:"75%",lg:"70%",xl:"70%"}} m="auto" paddingTop={"20px"} paddingBottom={"50px"}><Text fontSize={{base:"1.8vw",sm:"1.4vw",md:"1.4vw",lg:"1.4vw",xl:"1.4vw"}} fontFamily={"poppins"}>Helping These  and Many Other  Incredible Clients Reach For The Stars Is What Pulls Us Out Of Bed  </Text>
+        <Text fontSize={{base:"1.8vw",sm:"1.4vw",md:"1.4vw",lg:"1.4vw",xl:"1.4vw"}}>Every Morning.</Text>
         </Box>
 
 <Box backgroundColor={"#FF9450"}>

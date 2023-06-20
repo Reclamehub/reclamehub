@@ -39,9 +39,12 @@ padding: 10px;
 }
 
 .home-service-heading-box{
-    margin-bottom: 1vh;
-}
+    margin-bottom: .5vh;
 
+}
+.home-service-text-box{
+       font-size: 1.2vw;
+}
 
 @media screen and (max-width:540px) {
  
@@ -69,6 +72,13 @@ padding: 10px;
         margin-bottom: .5vh;
     }
 
+    .home-service-heading-box{
+        margin-bottom: .2vh;
+    
+    }
 
 
+    .home-service-text-box{
+        font-size: 1.6vw;
+ }
 }
