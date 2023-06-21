@@ -8,7 +8,7 @@ export const ContactUsPage=()=>{
 return(<Box bg={useColorModeValue('white', "black")}>
 <ContactUsPageForm />
 <ContactUsAddress />
-<Connect />
+{/* <Connect /> */}
 </Box>)
 
 }

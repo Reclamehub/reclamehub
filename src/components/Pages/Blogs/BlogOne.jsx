@@ -497,7 +497,7 @@ Some important actions to take while using social media marketing in the context
  <li><Text><span style={{fontWeight:"bold"}}>Analyse and evaluate results :  </span>  Use analytics tools to assess the effectiveness of your social media content and discover areas for improvement. This will assist you in refining your social media strategy and ensuring that your company objectives are met.  
  
  </Text></li>
-<br />
+
  
 </ul> 
 </Box>
@@ -541,7 +541,7 @@ Some important pointers which you should keep in mind are :
  <li><Text><span style={{fontWeight:"bold"}}>Test and measure results :  </span>   Use analytics tools to track open rates, click-through rates, and other data to test and assess the performance of your email campaigns. Use this information to better your email strategy and outcomes.  
  
  </Text></li>
-<br />
+
  
 </ul> 
 </Box>
