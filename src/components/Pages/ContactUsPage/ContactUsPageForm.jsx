@@ -24,14 +24,14 @@ export const ContactUsPageForm=()=>{
 
 <Box  width={{base:"100%",sm:"85%",md:"80%",lg:"50%",xl:"50%"}} lineHeight={"5px"} >
 <InputGroup bg={"gray.600"}  mt="15px"  _hover={{cursor:""}} borderRadius={"10px"}>
-<Input type='tel' placeholder='Enter Name' backgroundColor={useColorModeValue("#f5f5f5", "gray")}   _placeholder={{ opacity:useColorModeValue("1","1"), color: useColorModeValue("black","white"),fontSize:"14px" }}  />
+<Input type='tel' placeholder='Enter Name' backgroundColor={useColorModeValue("#f5f5f5", "#404040")}   _placeholder={{ opacity:useColorModeValue("1","1"), color: useColorModeValue("black","white"),fontSize:"14px" }}  />
 <InputRightElement pointerEvents='none'>
 <CgProfile className="icon-contact" size="25px"  color={useColorModeValue("black", "white")} height={"100%" }  />
 </InputRightElement>
 </InputGroup>
 
 <InputGroup bg={"gray.600"} mt="15px" borderRadius={"10px"}>
-<Input type='tel' placeholder='Enter Email' backgroundColor={useColorModeValue("#f5f5f5", "gray")}   _placeholder={{ opacity:useColorModeValue("1","1"), color: useColorModeValue("black","white") }} />
+<Input type='tel' placeholder='Enter Email' backgroundColor={useColorModeValue("#f5f5f5", "#404040")}   _placeholder={{ opacity:useColorModeValue("1","1"), color: useColorModeValue("black","white") }} />
 <InputRightElement pointerEvents='none'>
 <MdAlternateEmail size="25px" color={useColorModeValue("black", "white")} height={"100%" }  />
 </InputRightElement>
@@ -40,20 +40,22 @@ export const ContactUsPageForm=()=>{
 
 
 <InputGroup bg={"gray.600"} mt="15px" borderRadius={"10px"}>
-<Input type='number' placeholder='Enter Mobile Number' backgroundColor={useColorModeValue("#f5f5f5", "gray")}   _placeholder={{ opacity:useColorModeValue("1","1"), color: useColorModeValue("black","white") }}/>
+<Input type='number' placeholder='Enter Mobile Number' backgroundColor={useColorModeValue("#f5f5f5", "#404040")}   _placeholder={{ opacity:useColorModeValue("1","1"), color: useColorModeValue("black","white") }}/>
 <InputRightElement pointerEvents='none'>
 <AiOutlinePhone size="25px" color={useColorModeValue("black", "white")} height={"100%" }  />
 </InputRightElement>
 </InputGroup>
 </Box>
 
-<Box  width={{base:"95%",sm:"80%",md:"80%",lg:"50%",xl:"50%"}}  bg={"gray.600"} mt="15px" borderRadius={"5px"} backgroundColor={useColorModeValue("#f5f5f5", "gray")}>
+
+
+<Box  width={{base:"95%",sm:"80%",md:"80%",lg:"50%",xl:"50%"}}  bg={"gray.600"} mt="15px" borderRadius={"5px"} backgroundColor={useColorModeValue("#f5f5f5", "#404040")}>
 <Box display={"flex"} justifyContent={"space-between"} m="5px" >
 <Box color={useColorModeValue("black", "white")} >Enter Your Message</Box>
-<Box backgroundColor={useColorModeValue("#f5f5f5", "gray")}> 
+<Box backgroundColor={useColorModeValue("#f5f5f5", "#404040")}> 
 <FiMail color={useColorModeValue("black", "white")} size="25px" /></Box> 
 </Box>
-<Textarea height={"80%"} backgroundColor={useColorModeValue("#f5f5f5", "gray")}  ></Textarea>
+<Textarea height={"80%"} backgroundColor={useColorModeValue("#f5f5f5", "#404040")}  ></Textarea>
 </Box>
 
 </Box>

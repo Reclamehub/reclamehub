@@ -25,7 +25,7 @@ In Today's Digital World, Social Media Is An Essential Component Of Every Effect
     
     {/* phase */}
 
-    <Box w="100%" margin={"auto"} marginTop={"50px"} fontSize={"2vw"}  textAlign={"left"} marginLeft="-20px">
+    <Box w="100%" fontWeight={"550"} margin={"auto"} marginTop={"50px"} fontSize={"2vw"}  textAlign={"left"} marginLeft="-20px">
         <Flex  justifyContent={"space-evenly"}>
             <Box marginLeft={"-30px"}><Text>Phase 1</Text></Box>
             <Box><Text>Phase 2</Text></Box>
@@ -37,24 +37,24 @@ In Today's Digital World, Social Media Is An Essential Component Of Every Effect
     <Box w="90%" m="auto" textAlign={"left"} >
         <Flex justifyContent={"space-evenly"} gap="40px">
             <Box>
-                <Box><Heading as="h3" color="#15E888" fontSize={"1.4vw"} marginTop={"50px"} marginBottom={"50px"} >Development of Social Media Strategies</Heading></Box>
+                <Box><Heading as="h3" color="#15E888" fontSize={"1.3vw"} marginTop={"50px"} marginBottom={"50px"} >Development of Social Media Strategies</Heading></Box>
                 <Box w="80%"><Text color="#FFB800"><ul><li>We recognise that each business has distinct aims and target audiences. Our social media professionals will collaborate with you to create a customised social media plan that is suited to your individual needs. We'll investigate your industry, rivals, and target market to develop a strategy for success.</li></ul></Text></Box>
             </Box>
             <Box>
-            <Box><Heading as="h3" color="#15E888" fontSize={"1.4vw"} marginTop={"50px"} marginBottom={"50px"}>Content Creation and Curation</Heading></Box>
+            <Box><Heading as="h3" color="#15E888" fontSize={"1.3vw"} marginTop={"50px"} marginBottom={"50px"}>Content Creation and Curation</Heading></Box>
                 <Box w="80%"><Text color="#FFB800"><ul><li>The core of every effective social media strategy is compelling and relevant content. Our talented content developers will create engaging blogs, attractive pictures, and educational films that will appeal to your target audience. We will guarantee that the voice of your brand is consistent across all social media channels.</li></ul></Text></Box>
             </Box>
             <Box>
-            <Box><Heading as="h3" color="#15E888" fontSize={"1.4vw"} marginTop={"50px"} marginBottom={"50px"}>Account Setup and Optimisation:</Heading></Box>
+            <Box><Heading as="h3" color="#15E888" fontSize={"1.3vw"} marginTop={"50px"} marginBottom={"50px"}>Account Setup and Optimisation:</Heading></Box>
                 <Box w="80%"><Text color="#FFB800"><ul><li>Creating social media accounts, especially if you're new to the site, may be intimidating. We'll handle the complete account setup procedure, including profile development, bio optimisation, and website linkage. We'll make sure your social media profiles look great and are optimised for maximum visibility.</li></ul></Text></Box>
             </Box>
             <Box>
-            <Box><Heading as="h3" color="#15E888" fontSize={"1.4vw"} marginTop={"50px"} marginBottom={"50px"}>Community Engagement and Interaction</Heading></Box>
+            <Box><Heading as="h3" color="#15E888" fontSize={"1.3vw"} marginTop={"50px"} marginBottom={"50px"}>Community Engagement and Interaction</Heading></Box>
                 <Box w="80%"><Text color="#FFB800"><ul><li>Creating a strong online community is critical for developing brand loyalty and consumer engagement. Our staff will monitor your social media sites regularly, reply to comments and messages, and communicate with your audience in a timely and professional manner. We'll assist you in making meaningful relationships and converting followers into devoted customers.</li></ul></Text></Box>
             </Box>
             <Box>
             <Box>
-                <Heading as="h3" color="#15E888" fontSize={"1.4vw"} marginTop={"50px"} marginBottom={"50px"}>Tracking and analytics of performance</Heading></Box>
+                <Heading as="h3" color="#15E888" fontSize={"1.3vw"} marginTop={"50px"} marginBottom={"50px"}>Tracking and analytics of performance</Heading></Box>
                 <Box w="80%"><Text color="#FFB800"><ul><li> Understanding the impact of your social media activities is critical for fine-tuning your plan and maximising your ROI. We'll deliver frequent updates and insights into critical KPIs like reach, engagement, and conversions. The data will be analysed by our staff to find trends, opportunities, and areas for development.</li></ul></Text></Box>
             </Box>
         </Flex>
@@ -77,7 +77,7 @@ In Today's Digital World, Social Media Is An Essential Component Of Every Effect
  
  {/* Expertise and experience */}
  <Box alignItems={"center"} textAlign={"center"} display={"flex"}  flexDirection={"column"}  justifyContent={"center"}><Flex gap="10px" marginTop={"50px"}>
-    <Box   display={"flex"}  flexDirection={"column"} alignItems={"center"} justifyContent={"center"}><AiOutlineArrowRight color="#15E888" /></Box>
+    <Box  fontWeight={"800"} display={"flex"}  flexDirection={"column"} alignItems={"center"} justifyContent={"center"}><AiOutlineArrowRight color="#15E888"  /></Box>
     <Box><Heading as="h3" fontSize={"2vw"} color="#F47721"> Expertise and experience</Heading></Box>
     </Flex>
     <br />

@@ -1,8 +1,25 @@
+
+
+
 .vl {
     border-left: 2px solid gray;
     height: 80px;
     margin-top: 20px;
   }
+
+  .client-up-shadow{
+/* border: 1px solid red; */
+    height: 5px;
+     box-shadow:10px 5px 50px white; 
+   }
+ 
+ .home-client-band{
+ 
+     height: 1px;
+     background-color:white;
+     margin-top: -3px;
+ }
+
   @media screen and (max-width:480px) {
     .vl {
       border-left: 2px solid gray;

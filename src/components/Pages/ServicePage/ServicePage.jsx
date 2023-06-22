@@ -1,9 +1,10 @@
-import { Box, useColorModeValue } from "@chakra-ui/react"
+import { Box, Button, Heading, useColorModeValue } from "@chakra-ui/react"
 import { ServicePageBanner } from "./ServicePageBanner"
 import { ServicePageLevel } from "./ServicePageLevel"
 import { ServicePageTypes } from "./ServicePageTypes"
 import { ContactUsPageForm } from "../ContactUsPage/ContactUsPageForm"
 import { Connect } from "../HomePage/Connect"
+import { Link } from "react-router-dom"
 
 export const ServicePage=()=>{
 
@@ -14,6 +15,12 @@ export const ServicePage=()=>{
         <ServicePageLevel />
         <ServicePageTypes />
     <ContactUsPageForm />
-    <Connect />
+    <br />
+    <Box bg={useColorModeValue('white', 'black')} alignItems={"center"} paddingTop={"50px"} paddingBottom={"50px"}  >
+<Box><Heading>WHAT ARE YOU WAITING FOR?</Heading></Box>
+<br />
+<br />
+<Box> <Link to="/contact"><Button  className="home-top-btn" fontWeight={"500"} _hover={{bg:"#F47721",color:"white"}} borderRadius={"30px"}>Get Started</Button></Link></Box>
+    </Box>
     </Box>)
 }

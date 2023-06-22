@@ -50,6 +50,7 @@ margin-right: 4vw;
 .home-top-img{
     width: 28vw;
 }
+
 .home-top-btn-box{
  align-items: center;   
     width: 40vw;
@@ -63,17 +64,17 @@ margin-bottom: 10vw;
     border-radius: 30px;
     background-color: transparent;
     /* borderRadius={"30px"}  border={"2px solid #F47721"} bg="transparent" fontSize={"1vw"} fontWeight={"500 */
-
     }
 .home-top-btn :hover{
     color:#F47721;
 }
 
 
-.contact-btn-link :hover{
-color:red
 
-}
+/* .contact-btn-link :hover{
+color:red
+} */
+
 
 
 @media screen and (max-width:480px) {
@@ -87,5 +88,12 @@ color:red
        margin-left: 20px;
        }   
 
-}
+
+       .home-heading-one{
+        text-align: left;
+    font-size: 1.5vw;
+    }
+    
+
+    }
 
