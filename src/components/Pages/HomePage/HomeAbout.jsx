@@ -14,7 +14,7 @@ From initial discussions to project handover and beyond, our skilled team is her
     </Box>
     <br />
     <Box className="up-shadow"></Box>
-    <Box className="home-about-band"></Box>
+    <Box className="home-about-band" backgroundColor={useColorModeValue("white" , "#1d1d1d")}></Box>
     </Box>
     )
 }

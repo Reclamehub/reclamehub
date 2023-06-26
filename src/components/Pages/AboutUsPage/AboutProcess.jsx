@@ -8,20 +8,22 @@ export const AboutProcess=()=>{
     return (  
 <Box className="vision-container">
     <Flex className="vision-flex-box" justifyContent={"space-around"}>
-        <Box className="vision-text-heading-container" w="40%" boxShadow={"2xl"}>
+        <Box className="vision-text-heading-container" w="40%" bgColor={"white"} color="black" boxShadow={"2xl"}>
             <Box className="vision-heading-container" p="5%">
                 <Heading as="h2" color="orangered">OUR PROCESS</Heading>
                 <br />
-                <Text  textAlign={"center"} margin={"auto"} fontWeight={"550"}>
+                <Box  textAlign={"left"} alignItems={"center"} display={"flex"} justifyContent={"center"} margin={"auto"} fontWeight={"550"} ml="20px">
+<ul>
 
-<Text>Initial Consultation</Text>
-<Text>Strategy Development</Text>
-<Text>Campaign Planning</Text>
-<Text>Creative Development</Text>
-<Text>Execution and Implementation</Text>
-<Text>Continuous Improvement
-    </Text>
-</Text>
+
+<li><Text>Initial Consultation</Text></li>
+<li><Text>Strategy Development</Text></li>
+<li><Text>Campaign Planning</Text></li>
+<li><Text>Creative Development</Text></li>
+<li><Text>Execution and Implementation</Text></li>
+<li><Text>Continuous Improvement</Text></li>
+    </ul>
+</Box>
                 </Box>
             {/* <Box className="vision-text-container"></Box> */}
         </Box>

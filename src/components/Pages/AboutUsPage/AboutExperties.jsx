@@ -8,6 +8,7 @@ return(<Box>
     
     <br />
     <Box><Text fontWeight={"500"}>Our expertise is in determining what makes a firm unique, attractive and lucrative.</Text></Box>
+<br />
 <Box>
     <Flex justifyContent={"space-around"}>
         <Box border="1px solid gray" p="10px" m="10px" borderRadius={"10px"}>

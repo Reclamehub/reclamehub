@@ -10,8 +10,9 @@ export const AboutChoose=()=>{
         <Box><Heading as="h2"> <span style={{fontSize:"5vw",fontWeight:"800",color:"gray"}} >?</span> WHY CHOOSE <span style={{color:"orangered"}}>RECLAMEHUB </span></Heading></Box>
         <br />
         <Box><Text fontWeight={"500"}> "WE ARE YOUNG ,WE ARE PASSIONATE AND WE ARE ENTHUSIASTIC TO TRANSFORM YOUR BRAND IN THIS DIGITAL WORLD."</Text></Box>
+        <br />
         <Flex className="vision-flex-box" justifyContent={"space-around"} marginTop="4vh">
-            <Box className="vision-text-heading-container" w="40%" boxShadow={"2xl"}>
+            <Box className="vision-text-heading-container" w="40%" bgColor={"white"} color="black" boxShadow={"2xl"} paddingTop="10px" paddingBottom="10px">
                 <Box className="vision-heading-container">
                     <Heading color="orangered">LET'S TEAM UP !</Heading>
                     <br />
@@ -21,8 +22,10 @@ rediscovered their digital identities with us and built a more robust connection
                     </Box>
                 {/* <Box className="vision-text-container"></Box> */}
             </Box>
-            <Box>
+            <Box  >
+ 
                 <Image src="abtgif2.gif" atl="vision-img" />
+ 
             </Box>
         </Flex>
         <br />
