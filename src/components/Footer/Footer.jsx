@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 export const Footer=()=>{
 
 
-    return(<Box fontFamily={"poppins"} bg={useColorModeValue('white', 'black')} className="foot-main-container" >
-        <Box padding="20px">
+    return(<Box fontFamily={"poppins"} bg={useColorModeValue('white', 'black')} className="foot-main-container"  borderRadius={"20px"}>
+        <Box padding="5px">
             <Flex justifyContent={"space-between"  }>
                 <Box w="30%" textAlign={"left"}>
                     <Box><Image h={"50px"} src="navicon.png" bgColor={"white"} borderRadius={"60px"} border="1px solid black" color={"white"}  alt="reclame-icon" /></Box>
@@ -47,9 +47,9 @@ export const Footer=()=>{
                     <br />
                     <Text className="foot-sub-text">+91-9120190055</Text>
                     <Text className="foot-sub-text">info@reclamehub.com</Text>
-                    <Text className="foot-sub-text">808, 8th Floor Iconic Tower</Text>
-                    <Text className="foot-sub-text">Sector 62, Noida, 201301</Text>
-                    <Text className="foot-sub-text">Uttar Pradesh, India</Text>
+                    <Text className="foot-sub-text" color="#F47721">808, 8th Floor Iconic Tower</Text>
+                    <Text className="foot-sub-text" color="#F47721">Sector 62, Noida, 201301</Text>
+                    <Text className="foot-sub-text" color="#F47721">Uttar Pradesh, India</Text>
 
                 </Box>
             </Flex>

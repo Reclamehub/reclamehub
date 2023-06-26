@@ -8,15 +8,15 @@ export const ContactUsAddress = () => {
 
     return (<Box fontFamily={"poppins"} mt="20px">
 
-        <Box border={useColorModeValue('1px solid black', "1px solid #F47721")} display={"flex"}  flexWrap={{base:"wrap",sm:"wrap",md:"nowrap",lg:"nowrap",xl:"nowrap"}} gap="10px" m="auto" w={{base:"90%",sm:"80%",md:"80%",lg:"60%",xl:"60%"}}>
+        <Box border={useColorModeValue('1px solid #F47721', "1px solid white")} display={"flex"}  flexWrap={{base:"wrap",sm:"wrap",md:"nowrap",lg:"nowrap",xl:"nowrap"}} gap="10px" m="auto" w={{base:"90%",sm:"80%",md:"80%",lg:"60%",xl:"60%"}}>
             {/* first flex box */}
-            <Box borderRight={useColorModeValue('1px solid black', "1px solid #F47721")} w={{base:"100%",sm:"80%",md:"50%",lg:"50%",xl:"50%"}} >
+            <Box borderRight={useColorModeValue('1px solid #F47721', "1px solid white")} w={{base:"100%",sm:"80%",md:"50%",lg:"50%",xl:"50%"}} >
                 <Box p="10px">
                     <Box display="flex"> <Box display={"flex"}  alignContent={"center"} flexDirection={"column"} justifyContent={"center"} marginRight={"10px"}><BiMessageDetail size="20px" color="#F47721" /></Box><Box><Text fontWeight={"550"}>WRITE TO US</Text></Box></Box>
                     <Box textAlign={"left"}><Text color="#F47721">info@reclamehub.com</Text></Box>
                 </Box>
                 <br />
-                <Box borderTop={useColorModeValue('1px solid black', "1px solid #F47721")} p="10px" display={"flex"} textAlign={"left"}  justifyContent={"space-around"} gap={"20px"} >
+                <Box borderTop={useColorModeValue('1px solid #F47721', "1px solid white")} p="10px" display={"flex"} textAlign={"left"}  justifyContent={"space-around"} gap={"20px"} >
                     <Box><CiLocationOn size="30px" color="#F47721" /></Box>
                     <Box >
                         <Text>OUR LOCATION</Text>

@@ -5,6 +5,7 @@ import {Navbar} from "./components/Navbar/Navbar"
 import {AllRoutes} from "./components/AllRoutes/AllRoutes"
 import {Footer} from "./components/Footer/Footer"
 import { Box, useColorMode, useColorModeValue } from '@chakra-ui/react';
+import { FooterMain } from './components/Footer/FooterMain';
 function App() {
   
   // localStorage.setItem("chakra-ui-color-mode","dark")
@@ -12,7 +13,7 @@ function App() {
     <Box className="App" >
       <Navbar />
       <AllRoutes />
-      <Footer />
+      <FooterMain />
     </Box>
   );
 }

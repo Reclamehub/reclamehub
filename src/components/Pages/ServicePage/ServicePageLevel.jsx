@@ -30,7 +30,7 @@ export const ServicePageLevel=()=>{
 </Box>
 <Box display={useColorModeValue('inline', "none")}><Image  src="vectorb.png" alt="vector" /></Box>
 <Box display={useColorModeValue('none', "inline")}><Image  src="vector.png" alt="vector" /></Box>
-<Box display={"flex"} flexDirection={"column"} alignItems={"center"}>
+<Box display={"flex"} flexDirection={"column"} alignItems={"center"} ml="7px">
     <Box borderRadius={"full"} backgroundColor={"gray.500"} padding={"10px"} ml="-60px"><BiWalletAlt size="2vw" color="#e6b829"/></Box>
     <Box><Text fontSize={"1.2vw"} fontWeight={"550"} m="5px">Increased Productivity</Text></Box>
 </Box>
