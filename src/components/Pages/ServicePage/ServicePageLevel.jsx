@@ -11,28 +11,28 @@ export const ServicePageLevel=()=>{
 <Box  w="60%">
 <Flex justifyContent={"space-around"} alignItems={"center"}>
 {/* AiOutlineDash */}
-<Box display={"flex"} flexDirection={"column"} alignItems={"center"}>
-    <Box borderRadius={"full"} backgroundColor={"gray.500"} padding={"10px"}><BiWalletAlt size="2vw" color="#e6b829" /></Box>
-    <Box><Text fontSize={"1.2vw"} fontWeight={"550"} m="5px">Creativity</Text></Box>
+<Box display={"flex"} flexDirection={"column"} alignItems={"center"} >
+    <Box borderRadius={"full"} backgroundColor={useColorModeValue("#fef1e8","#121212")} padding={"10px"}><BiWalletAlt size="2vw" color="#e6b829" /></Box>
+    <Box><Text fontSize={"1.2vw"} fontWeight={"550"} m="5px" textAlign={"center"}>Creativity</Text></Box>
 </Box>
 <Box display={useColorModeValue('inline', "none")}><Image  src="vectorb.png" alt="vector" /></Box>
 <Box display={useColorModeValue('none', "inline")}><Image  src="vector.png" alt="vector" /></Box>
-<Box display={"flex"} flexDirection={"column"} alignItems={"center"}>
-    <Box borderRadius={"full"} backgroundColor={"gray.500"} padding={"10px"}><MdOutlineHighQuality size="2vw" color="#e6b829"/></Box>
+<Box display={"flex"} flexDirection={"column"} alignItems={"center"} >
+    <Box borderRadius={"full"} backgroundColor={useColorModeValue("#fef1e8","#121212")} padding={"10px"}><MdOutlineHighQuality size="2vw" color="#e6b829"/></Box>
     <Box><Text fontSize={"1.2vw"} fontWeight={"550"} m="5px" textAlign={"center"}>Quality over Quantity</Text></Box>
 </Box>
 <Box display={useColorModeValue('inline', "none")}><Image  src="vectorb.png" alt="vector" /></Box>
 <Box display={useColorModeValue('none', "inline")}><Image  src="vector.png" alt="vector" /></Box>
-<Box display={"flex"} flexDirection={"column"} alignItems={"center"}>
-    <Box borderRadius={"full"} backgroundColor={"gray.500"} padding={"10px"}><BiAddToQueue size="2vw" color="#e6b829"/></Box>
+<Box display={"flex"} flexDirection={"column"} alignItems={"center"} >
+    <Box borderRadius={"full"} backgroundColor={useColorModeValue("#fef1e8","#121212")} padding={"10px"}><BiAddToQueue size="2vw" color="#e6b829"/></Box>
     <Box><Text fontSize={"1.2vw"} fontWeight={"550"} m="5px" w="80%" textAlign={"center"}>Available in 5 City</Text></Box>
     
 </Box>
 <Box display={useColorModeValue('inline', "none")}><Image  src="vectorb.png" alt="vector" /></Box>
 <Box display={useColorModeValue('none', "inline")}><Image  src="vector.png" alt="vector" /></Box>
-<Box display={"flex"} flexDirection={"column"} alignItems={"center"} ml="7px">
-    <Box borderRadius={"full"} backgroundColor={"gray.500"} padding={"10px"} ml="-60px"><BiWalletAlt size="2vw" color="#e6b829"/></Box>
-    <Box><Text fontSize={"1.2vw"} fontWeight={"550"} m="5px">Increased Productivity</Text></Box>
+<Box display={"flex"} flexDirection={"column"} alignItems={"center"}  >
+    <Box borderRadius={"full"} backgroundColor={useColorModeValue("#fef1e8","#121212")} padding={"10px"} ><BiWalletAlt size="2vw" color="#e6b829"/></Box>
+    <Box textAlign={"center"}><Text fontSize={"1.2vw"} fontWeight={"550"} m="5px">Increased Productivity</Text></Box>
 </Box>
 
 </Flex>

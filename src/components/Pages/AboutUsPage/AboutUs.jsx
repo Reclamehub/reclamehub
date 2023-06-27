@@ -10,6 +10,7 @@ import { AboutFeatured } from "./AboutFeatured"
 import FeaturedSlider from "./FeaturedSlider"
 import { AboutCoreValue } from "./AboutCoreValue"
 import { Connect } from "../HomePage/Connect"
+import { ContactUsPageForm } from "../ContactUsPage/ContactUsPageForm"
 
 export const AboutUs=()=>{
 
@@ -18,12 +19,14 @@ export const AboutUs=()=>{
         <AboutVision />
         <AboutApproch />
         <AboutProcess />
+        <br />
         <AboutExperties />
         <AboutChoose />
         <AboutFeatured />
         <FeaturedSlider />
         <AboutCoreValue />
         <AboutForm />
+    
         <Connect />
     </Box>)
 }
