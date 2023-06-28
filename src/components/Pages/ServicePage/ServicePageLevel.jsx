@@ -11,8 +11,9 @@ export const ServicePageLevel=()=>{
 <Box  w="60%">
 <Flex justifyContent={"space-around"} alignItems={"center"}>
 {/* AiOutlineDash */}
-<Box display={"flex"} flexDirection={"column"} alignItems={"center"} >
-    <Box borderRadius={"full"} backgroundColor={useColorModeValue("#fef1e8","#121212")} padding={"10px"}><BiWalletAlt size="2vw" color="#e6b829" /></Box>
+<Box display={"flex"} flexDirection={"column"} alignItems={"center"}>
+    <Box borderRadius={"full"} backgroundColor={useColorModeValue("#fef1e8","#121212")}
+     padding={"10px"}><BiWalletAlt size="2vw" color="#e6b829" /></Box>
     <Box><Text fontSize={"1.2vw"} fontWeight={"550"} m="5px" textAlign={"center"}>Creativity</Text></Box>
 </Box>
 <Box display={useColorModeValue('inline', "none")}><Image  src="vectorb.png" alt="vector" /></Box>

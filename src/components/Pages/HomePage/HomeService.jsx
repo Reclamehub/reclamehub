@@ -33,7 +33,9 @@ const serviceData=[
     simg:"gif2.gif",
     heading:`WEB DESIGN &`,
     headingTwo:`DEVELOPMENT`,
-    desc:`Are you ready to boost your online presence with a beautiful and effective website? Contact the best digital marketing agency.`
+    desc:`
+    
+    Are you ready to boost your online presence with a beautiful and effective website? Contact the best digital marketing agency.`
 },
 {
     id:6,
@@ -67,7 +69,7 @@ export const HomeService=()=>{
 {serviceData.map((el)=><Box key={el.id}  boxShadow='2xl'  >
 
 <Box className="home-service-box" >
-            <Box className="home-service-img-box" ><Image maxHeight={"12rem"}  src={el.simg}/></Box>
+            <Box className="home-service-img-box" ><Image maxHeight={"220px"} objectFit={"cover"} h="100%" w="100%" src={el.simg}/></Box>
             
             <Box w={"55%"} className="home-service-heading-box"><Text fontSize={"1.8vw"} fontWeight={"600"} >{el.heading}</Text></Box>
             <Box w={"55%"} className="home-service-heading-box"><Text fontSize={"1.8vw"} fontWeight={"600"} >{el.headingTwo}</Text></Box>            

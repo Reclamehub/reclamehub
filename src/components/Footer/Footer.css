@@ -2,10 +2,10 @@
     padding: 1vw;
 }
 
-.footer-desc{
+/* .footer-desc{
 font-size: 1vw;
 
-}
+} */
 .footer-sub-heading{
     padding-top: 25px;
     text-align: left;
@@ -16,3 +16,29 @@ margin-bottom: 10px;
     font-size: 1vw;
     text-align: left;
 }
+
+.icon-media{
+     font-size: 30px;
+ }
+ 
+
+@media screen and (max-width:480px){
+
+    .foot-sub-text{
+        margin-bottom: 5px;
+            font-size: 2vw;
+            text-align: left;
+            font-weight: 550;
+        }
+        
+
+}
+
+@media all and  (min-width:481px) and(max-width:780px){
+    .icon-media{
+        color:pink;
+         font-size: 30px;
+     }
+    
+    }
+

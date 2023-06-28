@@ -2,7 +2,7 @@
 
 
 .vl {
-    border-left: 2px solid gray;
+    border-left: 2px solid #F5F5F5;
     height: 80px;
     margin-top: 20px;
   }
@@ -22,9 +22,9 @@
 
   @media screen and (max-width:480px) {
     .vl {
-      border-left: 2px solid gray;
-      height: 30px;
-      margin-top: 20px;
+      
+      height: 28px;
+      margin-top: 8px;
     }
 
 }
