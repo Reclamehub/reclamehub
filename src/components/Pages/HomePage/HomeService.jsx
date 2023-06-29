@@ -9,7 +9,7 @@ const serviceData=[
     simg:"gif1.gif",
     heading:`SOCIAL MEDIA `,
     headingTwo:` MANAGEMENT`,
-    desc:`Struggling with social media management? We're your solution, the top Digital Marketing agency in Noida.`
+    desc:`Struggling with social media management? We're your solution, the top Digital Marketing Agency in Noida.`
 
 },
 {
@@ -25,7 +25,7 @@ const serviceData=[
     simg:"gif3.gif",
     heading:`GRAPHIC  `,
     headingTwo:`DESIGNING`,
-    desc:`our graphic design services can help. We think that excellent design extends beyond aesthetics.`
+    desc:`Our graphic design services can help. We think that excellent design extends beyond aesthetics.`
 
 },
 {
@@ -69,8 +69,7 @@ export const HomeService=()=>{
 {serviceData.map((el)=><Box key={el.id}  boxShadow='2xl'  >
 
 <Box className="home-service-box" >
-            <Box className="home-service-img-box" ><Image maxHeight={"220px"} objectFit={"cover"} h="100%" w="100%" src={el.simg}/></Box>
-            
+            <Box className="home-service-img-box" ><Image maxHeight={"220px"} objectFit={"cover"} h="100%" w="100%" src={el.simg}/></Box>            
             <Box w={"55%"} className="home-service-heading-box"><Text fontSize={"1.8vw"} fontWeight={"600"} >{el.heading}</Text></Box>
             <Box w={"55%"} className="home-service-heading-box"><Text fontSize={"1.8vw"} fontWeight={"600"} >{el.headingTwo}</Text></Box>            
             <Box w="95%" className="home-service-text-box"><Text > {el.desc}</Text></Box>

@@ -8,6 +8,7 @@ import { Brand } from "./Brand";
 import { HomeClients } from "./HomeClients";
 import { HomeTeam } from "./HomeTeam";
 import { Connect } from "./Connect";
+import { ClientSlider } from "./ClientSlider";
 
 export const HomePage=()=>{
     const { colorMode, toggleColorMode } = useColorMode();
@@ -22,7 +23,7 @@ export const HomePage=()=>{
         <Help />
         <Brand />
         <HomeClients />
-        
+        <ClientSlider />
         {/* <HomeTeam /> */}
 
         <Connect />
