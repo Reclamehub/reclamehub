@@ -4,8 +4,7 @@
     width: 100%;
     /* border: 1px solid red; */
     background-size: cover;
-
-    display: grid;
+display: grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
     justify-content: center;
@@ -19,8 +18,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
- 
-border-radius: 10px;   
+ border-radius: 10px;   
 font-family: 'Poppins', sans-serif;
 padding: 10px;
 

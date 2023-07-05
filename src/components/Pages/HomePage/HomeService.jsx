@@ -69,7 +69,8 @@ export const HomeService=()=>{
 {serviceData.map((el)=><Box key={el.id}  boxShadow='2xl'  >
 
 <Box className="home-service-box" >
-            <Box className="home-service-img-box" ><Image maxHeight={"220px"} objectFit={"cover"} h="100%" w="100%" src={el.simg}/></Box>            
+            <Box className="home-service-img-box" >
+            <Image maxHeight={"220px"} objectFit={"cover"} h="100%" w="100%" src={el.simg}/></Box>            
             <Box w={"55%"} className="home-service-heading-box"><Text fontSize={"1.8vw"} fontWeight={"600"} >{el.heading}</Text></Box>
             <Box w={"55%"} className="home-service-heading-box"><Text fontSize={"1.8vw"} fontWeight={"600"} >{el.headingTwo}</Text></Box>            
             <Box w="95%" className="home-service-text-box"><Text > {el.desc}</Text></Box>
@@ -82,7 +83,7 @@ export const HomeService=()=>{
 
     </Box>
     <br />
-    <Box><Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{bg:"#F47721",color:"white"}} borderRadius={"30px"}>Explore More</Button></Link></Box>
+    <Box><Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{bg:"#F47721",color:"white",border:"2px solid #F47721"}} borderRadius={"30px"}>Explore More</Button></Link></Box>
     </Box>)
 
 }

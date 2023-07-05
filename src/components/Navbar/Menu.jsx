@@ -2,6 +2,7 @@ import { AddIcon, EditIcon, ExternalLinkIcon, HamburgerIcon, RepeatIcon } from "
 import { Box, Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, IconButton, Image, Menu, MenuButton, MenuItem, MenuList, RadioGroup, Stack, Text, useDisclosure } from "@chakra-ui/react";
 import { useState } from "react";
 import {CgProfile} from "react-icons/cg"
+import { Link } from "react-router-dom";
 import {FaHandsHelping} from "react-icons/fa"
 import {BiStar} from "react-icons/bi"
 import {AiFillLock} from "react-icons/ai"
@@ -33,29 +34,29 @@ export const MenuNav=()=>{
                 <DrawerBody>
                   <Box display={"flex"}border="1px solid black" gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
                     <Box display={"flex"} justifyContent={"center"} flexDirection={"column"} > <FaHandsHelping size="4vw" color="orangered" /></Box>
-                    <Box><Text >EXPLORE</Text></Box>
+                    <Box><Link to=""><Text >EXPLORE</Text></Link></Box>
                   </Box>
                   
 
 
                   <Box display={"flex"}border="1px solid black" gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
                     <Box display={"flex"} justifyContent={"center"} flexDirection={"column"} > <CgProfile size="4vw" color="orangered" /></Box>
-                    <Box><Text >ABOUT US</Text></Box>
+                     <Box><Link to="/about"><Text>ABOUT US</Text></Link></Box>
                   </Box>
 
                   <Box display={"flex"}border="1px solid black" gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
                     <Box display={"flex"} justifyContent={"center"} flexDirection={"column"} > <BiStar size="4vw" color="orangered" /></Box>
-                    <Box><Text >SERVICES</Text></Box>
+                    <Box><Link to="/service"><Text >SERVICES</Text></Link></Box>
                   </Box>
 
                   <Box display={"flex"}border="1px solid black" gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
                     <Box display={"flex"} justifyContent={"center"} flexDirection={"column"} > <AiFillLock size="4vw" color="orangered" /></Box>
-                    <Box><Text >PORTFOLIO</Text></Box>
+                    <Box><Link to=""><Text >PORTFOLIO</Text></Link></Box>
                   </Box>
 
                   <Box display={"flex"}border="1px solid black" gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
                     <Box display={"flex"} justifyContent={"center"} flexDirection={"column"} > <BsTelephoneFill size="4vw" color="orangered" /></Box>
-                    <Box><Text >CONTACT US</Text></Box>
+                    <Box><Link to="contact"><Text >CONTACT US</Text></Link></Box>
                   </Box>
 
                 </DrawerBody>

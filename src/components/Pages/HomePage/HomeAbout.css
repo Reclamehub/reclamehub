@@ -3,16 +3,14 @@
     font-family: poppins;
 }
 .up-shadow{
-
-   height: 10px;
+height: 10px;
     box-shadow: 0px 0px 50px white; 
   }
 
 .home-about-band{
-
-    height: 20px;
+   height: 20px;
     background-color:#1d1d1d;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 
   /* .home-about-container{

@@ -1,72 +1,74 @@
-.Home-top-container{
+.Home-top-container {
     /* border:1px solid red; */
     background-image: url("../../../../public/homtopbg.png");
-
     padding: 30px;
     font-family: 'Poppins', sans-serif;
 }
-.home-all-heading{
 
-    
+.home-all-heading {
     padding: 8vw 5vw 1vw 5vw;
 }
-.home-heading-one{
+
+.home-heading-one {
     text-align: left;
-font-size: 1vw;
+    font-size: 1.2vw;
 }
 
-.home-heading-two{
+.home-heading-two {
     text-align: left;
-    font-size: 3.7vw;
+    font-size: 3.5vw;
     width: 100%;
     font-weight: 600;
 }
-.home-heading-three{
+
+.home-heading-three {
     text-align: left;
-    font-size: 3.7vw;
-    color:#F47721;
+    font-size: 3.5vw;
+    color: #F47721;
     width: 100%;
     font-weight: 600;
 }
-.home-heading-four{
-    text-align: left;
 
+.home-heading-four {
+    text-align: left;
     font-size: 3vw;
     width: 100%;
     font-weight: 600;
 }
-.home-top-img-box{
+
+.home-top-img-box {
     margin-top: -2vw;
-margin-right: 4vw;
-
-
 }
 
-.home-btn-img{
+.home-btn-img {
     display: flex;
-    justify-content: space-between;
-    
+    /* justify-content: space-between; ....*/
+    justify-content: space-around;
+
 }
-.home-top-img{
+
+.home-top-img {
     width: 28vw;
 }
 
-.home-top-btn-box{
- align-items: center;   
+.home-top-btn-box {
+    align-items: center;
     width: 40vw;
     /* border:1px solid red; */
     display: flex;
-    justify-content: center;
-margin-bottom: 10vw;
+    justify-content: left;
+    margin-bottom: 10vw;
 }
-.home-top-btn{
+
+.home-top-btn {
     border: 2px solid #F47721;
     border-radius: 30px;
     background-color: transparent;
     /* borderRadius={"30px"}  border={"2px solid #F47721"} bg="transparent" fontSize={"1vw"} fontWeight={"500 */
-    }
-.home-top-btn :hover{
-    color:#F47721;
+}
+
+.home-top-btn :hover {
+    color: #F47721;
 }
 
 
@@ -78,22 +80,21 @@ color:red
 
 
 @media screen and (max-width:480px) {
-    .home-top-btn-box{
-        align-items: center;   
-           width: 30vw;
-           /* border:1px solid red; */
-           display: flex;
-           justify-content: center;
-       margin-bottom: 10vw;
-       margin-left: 20px;
-       }   
+    .home-top-btn-box {
+        align-items: center;
+        width: 30vw;
+        /* border:1px solid red; */
+        display: flex;
+        justify-content: left;
+        margin-bottom: 10vw;
+        margin-left: 20px;
+    }
 
 
-       .home-heading-one{
+    .home-heading-one {
         text-align: left;
-    font-size: 1.5vw;
-    }
-    
-
+        font-size: 1.5vw;
     }
 
+
+}

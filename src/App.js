@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {Navbar} from "./components/Navbar/Navbar"
 import {AllRoutes} from "./components/AllRoutes/AllRoutes"
 import {Footer} from "./components/Footer/Footer"
