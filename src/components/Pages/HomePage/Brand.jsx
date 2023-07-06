@@ -7,7 +7,7 @@ export const Brand = () => {
 
     return (
   
-        <Box borderBottom="4px solid white" paddingBottom={"50px"} paddingTop={"10px"}>
+        <Box borderBottom="4px solid white" paddingBottom={"50px"} paddingTop={"45px"}>
         <Box className="main_box" border={"4px solid #FFD2B5"} borderBottomColor={""}   width={"80%"} margin={"auto"} p={"16px"}>
             <Flex display={"Flex"}justifyContent={"space-evenly" } alignItems={"center"}>
             <Box width={""} display={"Flex"} justifyContent={"center"} alignItems={"center"}><Image className="gif" src="brandgif.gif"  alt="gif"/></Box>

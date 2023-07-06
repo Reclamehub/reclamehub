@@ -12,7 +12,7 @@
 .home-heading-one {
     text-align: left;
     font-size: 1.4vw;
-  /* text-transform: capitalize; */
+
 }
 
 .home-heading-two {
@@ -90,7 +90,9 @@ color:red
         margin-bottom: 10vw;
         margin-left: 20px;
     }
-
+    .home-all-heading{
+        line-height: 6px;
+        }
 
     .home-heading-one {
         text-align: left;

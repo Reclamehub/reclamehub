@@ -10,6 +10,36 @@
     margin: auto;
 
 }
+.image-gallery {
+    display: grid;
+ grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+  background-color: lightgray;
+  padding:20px;
+  border-radius: 20px;
+justify-content: space-evenly;
+  }
+  /* .image-gallery img {
+    grid-column: span 1;
+    height: 100%;
+  }
+  .image-divider {
+    grid-column: span 1;
+    width: 15px;
+    margin: 0%;
+    height: 100%;
+    background-color: black;
+  }
+  @media (max-width: 768px) {
+    .image-gallery {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  } */
+  .line{
+    width: 1px;
+    background-color: black;
+  }
+  
 .team-img-box{
 border:5px solid rgb(26, 25, 25);
 align-items: center;

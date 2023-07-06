@@ -47,10 +47,11 @@ export const HomeTeam = () => {
     return (<Box fontFamily={"poppins"}>
         <br />
         <br />
-        <Box><Heading fontSize={"3.5vw"}>MEET OUR <span style={{color:"orangered"}}>TEAM</span></Heading></Box>
+        <Box><Heading fontSize={{base:"6vw",sm:"3.5vw",md:"3.5vw",lg:"3.5vw",xl:"3.5vw"}}  >MEET OUR <span style={{color:"orangered"}}>TEAM</span></Heading></Box>
         <br />
-        <Box fontSize={"1.4vw"}w="75%" m="auto"><Text> MEET OUR WARRIORS TO USE THE FORCE FOR GOODMEET OUR DIGITAL WARRIORS, READY TO USE THE FORCE FOR GOOD </Text></Box>
+        <Box w="75%" m="auto"><Text fontSize={{base:"4vw",sm:"3.5vw",md:"1.5vw",lg:"1.5vw",xl:"1.5vw"}} textTransform={"capitalize"}> Meet our warriors to use the force for goodmeet our DIGITAL WARRIORS, READY TO USE THE FORCE FOR GOOD </Text></Box>
         <br />
+
       
 <Container>
 <Box width={"85%"} height={"100%"}backgroundColor={"lightgrey"}display={"flex"} justifyContent={"space-evenly"} margin="2% 8% 5% 8%" boxShadow={"dark-lg"}>
@@ -70,7 +71,7 @@ export const HomeTeam = () => {
 <Box width={"85%"} height={"100%"}backgroundColor={"lightgrey"} display={"flex"} justifyContent={"space-evenly"} gap="2%" margin="2% 8% 5% 8%" boxShadow={"dark-lg"}>
 <Box ><Image height={"100%"} src="wshra.png"  alt="img" fluid /></Box>
 <Box w="18px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="74vh" border="2px solid #888888"></Box>
-<Box > <Image height={"100%"} marginTop={"-10px"} src="waish.png"  alt="img" fluid /></Box>
+<Box > <Image height={"100%"} marginTop={"0px"} src="waish.png"  alt="img" fluid /></Box>
 <Box w="18px" borderRadius={"10px"} style={{boxShadow: "1px 1px 10px 1px #888888"}} boxShadow='2xl'  maxH="74vh" border="2px solid #888888"></Box>
 <Box ><Image height={"100%"}src="wswati.png"  alt="img" fluid /></Box>
 </Box>
