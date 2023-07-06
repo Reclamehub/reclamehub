@@ -11,7 +11,8 @@
 
 .home-heading-one {
     text-align: left;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
+  /* text-transform: capitalize; */
 }
 
 .home-heading-two {

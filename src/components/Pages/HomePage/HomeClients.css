@@ -14,3 +14,30 @@ padding: 5px;
 display: flex;
 justify-content: center;
 }
+/* mobile view clients */
+.client_heading{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 4vw;
+}
+.client_subheading{
+    font-family: poppins;
+    font-weight: 400;
+}
+.main_container{
+    margin: 10px;
+}
+.clientImg_div{
+    padding: 10px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    }
+.clientImg{
+    display: flex;
+   justify-content: center;
+    background-color: #ffa56c;
+    border-radius: 20px;
+    padding: 10px;
+}
+

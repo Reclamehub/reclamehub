@@ -24,7 +24,7 @@ export const HomePage=()=>{
         <Brand />
         <HomeClients />
         <ClientSlider />
-        {/* <HomeTeam /> */}
+        <HomeTeam />
 
         <Connect />
     </Box>)

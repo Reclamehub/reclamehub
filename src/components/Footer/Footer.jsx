@@ -52,8 +52,8 @@ export const Footer = () => {
                     <Heading className="footer-sub-heading" fontSize={{base:"3vw",sm:"3vw",md:"1.5vw",lg:"1.5vw",xl:"1.5vw"}}>CONTACT US</Heading>
                 
 
-                    <Text className="foot-sub-text" mt={{base:"5px",sm:"7px",md:"10px",lg:"20px",xl:"25px"}}>+91-9120190055</Text>
-                    <Text className="foot-sub-text">info@reclamehub.com</Text>
+                    <Text className="foot-sub-text" mt={{base:"5px",sm:"7px",md:"10px",lg:"20px",xl:"25px"}}> <a href="tel:+6494461709">+91-9120190055</a></Text>
+                    <Text className="foot-sub-text"> <a href="mailto:">info@reclamehub.com </a></Text>
                     <Text className="foot-sub-text" >808, 8th Floor Iconic Tower</Text>
                     <Text className="foot-sub-text" >Sector 62, Noida, 201301</Text>
                     <Text className="foot-sub-text" >Uttar Pradesh, India</Text>
