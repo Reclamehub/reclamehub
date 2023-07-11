@@ -1,7 +1,7 @@
 import { Box, Flex, Heading, Image, Text, useColorModeValue } from "@chakra-ui/react"
 import {AiOutlineArrowRight} from "react-icons/ai"
-import { AboutForm } from "../AboutUsPage/AboutForm"
-import { Connect } from "../HomePage/Connect"
+import { ContactForm } from "../../ContactForm/ContactForm"
+import { Connect } from "../../Connect/Connect"
 
 
 export const SocialMediaManagmentPage=()=>{
@@ -115,7 +115,7 @@ In Today's Digital World, Social Media Is An Essential Component Of Every Effect
     <Box w="80%" m="auto"><Text>Whether it be social media or website, we believe that to make it trending and eye catching tio viewers it should be something more than aesthetic and less than beyond imagination.</Text></Box>
     
     </Box>
-    <Box marginTop={"50px"} border={useColorModeValue('1px solid white', "1px solid black")} ><AboutForm /></Box>
+    <Box marginTop={"50px"} border={useColorModeValue('1px solid white', "1px solid black")} ><ContactForm /></Box>
  <Box><Connect /></Box>
     </Box>) 
 }

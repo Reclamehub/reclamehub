@@ -1,6 +1,6 @@
 import { Box, Heading, useColorModeValue } from "@chakra-ui/react"
 import { ContactUsAddress } from "./ContactUsAddress"
-import { Connect } from "../HomePage/Connect"
+import { Connect } from "../../Connect/Connect"
 import { ContactForm } from "../../ContactForm/ContactForm"
 
 export const ContactUsPage=()=>{

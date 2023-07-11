@@ -5,11 +5,10 @@ import { AboutProcess } from "./AboutProcess"
 import { AboutApproch } from "./AboutApproch"
 import { AboutExperties } from "./AboutExperties"
 import { AboutChoose } from "./AboutChoose"
-import { AboutForm } from "./AboutForm"
 import { AboutFeatured } from "./AboutFeatured"
 import FeaturedSlider from "./FeaturedSlider"
 import { AboutCoreValue } from "./AboutCoreValue"
-import { Connect } from "../HomePage/Connect"
+import { Connect } from "../../Connect/Connect"
 import { ContactForm } from "../../ContactForm/ContactForm"
 
 export const AboutUs=()=>{

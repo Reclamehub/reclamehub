@@ -7,7 +7,7 @@ import { Help } from "./Help";
 import { Brand } from "./Brand";
 import { HomeClients } from "./HomeClients";
 import { HomeTeam } from "./HomeTeam";
-import { Connect } from "./Connect";
+import { Connect } from "../../Connect/Connect";
 import { ClientSlider } from "./ClientSlider";
 
 export const HomePage=()=>{

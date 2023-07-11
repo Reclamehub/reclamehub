@@ -1,7 +1,7 @@
 import { Box, Flex, Heading, Image, Text, useColorModeValue } from "@chakra-ui/react"
 import {AiOutlineArrowRight} from "react-icons/ai"
-import { AboutForm } from "../AboutUsPage/AboutForm"
-import { Connect } from "../HomePage/Connect"
+import { ContactForm } from "../../ContactForm/ContactForm"
+import { Connect } from "../../Connect/Connect"
 
 export const ContentWriterPage=()=>{
 
@@ -76,7 +76,7 @@ High-quality content is the driving factor behind successful online companies in
 <Box w="75%" m="auto" fontSize={"1.4vw"} ><Text> partner with us for professional content development services to maximize the potential of your brand and promote meaningful connections with your target audience. 
 Contact us now to see how we can assist you in creating amazing content that elevates your brand and produces results.
 </Text></Box>
-<Box marginTop={"50px"} border={useColorModeValue('1px solid white', "1px solid black")} ><AboutForm /></Box>
+<Box marginTop={"50px"} border={useColorModeValue('1px solid white', "1px solid black")} ><ContactForm /></Box>
 <Box><Connect /></Box>
 </Box>) 
 }
