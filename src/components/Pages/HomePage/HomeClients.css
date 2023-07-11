@@ -1,6 +1,6 @@
 .clients-img-container{
     display: grid;
-    width:75%;
+    width:85%;
     margin: auto;
     grid-template-columns: repeat(4,1fr);
     gap:3vw;
@@ -27,6 +27,7 @@ justify-content: center;
 .main_container{
     margin: 10px;
 }
+
 .clientImg_div{
     padding: 10px;
     display: flex;
@@ -39,5 +40,7 @@ justify-content: center;
     background-color: #ffa56c;
     border-radius: 20px;
     padding: 10px;
+    height: 150px;
+    width: 100%;
 }
 

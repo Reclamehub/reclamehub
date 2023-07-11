@@ -57,33 +57,32 @@ const serviceData=[
 export const HomeService=()=>{
 
 
-    return (<Box p="2vw" paddingTop={{base:"20px",sm:"20px",md:"40px",lg:"60px",xl:"80px"}} bg={useColorModeValue('#FF9450', 'black')}>
-        
-        <Heading fontSize={"3vw"} marginBottom={{base:"10px",sm:"30px",md:"30px",lg:"40px",xl:"50px"}}>SERVICES WE PROVIDE</Heading>
+    return (
+<Box p="2vw" paddingTop={{base:"20px",sm:"20px",md:"40px",lg:"60px",xl:"80px"}} bg={useColorModeValue('#FF9450', 'black')}>
+<Heading fontSize={"3vw"} marginBottom={{base:"10px",sm:"30px",md:"30px",lg:"40px",xl:"50px"}}>SERVICES WE PROVIDE</Heading>
 <Box className="sbg"></Box>
 <br />        
-        <Box  className="home-service-container" bg={useColorModeValue('#FF9450', 'black')} >
-
-
+<Box  className="home-service-container" bg={useColorModeValue('#FF9450', 'black')} >
 
 {serviceData.map((el)=><Box key={el.id}  boxShadow='2xl'  >
 
 <Box className="home-service-box" >
-            <Box className="home-service-img-box" >
-            <Image maxHeight={"220px"} objectFit={"cover"} h="100%" w="100%" src={el.simg}/></Box>            
-            <Box w={"55%"} className="home-service-heading-box"><Text fontSize={"1.8vw"} fontWeight={"600"} >{el.heading}</Text></Box>
-            <Box w={"55%"} className="home-service-heading-box"><Text fontSize={"1.8vw"} fontWeight={"600"} >{el.headingTwo}</Text></Box>            
-            <Box w="95%" className="home-service-text-box"><Text > {el.desc}</Text></Box>
+    <Box className="home-service-img-box" >
+    <Image fluid maxHeight={"220px"} objectFit={"cover"} h="100%" w="100%" src={el.simg}/>
+    </Box>            
+    <Box w={"80%"} className="home-service-heading-box"><Text fontSize={"1.8vw"} fontWeight={"600"} >{el.heading}</Text></Box>
+     <Box w={"80%"} className="home-service-heading-box"><Text fontSize={"1.8vw"} fontWeight={"600"} >{el.headingTwo}</Text></Box>            
+     <Box w="95%" h="" className="home-service-text-box"><Text color={"#FFFFFF"} > {el.desc}</Text></Box>
         
-        </Box>
+ </Box>
 
 </Box>)}
-
-
 
     </Box>
     <br />
     <Box><Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{bg:"#F47721",color:"white",border:"2px solid #F47721"}} borderRadius={"30px"}>Explore More</Button></Link></Box>
     </Box>)
+
+
 
 }

@@ -13,8 +13,11 @@ export const ContactUsAddress = () => {
             <Box fontSize={{base:"4vw",sm:"4vw",md:"2vw",lg:"1vw",xl:"1.2vw"}} borderRight={useColorModeValue('1px solid #F47721', "1px solid white")} w={{base:"100%",sm:"80%",md:"50%",lg:"50%",xl:"50%"}} >
                 <Box p="10px">
                     <Box display="flex"> <Box display={"flex"}  alignContent={"center"} flexDirection={"column"} justifyContent={"center"} marginRight={"10px"}>
-                        <BiMessageDetail size="25px" color="#F47721" /></Box><Box><Text fontWeight={"550"}>WRITE TO US</Text></Box></Box>
-                    <Box textAlign={"left"}><Text color="#F47721">info@reclamehub.com</Text></Box>
+                        <BiMessageDetail size="25px" color="#F47721" /></Box>
+                        <Box><Text fontWeight={"550"}>WRITE TO US</Text></Box>
+                        </Box>
+                    <Box textAlign={"left"} marginLeft={"35px"}><Text color="#F47721">info@reclamehub.com</Text>
+                    </Box>
                 </Box>
                 <br />
                 <Box  borderTop={useColorModeValue('1px solid #F47721', "1px solid white")} p="7px" pt="10px" display={"flex"} textAlign={"left"}   gap={"10px"} >

@@ -49,7 +49,7 @@ import 'slick-carousel/slick/slick-theme.css';
       <Slider {...settings} className='slider'>
       {images.map((image, index) => (
         <div key={index} className='clientImg_div' >
-          <img src={image} className='clientImg' alt={`Image ${index + 1}`} />
+          <img  src={image} className='clientImg' alt={`Image ${index + 1}`} />
         </div>
       ))}
       </Slider>

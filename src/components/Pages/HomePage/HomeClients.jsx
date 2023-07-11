@@ -84,7 +84,7 @@ export const HomeClients=()=>{
 <Box backgroundColor={"#FF9450"}>
         <Box className="clients-img-container" >
         {clients.map((el) =><Box key={el.id}  className="clients-img-box"  boxShadow='lg' >
-         <Image w="75%" m="auto" h="95%" src={el.teamimg} className="clients-img" alt="img" />
+         <Image w="75%" m="auto" h="75%" src={el.teamimg} className="clients-img" alt="img" />
          </Box>
         )}
         </Box>

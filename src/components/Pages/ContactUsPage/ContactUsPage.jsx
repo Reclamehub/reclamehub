@@ -1,12 +1,15 @@
 import { Box, Heading, useColorModeValue } from "@chakra-ui/react"
-import { ContactUsPageForm } from "./ContactUsPageForm"
 import { ContactUsAddress } from "./ContactUsAddress"
 import { Connect } from "../HomePage/Connect"
+import { ContactForm } from "../../ContactForm/ContactForm"
 
 export const ContactUsPage=()=>{
 
-return(<Box bg={useColorModeValue('white', "black")}>
-<ContactUsPageForm />
+return(
+<Box bg={useColorModeValue('white', "black")}>
+    <div style={{marginTop:'-2%'}}>
+<ContactForm/>
+    </div>
 <ContactUsAddress />
 {/* <Connect /> */}
 </Box>)

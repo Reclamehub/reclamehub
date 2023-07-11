@@ -1,8 +1,6 @@
 .home-service-container{
-    
     background-repeat: no-repeat;
     width: 100%;
-    /* border: 1px solid red; */
     background-size: cover;
 display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -10,9 +8,10 @@ display: grid;
     justify-content: center;
     text-align: center;
     gap:30px;
-    padding: 20px;
+    padding: 0px 10% 20px 10%;
 }
 .home-service-box{
+    height: 31rem;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -21,15 +20,7 @@ display: grid;
  border-radius: 10px;   
 font-family: 'Poppins', sans-serif;
 padding: 10px;
-
-    /* background-color: rgba(255, 248, 248, 0.250); */
-    /* filter: blur(10px);
-    -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
-  -o-filter: blur(10px);
-  -ms-filter: blur(10px); */
-    
-  box-shadow: 1px 1px 10px 2px #f1f0f0
+ box-shadow: 1px 1px 10px 2px #f1f0f0
 }
 
 .home-service-img-box{
@@ -37,46 +28,47 @@ padding: 10px;
 }
 
 .home-service-heading-box{
-    margin-bottom: .5vh;
-
-}
+    margin-top: 0px;
+    }
 .home-service-text-box{
        font-size: 1.2vw;
+       padding-bottom: .5rem;
+       
 }
 
-@media screen and (max-width:540px) {
- 
-    .home-service-container{
-    
-        background-repeat: no-repeat;
+@media only screen and (max-width: 767px) {
+ .home-service-container{
+        padding: 10px;
+     background-repeat: no-repeat;
         width: 100%;
-        /* border: 1px solid red; */
         background-size: cover;
-    
-        display: grid;
+       display: grid;
         grid-template-columns: repeat(2,1fr);
         align-items: center;
         justify-content: center;
         text-align: center;
         gap:20px;
-        padding: 10px;
-    }   
-
+} 
+.home-service-box{
+    height: 15rem;
+}
+.home-service-heading-box{
+    gap: 0;
+}  
+.home-service-text-box{
+    font-size: 1.4vw;
+   }
     .home-service-img-box{
         margin-bottom: .5vh;
     }
-    
-    .home-service-heading-box{
-        margin-bottom: .5vh;
+ 
+
+}
+
+/*  */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+   
+    .home-service-box{
+        height: 22rem;
     }
-
-    .home-service-heading-box{
-        margin-bottom: .2vh;
-    
-    }
-
-
-    .home-service-text-box{
-        font-size: 1.6vw;
- }
 }
