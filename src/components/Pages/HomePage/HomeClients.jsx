@@ -1,4 +1,5 @@
-import { Box, Heading, Image, Text, useColorModeValue } from "@chakra-ui/react"
+import { Box, Heading, Button,Image, Text, useColorModeValue } from "@chakra-ui/react"
+import { Link } from "react-router-dom"
 import "./HomeClients.css"
 
 const clients = [{
@@ -72,7 +73,8 @@ export const HomeClients=()=>{
 
 
 
-    return (<Box display={{base:"none",sm:"none",md:"inline",lg:"inline",xl:"inline"}} bg={useColorModeValue('white', '#1f1f1f')} paddingTop={{base:"1px",sm:"20px",md:"40px",lg:"50px",xl:"50px"}} paddingBottom={{base:"1px",sm:"20px",md:"40px",lg:"50px",xl:"50px"}} fontFamily={"poppins"} >
+    return (
+    <Box display={{base:"none",sm:"none",md:"inline",lg:"inline",xl:"inline"}} bg={useColorModeValue('white', '#1f1f1f')} paddingTop={{base:"1px",sm:"20px",md:"40px",lg:"50px",xl:"50px"}} paddingBottom={{base:"1px",sm:"20px",md:"40px",lg:"50px",xl:"50px"}} fontFamily={"poppins"} >
 
         <Box><Heading fontSize={{base:"6vw",sm:"3.5vw",md:"3.5vw",lg:"3.5vw",xl:"3.5vw"}} paddingTop={"50px"} fontFamily={"poppins"}>SOME OF OUR <span>CLIENTS</span></Heading></Box>      
 
@@ -88,6 +90,10 @@ export const HomeClients=()=>{
          </Box>
         )}
         </Box>
+        <Box><Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{bg:"#F47721",color:"white",border:"2px solid #F47721"}} borderRadius={"30px"} marginBottom={"50px"} >Explore More</Button></Link></Box>
 </Box>
-    </Box>)
+
+    </Box>
+    
+    )
 }

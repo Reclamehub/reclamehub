@@ -94,20 +94,20 @@ export const ContactForm = () => {
                 value={userData.fname}
                 onChange={postUserData}
                 />
-                <img style={{height:"20px",width:"20px",color:"black",marginLeft:"-30px",marginTop:'12px'}}src="User.png"/>
+                <img style={{height:"20px",width:"20px",color:"#000000",marginLeft:"-30px",marginTop:'12px'}}src="User.png"/>
              <label for="myInput">Full Name</label>
         </div>
         <div className="form_group">
             <input className="input_fields" id="myInput" required name="mobile" type="number" value={userData.mobile}
                 onChange={postUserData} />
-                <img style={{height:"20px",width:"20px",color:"black",marginLeft:"-30px",marginTop:'12px'}}src="cil_phone.png"/>
+                <img style={{height:"20px",width:"20px",color:"black",marginLeft:"-30px",marginTop:'12px'}}src="vector1.png"/>
                  <label for="myInput">Mobile No.</label>
                  
         </div>
         <div className="form_group">
             <input className="input_fields" id="myInput" required name="email" type="mail"  value={userData.email}
                 onChange={postUserData} />
-                <img style={{height:"20px",width:"20px",color:"black",marginLeft:"-30px",marginTop:'12px'}}src="arcticons_spike-email.png"/>
+                <img style={{height:"20px",width:"20px",color:"black",marginLeft:"-30px",marginTop:'12px'}}src="arcticons_spike-email1.png"/>
                  <label for="myInput">Email</label>
         </div>
         </div>
@@ -115,7 +115,7 @@ export const ContactForm = () => {
         <div className="form_group">
             <textarea className="input_fields mssg_input" id="myInput" required name="message" type="message" value={userData.message}
                 onChange={postUserData} />
-                <img style={{height:"20px",width:"20px",color:"black",marginLeft:"-30px",marginTop:'12px'}}src="arcticons_huawei-email.png"/>
+                <img style={{height:"20px",width:"20px",color:"black",marginLeft:"-30px",marginTop:'12px'}}src="arcticons_huawei-email1.png"/>
                  <label for="myInput">Message</label>
         </div>
         </div>

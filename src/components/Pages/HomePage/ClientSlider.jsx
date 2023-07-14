@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container} from "react-bootstrap"
-import { Box, Text,Heading, useColorModeValue } from "@chakra-ui/react"
+import {Link} from "react-router-dom"
+import { Box, Text,Heading, Button,useColorModeValue } from "@chakra-ui/react"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -42,7 +43,7 @@ import 'slick-carousel/slick/slick-theme.css';
   
     return (
     <>
-    <Box display={{ base:"inline", sm: "inline", md: "none", lg: "none", xl: "none" }}>
+    <Box display={{ base:"inline", sm: "inline", md: "none", lg: "none", xl: "none" }} >
     <Heading > Our Clients</Heading>
     <Text fontSize={{base:"4vw",sm:"2vw",md:"2vw",lg:"2vw",xl:"2vw"}} textAlign={"center"} margin={"10px"}>Helping these  and many other  incredible clients reach for the stars is what pulls us out of bed every morning.</Text>
         <Container className='main_container' style={{background:"#FF9450"}}>
@@ -53,6 +54,7 @@ import 'slick-carousel/slick/slick-theme.css';
         </div>
       ))}
       </Slider>
+      <Box><Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{bg:"#F47721",color:"white",border:"2px solid #F47721"}} borderRadius={"30px"} marginBottom={"15px"} >Explore More</Button></Link></Box>
       </Container>
       </Box>
       </>

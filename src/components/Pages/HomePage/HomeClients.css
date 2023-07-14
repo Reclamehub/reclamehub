@@ -26,6 +26,7 @@ justify-content: center;
 }
 .main_container{
     margin: 10px;
+    padding: 5px;
 }
 
 .clientImg_div{

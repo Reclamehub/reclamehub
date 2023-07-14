@@ -1,4 +1,79 @@
-.home-service-container{
+.hservice_cards_container{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-self: normal;
+    gap:25px;
+    padding: 0px 10% 20px 10%;
+}
+.hservice_card_div{
+    padding: 5px;
+    font-size: 12px;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  align-self: normal;
+  box-shadow: 1px 1px 10px 2px #f1f0f0;
+  border-radius: 10px;
+}
+.hservice_cards_row{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+.hservice_img{
+    max-height: 280px;
+}
+.hservice_cards_heading{
+font-weight: 600;
+font-size: 14px;
+}
+.hservice_cards_text{
+    padding: 5px;
+    font-size: 14px;
+    color: #ffffff;
+}
+/* css-for-mobiles */
+@media (max-width: 480px) {
+    .hservice_cards_container{
+        width: 100%;
+        padding: 0px 10px 20px 10px;
+        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+      }
+    .hservice_img{
+    max-height: 120px;
+    }
+    .hservice_cards_text{
+        font-size: 10px;
+    }
+ 
+}
+/* css-for-tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hservice_cards_container{
+        width: 100%;
+        padding: 0px 10px 20px 10px;
+        gap: 25px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+      }
+    .hservice_img{
+        max-height: 160px;
+    }
+}
+/* .home-service-container{
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -10,35 +85,32 @@ display: grid;
     gap:30px;
     padding: 0px 10% 20px 10%;
 }
-.home-service-box{
-    height: 31rem;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
- border-radius: 10px;   
-font-family: 'Poppins', sans-serif;
-padding: 10px;
+.home-service-content_box{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 32rem;
+border-radius: 10px;   
+font-family: 'Poppins';
+padding: 0px;
  box-shadow: 1px 1px 10px 2px #f1f0f0
 }
-
-.home-service-img-box{
-    margin-bottom: 2vh;
+.card_heading{
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: poppins;
 }
 
-.home-service-heading-box{
-    margin-top: 0px;
-    }
 .home-service-text-box{
        font-size: 1.2vw;
-       padding-bottom: .5rem;
+       padding: 2px 10px;
        
 }
 
 @media only screen and (max-width: 767px) {
  .home-service-container{
-        padding: 10px;
+        padding: 5px;
      background-repeat: no-repeat;
         width: 100%;
         background-size: cover;
@@ -49,26 +121,18 @@ padding: 10px;
         text-align: center;
         gap:20px;
 } 
-.home-service-box{
-    height: 15rem;
+.home-service-content_box{
+    height: 18rem;
 }
-.home-service-heading-box{
-    gap: 0;
-}  
 .home-service-text-box{
-    font-size: 1.4vw;
+    font-size: 2vw;
    }
-    .home-service-img-box{
-        margin-bottom: .5vh;
-    }
- 
-
 }
 
-/*  */
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
    
-    .home-service-box{
+    .home-service-content_box{
         height: 22rem;
     }
-}
+} */

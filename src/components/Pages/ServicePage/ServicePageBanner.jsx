@@ -4,14 +4,15 @@ import { Link } from "react-router-dom"
 
 export const ServicePageBanner=()=>{
 
-return (<Box  backgroundImage={"homtopbg.png"} textAlign={"left"}  p={{base:"5vw",sm:"5vw",md:"5vw",lg:"5vw",xl:"5vw"}}  display={"flex"} flexWrap={{base:"wrap",sm:"wrap",md:"nowrap",lg:"nowrap",xl:"nowrap"}} justifyContent={"space-around"}>
+return (<Box  backgroundImage={"homtopbg.png"} textAlign={"left"}  p={{base:"4vw",sm:"4vw",md:"4vw",lg:"4vw",xl:"4vw"}}  display={"flex"} flexWrap={{base:"wrap",sm:"wrap",md:"nowrap",lg:"nowrap",xl:"nowrap"}} justifyContent={"space-around"}>
 <Box  w={{base:"100%",sm:"86%",md:"66%",lg:"66%",xl:"66%"}}  >
 <Box w={{base:"95%",sm:"95%",md:"85%",lg:"85%",xl:"85%"}}>
     <Heading  fontSize={{base:"7vw",sm:"7vw",md:"4vw",lg:"4vw",xl:"4vw"}}>WE  <span style={{color:"#F47721"}}>PRIORITIZE SERVICES</span></Heading></Box>
 <Box><Heading fontSize={{base:"7vw",sm:"7vw",md:"4vw",lg:"4vw",xl:"4vw"}}> AND <span style={{color:"#F47721"}}>SATISFACTION</span></Heading></Box>
 <br />
 <br />
-<Box mt={{base:"-20px",sm:"-20px",md:"1px",lg:"1px",xl:"1px"}}><Text w={{base:"90%",sm:"90%",md:"80%",lg:"80%",xl:"80%"}} fontWeight={"550"}  fontSize={{base:"3.5vw",sm:"4vw",md:"1.2vw",lg:"1.2vw",xl:"1.2vw"}}>AT RECLAME HUB, OUR DIGITAL MARKETING SERVICES CREATE A STRONG CUSTOMER BASE,
+<Box mt={{base:"-20px",sm:"-20px",md:"1px",lg:"1px",xl:"1px"}}><Text w={{base:"90%",sm:"90%",md:"80%",lg:"80%",xl:"80%"}} fontWeight={"550"}  fontSize={{base:"3.5vw",sm:"4vw",md:"1.2vw",lg:"1.2vw",xl:"1.2vw"}}>
+AT RECLAME HUB, OUR DIGITAL MARKETING SERVICES CREATE A STRONG CUSTOMER BASE,
 SETTING US APART IN THE COMPETITIVE MARKETPLACE. WE PRIORITIZE CLIENT'S NEEDS 
 BASED ON THE SIGNIFICANCE OF DIGITAL MARKETING SERVICES FOR THEIR BUSINESSES THAT CREATE A 
 CUSTOMER-CENTRIC CULTURE FOR THEIR ENDURING SUCCESS.</Text></Box>

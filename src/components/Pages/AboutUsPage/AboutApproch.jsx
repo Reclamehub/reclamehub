@@ -6,10 +6,10 @@ export const AboutApproch = () => {
 
 
     return (<Box className="approch-container">
-        <Flex className="approch-flex-box" flexDirection={{base:"column-reverse",sm:"column-reverse",md:"row",lg:"row",xl:"row"}} justifyContent={{base:"center",sm:"center",md:"space-around",lg:"space-around",xl:"space-around"}}>
+        <Flex className="approch-flex-box" flexDirection={{base:"column-reverse",sm:"column-reverse",md:"row",lg:"row",xl:"row"}} justifyContent={{base:"center",sm:"center",md:"space-around",lg:"space-around",xl:"space-around"}} alignItems={"center"}>
 
             <Box className="approch-img-box" w="50%">
-                <Image boxSize={{base:"250px",sm:"250px",md:"300px",lg:"400px",xl:"400px"}} src="abtgif1.gif" atl="approch" />
+                <Image src="abtgif1.gif" atl="approch" />
             </Box>
             <Box className="approch-text-heading-container" bgColor={"white"} color="black" boxShadow={"2xl"} w={{base:"100%",sm:"100%",md:"60%",lg:"40%",xl:"40%"}}>
                 <Box className="approch-heading-container" p="5%">

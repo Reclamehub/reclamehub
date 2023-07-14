@@ -1,6 +1,5 @@
 .approch-container{
-    /* border:1px solid red; */
-    padding: 5%;
+     padding: 5%;
 }
 
 .vision-flex-box{
@@ -32,17 +31,6 @@ border:1px solid firebrick
 }
 
 .approch-img{
-    
-    
-width: 120%;    
+width: 100%;    
 }
-.approch-img-box{
-    
-    
-    align-self: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-
-}

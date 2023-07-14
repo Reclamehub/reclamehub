@@ -9,30 +9,13 @@ export const ServicePageTypes = () => {
 
 
         <Box w= {{base:"100%",sm:"80%",md:"80%",lg:"80%",xl:"80%"}} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
-            <Flex gap="10%" >
-                <Box textAlign={"center"} paddingLeft={"1%"} w="60%">
-                    <Box><Heading as="h2" fontSize={{base:"3.5vw",sm:"2.5vw",md:"2.5vw",lg:"2.5vw",xl:"2.5vw"}}>SOCIAL MEDIA MANAGEMENT</Heading></Box>
-                    <br />
-                    <Box w="100%"><Text fontSize={{base:"2vw",sm:"2vw",md:"1.2vw",lg:"1.2vw",xl:"1.2vw"}}>Are You Looking To Increase Brand Awareness, Generate Leads, Or Establish Thought Leadership In Your Industry?
-                        <br />
-                        <br />
-                        Look No Further Than Reclame Hub, Our Social Media Management Services In Noida, India Elevate Your Brand’s Online Presence, To Connect You With Your Target Audience And Strong Online Presence.
-
-                    </Text></Box>
-                    <br />
-
-                    <Box>
-                        <Link to="/social-media-managment" >
-                            <Button border="2px solid #fe611d"  size={{base:"xs",sm:"sm", md:"sm", lg:"md", xl:"lg"}}
-                             fontSize={{base:"sm",sm:"sm", md:"sm", lg:"xl", xl:"xl"}} fontWeight={"500"}
-                              _hover={{bg:"#F47721",color:"white"}} borderRadius={"30px"} 
-                              backgroundColor={"transparent"} >Know More</Button></Link></Box>
-                </Box>
-
-                <Box w={{base:"37%",sm:"27%",md:"27%",lg:"27%",xl:"27%"}} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} mt={{base:"20px",sm:"sm", md:"sm", lg:"md", xl:"lg"}} flexDirection={"column"} borderRadius={"full"} h={{base:"110px",sm:"50px",md:"auto",lg:"auto",xl:"auto"}} >
-                    <Image src="smmgif.gif" objectFit={"contain"} alt="gif" /> </Box>
-
-            </Flex>
+           <div style={{width:"50%"}}>
+            <heading>CONTENT MARKETING</heading><br/>
+            <text>Discover The Best B2B Content Marketing Agency Services In India With Reclame Hub. From Blog Posts And Whitepapers To Social Media Content And Email Marketing Campaigns, We Have The Expertise And Resources To Deliver Results That Exceed Your Expectations.</text>
+            </div>
+            <div>
+            <Image w="20%" src="gif5.gif" objectFit={"contain"} alt="gif" />
+            </div>
         </Box>
 
         <br />
@@ -82,7 +65,8 @@ export const ServicePageTypes = () => {
                               backgroundColor={"transparent"} >Know More</Button>
                         </Box>
                 </Box>
-                <Box w={{base:"30%",sm:"27%",md:"27%",lg:"22%",xl:"22%"}} h={{base:"90px",sm:"50px",md:"auto",lg:"auto",xl:"auto"}} mt={{base:"20px",sm:"sm", md:"sm", lg:"md", xl:"lg"}} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"}><Image w="110%" src="gif5.gif" objectFit={"contain"} alt="gif" /> </Box>
+                <Box w={{base:"30%",sm:"27%",md:"27%",lg:"22%",xl:"22%"}} h={{base:"90px",sm:"50px",md:"auto",lg:"auto",xl:"auto"}} mt={{base:"20px",sm:"sm", md:"sm", lg:"md", xl:"lg"}} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"}>
+                    <Image w="110%" src="gif5.gif" objectFit={"contain"} alt="gif" /> </Box>
             </Flex>
         </Box>
 
