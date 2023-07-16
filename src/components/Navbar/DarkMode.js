@@ -6,42 +6,42 @@ import { Box, FormLabel, Input, useColorMode, useColorModeValue } from "@chakra-
 
 const DarkMode = () => {
     const { colorMode, toggleColorMode } = useColorMode();
-// const setDarkMode=()=>{
-// document.querySelector("body").setAttribute("data-theme","dark");    
-// localStorage.setItem("selectedTheme","dark")
-// }
+    // const setDarkMode=()=>{
+    // document.querySelector("body").setAttribute("data-theme","dark");    
+    // localStorage.setItem("selectedTheme","dark")
+    // }
 
-// const setLightMode=()=>{
-//     document.querySelector("body").setAttribute("data-theme","light")
-//     localStorage.setItem("selectedTheme","light")
-// }
+    // const setLightMode=()=>{
+    //     document.querySelector("body").setAttribute("data-theme","light")
+    //     localStorage.setItem("selectedTheme","light")
+    // }
 
-// const selectedTheme=localStorage.getItem("selectedTheme")
+    // const selectedTheme=localStorage.getItem("selectedTheme")
 
-// if(selectedTheme==="dark"){
-//     setDarkMode()
-// }
+    // if(selectedTheme==="dark"){
+    //     setDarkMode()
+    // }
 
-// const toggleTheme=(e)=>{
-//     if(e.target.checked){
-//         setDarkMode()
-//     }  
-//     else {
-//         setLightMode()
-        
-//     } 
-// }
+    // const toggleTheme=(e)=>{
+    //     if(e.target.checked){
+    //         setDarkMode()
+    //     }  
+    //     else {
+    //         setLightMode()
 
-return (
-        <Box  className='dark_mode' >
+    //     } 
+    // }
+
+    return (
+        <Box className='dark_mode' >
             <Input
-            
+
                 className='dark_mode_input'
                 type='checkbox'
                 id='darkmode-toggle'
                 onChange={toggleColorMode}
             />
-            <FormLabel  className='dark_mode_label'  bg={useColorModeValue('white', 'black')} htmlFor='darkmode-toggle'>
+            <FormLabel className='dark_mode_label' bg={useColorModeValue('white', 'black')} htmlFor='darkmode-toggle'>
                 <Sun />
                 <Moon />
             </FormLabel>

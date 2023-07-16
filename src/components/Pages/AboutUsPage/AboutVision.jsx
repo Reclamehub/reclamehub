@@ -1,36 +1,31 @@
-import { Box, Flex, Heading, Text,Image } from "@chakra-ui/react"
-import {Container,Row,Col} from "react-bootstrap"
+import { Box, Flex, Heading, Text, Image } from "@chakra-ui/react"
+import { Container, Row, Col } from "react-bootstrap"
 import "./AboutVision.css"
 
-export const AboutVision=()=>{
+export const AboutVision = () => {
 
 
     return (
-<Container style={{margin:"auto"}}>
-        <div className="aboutChoose_headingImg_div"> 
-        <heading className="aboutchoose_heading"><span style={{fontSize:"80px",fontWeight:"800",color:"gray"}} >?</span> WHY CHOOSE <span style={{color:"orangered"}}>RECLAME HUB </span> <span></span></heading>
-        <img style={{height:"80px"}} src="quesimg.png"  alt="reclame"/>
-       </div>
- <text className="aboutchoose_subheading">WE ARE YOUNG ,WE ARE PASSIONATE AND WE ARE ENTHUSIASTIC TO TRANSFORM YOUR BRAND IN THIS DIGITAL WORLD.
+        <Container style={{ margin: "auto" }}>
+            <Container className="visionContent_container">
+                <Row>
+                    <Col sm={12} md={6} lg={6} xl={6} className="aboutvision_col">
+                        <div className="vision_cardtext_div">
+                            {/* <heading className="chooseBox_heading">let's team up !</heading><br/> */}
+                            <text ><span style={{ color: "#FF7721", fontWeight: "bold" }}>Our Vision </span> is to revolutionize the way brands connect with their audiences and drive sustainable growth in the digital age. We envision a future where businesses thrive by leveraging innovative marketing strategies that not only capture attention but also forge deep and meaningful connections with consumers.
+                            </text>
+                        </div>
+                    </Col>
+                    <Col sm={12} md={6} lg={6} xl={6} className="aboutvision_col">
+                        <div style={{ height: "auto", width: "100%" }} >
+                            <h className="ourvision_heading">our vision</h>
+                            <img style={{ height: "90%", width: "90%" }} src="abtgif3.gif" />
+                        </div>
 
-</text>
-        <Container className="ChooseContent_container">
-            <Row>
-                <Col sm={12} md={6} lg={6} xl={6} className="aboutvision_col">
-                <div className="vision_cardHeading_div">
-{/* <heading className="chooseBox_heading">let's team up !</heading><br/> */}
-<text ><span style={{color:"#FF7721",fontWeight:"bold"}}>Our Vision </span> is to revolutionize the way brands connect with their audiences and drive sustainable growth in the digital age. We envision a future where businesses thrive by leveraging innovative marketing strategies that not only capture attention but also forge deep and meaningful connections with consumers.
- </text>
-     </div>
-        </Col>
-                <Col sm={12} md={6} lg={6} xl={6} className="aboutvision_col">
-                <div style={{height:"100%",width:"100%"}} >
-               <img style={{height:"100%",width:"100%"}} src="abtgif3.gif"/>
-                </div>
-                </Col>
-            </Row>
-         </Container>
-         </Container>
+                    </Col>
+                </Row>
+            </Container>
+        </Container>
     )
 }
 

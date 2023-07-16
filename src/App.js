@@ -3,13 +3,13 @@ import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Navbar} from "./components/Navbar/Navbar"
-import {AllRoutes} from "./components/AllRoutes/AllRoutes"
-import {Footer} from "./components/Footer/Footer"
+import { Navbar } from "./components/Navbar/Navbar"
+import { AllRoutes } from "./components/AllRoutes/AllRoutes"
+import { Footer } from "./components/Footer/Footer"
 import { Box, useColorMode, useColorModeValue } from '@chakra-ui/react';
 import { FooterMain } from './components/Footer/FooterMain';
 function App() {
-  
+
   // localStorage.setItem("chakra-ui-color-mode","dark")
   return (
     <Box className="App" >

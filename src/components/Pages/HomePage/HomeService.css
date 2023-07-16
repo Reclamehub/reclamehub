@@ -1,17 +1,19 @@
-.hservice_cards_container{
+.hservice_cards_container {
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
     text-align: center;
     align-self: normal;
-    gap:25px;
-    padding: 0px 10% 20px 10%;
+    gap: 30px;
+    padding: 0px 8% 20px 8%;
+    margin: auto;
 }
-.hservice_card_div{
+
+.hservice_card_div {
     padding: 5px;
     font-size: 12px;
     max-height: 100%;
@@ -19,60 +21,71 @@ display: grid;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  align-self: normal;
-  box-shadow: 1px 1px 10px 2px #f1f0f0;
-  border-radius: 10px;
+    align-self: normal;
+    box-shadow: 1px 1px 10px 2px #f1f0f0;
+    border-radius: 10px;
 }
-.hservice_cards_row{
+
+.hservice_cards_row {
     display: flex;
     justify-content: center;
     align-self: center;
-    
+
 }
-.hservice_img{
+
+.hservice_img {
     max-height: 280px;
 }
-.hservice_cards_heading{
-font-weight: 600;
-font-size: 14px;
+
+.hservice_cards_heading {
+    font-weight: 600;
+    font-size: 14px;
 }
-.hservice_cards_text{
+
+.hservice_cards_text {
+    text-transform: capitalize;
     padding: 5px;
     font-size: 14px;
     color: #ffffff;
 }
+
 /* css-for-mobiles */
 @media (max-width: 480px) {
-    .hservice_cards_container{
+    .hservice_cards_container {
         width: 100%;
         padding: 0px 10px 20px 10px;
         gap: 20px;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        
-      }
-    .hservice_img{
-    max-height: 120px;
+        grid-template-columns: repeat(2, 1fr);
+
     }
-    .hservice_cards_text{
+
+    .hservice_img {
+        max-height: 120px;
+    }
+
+    .hservice_cards_text {
         font-size: 10px;
     }
- 
+
 }
+
 /* css-for-tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .hservice_cards_container{
+    .hservice_cards_container {
         width: 100%;
         padding: 0px 10px 20px 10px;
         gap: 25px;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        
-      }
-    .hservice_img{
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .hservice_img {
         max-height: 160px;
     }
 }
+
 /* .home-service-container{
     background-repeat: no-repeat;
     width: 100%;

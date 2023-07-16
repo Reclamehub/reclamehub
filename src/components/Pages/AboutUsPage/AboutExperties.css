@@ -1,36 +1,42 @@
-.heading_text_div{
+.heading_text_div {
     text-align: center;
     margin-bottom: 1rem;
 }
-.experties_heading{
+
+.experties_heading {
     font-size: 3.5vw;
     font-family: poppins;
     font-weight: 600;
     text-transform: uppercase;
-    
-}
-.heading_span{
-    color: #FF7721;
-}
-.experties_text{
-    font-weight: 600;
-    text-transform: capitalize;
-    }
-.content_Outercontainer{
-margin: 2.5rem auto;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
 
 }
-.experties_col{
+
+.heading_span {
+    color: #FF7721;
+}
+
+.experties_text {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.content_Outercontainer {
+    margin: 2.5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.experties_col {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:15px auto;
+    margin: 15px auto;
 }
-.experties_card_div{
+
+.experties_card_div {
     padding: 10px;
     border: 1px solid gray;
     border-radius: 10px;
@@ -42,35 +48,39 @@ align-items: center;
     align-items: center;
 
 }
-.experties_img{
+
+.experties_img {
     height: 350px;
     background: #FFF4ED;
     margin-bottom: 10px;
 }
-.experties_card_heading{
+
+.experties_card_heading {
     font-weight: 600;
     font-family: poppins;
     text-transform: uppercase;
 }
-   .experties_card_text{
+
+.experties_card_text {
     font-size: 14px;
     font-family: poppins;
     text-transform: capitalize;
     color: #FF7721;
-   }
+}
 
-   @media (max-width: 767px) {
-    .experties_img{
+@media (max-width: 767px) {
+    .experties_img {
         max-height: 250px;
-     
-    }
-   }
-   /*  */
-   @media (min-width: 768px) and (max-width: 1024px) {
 
-    .experties_img{
-        max-height: 350px;
-     
     }
-  
- }
+}
+
+/*  */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .experties_img {
+        max-height: 350px;
+
+    }
+
+}

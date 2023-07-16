@@ -1,27 +1,27 @@
-.visionContent_container {
+.processContent_container {
     margin: 7% auto;
 
 }
-
-.aboutvision_col {
+.aboutprocess_col {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
 }
 
-.ourvision_heading {
-    margin: auto;
+.ourprocess_heading {
+   margin: auto;
     color: lightgray;
     font-size: 5vw;
     font-weight: 600;
 }
 
-.vision_cardtext_div {
+.process_cardtext_div {
     height: auto;
     width: 80%;
     padding: 25% 35px;
     font-size: 18px;
+    font-weight: 500;
     text-align: center;
     text-transform: capitalize;
     display: flex;
@@ -35,7 +35,7 @@
 
 /*  */
 @media (max-width: 767px) {
-    .vision_cardtext_div {
+    .process_cardtext_div {
         font-size: 14px;
         width: 100%;
     }
@@ -43,7 +43,7 @@
 
 /*  */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .vision_cardtext_div {
+    .process_cardtext_div {
         font-size: 14px;
         width: 100%;
     }

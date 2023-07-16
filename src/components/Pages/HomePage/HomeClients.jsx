@@ -1,4 +1,4 @@
-import { Box, Heading, Button,Image, Text, useColorModeValue } from "@chakra-ui/react"
+import { Box, Heading, Button, Image, Text, useColorModeValue } from "@chakra-ui/react"
 import { Link } from "react-router-dom"
 import "./HomeClients.css"
 
@@ -61,7 +61,7 @@ const clients = [{
 {
     id: 15,
     teamimg: "c15.png"
-},{
+}, {
     id: 16,
     teamimg: "c16.png"
 }
@@ -69,31 +69,31 @@ const clients = [{
 
 
 
-export const HomeClients=()=>{
+export const HomeClients = () => {
 
 
 
     return (
-    <Box display={{base:"none",sm:"none",md:"inline",lg:"inline",xl:"inline"}} bg={useColorModeValue('white', '#1f1f1f')} paddingTop={{base:"1px",sm:"20px",md:"40px",lg:"50px",xl:"50px"}} paddingBottom={{base:"1px",sm:"20px",md:"40px",lg:"50px",xl:"50px"}} fontFamily={"poppins"} >
+        <Box display={{ base: "none", sm: "none", md: "inline", lg: "inline", xl: "inline" }} bg={useColorModeValue('white', '#1f1f1f')} paddingTop={{ base: "1px", sm: "20px", md: "40px", lg: "50px", xl: "50px" }} paddingBottom={{ base: "1px", sm: "20px", md: "40px", lg: "50px", xl: "50px" }} fontFamily={"poppins"} >
 
-        <Box><Heading fontSize={{base:"6vw",sm:"3.5vw",md:"3.5vw",lg:"3.5vw",xl:"3.5vw"}} paddingTop={"50px"} fontFamily={"poppins"}>SOME OF OUR <span>CLIENTS</span></Heading></Box>      
+            <Box><Heading fontSize={{ base: "6vw", sm: "3.5vw", md: "3.5vw", lg: "3.5vw", xl: "3.5vw" }} paddingTop={"50px"} fontFamily={"poppins"}>SOME OF OUR <span>CLIENTS</span></Heading></Box>
 
-        <Box w={{base:"90%",sm:"80%",md:"75%",lg:"70%",xl:"70%"}} m="auto" paddingTop={"20px"} paddingBottom={"50px"}><Text fontSize={{base:"1.8vw",sm:"1.4vw",md:"1.4vw",lg:"1.4vw",xl:"1.4vw"}} fontFamily={"poppins"}>Helping These  and Many Other  Incredible Clients Reach For The Stars Is What Pulls Us Out Of Bed  </Text>
+            <Box w={{ base: "90%", sm: "80%", md: "75%", lg: "70%", xl: "70%" }} m="auto" paddingTop={"20px"} paddingBottom={"50px"}><Text fontSize={{ base: "1.8vw", sm: "1.4vw", md: "1.4vw", lg: "1.4vw", xl: "1.4vw" }} fontFamily={"poppins"}>Helping These  and Many Other  Incredible Clients Reach For The Stars Is What Pulls Us Out Of Bed  </Text>
 
-        <Text fontSize={{base:"2vw",sm:"1.4vw",md:"1.4vw",lg:"1.4vw",xl:"1.4vw"}}>Every Morning.</Text>
+                <Text fontSize={{ base: "2vw", sm: "1.4vw", md: "1.4vw", lg: "1.4vw", xl: "1.4vw" }}>Every Morning.</Text>
+            </Box>
+
+            <Box backgroundColor={"#FF9450"}>
+                <Box className="clients-img-container" >
+                    {clients.map((el) => <Box key={el.id} className="clients-img-box" boxShadow='lg' >
+                        <Image w="75%" m="auto" h="75%" src={el.teamimg} className="clients-img" alt="img" />
+                    </Box>
+                    )}
+                </Box>
+                <Box><Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"50px"} >Explore More</Button></Link></Box>
+            </Box>
+
         </Box>
 
-<Box backgroundColor={"#FF9450"}>
-        <Box className="clients-img-container" >
-        {clients.map((el) =><Box key={el.id}  className="clients-img-box"  boxShadow='lg' >
-         <Image w="75%" m="auto" h="75%" src={el.teamimg} className="clients-img" alt="img" />
-         </Box>
-        )}
-        </Box>
-        <Box><Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{bg:"#F47721",color:"white",border:"2px solid #F47721"}} borderRadius={"30px"} marginBottom={"50px"} >Explore More</Button></Link></Box>
-</Box>
-
-    </Box>
-    
     )
 }

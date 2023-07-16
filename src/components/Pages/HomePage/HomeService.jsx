@@ -1,90 +1,119 @@
-import {Box,Text,Image, useColorModeValue, Heading, Button} from "@chakra-ui/react"
-
+import { Box, Text, Image, useColorModeValue, Heading, Button } from "@chakra-ui/react"
 import "./HomeService.css"
-import { Link } from "react-router-dom"
-import { Container,Row } from "react-bootstrap"
+import { useNavigate } from "react-router-dom"
+import { Container, Row } from "react-bootstrap"
 
-const serviceData=[
+const serviceData = [
     {
-    id:1,
-    simg:"gif1.gif",
-    heading:`SOCIAL MEDIA `,
-    headingTwo:` MANAGEMENT`,
-    desc:`Struggling with social media management? We're your solution, the top Digital Marketing Agency in Noida.`
+        id: 1,
+        simg: "gif1.gif",
+        heading: `SOCIAL MEDIA `,
+        headingTwo: ` MANAGEMENT`,
+        desc: `Struggling with social media management? We're your solution, the top Digital Marketing Agency in Noida.`
 
-},
-{
-    id:2,
-    simg:"gif6.gif",
-    heading:`CONTENT  `,
-    headingTwo:`WRITER`,
-    desc:`We will help you build content that is SEO-friendly and could maximize your online presence.`
+    },
+    {
+        id: 2,
+        simg: "gif6.gif",
+        heading: `CONTENT  `,
+        headingTwo: `WRITER`,
+        desc: `We will help you build content that is SEO-friendly and could maximize your online presence.`
 
-},
-{
-    id:3,
-    simg:"gif4.gif",
-    heading:`VIDEO-AD`,
-    headingTwo:`FILM`,
-    desc:`Our video ad film services are meant to assist you in creating aesthetically attractive and interesting films.`
+    },
+    {
+        id: 3,
+        simg: "gif5.gif",
+        heading: `ONLINE  REPUTATION `,
+        headingTwo: `MANAGEMENT`,
+        desc: `We will help you build content that is SEO-friendly and could maximize your online presence.`
 
-},
-{
-    id:4,
-    simg:"gif3.gif",
-    heading:`GRAPHIC  `,
-    headingTwo:`DESIGNING`,
-    desc:`design services can help. We think that excellent design extends beyond aesthetics.Our graphic design services can help.`
+    },
+    {
+        id: 4,
+        simg: "gif3.gif",
+        heading: `GRAPHIC  `,
+        headingTwo: `DESIGNING`,
+        desc: `design services can help. We think that excellent design extends beyond aesthetics.Our graphic design services can help.`
 
-},
-{
-    id:5,
-    simg:"gif22.gif",
-    heading:`WEB DESIGN &`,
-    headingTwo:`DEVELOPMENT`,
-    desc:`
+    },
+    {
+        id: 5,
+        simg: "gif22.gif",
+        heading: `WEB DESIGN &`,
+        headingTwo: `DEVELOPMENT`,
+        desc: `
     
     Are you ready to boost your online presence with a beautiful and effective website? Contact the best digital marketing agency.`
-},
-{
-    id:6,
-    simg:"gif8.gif",
-    heading:`DIGITAL `,
-    headingTwo:`ADVERTISEMENT`,
-    desc:`We'll help you manage the ever-changing digital world and remain ahead of the competition with our data-driven strategies and industry experience.`
-},
+    },
+    {
+        id: 6,
+        simg: "gif8.gif",
+        heading: `DIGITAL `,
+        headingTwo: `ADVERTISEMENT`,
+        desc: `We'll help you manage the ever-changing digital world and remain ahead of the competition with our data-driven strategies and industry experience.`
+    },
+    {
+        id: 7,
+        simg: "gif4.gif",
+        heading: `VIDEO-AD `,
+        headingTwo: `FILM`,
+        desc: `Our video ad film services are meant to assist you in creating aesthetically attractive and interesting films`
+    },
+    {
+        id: 8,
+        simg: "gif7.gif",
+        heading: `EMAILER `,
+        headingTwo: `MARKETING`,
+        desc: `With our Email Marketing Services, you can turbocharge your marketing efforts`
+    },
+    {
+        id: 9,
+        simg: "gif9.gif",
+        heading: `CAMPAIGN `,
+        headingTwo: `MARKETING`,
+        desc: `We help businesses succeed in the digital age! We are here to boost your online presence`
+    },
 
 ]
 
-export const HomeService=()=>{
-
+export const HomeService = () => {
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate('/service');
+    };
+    // <div  style={{
+    //     backgroundImage:`url(${Ellipse10})`,
+    //     backgroundSize: '100% 100%',
+    //     backgroundPosition: 'center',
+    // }} >
 
     return (
-<Box p="2vw" paddingTop={{base:"20px",sm:"20px",md:"40px",lg:"60px",xl:"80px"}} bg={useColorModeValue('#FF9450', 'black')}>
-<Heading fontSize={"3vw"} marginBottom={{base:"10px",sm:"30px",md:"30px",lg:"40px",xl:"50px"}}>SERVICES WE PROVIDE</Heading>
-<Text color={"#FFFFFF"}>ALL | DESIGNING | DEVELOPMENT  | DIGITAL MARKETING  </Text>
-<br />  
-<Container  className="hservice_cards_container">
-    {serviceData.map((el)=>
-   
-       
-        <div className="hservice_card_div" key={el.id}  >
-<img className="hservice_img" src={el.simg}/>
-     <div style={{marginBottom:"auto",fontFamily:"poppins"}}>
-<heading className="hservice_cards_heading"> {el.heading} <br/> {el.headingTwo}</heading>
-<p className="hservice_cards_text">{el.desc}</p>
-</div>
+        <Box p="2vw" paddingTop={{ base: "20px", sm: "20px", md: "40px", lg: "60px", xl: "80px" }} bg={useColorModeValue('#FF9450', 'black')}>
+            <Heading fontSize={"3vw"} marginBottom={{ base: "10px", sm: "30px", md: "30px", lg: "40px", xl: "50px" }}>SERVICES WE PROVIDE</Heading>
+            <Text color={"#FFFFFF"}>ALL | DESIGNING | DEVELOPMENT  | DIGITAL MARKETING  </Text>
+            <br />
 
-        </div>
-       
-  
-        )}
-    </Container>      
 
-    <br />
-    <Box><Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{bg:"#F47721",color:"white",border:"2px solid #F47721"}} borderRadius={"30px"} marginBottom={"15px"} marginTop={"10px"}>Explore More</Button></Link></Box>
-    </Box>
-    
+            <Container className="hservice_cards_container">
+                {serviceData.map((el) =>
+                    <div className="hservice_card_div" key={el.id}  >
+                        <img className="hservice_img" src={el.simg} />
+
+                        <div style={{ marginBottom: "auto", fontFamily: "poppins" }}>
+                            <heading className="hservice_cards_heading"> {el.heading} <br /> {el.headingTwo}</heading>
+                            <p className="hservice_cards_text">{el.desc}</p>
+                        </div>
+
+                    </div>
+
+
+                )}
+            </Container>
+
+            <br />
+            <Box><Button onClick={handleClick} border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"15px"} marginTop={"10px"}>Explore More</Button></Box>
+        </Box>
+
     )
 }
 

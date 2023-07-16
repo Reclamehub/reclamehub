@@ -10,12 +10,12 @@ import { HomeTeam } from "./HomeTeam";
 import { Connect } from "../../Connect/Connect";
 import { ClientSlider } from "./ClientSlider";
 
-export const HomePage=()=>{
+export const HomePage = () => {
     const { colorMode, toggleColorMode } = useColorMode();
 
 
-    return(<Box bg={useColorModeValue('white', 'black')}>
-        
+    return (<Box bg={useColorModeValue('white', 'black')}>
+
         <HomePageTop />
         <HomeAbout />
         <HomeClientNumber />

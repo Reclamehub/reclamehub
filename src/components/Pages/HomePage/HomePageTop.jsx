@@ -27,7 +27,8 @@ export const HomePageTop = () => {
 	});
 
 
-	return (<Box className="Home-top-container">
+	return (
+	<Box className="Home-top-container">
 		<Box className="home-all-heading">
 			<Text className="home-heading-one">Our expertise is in determining what makes a firm unique, attractive and lucrative</Text>
 			<Text className="home-heading-two">YOUR SEARCH FOR THE</Text>
@@ -36,10 +37,11 @@ export const HomePageTop = () => {
 		</Box>
 		<Flex className="home-btn-img">
 			{/* border="2px solid #F47721" fontWeight={"500"} _hover={{bg:"#F47721",color:"white"}} borderRadius={"30px"} */}
-			<Box className="home-top-btn-box" ><Link to="/contact" className="contact-btn-link" ><Button w={{ base: "100px", sm: "150px", md: "180px", lg: "200px", xl: "200px" }} className="home-top-btn" size={{ base: "xs", sm: "sm", md: "sm", lg: "md", xl: "lg" }} fontSize={{ base: "sm", sm: "sm", md: "sm", lg: "xl", xl: "xl" }} fontWeight={"580"} _hover={{ bg: "#F47721", color: "white" }} borderRadius={"30px"} backgroundColor={"transparent"} p={{ base: "13px", sm: "14px", md: "25px", lg: "27px", xl: "27px" }} > Get Started</Button></Link></Box>
+			<Box className="home-top-btn-box" ><Link to="/contact" className="contact-btn-link" ><Button w={{ base: "100px", sm: "150px", md: "180px", lg: "200px", xl: "200px" }} className="home-top-btn" size={{ base: "xs", sm: "sm", md: "sm", lg: "md", xl: "lg" }} fontSize={{ base: "sm", sm: "sm", md: "sm", lg: "xl", xl: "xl" }} fontWeight={"580"} _hover={{ bg: "#F47721", color: "white" }} borderRadius={"30px"} backgroundColor={"transparent"} p={{ base: "13px", sm: "14px", md: "25px", lg: "26px", xl: "26px" }} > Get Started</Button></Link></Box>
 			<Box className="home-top-img-box"><Image className="home-top-img" src="imagegrp.png" /></Box>
 		</Flex>
 
-	</Box>)
+	</Box>
+	)
 }
 

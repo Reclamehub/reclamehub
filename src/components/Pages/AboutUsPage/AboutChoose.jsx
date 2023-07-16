@@ -3,8 +3,7 @@ import {Container,Row,Col} from "react-bootstrap"
 import "./AboutChoose.css"
 
 export const AboutChoose=()=>{
-
-
+ 
     return (
     <Container style={{margin:"auto"}}>
         <div className="aboutChoose_headingImg_div"> 
@@ -19,7 +18,7 @@ export const AboutChoose=()=>{
                 <Col sm={12} md={6} lg={6} xl={6} className="aboutChoose_col">
                 <div className="choose_boxHeading_div">
 <heading className="chooseBox_heading">let's team up !</heading><br/>
-<text >At Reclame Hub, we see the brand future and the potential that the digital medium has to offer. Together, we can shape it to help you realize your business and brand building objectives.<br/><br/>
+<text className="choose_boxText">At Reclame Hub, we see the brand future and the potential that the digital medium has to offer. Together, we can shape it to help you realize your business and brand building objectives.<br/><br/>
 <span>Till date, various brands have rediscovered their digital identities with us and built a more robust connection with their target communities.</span> 
 
 </text>
@@ -27,7 +26,7 @@ export const AboutChoose=()=>{
         </Col>
                 <Col sm={12} md={6} lg={6} xl={6} className="aboutChoose_col">
                 <div style={{height:"100%",width:"100%"}} >
-               <img style={{height:"100%",width:"100%"}} src="abtgif2.gif"/>
+               <img style={{height:"90%",width:"100%"}} src="abtgif2.gif"/>
                 </div>
                 </Col>
             </Row>

@@ -11,21 +11,23 @@ import { AboutCoreValue } from "./AboutCoreValue"
 import { Connect } from "../../Connect/Connect"
 import { ContactForm } from "../../ContactForm/ContactForm"
 
-export const AboutUs=()=>{
+export const AboutUs = () => {
 
-    return(<Box fontFamily={"poppins"} bg={useColorModeValue('white', 'black')}>
-        <AboutBanner />
-        <AboutVision />
-        <AboutApproch />
-        <AboutProcess />
-        <br />
-        <AboutExperties />
-        <AboutChoose />
-        <AboutFeatured />
-        <FeaturedSlider />
-        <AboutCoreValue />
-       <ContactForm/>
-    
-        <Connect />
-    </Box>)
+    return (
+        <Box fontFamily={"poppins"} bg={useColorModeValue('white', 'black')}>
+            <AboutBanner />
+            <AboutVision />
+            <AboutApproch />
+            <AboutProcess />
+            <br />
+            <AboutExperties />
+            <AboutChoose />
+            <AboutFeatured />
+            <FeaturedSlider />
+            <AboutCoreValue />
+            <ContactForm />
+
+            <Connect />
+        </Box>
+    )
 }

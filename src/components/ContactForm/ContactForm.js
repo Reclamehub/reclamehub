@@ -9,125 +9,196 @@ import { Box, Button, Heading, Input, InputGroup, InputLeftElement, InputRightEl
 import "./ContactForm.css"
 import { Container } from "react-bootstrap";
 
+
+
 export const ContactForm = () => {
-    const [userData, setUserData] = useState({
+  const [userData, setUserData] = useState({
+    fname: "",
+    mobile: "",
+    email: "",
+    message: "",
+  });
+
+  const [errors, setErrors] = useState({
+    fname: "",
+    mobile: "",
+    email: "",
+    message: "",
+  });
+
+  const postUserData = (event) => {
+    const { name, value, maxLength } = event.target;
+    setUserData({ ...userData, [name]: value });
+
+    if (value.length > maxLength) {
+      setErrors({ ...errors, [name]: `Exceeded limit of ${maxLength} characters` });
+    } else {
+      setErrors({ ...errors, [name]: "" });
+    }
+ 
+  if (name === "email" && value.length > 0) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(value)) {
+      setErrors({ ...errors, [name]: "Invalid email address" });
+    } else {
+      setErrors({ ...errors, [name]: "" });
+    }
+  }
+};
+
+  const submitData = async (event) => {
+    event.preventDefault();
+    const { fname, mobile, email, message } = userData;
+
+    if (fname && mobile && email && message) {
+      // Your fetch logic here
+
+      setUserData({
         fname: "",
         mobile: "",
         email: "",
-        message: ""
-    });
+        message: "",
+      });
 
-    let name, value;
-    const postUserData = (event) => {
-        name = event.target.name;
-        value = event.target.value;
+      swal({
+        title: "Success!",
+        text: "Data successfully stored, we'll get back to you soon!",
+        icon: "success",
+        button: "Okay!",
+      });
+    } else {
+      swal({
+        title: "Oops!",
+        text: "Please fill out all the required information!",
+        icon: "error",
+        button: "Back!",
+      });
+    }
+  };
 
-        setUserData({ ...userData, [name]: value });
-    };
-    const submitData = async (event) => {
-        event.preventDefault();
-        const { fname, mobile, email, message, } = userData;
-
-        if (fname && mobile && email && message) {
-            const res =  fetch(
-                "https://reclamehub-6c70d-default-rtdb.firebaseio.com/userDataRecords.json",
-                {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
-
-                    body: JSON.stringify({
-                        fname,
-                        mobile,
-                        email,
-                        message,
-                    }),
-                }
-            );
-
-            if (res) {
-                setUserData({
-                    fname: "",
-                    mobile: "",
-                    email: "",
-                    message: "",
-
-                });
-                swal({
-                    title: "Success!",
-                    text: "Data successfully stored, we'll get back to you soon!",
-                    icon: "success",
-                    button: "Okay !",
-                });
-            } else {
-                swal({
-                    title: " Oops!",
-                    text: " Please fill out all the required information!",
-                    icon: "error",
-                    button: "Back !",
-                });
-            }
-        } else {
-            swal({
-                title: " Oops!",
-                text: " Please fill out all the required information!",
-                icon: "error",
-                button: "Back !",
-            });
-        }
-    };
-
-    return (
-    // <Box w="95%" m="auto" p="10px" paddingTop={"50px"} pb={"20px"} bg={useColorModeValue('white', "black")} boxShadow={"xl"}>
-<Container fluid className="form_main_Container">
-        <Box><Heading color="#F47721">TALK TO OUR EXPERTS</Heading></Box>
-        <br />
-        <Box fontWeight={"500"}>We are available for a friendly chat to discuss your business needs, no obligation.</Box>
-        <br />
-        <form method="POST" >
-<wrapper className="inputfield_wrapper">
-    <div>
-            <div className="form_group">
-            <input type="text" id="myInput"required className="input_fields"
+  return (
+    <Container fluid className="form_main_Container">
+      <Box>
+        <Heading color="#F47721">TALK TO OUR EXPERTS</Heading>
+      </Box>
+      <br />
+      <Box fontWeight={"500"}>
+        We are available for a friendly chat to discuss your business needs, no obligation.
+      </Box>
+      <br />
+      <form method="POST">
+        <wrapper className="inputfield_wrapper">
+            {/* left-side-fields */}
+          <div>
+     <div className="input_errorbox">
+        <div className="form_group">
+        <input
+                type="text"
+                id="fnameInput"
+                required
+                className="input_fields"
                 name="fname"
                 value={userData.fname}
                 onChange={postUserData}
-                />
-                <img style={{height:"20px",width:"20px",color:"#000000",marginLeft:"-30px",marginTop:'12px'}}src="User.png"/>
-             <label for="myInput">Full Name</label>
+                maxLength={25} // Set your desired limit here
+              />
+              <img
+                style={{ height: "20px", width: "17px", color: "blue", marginLeft: "-30px", marginTop: "12px" }}
+                src="person-icon2.png"
+              />
+              <label className="labels" htmlFor="fnameInput">
+                Full Name
+              </label>
+           </div>
+           <div>
+              {errors.fname && <div className="error_message">{errors.fname}</div>}
         </div>
-        <div className="form_group">
-            <input className="input_fields" id="myInput" required name="mobile" type="number" value={userData.mobile}
-                onChange={postUserData} />
-                <img style={{height:"20px",width:"20px",color:"black",marginLeft:"-30px",marginTop:'12px'}}src="vector1.png"/>
-                 <label for="myInput">Mobile No.</label>
-                 
-        </div>
-        <div className="form_group">
-            <input className="input_fields" id="myInput" required name="email" type="mail"  value={userData.email}
-                onChange={postUserData} />
-                <img style={{height:"20px",width:"20px",color:"black",marginLeft:"-30px",marginTop:'12px'}}src="arcticons_spike-email1.png"/>
-                 <label for="myInput">Email</label>
-        </div>
-        </div>
-        <div>
-        <div className="form_group">
-            <textarea className="input_fields mssg_input" id="myInput" required name="message" type="message" value={userData.message}
-                onChange={postUserData} />
-                <img style={{height:"20px",width:"20px",color:"black",marginLeft:"-30px",marginTop:'12px'}}src="arcticons_huawei-email1.png"/>
-                 <label for="myInput">Message</label>
-        </div>
-        </div>
-        </wrapper>
-        <div className='submit_btndiv'>
-              <button className="submit_btn" onClick={submitData} type="submit">SEND MESSAGE</button>
+     </div>
+             
+         <div className="input_errorbox">
+            <div className="form_group">
+            <input
+                className="input_fields"
+                id="mobileInput"
+                required
+                name="mobile"
+                type="number"
+                value={userData.mobile}
+                onChange={postUserData}
+                maxLength={10} // Set your desired limit here
+              />
+              <img
+                style={{ height: "20px", width: "20px", color: "black", marginLeft: "-30px", marginTop: "12px" }}
+                src="vector1.png"
+              />
+              <label className="labels" htmlFor="mobileInput">
+                Mobile No.
+                </label>
+         </div>
+         <div>
+             {errors.mobile && <div className="error_message">{errors.mobile}</div>}
             </div>
-
-</form>
-</Container>
-    )
-}
+         </div>
+              
+         
+       <div className="input_errorbox">
+        <div className="form_group">
+        <input
+                className="input_fields"
+                id=""
+                required
+                name="email"
+                type="mail"
+                value={userData.email}
+                onChange={postUserData}
+                maxLength={50} // Set your desired limit here
+              />
+              <img
+                style={{ height: "20px", width: "20px", color: "black", marginLeft: "-30px", marginTop: "12px" }}
+                src="arcticons_spike-email1.png"
+              />
+              <label className="labels" htmlFor="emailInput">
+                Email
+              </label>
+          </div>
+          <div>
+              {errors.email && <div className="error_message">{errors.email}</div>}
+        </div>
+       </div>
+       </div> 
+        {/* left-side-field-ends */}
+        {/* right-side-field */}
+       <div className="form_group" style={{marginBottom:"0px"}} >
+              <textarea
+                className="input_fields mssg_input"
+                id="messageInput"
+                required
+                name="message"
+                type="message"
+                value={userData.message}
+                onChange={postUserData}
+                maxLength={200} // Set your desired limit here
+              />
+              <img
+                style={{ height: "20px", width: "20px", color: "black", marginLeft: "-30px", marginTop: "12px" }}
+                src="arcticons_huawei-email1.png"
+              />
+              <label className="labels" htmlFor="messageInput">
+                Message
+              </label>
+              {errors.message && <div className="error_message">{errors.message}</div>}
+              </div>
+        </wrapper>
+        {/*  */}
+        <div className="submit_btndiv">
+          <button className="submit_btn" onClick={submitData} type="submit">
+            SEND MESSAGE
+          </button>
+        </div>
+      </form>
+    </Container>
+  );
+};
 
 
 

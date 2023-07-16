@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, BrowserRouter as Router, Link } from "react-router-dom"
+import React,{useEffect } from "react"
 import { HomePage } from "../Pages/HomePage/HomePage"
 import { AboutUs } from "../Pages/AboutUsPage/AboutUs"
 import { Blog } from "../Pages/Blogs/Blog"
@@ -8,20 +9,32 @@ import { ContactUsPage } from "../Pages/ContactUsPage/ContactUsPage"
 import { ServicePage } from "../Pages/ServicePage/ServicePage"
 import { BlogOne } from "../Pages/Blogs/BlogOne"
 import { ContentWriterPage } from "../Pages/SingleServicePage/ContentWriter"
-import {ContactForm} from "../ContactForm/ContactForm"
+import { ContactForm } from "../ContactForm/ContactForm"
 import { Orm } from "../Pages/SingleServicePage/OrmPage"
 import { SocialMediaManagmentPage } from "../Pages/SingleServicePage/SocialMediaManagment"
+import { useLocation } from "react-router-dom";
 
-export const AllRoutes=()=>{
+const ScrollToTop = ({ children }) => {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return children;
+  };
+
+export const AllRoutes = () => {
 
 
-    return(<div>
+    return (
+        <ScrollToTop>
         <Routes>
-            
-            <Route path="/" element= {<HomePage />}/>
+
+            <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/:id" element={<SingleBlog/>} />
+            <Route path="/:id" element={<SingleBlog />} />
             <Route path="/single" element={<SingleBlogPage />} />
             <Route path="/contact" element={<ContactUsPage />} />
             <Route path="/contactform" element={<ContactForm />} />
@@ -32,5 +45,7 @@ export const AllRoutes=()=>{
             <Route path="/effective-digital-marketing-startegies-for-small-businesses" element={<BlogOne />} />
 
         </Routes>
-    </div>)
+
+        </ScrollToTop>
+    )
 }
