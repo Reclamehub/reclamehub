@@ -11,7 +11,7 @@ export const Connect = () => {
             <br />
             <br />
             
-                <Button className="connect_btn" onClick={()=>{history("/contact")}} >get started</Button>
+                <button className="connect_btn" onClick={()=>{history("/contact")}} >get started</button>
            
         </Box>
     )

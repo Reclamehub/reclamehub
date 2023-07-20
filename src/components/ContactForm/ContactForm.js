@@ -132,7 +132,7 @@ export const ContactForm = () => {
               />
               <img
                 style={{ height: "20px", width: "20px", marginLeft: "-30px", marginTop: "12px" }}
-                src="vector1.png"
+                src="vector2.png"
               />
               <label className="labels" htmlFor="mobileInput">
                 Mobile No.
