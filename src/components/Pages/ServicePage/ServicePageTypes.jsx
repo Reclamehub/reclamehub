@@ -1,27 +1,198 @@
 import { Box, Button, Flex, Heading, Image, Text, useColorModeValue } from "@chakra-ui/react"
 import { Link } from "react-router-dom"
+import { Container, Row, Col } from "react-bootstrap"
+import "./ServicePageTypes.css"
 
 export const ServicePageTypes = () => {
 
 
 
     return (
-        <Box>
-            <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
-                <div style={{ width: "50%" }}>
-                    <heading>CONTENT MARKETING</heading><br />
-                    <text>Discover The Best B2B Content Marketing Agency Services In India With Reclame Hub. From Blog Posts And Whitepapers To Social Media Content And Email Marketing Campaigns, We Have The Expertise And Resources To Deliver Results That Exceed Your Expectations.</text>
-                </div>
-                <div>
-                    <Image w="20%" src="gif5.gif" objectFit={"contain"} alt="gif" />
-                </div>
-            </Box>
+        <>
+            {/* left-side-content */}
+            <Container fluid>
+                <Row style={{marginTop:"20px"}}>
+                    <Col lg={7}>
+                        <div className="service_content_div">
+                            <div className="service_heading_div">
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw" }}>social media management</h2><br /><br /><br />
+                                <p style={{ fontWeight: "600", textTransform: "capitalize" }}>Are you looking to increase brand awareness, generate leads, or establish thought leadership in your industry?<br />
+                                    Look no further than Reclame Hub, our Social media management services in Noida, India Elevate your Brand’s Online Presence, to connect you with your target audience and strong online presence.
+                                </p>
+                            </div>
+                            <div className="service_img_div">
+                                <img className="service_img" src="gif6.gif" />
+                            </div>
 
-            <br />
+                        </div>
+                    </Col>
+                </Row>
+        
+                <Row style={{marginTop:"3%"}}>
+                    <Col lg={7}>
+                        <div className="service_content_div">
+                            <div className="service_heading_div">
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw" }}>social media management</h2><br /><br /><br />
+                                <p style={{ fontWeight: "600", textTransform: "capitalize" }}>Are you looking to increase brand awareness, generate leads, or establish thought leadership in your industry?<br />
+                                    Look no further than Reclame Hub, our Social media management services in Noida, India Elevate your Brand’s Online Presence, to connect you with your target audience and strong online presence.
+                                </p>
+                            </div>
+                            <div className="service_img_div">
+                                <img className="service_img" src="gif6.gif" />
+                            </div>
 
-            {/* conent writer */}
+                        </div>
+                    </Col>
+                </Row>
+        
+                <Row style={{marginTop:"3%"}}>
+                    <Col lg={7}>
+                        <div className="service_content_div">
+                            <div className="service_heading_div">
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw" }}>social media management</h2><br /><br /><br />
+                                <p style={{ fontWeight: "600", textTransform: "capitalize" }}>Are you looking to increase brand awareness, generate leads, or establish thought leadership in your industry?<br />
+                                    Look no further than Reclame Hub, our Social media management services in Noida, India Elevate your Brand’s Online Presence, to connect you with your target audience and strong online presence.
+                                </p>
+                            </div>
+                            <div className="service_img_div">
+                                <img className="service_img" src="gif6.gif" />
+                            </div>
 
-            <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+
+            {/* right-side-content */}
+            <Container fluid style={{ display: "flex", justifyContent: "flex-end", alignItems: "flex-end",marginTop:"2%" }}>
+                <Row className="row justify-content-end" >
+                    <Col lg={7} >
+                        <div className="Rservice_content_div">
+                            <div className="Rservice_img_div">
+                                <img className="Rservice_img"src="gif6.gif" />
+                            </div>
+                            <div className="Rservice_heading_div">
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw" }}>social media management</h2><br /><br /><br />
+                                <p style={{ fontWeight: "600", textTransform: "capitalize" }}>Are you looking to increase brand awareness, generate leads, or establish thought leadership in your industry?<br />
+                                    Look no further than Reclame Hub, our Social media management services in Noida, India Elevate your Brand’s Online Presence, to connect you with your target audience and strong online presence.
+                                </p>
+                            </div>
+
+                        </div>
+                    </Col>
+
+                    <Col lg={7} style={{marginTop:"3%"}}>
+                        <div className="Rservice_content_div">
+                            <div className="Rservice_img_div">
+                                <img className="Rservice_img"src="gif6.gif" />
+                            </div>
+                            <div className="Rservice_heading_div">
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw" }}>social media management</h2><br /><br /><br />
+                                <p style={{ fontWeight: "600", textTransform: "capitalize" }}>Are you looking to increase brand awareness, generate leads, or establish thought leadership in your industry?<br />
+                                    Look no further than Reclame Hub, our Social media management services in Noida, India Elevate your Brand’s Online Presence, to connect you with your target audience and strong online presence.
+                                </p>
+                            </div>
+
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+            {/* left-side-content */}
+            <Container fluid style={{marginTop:"2%"}}>
+                <Row >
+                    <Col lg={7}>
+                        <div className="service_content_div">
+                            <div className="service_heading_div">
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw" }}>social media management</h2><br /><br /><br />
+                                <p style={{ fontWeight: "600", textTransform: "capitalize" }}>Are you looking to increase brand awareness, generate leads, or establish thought leadership in your industry?<br />
+                                    Look no further than Reclame Hub, our Social media management services in Noida, India Elevate your Brand’s Online Presence, to connect you with your target audience and strong online presence.
+                                </p>
+                            </div>
+                            <div className="service_img_div">
+                                <img className="service_img" src="gif6.gif" />
+                            </div>
+
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+            <Container fluid>
+                <Row style={{marginTop:"3%"}}>
+                    <Col lg={7}>
+                        <div className="service_content_div">
+                            <div className="service_heading_div">
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw" }}>social media management</h2><br /><br /><br />
+                                <p style={{ fontWeight: "600", textTransform: "capitalize" }}>Are you looking to increase brand awareness, generate leads, or establish thought leadership in your industry?<br />
+                                    Look no further than Reclame Hub, our Social media management services in Noida, India Elevate your Brand’s Online Presence, to connect you with your target audience and strong online presence.
+                                </p>
+                            </div>
+                            <div className="service_img_div">
+                                <img className="service_img" src="gif6.gif" />
+                            </div>
+
+                        </div>
+                    </Col>
+                </Row >
+            </Container>
+            <Container fluid>
+                <Row style={{marginTop:"3%"}}>
+                    <Col lg={7}>
+                        <div className="service_content_div">
+                            <div className="service_heading_div">
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw" }}>social media management</h2><br /><br /><br />
+                                <p style={{ fontWeight: "600", textTransform: "capitalize" }}>Are you looking to increase brand awareness, generate leads, or establish thought leadership in your industry?<br />
+                                    Look no further than Reclame Hub, our Social media management services in Noida, India Elevate your Brand’s Online Presence, to connect you with your target audience and strong online presence.
+                                </p>
+                            </div>
+                            <div className="service_img_div">
+                                <img className="service_img" src="gif6.gif" />
+                            </div>
+
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+            {/* right-side-content */}
+              <Container fluid style={{ display: "flex", justifyContent: "flex-end", alignItems: "flex-end",marginTop:"2%" }}>
+                <Row className="row justify-content-end">
+                    <Col lg={7}>
+                        <div className="Rservice_content_div">
+                            <div className="Rservice_img_div">
+                                <img className="Rservice_img"src="gif6.gif" />
+                            </div>
+                            <div className="Rservice_heading_div">
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw" }}>social media management</h2><br /><br /><br />
+                                <p style={{ fontWeight: "600", textTransform: "capitalize" }}>Are you looking to increase brand awareness, generate leads, or establish thought leadership in your industry?<br />
+                                    Look no further than Reclame Hub, our Social media management services in Noida, India Elevate your Brand’s Online Presence, to connect you with your target audience and strong online presence.
+                                </p>
+                            </div>
+
+                        </div>
+                    </Col >
+
+                    <Col lg={7} style={{marginTop:"3%"}}>
+                        <div className="Rservice_content_div">
+                            <div className="Rservice_img_div">
+                                <img className="Rservice_img"src="gif6.gif" />
+                            </div>
+                            <div className="Rservice_heading_div">
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw" }}>social media management</h2><br /><br /><br />
+                                <p style={{ fontWeight: "600", textTransform: "capitalize" }}>Are you looking to increase brand awareness, generate leads, or establish thought leadership in your industry?<br />
+                                    Look no further than Reclame Hub, our Social media management services in Noida, India Elevate your Brand’s Online Presence, to connect you with your target audience and strong online presence.
+                                </p>
+                            </div>
+
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+
+
+
+
+
+
+            {/* <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
                 <Flex gap="10%" >
                     <Box textAlign={"center"} paddingLeft={"3%"} w="60%">
                         <Box><Heading as="h2" fontSize={"2.5vw"}>CONTENT MARKETING</Heading></Box>
@@ -45,7 +216,7 @@ export const ServicePageTypes = () => {
 
             </Box>
 
-            {/* online reputation managment */}
+           
             <br />
             <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
                 <Flex gap="10%" >
@@ -71,7 +242,7 @@ export const ServicePageTypes = () => {
 
 
 
-            {/* graphic design */}
+          
 
 
             <br />
@@ -106,7 +277,7 @@ export const ServicePageTypes = () => {
 
                 </Flex>
             </Box>
-            {/* web designing and development */}
+            
             <br />
             <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} display={"flex"} marginLeft={"auto"} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"10rem 1px 1px 10rem"}>
                 <Flex gap="10%" >
@@ -135,7 +306,7 @@ export const ServicePageTypes = () => {
                 </Flex>
             </Box>
             <br />
-            {/* digital advertisement */}
+           
 
             <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
                 <Flex gap="10%" >
@@ -159,7 +330,7 @@ export const ServicePageTypes = () => {
             </Box>
 
             <br />
-            {/* video ad film */}
+           
 
             <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
                 <Flex gap="10%" >
@@ -184,7 +355,7 @@ export const ServicePageTypes = () => {
             </Box>
 
             <br />
-            {/* email marketing */}
+          
             <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
                 <Flex gap="10%" >
                     <Box textAlign={"center"} paddingLeft={"10%"} w="60%"  >
@@ -206,7 +377,7 @@ export const ServicePageTypes = () => {
                 </Flex>
             </Box>
 
-            {/* seo development */}
+          
             <br />
             <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} display={"flex"} marginLeft={"auto"} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"10rem 1px 1px 10rem"}>
                 <Flex gap="10%" >
@@ -231,7 +402,7 @@ export const ServicePageTypes = () => {
                 </Flex>
             </Box>
             <br />
-            {/* CAMPAIGN MARKETING */}
+            
             <br />
             <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} display={"flex"} marginLeft={"auto"} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"10rem 1px 1px 10rem"}>
                 <Flex gap="10%" >
@@ -257,7 +428,7 @@ export const ServicePageTypes = () => {
                 </Flex>
             </Box>
             <br />
-            {/* app design and developemnt */}
+           
             <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
                 <Flex gap="10%" >
                     <Box textAlign={"center"} paddingLeft={"10%"} w="60%"  >
@@ -283,8 +454,8 @@ export const ServicePageTypes = () => {
             <br />
             <Box textAlign={"center"} fontSize={"5vw"} fontWeight={"800"} color="#333333"><Text>start your project</Text></Box>
 
-            <Box borderTop="1px solid white" height={"2px"} marginTop={"50px"} marginBottom={"50px"}></Box>
+            <Box borderTop="1px solid white" height={"2px"} marginTop={"50px"} marginBottom={"50px"}></Box> */}
 
-        </Box>
+        </>
     )
 }

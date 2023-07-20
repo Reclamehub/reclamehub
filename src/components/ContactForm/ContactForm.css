@@ -10,7 +10,7 @@
   display: flex;
  }
  .input_errorbox{
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   display: flex;
   flex-direction: column;
 justify-content: flex-start;
@@ -45,6 +45,8 @@ align-items: flex-start;
 
 
 .mssg_input {
+  
+ padding-right: 25px;
   margin-bottom: 30px;
   height: 238px;
   vertical-align: top;
@@ -52,7 +54,6 @@ align-items: flex-start;
 }
 
 .labels {
-  color: black;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -68,9 +69,7 @@ align-items: flex-start;
   top: -3px;
   left: 10px;
   font-size: 12px;
-  color: #000;
-  
-}
+ }
 
 textarea:focus~label,
 textarea:valid~label {
@@ -78,8 +77,7 @@ textarea:valid~label {
   top: -3px;
   left: 10px;
   font-size: 12px;
-  color: #000;
-}
+ }
 
 .submit_btn {
   margin-top: 25px;
@@ -97,6 +95,7 @@ textarea:valid~label {
   }
 
 /* mobile-css */
+
 @media (max-width: 767px) {
   .form_main_Container {
     width: 90%;
@@ -116,6 +115,7 @@ textarea:valid~label {
   .mssg_input {
  margin-bottom: .2rem;
  height: 50px;
+ padding-top: 5px;
   }
   .input_errorbox{
     margin-bottom: 20px;
@@ -123,7 +123,7 @@ textarea:valid~label {
   }
 }
 
-/*  */
+/* tablet-css */
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .form_main_Container {
@@ -133,9 +133,14 @@ textarea:valid~label {
 
   .input_fields {
     width: 38vw;
-    margin-bottom: 1.3rem;
-
-  }
+    margin-bottom: .2rem;
+}
+.mssg_input {
+  margin-bottom: 30px;
+  height: 238px;
+  vertical-align: top;
+  max-height: 245px;
+}
 }
 
 /*  */

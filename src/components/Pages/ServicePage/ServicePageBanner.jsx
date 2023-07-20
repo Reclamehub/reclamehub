@@ -6,7 +6,7 @@ export const ServicePageBanner = () => {
 
     return (
     <Box backgroundImage={"homtopbg.png"} textAlign={"left"} p={{ base: "4vw", sm: "4vw", md: "4vw", lg: "4vw", xl: "4vw" }} display={"flex"} flexWrap={{ base: "wrap", sm: "wrap", md: "nowrap", lg: "nowrap", xl: "nowrap" }} justifyContent={"space-around"}>
-        <Box w={{ base: "100%", sm: "86%", md: "66%", lg: "66%", xl: "66%" }}  >
+        {/* <Box w={{ base: "100%", sm: "86%", md: "66%", lg: "66%", xl: "66%" }}  >
             <Box w={{ base: "95%", sm: "95%", md: "85%", lg: "85%", xl: "85%" }}>
                 <Heading fontSize={{ base: "7vw", sm: "7vw", md: "4vw", lg: "4vw", xl: "4vw" }}>WE  <span style={{ color: "#F47721" }}>PRIORITIZE SERVICES</span></Heading></Box>
             <Box><Heading fontSize={{ base: "7vw", sm: "7vw", md: "4vw", lg: "4vw", xl: "4vw" }}> AND <span style={{ color: "#F47721" }}>SATISFACTION</span></Heading></Box>
@@ -23,7 +23,7 @@ export const ServicePageBanner = () => {
         </Box>
         <Box marginLeft={"-20px"} width={{ base: "80%", sm: "80%", md: "40%", lg: "40%", xl: "40%" }} display={"flex"} flexDirection={"column-reverse"}>
             <Image src="servicegif.gif" alt="service" />
-        </Box>
+        </Box> */}
     </Box>
     )
 

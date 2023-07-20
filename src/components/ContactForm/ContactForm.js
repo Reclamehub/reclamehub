@@ -27,10 +27,12 @@ export const ContactForm = () => {
   });
 
   const postUserData = (event) => {
-    const { name, value, maxLength } = event.target;
+    const { name, value, maxLength,minLength } = event.target;
     setUserData({ ...userData, [name]: value });
 
-    if (value.length > maxLength) {
+    if (value.length < minLength) {
+      setErrors({ ...errors, [name]: `Minimum length is ${minLength} characters` });
+    } else if (value.length > maxLength) {
       setErrors({ ...errors, [name]: `Exceeded limit of ${maxLength} characters` });
     } else {
       setErrors({ ...errors, [name]: "" });
@@ -103,7 +105,7 @@ export const ContactForm = () => {
                 maxLength={25} // Set your desired limit here
               />
               <img
-                style={{ height: "20px", width: "17px", color: "blue", marginLeft: "-30px", marginTop: "12px" }}
+                style={{ height: "20px", width: "17px", marginLeft: "-30px", marginTop: "12px" }}
                 src="person-icon2.png"
               />
               <label className="labels" htmlFor="fnameInput">
@@ -125,10 +127,11 @@ export const ContactForm = () => {
                 type="number"
                 value={userData.mobile}
                 onChange={postUserData}
-                maxLength={10} // Set your desired limit here
+                maxLength={10}
+                minLength={10} // Set your desired limit here
               />
               <img
-                style={{ height: "20px", width: "20px", color: "black", marginLeft: "-30px", marginTop: "12px" }}
+                style={{ height: "20px", width: "20px", marginLeft: "-30px", marginTop: "12px" }}
                 src="vector1.png"
               />
               <label className="labels" htmlFor="mobileInput">
@@ -154,7 +157,7 @@ export const ContactForm = () => {
                 maxLength={50} // Set your desired limit here
               />
               <img
-                style={{ height: "20px", width: "20px", color: "black", marginLeft: "-30px", marginTop: "12px" }}
+                style={{ height: "20px", width: "20px", marginLeft: "-30px", marginTop: "12px" }}
                 src="arcticons_spike-email1.png"
               />
               <label className="labels" htmlFor="emailInput">
@@ -180,7 +183,7 @@ export const ContactForm = () => {
                 maxLength={200} // Set your desired limit here
               />
               <img
-                style={{ height: "20px", width: "20px", color: "black", marginLeft: "-30px", marginTop: "12px" }}
+                style={{ height: "20px", width: "20px", marginLeft: "-30px", marginTop: "12px" }}
                 src="arcticons_huawei-email1.png"
               />
               <label className="labels" htmlFor="messageInput">

@@ -8,7 +8,7 @@
     justify-content: center;
     text-align: center;
     align-self: normal;
-    gap: 30px;
+    gap: 32px;
     padding: 0px 8% 20px 8%;
     margin: auto;
 }
@@ -24,10 +24,11 @@
     align-self: normal;
     box-shadow: 1px 1px 10px 2px #f1f0f0;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .hservice_cards_row {
-    display: flex;
+   display: flex;
     justify-content: center;
     align-self: center;
 
