@@ -1,27 +1,20 @@
+.service-top-btn-box {
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ margin-bottom: auto;
+ margin-top: 2%;
+ margin-right: auto;
+ margin-left: 2%;
+   
+}
+
 .service-top-btn {
-    border: 1px solid #F47721
+    border: 2px solid #F47721;
+    border-radius: 30px;
+    background-color: transparent;
+    
 }
 
 
-/* .service-top-btn-box{
-    align-items: left;   
-       width: 40vw;
-
-       display: flex;
-       justify-content: center;
-   margin-bottom: 10vw;
-   }
-
-   
-   @media screen and (max-width:480px) {
-    .service-top-btn-box{
-        align-items: left;   
-           width: 30vw;
-
-           display: flex;
-           justify-content: center;
-       margin-bottom: 10vw;
-       margin-left: 20px;
-       }   
-
-} */
