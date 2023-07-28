@@ -1,0 +1,60 @@
+/* singlesrvcBanner_css */
+.singlesrvcBanner_container{
+  padding-top: 20px;
+  margin-bottom: 5%;
+}
+.singlesrvc_heading_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 1%;
+  }
+ .singlesrvc_descp_div{
+  width: 80%;
+  margin: 3% auto;
+}
+ .singlesrvc_descp{
+font-size: 15px;
+text-transform: capitalize;
+ }
+
+ @media (max-width: 768px) {
+  .singlesrvc_descp_div{
+    width: 95%;
+    margin: 3% auto;
+  }
+  .singlesrvc_descp{
+    font-size: 10px;
+     }
+ }
+/* ------------------------------------------------------------------------------ */
+/* List-css */
+.table-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
+  align-items: center;
+  text-align: left;
+  gap: 5%;
+  margin: auto;
+  padding: 10px;
+ 
+}
+.main_div{
+max-width: 16ch;
+margin-bottom: auto;
+justify-content: center;
+}
+/* For smaller screens (mobile), show 2 divs in a row */
+@media (max-width: 767px) {
+  .main_div {
+flex: 0 0  calc(50% ); /* Adjust the width as needed */
+  }
+}
+/*For larger screens (tablets and above), show 3 divs in a row 
+@media (min-width: 768px) {
+  .table-container main {
+    flex: 0 0 calc(33.33% - 16px); 
+  }*/

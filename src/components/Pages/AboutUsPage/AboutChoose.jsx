@@ -7,12 +7,12 @@ export const AboutChoose=()=>{
     return (
     <Container style={{margin:"auto"}}>
         <div className="aboutChoose_headingImg_div"> 
-        <heading className="aboutchoose_heading"><span style={{fontSize:"80px",fontWeight:"800",color:"gray"}} >?</span> WHY CHOOSE <span style={{color:"orangered"}}>RECLAME HUB </span> <span></span></heading>
+        <heading className="page_heading"><span style={{fontSize:"80px",fontWeight:"800",color:"gray"}} >?</span> WHY CHOOSE <span style={{color:"orangered"}}>RECLAME HUB </span> <span></span></heading>
         <img style={{height:"80px"}} src="quesimg.png"  alt="reclame"/>
        </div>
- <text className="aboutchoose_subheading">WE ARE YOUNG ,WE ARE PASSIONATE AND WE ARE ENTHUSIASTIC TO TRANSFORM YOUR BRAND IN THIS DIGITAL WORLD.
-
-</text>
+       <div>
+ <text className="heading_description">WE ARE YOUNG ,WE ARE PASSIONATE AND WE ARE ENTHUSIASTIC TO TRANSFORM YOUR BRAND IN THIS DIGITAL WORLD.</text>
+</div>
         <Container className="ChooseContent_container">
             <Row>
                 <Col sm={12} md={6} lg={6} xl={6} className="aboutChoose_col">

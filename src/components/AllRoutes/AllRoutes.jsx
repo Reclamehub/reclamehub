@@ -8,10 +8,18 @@ import { SingleBlogPage } from "../Pages/Blogs/SingleBlogPage"
 import { ContactUsPage } from "../Pages/ContactUsPage/ContactUsPage"
 import { ServicePage } from "../Pages/ServicePage/ServicePage"
 import { BlogOne } from "../Pages/Blogs/BlogOne"
-import { ContentWriterPage } from "../Pages/SingleServicePage/ContentWriter"
 import { ContactForm } from "../ContactForm/ContactForm"
-import { Orm } from "../Pages/SingleServicePage/OrmPage"
-import { SocialMediaManagmentPage } from "../Pages/SingleServicePage/SocialMediaManagment"
+import {SMM}from "../Pages/SingleServicePage/SMM"
+import {ContentWriter} from "../Pages/SingleServicePage/ContentWriter"
+import {ORM}from "../Pages/SingleServicePage/ORM"
+import {GD}from "../Pages/SingleServicePage/GD"
+import {WDD}from "../Pages/SingleServicePage/WDD"
+import {DA}from "../Pages/SingleServicePage/DA"
+import {VAF}from "../Pages/SingleServicePage/VAF"
+import {EM}from "../Pages/SingleServicePage/EM"
+import {SEO}from "../Pages/SingleServicePage/SEO"
+import {CM}from "../Pages/SingleServicePage/CM"
+import {AD} from "../Pages/SingleServicePage/AD"
 import { useLocation } from "react-router-dom";
 
 const ScrollToTop = ({ children }) => {
@@ -28,7 +36,7 @@ export const AllRoutes = () => {
 
 
     return (
-        <ScrollToTop>
+        // <ScrollToTop>
         <Routes>
 
             <Route path="/" element={<HomePage />} />
@@ -39,13 +47,21 @@ export const AllRoutes = () => {
             <Route path="/contact" element={<ContactUsPage />} />
             <Route path="/contactform" element={<ContactForm />} />
             <Route path="/service" element={<ServicePage />} />
-            <Route path="/content-writing" element={<ContentWriterPage />} />
-            <Route path="/online-reputation-managment" element={<Orm />} />
-            <Route path="/social-media-managment" element={<SocialMediaManagmentPage />} />
+            <Route path="/SMM" element={<SMM />} />
+            <Route path="/ContentWriter" element={<ContentWriter/>} />
+            <Route path="/ORM" element={<ORM />} />
+            <Route path="/GD" element={<GD />} />
+            <Route path="/WDD" element={<WDD />} />
+            <Route path="/DA" element={<DA />} />
+            <Route path="/VAF" element={<VAF />} />
+            <Route path="/EM" element={<EM />} />
+            <Route path="/SEO" element={<SEO />} />
+            <Route path="/CM" element={<CM />} />
+            <Route path="/AD" element={<AD />} />
             <Route path="/effective-digital-marketing-startegies-for-small-businesses" element={<BlogOne />} />
 
         </Routes>
 
-        </ScrollToTop>
+        // </ScrollToTop>
     )
 }

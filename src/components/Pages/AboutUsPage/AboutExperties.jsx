@@ -6,12 +6,14 @@ export const AboutExperties=()=>{
 
 return(
     <Container>
-        <div className="heading_text_div">
-       <heading className="experties_heading"> 
+        <div className="heading_div">
+       <heading className="page_heading"> 
     <span className="heading_span">O</span>u< span className="heading_span">
-    r</span> <span className="heading_span">E</span>x<span className="heading_span">p</span>e<span className="heading_span">r</span>t<span className="heading_span">i</span>e<span className="heading_span">s</span></heading><br/>
+    r</span> <span className="heading_span">E</span>x<span className="heading_span">p</span>e<span className="heading_span">r</span>t<span className="heading_span">i</span>e<span className="heading_span">s</span></heading>
        </div>
-       <text className="experties_text">Our expertise is in determining what makes a firm unique, attractive and lucrative.</text>
+       <div style={{marginBottom:"3%"}}>
+       <text className="heading_description">Our expertise is in determining what makes a firm unique, attractive and lucrative.</text>
+       </div>
         <Container className="content_Outercontainer">
        <Row>
         <Col lg={4} md={9} sm={12} className="experties_col">

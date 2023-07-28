@@ -13,8 +13,8 @@ export const ServicePageBanner = () => {
             <Box><Heading fontSize={{ base: "4vw", sm: "4vw", md: "3.5vw", lg: "3.5vw", xl: "3.5vw" }}> AND <span style={{ color: "#F47721" }}>SATISFACTION</span></Heading></Box>
             <br />
             <Box mt={{ base: "-10px", sm: "-10px", md: "1px", lg: "1px", xl: "1px" }}>
-            <Text w={{ base: "90%", sm: "90%", md: "80%", lg: "80%", xl: "80%" }} fontWeight={"550"} fontSize={{ base: "3.5vw", sm: "3.5vw", md: "1.2vw", lg: "1.2vw", xl: "1.2vw" }}>
-                AT RECLAME HUB, OUR DIGITAL MARKETING SERVICES CREATE A STRONG CUSTOMER BASE,
+            <Text w={{ base: "90%", sm: "90%", md: "80%", lg: "80%", xl: "80%" }} fontWeight={"550"} fontSize={{ base: "3.5vw", sm: "3.5vw", md: "1.2vw", lg: "1.2vw", xl: "1.2vw" }} textTransform={"capitalize"}>
+                At RECLAME HUB, OUR DIGITAL MARKETING SERVICES CREATE A STRONG CUSTOMER BASE,
                 SETTING US APART IN THE COMPETITIVE MARKETPLACE. WE PRIORITIZE CLIENT'S NEEDS
                 BASED ON THE SIGNIFICANCE OF DIGITAL MARKETING SERVICES FOR THEIR BUSINESSES THAT CREATE A
                 CUSTOMER-CENTRIC CULTURE FOR THEIR ENDURING SUCCESS.

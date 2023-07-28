@@ -1,4 +1,4 @@
-import { Box, Heading, Image, Text } from "@chakra-ui/react"
+import { Box, Heading, Image, Text,useColorModeValue } from "@chakra-ui/react"
 import { useParams } from "react-router-dom"
 
 import "./SingleBlog.css"

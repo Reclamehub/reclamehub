@@ -4,11 +4,12 @@ export const AboutCoreValue = () => {
 
     return (
         <Box fontFamily={"poppins"}>
-            <Heading as="h1"> OUR <span style={{ color: "#F47721" }}>CORE</span> VALUES</Heading>
-            <Text fontWeight={"550"} mt="20px" mb="20px" fontSize={{ base: "10px", sm: "10px", md: "16px", lg: "20px", xl: "20px" }}>
-                "WE'RE YOUNG, WE'RE PASSIONATE AND WE'RE ENTHUSIAST TO TRANSFORM YOUR BRAND IN THIS DIGITAL WORLD."
-            </Text>
-            <br />
+            <div className="heading_div">
+            <heading className="page_heading"> OUR <span style={{ color: "#F47721" }}>CORE</span> VALUES</heading>
+            </div>
+            <div className="mb-5">
+            <text className="heading_description">"WE'RE YOUNG, WE'RE PASSIONATE AND WE'RE ENTHUSIAST TO TRANSFORM YOUR BRAND IN THIS DIGITAL WORLD."</text>
+            </div>
 
             <Flex color="white" m="auto" flexDirection={{ base: "column", sm: "column", md: "row", lg: "row", xl: "row" }}
                 justifyContent={{ base: "center", sm: "center", md: "space-around", lg: "space-around", xl: "space-around" }} w={{ base: "80%", sm: "80%", md: "90%", lg: "80%", xl: "80%" }} >

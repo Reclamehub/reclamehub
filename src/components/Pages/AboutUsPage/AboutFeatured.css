@@ -7,9 +7,14 @@
 
 /* about-featured-slider-css */
 .featured_container {
+ max-width: 97%;
+ gap: 0px;
     padding: 5px;
-    margin: 25px 0px 80px 0px;
+    margin: 25px auto 80px auto;
     background-color: rgba(211, 211, 211, 0.192);
+}
+.slider{
+    max-width: 100%;
 }
 
 .aboutFetured_img {

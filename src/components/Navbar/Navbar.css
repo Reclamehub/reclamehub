@@ -22,11 +22,12 @@
 }
 
 .nav-icon-box {
-    width: 20%;
+    width: auto;
     /* border:1px solid yellowgreen */
 }
 .nav-icon-img{
-    height: 90%;
+    height: 80%;
+    margin-top: 2px;
     }
 
 

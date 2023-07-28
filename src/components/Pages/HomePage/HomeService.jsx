@@ -62,7 +62,7 @@ const serviceData = [
     {
         id: 8,
         simg: "gif7.gif",
-        heading: `EMAILER `,
+        heading: `EMAIL `,
         headingTwo: `MARKETING`,
         desc: `With our Email Marketing Services, you can turbocharge your marketing efforts`
     },
@@ -89,9 +89,12 @@ export const HomeService = () => {
 
     return (
         <Box p="2vw" paddingTop={{ base: "20px", sm: "20px", md: "40px", lg: "60px", xl: "80px" }} bg={useColorModeValue('#FF9450', 'black')}>
-            <Heading fontSize={"3vw"} marginBottom={{ base: "10px", sm: "30px", md: "30px", lg: "40px", xl: "50px" }}>SERVICES WE PROVIDE</Heading>
-            <Text color={"#FFFFFF"}>ALL | DESIGNING | DEVELOPMENT  | DIGITAL MARKETING  </Text>
-            <br />
+            <div className="heading_div">
+            <heading className="page_heading" >services we provide</heading>
+            </div>
+            <div>
+            <text className="heading_description" style={{color: "#ffffff"}}>ALL | DESIGNING | DEVELOPMENT  | DIGITAL MARKETING  </text>
+            </div>
 
 
             <Container className="hservice_cards_container">
@@ -100,16 +103,13 @@ export const HomeService = () => {
                         <img className="hservice_img" src={el.simg} />
 
                         <div style={{ marginBottom: "auto", fontFamily: "poppins" }}>
-                            <heading className="hservice_cards_heading"> {el.heading} <br /> {el.headingTwo}</heading>
+                           <heading className="hservice_cards_heading"> {el.heading} <br /> {el.headingTwo}</heading>
                             <p className="hservice_cards_text">{el.desc}</p>
                         </div>
 
                     </div>
-
-
-                )}
+)}
             </Container>
-
             <br />
             <Box><Button onClick={handleClick} border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"15px"} marginTop={"10px"}>Explore More</Button></Box>
         </Box>

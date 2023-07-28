@@ -31,8 +31,8 @@ export const ContactUsAddress = () => {
                                     <text style={{ marginLeft: "2%", fontWeight: "bold" }}>OUR LOCATION</text>
                                 </div>
                                 <div style={{ marginLeft: "35px", textAlign: "left", marginTop: "8px", width: "" }}>
-                                    <text>8th Floor Iconic Tower<br /> sector 62 Noida 201301</text><br />
-                                    <text><span style={{ color: '#F47721', fontWeight: "500" }}>Noida Uttar Pradesh</span> <br />India 201307</text>
+                                    <text>8th Floor Iconic Tower<br /> Sector 62 Noida 201301</text><br />
+                                    <text><span style={{ color: '#F47721', fontWeight: "500" }}> Uttar Pradesh <br/>India</span></text>
                                 </div>
                             </div>
                         </Box>

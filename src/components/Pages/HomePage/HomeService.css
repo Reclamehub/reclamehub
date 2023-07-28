@@ -11,6 +11,7 @@
     gap: 32px;
     padding: 0px 8% 20px 8%;
     margin: auto;
+    margin-top: 2.5%;
 }
 
 .hservice_card_div {
@@ -40,7 +41,7 @@
 
 .hservice_cards_heading {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .hservice_cards_text {
@@ -64,7 +65,9 @@
     .hservice_img {
         max-height: 120px;
     }
-
+    .hservice_cards_heading {
+        font-size: 14px;
+    }
     .hservice_cards_text {
         font-size: 10px;
     }

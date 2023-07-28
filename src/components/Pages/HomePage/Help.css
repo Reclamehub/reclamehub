@@ -1,8 +1,18 @@
-.help-text {
-
-    font-family: poppins;
+.help_descp_div{
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3%;
 }
-
-.help-heading {
-    font-family: poppins;
+@media (max-width: 767px) {
+    .help_descp_div{
+        width: 95%;
+     
+    }
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .help_descp_div{
+        width: 95%;
+     
+    }
+  }

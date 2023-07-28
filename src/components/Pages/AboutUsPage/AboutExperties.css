@@ -1,27 +1,9 @@
-.heading_text_div {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.experties_heading {
-    font-size: 3.5vw;
-    font-family: poppins;
-    font-weight: 600;
-    text-transform: uppercase;
-
-}
-
 .heading_span {
     color: #FF7721;
 }
-
-.experties_text {
-    font-weight: 600;
-    text-transform: capitalize;
-}
-
 .content_Outercontainer {
-    margin: 2.5rem auto;
+    margin:  auto;
+    margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

@@ -66,8 +66,8 @@ export default function FeaturedSlider() {
   return (
     <>
 
-      <Container fluid className="featured_container">
-        <Slider {...settings} className=''>
+      <Container  className="featured_container ">
+        <Slider {...settings} className='slider'>
 
           <div className='' >
             <img src="top_dig.png" className='aboutFetured_img' alt="" />

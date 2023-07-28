@@ -4,7 +4,8 @@ export const SingleBlogPage=()=>{
 
 
 
-    return (<div>
+    return (
+    <div>
         <Image src="blogimg6.png" />
     </div>)
 }

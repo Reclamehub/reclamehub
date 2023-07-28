@@ -7,6 +7,7 @@
 
 .home-all-heading {
     padding: 8vw 5vw 1vw 5vw;
+    text-transform: capitalize;
 }
 
 .home-heading-one {
@@ -20,6 +21,7 @@
     font-size: 3.5vw;
     width: 100%;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .home-heading-three {
@@ -28,13 +30,15 @@
     color: #F47721;
     width: 100%;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .home-heading-four {
     text-align: left;
-    font-size: 3vw;
+    font-size: 3.5vw;
     width: 100%;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .home-top-img-box {

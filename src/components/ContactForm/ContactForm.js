@@ -80,14 +80,15 @@ export const ContactForm = () => {
 
   return (
     <Container fluid className="form_main_Container">
-      <Box>
-        <Heading color="#F47721">TALK TO OUR EXPERTS</Heading>
-      </Box>
-      <br />
-      <Box fontWeight={"500"}>
-        We are available for a friendly chat to discuss your business needs, no obligation.
-      </Box>
-      <br />
+      <div className="heading_div">
+        <heading className="page_heading" style={{color:"#F47721"}}>contact us</heading>
+      </div>
+    
+      <div className="mb-5">
+        <text className="heading_description">We are available for a friendly chat to discuss your business needs, no obligation.
+        </text>
+      </div>
+     
       <form method="POST">
         <wrapper className="inputfield_wrapper">
             {/* left-side-fields */}

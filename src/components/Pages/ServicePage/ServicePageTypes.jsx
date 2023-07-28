@@ -1,11 +1,11 @@
 import { Box, Button, Flex, Heading, Image, Text, useColorModeValue } from "@chakra-ui/react"
 import { Link } from "react-router-dom"
 import { Container, Row, Col } from "react-bootstrap"
+import { useNavigate } from "react-router-dom"
 import "./ServicePageTypes.css"
 
 export const ServicePageTypes = () => {
-
-
+    const history = useNavigate()
 
     return (
         <>
@@ -13,14 +13,15 @@ export const ServicePageTypes = () => {
             {/* left-side-content */}
             <Container fluid>
                 <Row style={{marginTop:"20px"}}>
-                    <Col lg={8}>
-                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
+                    <Col lg={9}>
+                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
                         <div className="service_content_div">
                             <div className="service_heading_div">
-                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"1.5rem" }}>social media management</h2>
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>social media management</h2>
                                 <p className="Scard_para">Are you looking to increase brand awareness, generate leads, or establish thought leadership in your industry?<br />
                                     Look no further than Reclame Hub, our Social media management services in Noida, India Elevate your Brand’s Online Presence, to connect you with your target audience and strong online presence.
                                 </p>
+                                <button className="srvc_type_btn"onClick={()=>{history("/SMM")}}>Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s1.gif" />
@@ -31,15 +32,15 @@ export const ServicePageTypes = () => {
                 </Row>
         
                 <Row style={{marginTop:"3%"}}>
-                    <Col lg={8}>
-                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
+                    <Col lg={9}>
+                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
                         <div className="service_content_div">
                             <div className="service_heading_div">
-                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"1.5rem" }}>content marketing</h2>
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>content marketing</h2>
                                 <p className="Scard_para">Discover the best B2B Content Marketing Agency Services in India with Reclame Hub. From blog posts and whitepapers to social media 
                                 content and email marketing campaigns, we have the expertise and resources to deliver results that exceed your expectations.
-
                                 </p>
+                                <button className="srvc_type_btn" onClick={()=>{history("/contentWriter")}}>Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s2.gif" />
@@ -50,13 +51,14 @@ export const ServicePageTypes = () => {
                 </Row>
         
                 <Row style={{marginTop:"3%"}}>
-                    <Col lg={8}>
-                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
+                    <Col lg={9}>
+                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
                         <div className="service_content_div">
                             <div className="service_heading_div">
-                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"1.5rem" }}>online reputation management</h2>
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>online reputation management</h2>
                                 <p className="Scard_para">Our Reliable Marketing services in Noida, India, specializes in delivering effective marketing solutions tailored to your specific needs. Our team looks into the necessity of having a strong online presence to successfully manage brand reputation.
                                 </p>
+                                <button className="srvc_type_btn" onClick={()=>{history("/ORM")}}>Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s3.gif" />
@@ -70,32 +72,34 @@ export const ServicePageTypes = () => {
             {/* right-side-content */}
             <Container fluid style={{ display: "flex", justifyContent: "flex-end", alignItems: "flex-end",marginTop:"2%" }}>
                 <Row className="row justify-content-end" >
-                    <Col lg={8} >
-                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"10rem 1px 1px 10rem"}>
+                    <Col lg={9} >
+                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"9rem 1px 1px 9rem"}>
                         <div className="Rservice_content_div">
                             <div className="Rservice_img_div">
                                 <img className="Rservice_img"src="s4.gif" />
                             </div>
                             <div className="Rservice_heading_div">
-                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"1.5rem" }}>graphic designing</h2>
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>graphic designing</h2>
                                 <p className="Scard_para">Expert Graphic Designing Company in Noida | Creative Design Services | Reclame Hub
                                 </p>
+                                <button className="srvc_type_btn" onClick={()=>{history("/GD")}}>Know More</button>
                             </div>
                         </div>
                         </Box>
                     </Col>
 
-                    <Col lg={8} style={{marginTop:"3%"}}>
-                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"10rem 1px 1px 10rem"}>
+                    <Col lg={9} style={{marginTop:"3%"}}>
+                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"9rem 1px 1px 9rem"}>
                         <div className="Rservice_content_div">
                             <div className="Rservice_img_div">
                                 <img className="Rservice_img"src="s5.gif" />
                             </div>
                             <div className="Rservice_heading_div">
-                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"1.5rem" }}>WEB DESIGN & DEVELOPMENT</h2>
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>WEB DESIGN & DEVELOPMENT</h2>
                                 <p className="Scard_para">Professional Website Development Services | Reclame Hub Leading Website Development Company offering custom ecommerce solutions. 
                                 Expertise in Magento, WordPress Website Development in India. Upgrade your business today.
                                 </p>
+                                <button className="srvc_type_btn"onClick={()=>{history("/WDD")}} >Know More</button>
                             </div>
                         </div>
                         </Box>
@@ -105,14 +109,15 @@ export const ServicePageTypes = () => {
             {/* left-side-content */}
             <Container fluid style={{marginTop:"2%"}}>
                 <Row >
-                    <Col lg={8}>
-                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
+                    <Col lg={9}>
+                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
                         <div className="service_content_div">
                             <div className="service_heading_div">
-                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"1.5rem" }}>digital advertisement </h2>
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>digital advertisement </h2>
                                 <p className="Scard_para"> Elevate your small business with Reclame Hub, a premier digital marketing agency specializing in tailored strategies to enhance your online presence, 
                                 drive traffic, and boost conversions.
                                 </p>
+                                <button className="srvc_type_btn"onClick={()=>{history("/DA")}} >Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s6.gif" />
@@ -125,14 +130,15 @@ export const ServicePageTypes = () => {
             </Container>
             <Container fluid>
                 <Row style={{marginTop:"3%"}}>
-                    <Col lg={8}>
-                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
+                    <Col lg={9}>
+                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
                         <div className="service_content_div">
                             <div className="service_heading_div">
-                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"1.5rem" }}>video - ad film</h2>
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>video - ad film</h2>
                                 <p className="Scard_para">At Reclame Hub, we enhance your virtual world with the power of captivating video content. Our skilled team will create high-quality video-ad films 
                                 that effectively communicate your brand message, engage your target audience, and leave a lasting impact.
                                 </p>
+                                <button className="srvc_type_btn"onClick={()=>{history("/VAF")}} >Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s7.gif" />
@@ -145,14 +151,15 @@ export const ServicePageTypes = () => {
             </Container>
             <Container fluid>
                 <Row style={{marginTop:"3%"}}>
-                    <Col lg={8}>
-                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
+                    <Col lg={9}>
+                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
                         <div className="service_content_div">
                             <div className="service_heading_div">
-                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"1.5rem" }}>email marketing</h2>
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>email marketing</h2>
                                 <p className="Scard_para"> As experts in email marketing, we know that effective communication is key. With our tailored strategies and services, we help build strong connections with your audience. Our team will craft personalized email 
                                 campaigns that deliver the right message to people at the right time.
                                 </p>
+                                <button className="srvc_type_btn"onClick={()=>{history("/EM")}} >Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s8.gif" />
@@ -165,34 +172,34 @@ export const ServicePageTypes = () => {
             {/* right-side-content */}
               <Container fluid style={{ display: "flex", justifyContent: "flex-end", alignItems: "flex-end",marginTop:"2%" }}>
                 <Row className="row justify-content-end">
-                    <Col lg={8}>
-                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"10rem 1px 1px 10rem"}>
+                    <Col lg={9}>
+                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"9rem 1px 1px 9rem"}>
                         <div className="Rservice_content_div">
                             <div className="Rservice_img_div">
                                 <img className="Rservice_img"src="s99.gif" />
                             </div>
                             <div className="Rservice_heading_div">
-                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"1.5rem" }}>seo development</h2>
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>seo development</h2>
                                 <p className="Scard_para">In today’s landscape enhancing online visibility is of utmost importance. Reclame Hub offers top-level SEO services to your website to rank higher. We provide the best possible solutions to build your
                                  online presence and drive more traffic to your website.
-
                                 </p>
+                                <button className="srvc_type_btn"onClick={()=>{history("/SEO")}} >Know More</button>
                             </div>
                         </div>
                         </Box>
                     </Col >
 
-                    <Col lg={8} style={{marginTop:"3%"}}>
-                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"10rem 1px 1px 10rem"}>
+                    <Col lg={9} style={{marginTop:"3%"}}>
+                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"9rem 1px 1px 9rem"}>
                         <div className="Rservice_content_div">
                             <div className="Rservice_img_div">
                                 <img className="Rservice_img"src="gif6.gif" />
                             </div>
                             <div className="Rservice_heading_div">
-                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"1.5rem" }}>campaign marketing</h2>
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>campaign marketing</h2>
                                 <p className="Scard_para">We work closely with our expertly crafted campaigns to develop tailored strategies that align with your business goals, from identifying your target audience and creating engaging content to driving measurable results.
-
                                 </p>
+                                <button className="srvc_type_btn"onClick={()=>{history("/CM")}} >Know More</button>
                             </div>
                         </div>
                         </Box>
@@ -202,14 +209,15 @@ export const ServicePageTypes = () => {
             {/* left-side */}
             <Container fluid>
                 <Row style={{marginTop:"3%"}}>
-                    <Col lg={8}>
-                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
+                    <Col lg={9}>
+                    <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
                         <div className="service_content_div">
                             <div className="service_heading_div">
-                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"1.5rem" }}>APP DESIGN & DEVELOPMENT</h2>
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>APP DESIGN & DEVELOPMENT</h2>
                                 <p className="Scard_para"> Reclame Hub specializes in app design and development, crafting intuitive and visually appealing applications that deliver outstanding user experiences. 
                                 we'll bring your ideas to life, ensuring seamless functionality and a polished interface.
                            </p>
+                           <button className="srvc_type_btn"onClick={()=>{history("/AD")}} >Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s11.gif" />
@@ -226,8 +234,8 @@ export const ServicePageTypes = () => {
     )
 }
 
-            {/* <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
-                <Flex gap="10%" >
+            {/* <Box w={{ base: "90%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
+                <Flex gap="9%" >
                     <Box textAlign={"center"} paddingLeft={"3%"} w="60%">
                         <Box><Heading as="h2" fontSize={"2.5vw"}>CONTENT MARKETING</Heading></Box>
                         <br />
@@ -252,8 +260,8 @@ export const ServicePageTypes = () => {
 
            
             <br />
-            <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
-                <Flex gap="10%" >
+            <Box w={{ base: "90%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
+                <Flex gap="9%" >
                     <Box textAlign={"center"} paddingLeft={"3%"} w="60%"  >
                         <Box><Heading as="h2" fontSize={"2.5vw"}>ONLINE REPUTATION MANAGMENT</Heading></Box>
                         <br />
@@ -270,7 +278,7 @@ export const ServicePageTypes = () => {
                         </Box>
                     </Box>
                     <Box w={{ base: "30%", sm: "27%", md: "27%", lg: "22%", xl: "22%" }} h={{ base: "90px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }} mt={{ base: "20px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"}>
-                        <Image w="110%" src="gif5.gif" objectFit={"contain"} alt="gif" /> </Box>
+                        <Image w="19%" src="gif5.gif" objectFit={"contain"} alt="gif" /> </Box>
                 </Flex>
             </Box>
 
@@ -280,15 +288,15 @@ export const ServicePageTypes = () => {
 
 
             <br />
-            <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} display={"flex"} marginLeft={"auto"} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"10rem 1px 1px 10rem"}>
-                <Flex gap="10%" >
+            <Box w={{ base: "90%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} display={"flex"} marginLeft={"auto"} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"9rem 1px 1px 9rem"}>
+                <Flex gap="9%" >
                     <Box w={{ base: "80%", sm: "27%", md: "27%", lg: "25%", xl: "25%" }} h={{ base: "90px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }}
                         mt={{ base: "20px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"} paddingTop={"25px"}>
 
                         <Image w="90%" src="gif3.gif" objectFit={"contain"} alt="graphic-design" /> </Box>
 
 
-                    <Box textAlign={"center"} paddingLeft={"10%"} w={{ base: "80%", sm: "60%", md: "60%", lg: "60%", xl: "60%" }}  >
+                    <Box textAlign={"center"} paddingLeft={"9%"} w={{ base: "80%", sm: "60%", md: "60%", lg: "60%", xl: "60%" }}  >
                         <Box><Heading fontSize={"2.5vw"}>GRAPHIC DESIGNING </Heading></Box>
                         <br />
                         <Box  ><Text fontSize={{ base: "2vw", sm: "2vw", md: "1.2vw", lg: "1.2vw", xl: "1.2vw" }}>
@@ -313,9 +321,9 @@ export const ServicePageTypes = () => {
             </Box>
             
             <br />
-            <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} display={"flex"} marginLeft={"auto"} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"10rem 1px 1px 10rem"}>
-                <Flex gap="10%" >
-                    <Box mt={{ base: "18px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "23%", xl: "23%" }} h={{ base: "110px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }}
+            <Box w={{ base: "90%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} display={"flex"} marginLeft={"auto"} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"9rem 1px 1px 9rem"}>
+                <Flex gap="9%" >
+                    <Box mt={{ base: "18px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "23%", xl: "23%" }} h={{ base: "19px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }}
                         backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"}><Image w="90%" src="gif2.gif" objectFit={"contain"} alt="gif" /> </Box>
 
 
@@ -342,9 +350,9 @@ export const ServicePageTypes = () => {
             <br />
            
 
-            <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
-                <Flex gap="10%" >
-                    <Box textAlign={"center"} paddingLeft={"10%"} w="60%"  >
+            <Box w={{ base: "90%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
+                <Flex gap="9%" >
+                    <Box textAlign={"center"} paddingLeft={"9%"} w="60%"  >
                         <Box><Heading as="h2" fontSize={"2.5vw"}> DIGITAL ADVERTISEMENT </Heading></Box>
                         <br />
                         <Box ><Text fontSize={{ base: "2vw", sm: "2vw", md: "1.2vw", lg: "1.2vw", xl: "1.2vw" }}>
@@ -359,16 +367,16 @@ export const ServicePageTypes = () => {
                                 backgroundColor={"transparent"} >Know More</Button>
                         </Box>
                     </Box>
-                    <Box mt={{ base: "10px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "23%", xl: "23%" }} h={{ base: "110px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"} paddingTop={"20px"}><Image w="90%" src="gif8.gif" objectFit={"contain"} alt="gif" /> </Box>
+                    <Box mt={{ base: "9px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "23%", xl: "23%" }} h={{ base: "19px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"} paddingTop={"20px"}><Image w="90%" src="gif8.gif" objectFit={"contain"} alt="gif" /> </Box>
                 </Flex>
             </Box>
 
             <br />
            
 
-            <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
-                <Flex gap="10%" >
-                    <Box textAlign={"center"} paddingLeft={"10%"} w="60%"  >
+            <Box w={{ base: "90%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
+                <Flex gap="9%" >
+                    <Box textAlign={"center"} paddingLeft={"9%"} w="60%"  >
                         <Box><Heading as="h2" fontSize={"2.5vw"}>VIDEO - AD FILM</Heading></Box>
                         <br />
                         <Box ><Text fontSize={{ base: "2vw", sm: "2vw", md: "1.2vw", lg: "1.2vw", xl: "1.2vw" }}>
@@ -384,15 +392,15 @@ export const ServicePageTypes = () => {
                                 backgroundColor={"transparent"} >Know More</Button>
                         </Box>
                     </Box>
-                    <Box mt={{ base: "18px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "23%", xl: "23%" }} h={{ base: "110px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"} paddingTop={"20px"}><Image w="90%" src="gif4.gif" objectFit={"contain"} alt="gif" /> </Box>
+                    <Box mt={{ base: "18px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "23%", xl: "23%" }} h={{ base: "19px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"} paddingTop={"20px"}><Image w="90%" src="gif4.gif" objectFit={"contain"} alt="gif" /> </Box>
                 </Flex>
             </Box>
 
             <br />
           
-            <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
-                <Flex gap="10%" >
-                    <Box textAlign={"center"} paddingLeft={"10%"} w="60%"  >
+            <Box w={{ base: "90%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
+                <Flex gap="9%" >
+                    <Box textAlign={"center"} paddingLeft={"9%"} w="60%"  >
                         <Box><Heading as="h2" fontSize={"2.5vw"}>EMAIL MARKETING</Heading></Box>
                         <br />
                         <Box ><Text fontSize={{ base: "2vw", sm: "2vw", md: "1.2vw", lg: "1.2vw", xl: "1.2vw" }}>
@@ -407,18 +415,18 @@ export const ServicePageTypes = () => {
                                 backgroundColor={"transparent"} >Know More</Button>
                         </Box>
                     </Box>
-                    <Box mt={{ base: "18px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "23%", xl: "23%" }} h={{ base: "110px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"} paddingTop={"20px"}><Image w="90%" src="gif11.gif" objectFit={"contain"} alt="gif" /> </Box>
+                    <Box mt={{ base: "18px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "23%", xl: "23%" }} h={{ base: "19px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"} paddingTop={"20px"}><Image w="90%" src="gif11.gif" objectFit={"contain"} alt="gif" /> </Box>
                 </Flex>
             </Box>
 
           
             <br />
-            <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} display={"flex"} marginLeft={"auto"} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"10rem 1px 1px 10rem"}>
-                <Flex gap="10%" >
-                    <Box mt={{ base: "18px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "25%", xl: "25%" }} h={{ base: "110px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"} paddingTop="50px" paddingBottom={"30px"}><Image w="100%" src="gif10.gif" objectFit={"contain"} alt="gif" /> </Box>
+            <Box w={{ base: "90%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} display={"flex"} marginLeft={"auto"} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"9rem 1px 1px 9rem"}>
+                <Flex gap="9%" >
+                    <Box mt={{ base: "18px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "25%", xl: "25%" }} h={{ base: "19px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"} paddingTop="50px" paddingBottom={"30px"}><Image w="90%" src="gif9.gif" objectFit={"contain"} alt="gif" /> </Box>
 
 
-                    <Box textAlign={"center"} paddingLeft={"10%"} w="60%"  >
+                    <Box textAlign={"center"} paddingLeft={"9%"} w="60%"  >
                         <Box><Heading fontSize={"2.5vw"}> SEO DEVELOPMENT </Heading></Box>
                         <br />
                         <Box ><Text fontSize={{ base: "2vw", sm: "2vw", md: "1.2vw", lg: "1.2vw", xl: "1.2vw" }}>
@@ -438,12 +446,12 @@ export const ServicePageTypes = () => {
             <br />
             
             <br />
-            <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} display={"flex"} marginLeft={"auto"} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"10rem 1px 1px 10rem"}>
-                <Flex gap="10%" >
-                    <Box mt={{ base: "18px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "25%", xl: "25%" }} h={{ base: "110px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"} paddingTop="30px"><Image w="90%" src="gif11.gif" objectFit={"contain"} alt="gif" /> </Box>
+            <Box w={{ base: "90%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} display={"flex"} marginLeft={"auto"} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"9rem 1px 1px 9rem"}>
+                <Flex gap="9%" >
+                    <Box mt={{ base: "18px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "25%", xl: "25%" }} h={{ base: "19px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"} paddingTop="30px"><Image w="90%" src="gif11.gif" objectFit={"contain"} alt="gif" /> </Box>
 
 
-                    <Box textAlign={"center"} paddingLeft={"10%"} w="60%"  >
+                    <Box textAlign={"center"} paddingLeft={"9%"} w="60%"  >
                         <Box><Heading fontSize={"2.5vw"}>CAMPAIGN MARKETING </Heading></Box>
                         <br />
                         <Box ><Text fontSize={{ base: "2vw", sm: "2vw", md: "1.2vw", lg: "1.2vw", xl: "1.2vw" }}>
@@ -463,9 +471,9 @@ export const ServicePageTypes = () => {
             </Box>
             <br />
            
-            <Box w={{ base: "100%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 10rem 10rem 1px"}>
-                <Flex gap="10%" >
-                    <Box textAlign={"center"} paddingLeft={"10%"} w="60%"  >
+            <Box w={{ base: "90%", sm: "80%", md: "80%", lg: "80%", xl: "80%" }} p="2vw" fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
+                <Flex gap="9%" >
+                    <Box textAlign={"center"} paddingLeft={"9%"} w="60%"  >
                         <Box><Heading as="h2" fontSize={"2.5vw"}>APP DESIGN & DEVELOPMENT</Heading></Box>
                         <br />
                         <Box ><Text fontSize={{ base: "2vw", sm: "2vw", md: "1.2vw", lg: "1.2vw", xl: "1.2vw" }}>
@@ -481,7 +489,7 @@ export const ServicePageTypes = () => {
                                 backgroundColor={"transparent"} >Know More</Button>
                         </Box>
                     </Box>
-                    <Box mt={{ base: "18px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "25%", xl: "25%" }} h={{ base: "110px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"} paddingTop={"20px"}><Image w="90%" src="gif4.gif" objectFit={"contain"} alt="app-developemnt" /> </Box>
+                    <Box mt={{ base: "18px", sm: "sm", md: "sm", lg: "md", xl: "lg" }} w={{ base: "40%", sm: "27%", md: "27%", lg: "25%", xl: "25%" }} h={{ base: "19px", sm: "50px", md: "auto", lg: "auto", xl: "auto" }} backgroundColor={"#fe611d"} display={"flex"} justifyContent={"center"} borderRadius={"full"} paddingTop={"20px"}><Image w="90%" src="gif4.gif" objectFit={"contain"} alt="app-developemnt" /> </Box>
                 </Flex>
             </Box>
             <br />

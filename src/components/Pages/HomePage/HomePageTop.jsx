@@ -29,8 +29,8 @@ export const HomePageTop = () => {
 
 	return (
 	<Box className="Home-top-container">
-		<Box className="home-all-heading">
-			<Text className="home-heading-one">Our expertise is in determining what makes a firm unique, attractive and lucrative</Text>
+		<Box className="home-all-heading ">
+			<Text className="home-heading-one heading_descp_div">our expertise is in determining what makes a firm unique, attractive and lucrative</Text>
 			<Text className="home-heading-two">YOUR SEARCH FOR THE</Text>
 			<Text className="home-heading-three" >{currWord}</Text>
 			<Text className="home-heading-four"> IN <span style={{ color: "#F47721" }}  >INDIA</span> ENDS HERE....</Text>

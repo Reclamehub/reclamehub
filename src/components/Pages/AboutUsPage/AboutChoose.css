@@ -2,21 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1rem;
-}
-
-.aboutchoose_heading {
-    font-size: 3vw;
-    font-weight: 600;
-}
-
-.aboutchoose_subheading {
-    margin-top: 10px;
-    text-align: center;
+ 
 }
 
 .ChooseContent_container {
-    margin: 7% auto;
+    margin: 3.5% auto;
 }
 
 .aboutChoose_col {

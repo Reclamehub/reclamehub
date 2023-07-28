@@ -28,6 +28,39 @@
 .App-link {
   color: #61dafb;
 }
+.heading_div{
+  margin-bottom:1.5%;
+}
+.page_heading{
+  font-family: poppins;
+  font-size: 3.2vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+ }
+ .heading_description{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: poppins;
+  text-transform: capitalize;
+  }
+  /* .heading_descp_div::first-letter {
+    text-transform: uppercase !important;
+  }
+  .heading_descp_div::first-letter {
+    text-transform: capitalize;
+  } */
+  @media (max-width: 767px) {
+    .page_heading{
+ font-size: 4vw;
+     }
+    .heading_description{
+      font-size: 11px;
+
+   
+      }
+  }
+
 
 @keyframes App-logo-spin {
   from {

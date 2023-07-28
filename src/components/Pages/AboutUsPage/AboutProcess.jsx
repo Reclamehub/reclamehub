@@ -9,7 +9,7 @@ export const AboutProcess = () => {
             <Container className="processContent_container">
                 <Row>
                     <Col sm={12} md={6} lg={6} xl={6} className="processvision_col">
-                        <div className="process_cardtext_div">
+                        <div className="process_cardtext_div mb-2">
 
                             <text >
                                 <ul style={{textAlign:""}}>
@@ -25,8 +25,8 @@ export const AboutProcess = () => {
                     </Col>
                     <Col sm={12} md={6} lg={6} xl={6} className="aboutprocess_col">
                         <div style={{ height: "auto", width: "100%" }} >
-                            <h className="ourprocess_heading">our process</h>
-                            <img style={{ height: "90%", width: "90%" }} src="abtgif3.gif" />
+                            <h className="ourprocess_heading ">our process</h>
+                            <img style={{ height: "90%", width: "95%" }} src="abtgif3.gif" />
                         </div>
 
                     </Col>

@@ -12,7 +12,7 @@ export const AboutApproch = () => {
                     <Col sm={12} md={6} lg={6} xl={6} className="aboutapproch_col">
                         <div style={{ height: "auto", width: "100%" }} >
                             <h className="ourapproch_heading">our approch</h>
-                            <img style={{ height: "90%", width: "90%" }} src="abtgif1.gif" />
+                            <img style={{ height: "90%", width: "95%" }} src="abtgif2.gif" />
                         </div>
                     </Col>
                     <Col sm={12} md={6} lg={6} xl={6} className="aboutapproch_col">

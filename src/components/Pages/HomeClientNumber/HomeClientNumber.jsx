@@ -19,28 +19,28 @@ export const HomeClientNumber = () => {
 
                 <Box display={"flex"} justifyContent={"space-between"}>
                     <Box>
-                        <Box fontSize={"4vw"} fontWeight={"bold"} color="#F47721">1 T+</Box>
-                        <Box fontWeight={"650"} fontSize={"1.8vw"}>
-                            <Text>TOTAL HOURS</Text>
-                            <Text>SPEND</Text>
+                        <Box fontSize={"4vw"} fontWeight={"bold"} color="#E6B829">4 T+</Box>
+                        <Box fontWeight={"600"} fontSize={"1.6vw"}>
+                            <text>TOTAL HOURS</text><br/>
+                            <text>SPEND</text>
                         </Box>
                     </Box>
                     <Box className="vl"></Box>
                     <Box>
-                        <Box fontSize={"4vw"} fontWeight={"bold"} color="#F47721" >120+</Box>
-                        <Box fontWeight={"650"} fontSize={"1.8vw"}>
-                            <Text>TOTAL NUMBER OF</Text>
-                            <Text>CLIENTS</Text>
+                        <Box fontSize={"4vw"} fontWeight={"bold"} color="#E6B829" >$ 120 T+</Box>
+                        <Box fontWeight={"600"} fontSize={"1.6vw"}>
+                            <text>TOTAL NUMBER OF</text><br/>
+                            <text>CLIENTS</text>
                         </Box>
                     </Box>
 
                     <Box className="vl"></Box>
 
                     <Box>
-                        <Box fontSize={"4vw"} fontWeight={"bold"} color="#F47721">50K+</Box>
-                        <Box fontWeight={"650"} fontSize={"1.8vw"}>
-                            <Text>TOTAL CUP OF</Text>
-                            <Text>TEA</Text>
+                        <Box fontSize={"4vw"} fontWeight={"bold"} color="#E6B829"> $ 120 T+</Box>
+                        <Box fontWeight={"600"} fontSize={"1.6vw"}>
+                            <text>TOTAL CUP OF</text><br/>
+                            <text>TEA</text>
                         </Box>
                     </Box>
                 </Box>
