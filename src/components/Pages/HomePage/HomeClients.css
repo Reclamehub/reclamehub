@@ -20,9 +20,11 @@
     font-family: poppins;
     font-weight: 700;
     font-size: 4vw;
+    margin: auto;
 }
 
 .client_subheading {
+    margin: auto;
     font-family: poppins;
     font-weight: 400;
 }

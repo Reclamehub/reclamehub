@@ -75,7 +75,7 @@ export const HomeClients = () => {
 
     return (
         <>
-        <Box display={{ base: "none", sm: "none", md: "inline", lg: "inline", xl: "inline" }} bg={useColorModeValue('white', '#1f1f1f')} paddingTop={{ base: "1px", sm: "20px", md: "40px", lg: "50px", xl: "50px" }} paddingBottom={{ base: "1px", sm: "20px", md: "40px", lg: "50px", xl: "50px" }} fontFamily={"poppins"} >
+        <Box display={{ base: "none", sm: "none", md: "inline", lg: "inline", xl: "inline" }} bg={useColorModeValue('white', '#1f1f1f')} paddingTop={{ base: "1px", sm: "20px", md: "40px", lg: "50px", xl: "50px" }} paddingBottom={{ base: "1px", sm: "20px", md: "40px", lg: "50px", xl: "50px" }} fontFamily={"poppins"} margin={"auto"} >
 
             <div className="heading_div">
                 <heading className="page_heading">SOME OF OUR <span>CLIENTS</span></heading>

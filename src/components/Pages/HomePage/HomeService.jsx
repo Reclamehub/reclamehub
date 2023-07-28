@@ -88,11 +88,11 @@ export const HomeService = () => {
     // }} >
 
     return (
-        <Box p="2vw" paddingTop={{ base: "20px", sm: "20px", md: "40px", lg: "60px", xl: "80px" }} bg={useColorModeValue('#FF9450', 'black')}>
+        <Box p="2vw" paddingTop={{ base: "20px", sm: "20px", md: "40px", lg: "60px", xl: "80px" }} bg={useColorModeValue('#FF9450', 'black')} margin={"auto"}>
             <div className="heading_div">
             <heading className="page_heading" >services we provide</heading>
             </div>
-            <div>
+            <div style={{marginBottom:"3%"}}>
             <text className="heading_description" style={{color: "#ffffff"}}>ALL | DESIGNING | DEVELOPMENT  | DIGITAL MARKETING  </text>
             </div>
 

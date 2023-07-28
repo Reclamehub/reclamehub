@@ -5,7 +5,7 @@ import "./Help.css"
 export const Help = () => {
 
     return (
-        <Box paddingTop={"50px"} paddingBottom={"50px"} borderTop={"4px solid white"} borderBottom={"4px solid white"} bg={useColorModeValue('white', '#1f1f1f')}>
+        <Box paddingTop={"50px"} paddingBottom={"50px"} borderTop={"4px solid white"} borderBottom={"4px solid white"} bg={useColorModeValue('white', '#1f1f1f')} margin={"auto"}>
            <div className="heading_div">
             <heading className="page_heading">CLIENT <span style={{ color: "#F47721" }}>WE'VE HELPED </span>GROW</heading>
             </div>
