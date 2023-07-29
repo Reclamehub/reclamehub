@@ -9,10 +9,11 @@
   align-items: center;
   text-transform: uppercase;
   gap: 1%;
+  
   }
  .singlesrvc_descp_div{
   width: 80%;
-  margin: 3% auto;
+  margin: 1.5% auto;
 }
  .singlesrvc_descp{
 font-size: 15px;
