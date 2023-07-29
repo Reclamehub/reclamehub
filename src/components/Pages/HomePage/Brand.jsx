@@ -8,7 +8,7 @@ export const Brand = () => {
 
     return (
 
-        <Box borderBottom="4px solid white" paddingBottom={"50px"} paddingTop={"45px"}>
+        <Box borderBottom="4px solid white" paddingBottom={"5%"} paddingTop={"5%"}>
     <div className="brand_bg_div"
     style={{ 
         backgroundImage: `url(${home_brand_bg})`,

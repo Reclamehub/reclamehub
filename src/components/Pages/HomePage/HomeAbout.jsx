@@ -15,7 +15,7 @@ export const HomeAbout = () => {
                 <heading className="page_heading" >WHO <span style={{ color: "#F47721" }}>WE</span> ARE </heading>
                 </div>
                 <div className="heading_descp_div" >
-                <text className="heading_description">
+                <text className="heading_description" style={{lineHeight:"normal"}}>
                     we are a group of passionate experts committed to helping businesses thrive in this digital world. we specialize in building smart and inventive digital marketing solutions that produce results, drawing on a wealth of experience and knowledge. we believe in the power of cooperation and work together to develop complete and integrated campaigns.
                     from initial discussions to project handover and beyond, our skilled team is here to help you.
                 </text>

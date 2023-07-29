@@ -45,11 +45,11 @@ export const HomeTeam = () => {
 
 
     return (
-    <Box fontFamily={"poppins"} paddingTop={"3%"}>
+    <Box fontFamily={"poppins"} paddingTop={"5%"} paddingBottom={'5%'}>
        <div className="heading_div">
             <heading className="page_heading">MEET OUR <span style={{ color: "orangered" }}>TEAM</span></heading>
         </div>
-     <div style={{marginBottom:"3%"}}>
+     <div className="heading_descp_div">
         <text className="heading_description" > Meet our warriors to use the force for goodmeet our digital warriors, ready to use the force for good </text>
         </div>
 <Container className="gallery_container1">

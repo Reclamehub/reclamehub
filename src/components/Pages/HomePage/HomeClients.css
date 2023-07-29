@@ -30,10 +30,9 @@
 }
 
 .main_container {
-    margin: 10px;
-    padding: 5px;
+width: auto;
+padding:5% 9% 0 9%;
 }
-
 .clientImg_div {
     padding: 10px;
     display: flex;
@@ -47,6 +46,6 @@
     background-color: #ffa56c;
     border-radius: 20px;
     padding: 10px;
-    height: 150px;
+    height: 120;
     width: 100%;
 }

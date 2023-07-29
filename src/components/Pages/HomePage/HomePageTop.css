@@ -103,7 +103,8 @@ color:red
 
     .home-heading-one {
         text-align: left;
-        font-size: 2vw;
+        font-size: 2.3vw;
+        line-height: normal;
     }
 
 

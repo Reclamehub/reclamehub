@@ -6,7 +6,7 @@ export const HomeClientNumber = () => {
 
 
     return (
-        <Box bg={useColorModeValue('white', 'black')} paddingTop={"20px"} paddingBottom={"50px"}>
+        <Box bg={useColorModeValue('white', 'black')} paddingTop={"5%"} paddingBottom={"0"}>
 
             <Box w="80%" m="auto">
                 <Box display={useColorModeValue("inline", "none")} bg={useColorModeValue('white', 'black')} w="100%" m="auto" color={useColorModeValue('white', 'white')} >
@@ -17,7 +17,7 @@ export const HomeClientNumber = () => {
                     <Image w="80%" m="auto" src="globe.png" />
                 </Box>
 
-                <Box display={"flex"} justifyContent={"space-between"}>
+                <Box display={"flex"} justifyContent={"space-between"}marginTop={"20px"}>
                     <Box>
                         <Box fontSize={"4vw"} fontWeight={"bold"} color="#E6B829">4 T+</Box>
                         <Box fontWeight={"600"} fontSize={"1.6vw"}>
@@ -45,11 +45,10 @@ export const HomeClientNumber = () => {
                     </Box>
                 </Box>
             </Box>
-
-            <br />
-            <br />
+<div style={{marginTop:"5%"}}>
             <Box className="client-up-shadow"></Box>
             <Box className="home-client-band"></Box>
+        </div>
         </Box>
     )
 }

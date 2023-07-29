@@ -38,7 +38,11 @@
   text-transform: uppercase;
   text-align: center;
  }
+ .heading_descp_div{
+margin-bottom: 3.5%;
+ }
  .heading_description{
+  line-height: normal;
   font-size: 18px;
   font-weight: 400;
   font-family: poppins;

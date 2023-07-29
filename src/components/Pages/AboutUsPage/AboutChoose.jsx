@@ -10,7 +10,7 @@ export const AboutChoose=()=>{
         <heading className="page_heading"><span style={{fontSize:"80px",fontWeight:"800",color:"gray"}} >?</span> WHY CHOOSE <span style={{color:"orangered"}}>RECLAME HUB </span> <span></span></heading>
         <img style={{height:"80px"}} src="quesimg.png"  alt="reclame"/>
        </div>
-       <div >
+       <div className="heading_descp_div" >
  <text className="heading_description">WE ARE YOUNG ,WE ARE PASSIONATE AND WE ARE ENTHUSIASTIC TO TRANSFORM YOUR BRAND IN THIS DIGITAL WORLD.</text>
 </div>
         <Container className="ChooseContent_container">
