@@ -38,6 +38,9 @@
     color: #ff7721;
     margin-bottom: 1.5rem;
 }
+.choose_title{
+    text-transform: capitalize;
+}
 
 .choose_boxText {
     color: black;

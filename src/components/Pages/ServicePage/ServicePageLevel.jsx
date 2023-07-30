@@ -16,7 +16,7 @@ export const ServicePageLevel = () => {
 
         <Container className="srv_level_container">
             <Row style={{width:"100%"}}> 
-                <Col xlg={9} lg={9} md={11} sm={11} xs={11}>
+ <Col xlg={9} lg={9} md={12} sm={12} xs={12}>
 
 <div className="srv_level_content_div">
 

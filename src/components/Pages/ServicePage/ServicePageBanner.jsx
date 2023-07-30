@@ -14,10 +14,10 @@ export const ServicePageBanner = () => {
             <br />
             <Box mt={{ base: "-10px", sm: "-10px", md: "1px", lg: "1px", xl: "1px" }}>
             <Text w={{ base: "90%", sm: "90%", md: "80%", lg: "80%", xl: "80%" }} fontWeight={"550"} fontSize={{ base: "3.5vw", sm: "3.5vw", md: "1.2vw", lg: "1.2vw", xl: "1.2vw" }} textTransform={"capitalize"}>
-                At RECLAME HUB, OUR DIGITAL MARKETING SERVICES CREATE A STRONG CUSTOMER BASE,
-                SETTING US APART IN THE COMPETITIVE MARKETPLACE. WE PRIORITIZE CLIENT'S NEEDS
-                BASED ON THE SIGNIFICANCE OF DIGITAL MARKETING SERVICES FOR THEIR BUSINESSES THAT CREATE A
-                CUSTOMER-CENTRIC CULTURE FOR THEIR ENDURING SUCCESS.
+            At Reclame Hub, Our Digital Marketing Services Create a Strong Customer Base,
+                Setting Us Apart in the Competitive Marketplace. We Prioritize Client’s Needs
+                Based on the Significance of Digital Marketing Services for Their Businesses That Create A
+                Customer-Centric Culture for Their Enduring Success.
                 </Text>
             </Box>
             <br />

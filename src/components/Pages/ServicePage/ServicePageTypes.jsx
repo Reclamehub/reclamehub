@@ -81,7 +81,7 @@ export const ServicePageTypes = () => {
                             <div className="Rservice_heading_div">
                                 <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>graphic designing</h2>
                                 <p className="Scard_para">Expert Graphic Designing Company in Noida | Creative Design Services | Reclame Hub
-                                </p>
+                                </p><br/>
                                 <button className="srvc_type_btn" onClick={()=>{history("/GD")}}>Know More</button>
                             </div>
                         </div>
@@ -113,7 +113,7 @@ export const ServicePageTypes = () => {
                     <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
                         <div className="service_content_div">
                             <div className="service_heading_div">
-                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>digital advertisement </h2>
+                                <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>digital advertisement</h2>
                                 <p className="Scard_para"> Elevate your small business with Reclame Hub, a premier digital marketing agency specializing in tailored strategies to enhance your online presence, 
                                 drive traffic, and boost conversions.
                                 </p>

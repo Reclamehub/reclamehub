@@ -93,7 +93,7 @@ export const HomeService = () => {
             <heading className="page_heading" >services we provide</heading>
             </div>
             <div className="heading_descp_div">
-            <text className="heading_description" style={{color: "#ffffff"}}>ALL | DESIGNING | DEVELOPMENT  | DIGITAL MARKETING  </text>
+            <text className="heading_description" style={{color: "#ffffff",textTransform:"capitalize"}}>all | designing | development  | digital marketing </text>
             </div>
 
 
@@ -110,8 +110,7 @@ export const HomeService = () => {
                     </div>
 )}
             </Container>
-            <br />
-            <Box><Button onClick={handleClick} border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"15px"} marginTop={"10px"}>Explore More</Button></Box>
+         <Box marginTop={"7%"}><Button onClick={handleClick} border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"15px"} >Explore More</Button></Box>
         </Box>
 
     )

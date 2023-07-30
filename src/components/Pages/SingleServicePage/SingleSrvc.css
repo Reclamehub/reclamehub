@@ -1,4 +1,5 @@
-/* singlesrvcBanner_css */
+/* singlesrvc-Banner_css */
+
 .singlesrvcBanner_container{
   padding-top: 20px;
   margin-bottom: 5%;
@@ -31,6 +32,12 @@ text-transform: capitalize;
  }
 /* ------------------------------------------------------------------------------ */
 /* List-css */
+.phase_container{
+ 
+}
+.phase_heading_div{
+ 
+}
 .table-container{
   display: flex;
   justify-content: space-between;

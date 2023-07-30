@@ -15,6 +15,7 @@
     color: lightgray;
     font-size: 5vw;
     font-weight: 600;
+    text-transform: capitalize;
 }
 
 .approch_cardtext_div {

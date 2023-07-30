@@ -1,11 +1,12 @@
 .srv_level_container{
 margin-bottom: 7%;
-  }
+ }
 .srv_level_content_div{
 display: flex;
 justify-content: space-around;
 align-items: center;
-gap: 10px;
+gap: 8px;
+
 }
 .sl_icon_box{
   width: 5vw;

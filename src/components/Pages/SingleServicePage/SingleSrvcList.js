@@ -4,9 +4,12 @@ import "./SingleSrvc.css"
 import SMMTableData from './SingleSrvcListData';
 const SingleSrvcTable = (props) => {
   return (
+    <>
+ 
     <Container className="table-container">
-      <main className='main_div' >
-   <div style={{fontSize:"14px"}}>
+     <main className='main_div' >
+    <div style={{fontSize:"14px"}}>
+      <p>{props.title0}</p>
     <p>{props.heading0}</p>
    </div>
    <div style={{color:'red',fontSize:"14px"}}>
@@ -15,6 +18,7 @@ const SingleSrvcTable = (props) => {
    </main>
    <main className='main_div'style={{marginBottom:'auto'}} >
   <div style={{fontSize:"14px"}}>
+  <p>{props.title1}</p>
     <p>{props.heading1}</p>
    </div>
    <div style={{color:'red',fontSize:"14px"}}>
@@ -23,6 +27,7 @@ const SingleSrvcTable = (props) => {
    </main>
     <main className='main_div'style={{marginBottom:'auto'}} >
   <div style={{fontSize:"14px"}}>
+  <p>{props.title2}</p>
     <p>{props.heading2}</p>
    </div>
    <div style={{color:'red',fontSize:"14px"}}>
@@ -31,6 +36,7 @@ const SingleSrvcTable = (props) => {
    </main>
     <main className='main_div'style={{marginBottom:'auto'}} >
   <div style={{fontSize:"14px"}}>
+  <p>{props.title3}</p>
     <p>{props.heading3}</p>
    </div>
    <div style={{color:'red',fontSize:"14px"}}>
@@ -39,6 +45,7 @@ const SingleSrvcTable = (props) => {
    </main>
     <main className='main_div'style={{marginBottom:'auto'}} >
   <div style={{fontSize:"14px"}}>
+  <p>{props.title4}</p>
     <p>{props.heading4}</p>
    </div>
   <div style={{color:'red',fontSize:"14px"}}>
@@ -46,6 +53,7 @@ const SingleSrvcTable = (props) => {
    </div>
    </main>
     </Container>
+    </>
   );
 };
 export default SingleSrvcTable

@@ -196,7 +196,7 @@ export const ContactForm = () => {
         {/*  */}
         <div className="submit_btndiv">
           <button className="submit_btn" onClick={submitData} type="submit">
-            SEND MESSAGE
+            Send Message
           </button>
         </div>
       </form>

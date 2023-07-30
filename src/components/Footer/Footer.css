@@ -16,6 +16,17 @@ font-size: 1vw;
     margin-bottom: 10px;
     font-size: 1vw;
     text-align: left;
+    font-weight: 500;
+  
+}
+.ph_link:hover{
+    color: #ff7722;
+}
+.em_link:hover{
+    color: #ff7722;
+}
+.footer-desc{
+    text-transform: capitalize;
 }
 
 .icon-media {
