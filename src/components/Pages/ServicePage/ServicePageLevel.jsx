@@ -1,7 +1,6 @@
 import { Box, Flex, Heading, Image, Text, useColorModeValue } from "@chakra-ui/react"
 import { BiWalletAlt, BiAddToQueue } from "react-icons/bi"
 import { MdOutlineHighQuality } from "react-icons/md"
-import { AiOutlineDash } from "react-icons/ai"
 import {Container,Row,Col} from "react-bootstrap"
 import "./ServiceLevel.css"
 export const ServicePageLevel = () => {
@@ -35,7 +34,7 @@ export const ServicePageLevel = () => {
 
 <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",marginBottom:"auto",}}>
 <Box borderRadius={"full"} backgroundColor={useColorModeValue("#fef1e8", "#121212")} className="sl_icon_box" >
-<img src="group.png"className="sl_icons"/>
+<Image src="Group.png"className="sl_icons" alt="sl-icon"/>
 </Box>
 <div className="srv_img_text">
 <p>quantity over<br/>quality</p>  

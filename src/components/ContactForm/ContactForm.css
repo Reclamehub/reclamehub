@@ -94,6 +94,7 @@ textarea:valid~label {
   font-size: 12px;
   }
 
+
 /* mobile-css */
 
 @media (max-width: 767px) {

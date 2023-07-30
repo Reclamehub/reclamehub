@@ -4,8 +4,8 @@ import { CgProfile } from "react-icons/cg"
 import { AiOutlinePhone } from "react-icons/ai"
 import { MdAlternatemobile } from "react-icons/md"
 import { FiMail } from "react-icons/fi"
+import  {FaPhone} from "react-icons/fa"
 import { Box, Button, Heading, Input, InputGroup, InputLeftElement, InputRightElement, Textarea, background, useColorModeValue } from "@chakra-ui/react"
-
 import "./ContactForm.css"
 import { Container } from "react-bootstrap";
 
@@ -131,11 +131,8 @@ export const ContactForm = () => {
                 maxLength={10}
                 minLength={10} // Set your desired limit here
               />
-              <img
-                style={{ height: "20px", width: "20px", marginLeft: "-30px", marginTop: "12px" }}
-                src="vector2.png"
-              />
-              <label className="labels" htmlFor="mobileInput">
+           <img src={"ph-icon.png"} className="ph-icon" style={{ height: "20px", width: "20px", marginLeft: "-30px", marginTop: "12px", }}/>
+             <label className="labels" htmlFor="mobileInput">
                 Mobile No.
                 </label>
          </div>
