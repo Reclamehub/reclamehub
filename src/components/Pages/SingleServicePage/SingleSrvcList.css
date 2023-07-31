@@ -17,7 +17,7 @@
   margin: 1.5% auto;
 }
  .singlesrvc_descp{
-font-size: 15px;
+font-size: 16px;
 text-transform: capitalize;
  }
 
@@ -27,12 +27,24 @@ text-transform: capitalize;
     margin: 3% auto;
   }
   .singlesrvc_descp{
-    font-size: 10px;
+    font-size: 11px;
      }
  }
+ @media (min-width: 768px) and (max-width: 1024px) {
+  .singlesrvc_descp_div{
+    width: 95%;
+    margin: 3% auto;
+  }
+  }
 /* ------------------------------------------------------------------------------ */
 /* List-css */
-
+.table_main_heading{
+  font-size: 2vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 2.5%;
+}
 .table-container{
   display: flex;
   justify-content: space-between;
@@ -51,16 +63,18 @@ text-transform: capitalize;
 .main_div{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 max-width: 24ch;
 margin-bottom: auto;
 font-size: 14px;
+
 }
 .table_title{
   font-size: 24px;
 text-transform: capitalize;
 font-weight: 500;
+
 }
 .smm_img_container{
   margin-top: 3.5%;
@@ -78,9 +92,35 @@ font-weight: 500;
   align-items: center;
   display: flex;
   gap: 20px;
+  
 }
 .Qmark_img{
 
+}
+.smm_heading2_container{
+  margin-top: 3%;
+  width: 70%;
+}
+.smm_heading2_descp{
+  margin-top: 2%;
+  line-height: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.smm_heading3_container{
+  margin-top: 3%;
+  width: 50%;
+  text-transform: capitalize;
+}
+.smm_heading3{
+  color: #ff7722;
+  font-weight: 500;
+}
+.smm_text3_div{
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 3%;
 }
 
 
@@ -93,9 +133,32 @@ flex: 0 0  calc(50% ); /* Adjust the width as needed */
 height: 25px;
 width: 20px;
   }
+  .smm_heading2_container{
+    width: 95%;
+    line-height: normal;
+  }
+  .smm_heading2_descp{
+    font-size: 11px;
+  }
+  .smm_heading3_container{
+ width: 95%;
+  }
+  .smm_text3_div{
+    font-size: 11px;
+  }
 }
 /*For larger screens (tablets and above), show 3 divs in a row 
 @media (min-width: 768px) {
   .table-container main {
     flex: 0 0 calc(33.33% - 16px); 
   }*/
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .smm_heading2_container{
+      width: 95%;
+      line-height: normal;
+    }
+    .smm_heading3_container{
+      width: 95%;
+       }
+    }

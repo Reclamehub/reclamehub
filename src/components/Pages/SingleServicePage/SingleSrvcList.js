@@ -1,25 +1,33 @@
 import React from 'react'
-import {Container,Row,Col} from "react-bootstrap"
+import { Box,useColorModeValue } from "@chakra-ui/react"
+import {Container} from "react-bootstrap"
 import "./SingleSrvcList.css"
-import SMMTableData from './SingleSrvcListData';
+
 const SingleSrvcTable = (props) => {
 
   return (
     <>
- 
+    <Container>
+    <div className='table_main_heading'>
+    <p>here comes <span style={{color:"#ff7722"}}>our services...</span></p>
+    </div>
+    </Container>
+     
     <Container  className="table-container">
      <main className='main_div' >
-    <div>
+ <div >
     <p className='table_title'>{props.title0}</p>
     <p>{props.heading0}</p>
    </div>
+   <Box >
    <div style={{color:'red',}}>
     <p>{props.text0}</p>
    </div>
+   </Box>
    </main>
    
    <main className='main_div'style={{marginBottom:'auto'}} >
-  <div>
+   <div >
   <p className='table_title'>{props.title1}</p>
     <p>{props.heading1}</p>
    </div>
@@ -29,7 +37,7 @@ const SingleSrvcTable = (props) => {
    </main>
     
     <main className='main_div'style={{marginBottom:'auto'}} >
-  <div>
+    <div >
   <p className='table_title'>{props.title2}</p>
     <p>{props.heading2}</p>
    </div>
@@ -38,17 +46,17 @@ const SingleSrvcTable = (props) => {
    </div>
    </main>
     
-    <main className='main_div'style={{marginBottom:'auto'}} >
-  <div>
+    <main className='main_div'style={{marginBottom:'auto',}} >
+    <div >
   <p className='table_title'>{props.title3}</p>
-    <p>{props.heading3}</p>
+    <p >{props.heading3}</p>
    </div>
    <div style={{color:'red',}}>
     <p>{props.text3}</p>
    </div>
    </main>
     <main className='main_div'style={{marginBottom:'auto'}} >
-  <div>
+    <div >
   <p className='table_title'>{props.title4}</p>
     <p>{props.heading4}</p>
    </div>

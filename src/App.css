@@ -64,7 +64,10 @@ margin-bottom: 3.5%;
    
       }
   }
+  /* tablet-css */
+  @media (min-width: 768px) and (max-width: 1024px) {
 
+    }
 
 @keyframes App-logo-spin {
   from {

@@ -67,15 +67,56 @@ export const SMM=()=>{
     <img src="smm2.png"  />
 </div>
 </Container>
-
-<Container style={{marginTop:"3.5%"}}>
+{/* why-should-you-content */}
+<Container className="smm_heading2_container">
     <div className="smm-heading_div">
         <img className="Qmark_img" src="Qmark.png" alt="Qmark"/>
  <heading className="page_heading">why should <span style={{color:"#ff7722"}}>you go with us</span></heading>
     <img className="Qmark_img" src="Qmark.png" alt="Qmark"/>
     </div>
-
+    <div className="heading_descp_div smm_heading2_descp">
+    <text className="heading_description2">We don’t provide the best but we provide the creative, innovative and engaging content which could flood your social media with likes comments and shares.</text>
+</div>
 </Container>
+
+<Container className="smm_heading3_container">
+<div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"1.5%"}}>
+    <img src="arrow-vector.png"/>
+    <heading className="smm_heading3"> Expertise and experience</heading>
+    </div>
+    <div className="smm_text3_div">
+        <text className="smm-text3">Our team is made up of social media professionals that have considerable expertise managing social media accounts in a variety of sectors. We stay current on the newest trends and best practises to keep your brand ahead of the competition.</text>
+    </div>
+</Container>
+<Container className="smm_heading3_container">
+<div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"1.5%"}}>
+    <img src="arrow-vector.png"/>
+    <heading className="smm_heading3"> Personalised Approach</heading>
+    </div>
+    <div className="smm_text3_div">
+        <text className="smm-text3">We believe in taking a personalised approach to social media management. We'll take the time to understand your brand, goals, and target audience before developing a tailored plan to meet your needs</text>
+    </div>
+</Container>
+<Container className="smm_heading3_container">
+<div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"1.5%"}}>
+    <img src="arrow-vector.png"/>
+    <heading className="smm_heading3"> Consistency and timeliness</heading>
+    </div>
+    <div className="smm_text3_div">
+        <text className="smm-text3">When it comes to social media management, consistency is essential. We'll keep your social media profiles fresh and entertaining by posting new material on a regular basis. Our team will also reply quickly to comments and messages, ensuring a great customer experience.</text>
+    </div>
+</Container>
+<Container className="smm_heading3_container">
+<div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"1.5%"}}>
+    <img src="arrow-vector.png"/>
+    <heading className="smm_heading3"> Creativity and innovation</heading>
+    </div>
+    <div className="smm_text3_div">
+        <text className="smm-text3">Whether it be social media or website, we believe that to make it trending and eye catching tio viewers it should be something more than aesthetic and less than beyond imagination.</text>
+    </div>
+</Container>
+<ContactForm/>
+<Connect/>
 </Box>
    </>
 ) 
