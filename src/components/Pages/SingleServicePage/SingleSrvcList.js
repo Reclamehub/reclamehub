@@ -19,8 +19,8 @@ const SingleSrvcTable = (props) => {
     <p className='table_title'>{props.title0}</p>
     <p>{props.heading0}</p>
    </div>
-   <Box >
-   <div style={{color:'red',}}>
+   <Box color= {useColorModeValue('#FF7722', "#FFB800")} >
+   <div >
     <p>{props.text0}</p>
    </div>
    </Box>

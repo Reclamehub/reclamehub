@@ -36,7 +36,7 @@ export const AllRoutes = () => {
 
 
     return (
-        // <ScrollToTop>
+        <ScrollToTop>
         <Routes>
 
             <Route path="/" element={<HomePage />} />
@@ -62,6 +62,6 @@ export const AllRoutes = () => {
 
         </Routes>
 
-        // </ScrollToTop>
+         </ScrollToTop>
     )
 }
