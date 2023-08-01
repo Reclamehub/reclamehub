@@ -7,13 +7,14 @@
 
 /* about-featured-slider-css */
 .featured_container {
- max-width: 97%;
- gap: 0px;
+    max-width: 97%;
+    gap: 0px;
     padding: 5px;
     margin: 25px auto 80px auto;
     background-color: rgba(211, 211, 211, 0.192);
 }
-.slider{
+
+.slider {
     max-width: 100%;
 }
 

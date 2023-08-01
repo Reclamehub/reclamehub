@@ -1,52 +1,32 @@
 import { Box, Button, Heading, Image, Text,useColorModeValue } from "@chakra-ui/react"
-
+import { Container } from "react-bootstrap"
 import "./Blog.css"
 import { Link } from "react-router-dom"
 
-const blogData=[
-    {
-        id:1,
-        title:"What is Digital Marketing?",
-        shortDEsc:"Digital marketing employs some of the same ideas as conventional marketing and is frequently regarded as an alternative means for businesses to contact consumers and comprehend their behaviour.",
-    image:"blogimg1.png",
-    description:`Is it a marketing strategy, a tool, or a method of promoting your company?
 
-    So here it is, the act of advertising products and services using digital channels such as social media, SEO, email, and mobile applications is known as digital marketing. Digital marketing refers to any type of marketing that uses electronic technology. 
-    
-    With the introduction of the internet in the 1990s, digital marketing grew in popularity.
-    
-    Digital marketing employs some of the same ideas as conventional marketing and is frequently regarded as an alternative means for businesses to contact consumers and comprehend their behaviour.
-    According to statistics, worldwide digital advertising spend has reached $458.16 billion in 2021. This implies that digital marketing is, was & will be an essential tool for every business owner looking to increase income. Simply looking around will reveal that digital technology has altered the environment we live in. All approaches that were employed 5-10 years ago no longer work. This is a dynamic and quickly evolving industry. 
-    To know more about such data and its increase you can look into this -  https://nix-united.com/blog/digital-marketing-for-small-businesses-overview-of-main-benefits/
-    If you want to get the most out of your digital advertisements, you must keep up with the current developments in this field.
-    Digital marketing is critical to the success of your online business. If you want to enhance your sales and overall growth, you need to robust and use successful digital marketing strategies.
-    With 'n' number of benefits, it also has certain obstacles, and before we get into strategies, let's look at what challenges a firm must confront first`
-    },
-
-]
 export const Blog=()=>{
 
 
     return(
-    <Box w="80%" m="auto" fontFamily={"poppins"} bg={useColorModeValue('white', 'black')}>
+    <Box w="100%"  m="auto" fontFamily={"poppins"} bg={useColorModeValue('white', 'black')}>
         <div className="heading_div">
 <heading className="page_heading"><span style={{color:"#ff7722"}}>B</span>l<span style={{color:"#ff7722"}}>o</span>g</heading>
 </div>
-    <Box className="blog-container">
-    {blogData.map((el)=>(<Box key={el.id}>
+
             
+ <Container className="blog-container">
 <Box className="blog-box"  boxShadow='xl'  rounded='md' >
-    <Image className="blog-img" src={el.image} alt="blog-img" />
+    <Image className="blog-img" src="blogimg1.png" alt="blog-img" />
     <Heading>15 Effective Digital Marketing Strategies for Small Businesses</Heading>
     <br />
     <Text> Discover 15 powerful digital marketing strategies tailored for small businesses. Boost your online presence and drive growth effectively. Start now!</Text>
-    <Button className="Blog-btn" bg="pink"> <Link to="/effective-digital-marketing-startegies-for-small-businesses">Read More </Link></Button>
+   <Box><Button className="Blog-btn" > <Link to="/effective-digital-marketing-startegies-for-small-businesses">Read More </Link></Button></Box> 
 </Box>
+</Container>
 
-</Box>
-))}
+
     </Box>
-    </Box>
+
     )
 }
 

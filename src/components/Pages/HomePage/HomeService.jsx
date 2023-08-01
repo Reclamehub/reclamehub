@@ -88,12 +88,12 @@ export const HomeService = () => {
     // }} >
 
     return (
-        <Box p="2vw" paddingTop={"5%" } paddingBottom={"5%"} bg={useColorModeValue('#FF9450', 'black')} margin={"auto"}>
+        <Box p="2vw" paddingTop={"5%"} paddingBottom={"5%"} bg={useColorModeValue('#FF9450', 'black')} margin={"auto"}>
             <div className="heading_div">
-            <heading className="page_heading" >services we provide</heading>
+                <heading className="page_heading" >services we provide</heading>
             </div>
             <div className="heading_descp_div">
-            <text className="heading_description" style={{color: "#ffffff",textTransform:"capitalize"}}>all | designing | development  | digital marketing </text>
+                <text className="heading_description" style={{ color: "#ffffff", textTransform: "capitalize" }}>all | designing | development  | digital marketing </text>
             </div>
 
 
@@ -103,14 +103,14 @@ export const HomeService = () => {
                         <img className="hservice_img" src={el.simg} />
 
                         <div style={{ marginBottom: "auto", fontFamily: "poppins" }}>
-                           <heading className="hservice_cards_heading"> {el.heading} <br /> {el.headingTwo}</heading>
+                            <heading className="hservice_cards_heading"> {el.heading} <br /> {el.headingTwo}</heading>
                             <p className="hservice_cards_text">{el.desc}</p>
                         </div>
 
                     </div>
-)}
+                )}
             </Container>
-         <Box marginTop={"7%"}><Button onClick={handleClick} border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"15px"} >Explore More</Button></Box>
+            <Box marginTop={"7%"}><Button onClick={handleClick} border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"15px"} >Explore More</Button></Box>
         </Box>
 
     )

@@ -24,7 +24,7 @@ export const ServicePageTypes = () => {
                                 <button className="srvc_type_btn"onClick={()=>{history("/SMM")}}>Know More</button>
                             </div>
                             <div className="service_img_div">
-                                <img className="service_img" src="s1.gif" />
+                                <img className="service_img" src="s1.gif" alt="s1-gif" />
                             </div>
                         </div>
 </Box>
@@ -43,7 +43,7 @@ export const ServicePageTypes = () => {
                                 <button className="srvc_type_btn" onClick={()=>{history("/contentWriter")}}>Know More</button>
                             </div>
                             <div className="service_img_div">
-                                <img className="service_img" src="s2.gif" />
+                                <img className="service_img" src="s2.gif" alt="s2-gif" />
                             </div>
                         </div>
 </Box>
@@ -61,7 +61,7 @@ export const ServicePageTypes = () => {
                                 <button className="srvc_type_btn" onClick={()=>{history("/ORM")}}>Know More</button>
                             </div>
                             <div className="service_img_div">
-                                <img className="service_img" src="s3.gif" />
+                                <img className="service_img" src="s3.gif" alt="s3-gif" />
                             </div>
                         </div>
 </Box>

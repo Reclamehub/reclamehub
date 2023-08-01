@@ -13,7 +13,7 @@
 .home-heading-one {
     text-align: left;
     font-size: 1.4vw;
-    }
+}
 
 .home-heading-two {
     text-align: left;
@@ -60,10 +60,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
- margin-bottom: auto;
- margin-top: 5%;
- margin-right: auto;
- margin-left: 8%;
+    margin-bottom: auto;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: 8%;
 }
 
 .home-top-btn {
@@ -104,7 +104,7 @@ color:red
         text-align: left;
         font-size: 2.3vw;
         line-height: normal;
-       
+
     }
 
 

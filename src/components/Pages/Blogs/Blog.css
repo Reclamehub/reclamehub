@@ -3,6 +3,7 @@
     grid-template-columns: repeat(3,1fr);
     gap:20px;
     justify-content: center;
+    padding-bottom: 5%;
 }
 .blog-box{
 padding: 10px;
@@ -14,5 +15,8 @@ border-radius: 12px 12px 10px 10px;
 }
 .Blog-btn{
     margin:5px;
-    background-color: pink;
+    background-color: #ff7721;
+}
+.Blog-btn:hover{
+    background-color: #ff7621d2;
 }

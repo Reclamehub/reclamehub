@@ -32,9 +32,10 @@
 }
 
 .main_container {
-width: auto;
-padding:5% 9% 0 9%;
+    width: auto;
+    padding: 5% 9% 0 9%;
 }
+
 .clientImg_div {
     height: 135px;
     width: 120px;

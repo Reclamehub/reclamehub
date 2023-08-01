@@ -11,7 +11,7 @@
     gap: 3%;
     padding: 0px 8% 20px 8%;
     margin: auto;
-    
+
 }
 
 .hservice_card_div {
@@ -29,7 +29,7 @@
 }
 
 .hservice_cards_row {
-   display: flex;
+    display: flex;
     justify-content: center;
     align-self: center;
 
@@ -65,9 +65,11 @@
     .hservice_img {
         max-height: 120px;
     }
+
     .hservice_cards_heading {
         font-size: 14px;
     }
+
     .hservice_cards_text {
         font-size: 10px;
     }

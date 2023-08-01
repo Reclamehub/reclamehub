@@ -19,7 +19,7 @@ export const AboutVision = () => {
                     <Col sm={12} md={6} lg={6} xl={6} className="aboutvision_col">
                         <div style={{ height: "auto", width: "100%" }} >
                             <h className="ourvision_heading">our vision</h>
-                            <img style={{ height: "90%", width: "95%" }} src="abtgif11.gif" />
+                            <img style={{ height: "90%", width: "95%" }} src="abtgif11.gif" alt="abtgif11"/>
                         </div>
 
                     </Col>

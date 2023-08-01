@@ -12,7 +12,7 @@ export const AboutProcess = () => {
                         <div className="process_cardtext_div mb-2">
 
                             <text >
-                                <ul style={{textAlign:""}}>
+                                <ul style={{ textAlign: "" }}>
                                     <li >Initial Consultation</li>
                                     <li>Strategy Development</li>
                                     <li> Campaign Planning</li>
@@ -26,7 +26,7 @@ export const AboutProcess = () => {
                     <Col sm={12} md={6} lg={6} xl={6} className="aboutprocess_col">
                         <div style={{ height: "auto", width: "100%" }} >
                             <h className="ourprocess_heading ">our process</h>
-                            <img style={{ height: "90%", width: "95%" }} src="abtgif3.gif" />
+                            <img style={{ height: "90%", width: "95%" }} src="abtgif3.gif" alt="abtgif3"/>
                         </div>
 
                     </Col>

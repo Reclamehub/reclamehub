@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
- 
+
 }
 
 .ChooseContent_container {
@@ -38,7 +38,8 @@
     color: #ff7721;
     margin-bottom: 1.5rem;
 }
-.choose_title{
+
+.choose_title {
     text-transform: capitalize;
 }
 

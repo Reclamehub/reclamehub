@@ -1,4 +1,4 @@
-.help_descp_div{
+.help_descp_div {
     width: 65%;
     text-align: center;
     margin: auto;
@@ -6,16 +6,17 @@
 }
 
 @media (max-width: 767px) {
-    .help_descp_div{
+    .help_descp_div {
         width: 95%;
         margin: auto;
-     
+
     }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .help_descp_div{
+    .help_descp_div {
         width: 95%;
         margin: auto;
-     
+
     }
-  }
+}

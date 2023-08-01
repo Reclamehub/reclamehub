@@ -1,39 +1,38 @@
-.home-about-container{
+.home-about-container {
   margin: auto;
   padding: 5% 0px 2% 0px;
- 
+
 }
-.home-about-content-div{
-width: 70%;
-margin: auto;
-text-align: center;
-padding: 5%;
+
+.home-about-content-div {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 5%;
 }
-.Aboutbg_box{
+
+.Aboutbg_box {
   background-size: 70% 100%;
 }
+
 @media (max-width: 767px) {
-  .home-about-content-div{
+  .home-about-content-div {
     width: 90%;
 
-    }
-    .Aboutbg_box{
-      background-size: 90% 100%;
-    }
+  }
+
+  .Aboutbg_box {
+    background-size: 90% 100%;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .home-about-content-div{
+  .home-about-content-div {
     width: 90%;
 
-    }
-    .Aboutbg_box{
-      background-size: 90% 100%;
-    }
+  }
+
+  .Aboutbg_box {
+    background-size: 90% 100%;
+  }
 }
-
-
-
-
-
-

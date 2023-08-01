@@ -32,7 +32,7 @@ export const ContactUsAddress = () => {
                                 </div>
                                 <div style={{ marginLeft: "35px", textAlign: "left", marginTop: "8px", width: "" }}>
                                     <text>8th Floor Iconic Tower<br /> Sector 62 Noida 201301</text><br />
-                                    <text><span style={{ color: '#F47721', fontWeight: "500" }}> Uttar Pradesh <br/>India</span></text>
+                                    <text><span style={{ color: '#F47721', fontWeight: "500" }}> Uttar Pradesh <br />India</span></text>
                                 </div>
                             </div>
                         </Box>

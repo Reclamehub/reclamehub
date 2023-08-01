@@ -1,6 +1,6 @@
 .App {
   text-align: center;
- 
+
 }
 
 .App-logo {
@@ -28,51 +28,57 @@
 .App-link {
   color: #61dafb;
 }
-.heading_div{
-  margin-bottom:1.5%;
+
+.heading_div {
+  margin-bottom: 1.5%;
 }
-.page_heading{
+
+.page_heading {
   font-family: poppins;
   font-size: 3.2vw;
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
- }
- .heading_descp_div{
-margin-bottom: 3.5%;
- }
- .heading_description{
+}
+
+.heading_descp_div {
+  margin-bottom: 3.5%;
+}
+
+.heading_description {
   line-height: normal;
   font-size: 18px;
   font-weight: 400;
   font-family: poppins;
   text-transform: capitalize;
-  }
-  /* .heading_descp_div::first-letter {
+}
+
+/* .heading_descp_div::first-letter {
     text-transform: uppercase !important;
   }
   .heading_descp_div::first-letter {
     text-transform: capitalize;
   } */
-  @media (max-width: 767px) {
-    .page_heading{
- font-size: 4vw;
-     }
-    .heading_description{
-      font-size: 11px;
-
-   
-      }
+@media (max-width: 767px) {
+  .page_heading {
+    font-size: 4vw;
   }
-  /* tablet-css */
-  @media (min-width: 768px) and (max-width: 1024px) {
 
-    }
+  .heading_description {
+    font-size: 11px;
+
+
+  }
+}
+
+/* tablet-css */
+@media (min-width: 768px) and (max-width: 1024px) {}
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

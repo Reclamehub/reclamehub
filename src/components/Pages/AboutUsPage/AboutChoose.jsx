@@ -26,7 +26,7 @@ export const AboutChoose=()=>{
         </Col>
                 <Col sm={12} md={6} lg={6} xl={6} className="aboutChoose_col">
                 <div style={{height:"100%",width:"100%"}} >
-               <img style={{height:"90%",width:"100%"}} src="abtgif2.gif"/>
+               <img style={{height:"90%",width:"100%"}} src="abtgif2.gif" alt="abtgig2"/>
                 </div>
                 </Col>
             </Row>

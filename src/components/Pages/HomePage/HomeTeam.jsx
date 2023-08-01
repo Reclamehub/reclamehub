@@ -54,14 +54,14 @@ export const HomeTeam = () => {
         </div>
 <Container className="gallery_container1">
 <div className="t_img_div">
-<img src="trupal.png" alt="wrupal-img" />
+<img src="trupal.png" alt="trupal-img" />
 {/* <div style={{height:"20vh",width:"100px",backgroundColor:"black",margin:"auto"}}></div> */}
    </div>
    <div className="t_img_div">
-<img src="tisha.png" alt="isha-img" />
+<img src="tisha.png" alt="tisha-img" />
    </div>
    <div className="t_img_div">
-<img src="tsonali.png" alt="wsonali-img" />
+<img src="tsonali.png" alt="tsonali-img" />
    </div>
 </Container>
 <Container className="gallery_container2">
@@ -69,18 +69,18 @@ export const HomeTeam = () => {
 <img className="gallery_img" src="tlaxmi.png" alt="laxmi-img" />
    </div>
    <div className="t_img_div">
-<img src="taishwarya.png" alt="wshra-img" />
+<img src="taishwarya.png" alt="taishwarya-img" />
    </div>
    <div className="t_img_div">
-<img src="tvishnu.png" alt="wvishnu-img" />
+<img src="tvishnu.png" alt="tvishnu-img" />
    </div>
 </Container>
 <Container className="gallery_container3">
 <div className="t_img_div">
-<img src="tshrvni.png" alt="shrvni-img" />
+<img src="tshrvni.png" alt="tshrvni-img" />
    </div>
    <div className="t_img_div">
-<img src="tswati.png" alt="swati-img" />
+<img src="tswati.png" alt="tswati-img" />
    </div>
    <div className="t_img_div">
 <img src="tpradh.png" alt="tpradh-img" />

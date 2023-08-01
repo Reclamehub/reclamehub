@@ -1,51 +1,58 @@
 /* singlesrvc-Banner_css */
-.singlesrvcBanner_container{
+.singlesrvcBanner_container {
   padding-top: 20px;
   margin-bottom: 5%;
- 
+
 }
-.singlesrvc_heading_div{
+
+.singlesrvc_heading_div {
   display: flex;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
   gap: 1%;
-  
-  }
- .singlesrvc_descp_div{
+
+}
+
+.singlesrvc_descp_div {
   width: 80%;
   margin: 1.5% auto;
 }
- .singlesrvc_descp{
-font-size: 16px;
-text-transform: capitalize;
- }
 
- @media (max-width: 768px) {
-  .singlesrvc_descp_div{
+.singlesrvc_descp {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .singlesrvc_descp_div {
     width: 95%;
     margin: 3% auto;
   }
-  .singlesrvc_descp{
+
+  .singlesrvc_descp {
     font-size: 11px;
-     }
- }
- @media (min-width: 768px) and (max-width: 1024px) {
-  .singlesrvc_descp_div{
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .singlesrvc_descp_div {
     width: 95%;
     margin: 3% auto;
   }
-  }
+}
+
 /* ------------------------------------------------------------------------------ */
 /* List-css */
-.table_main_heading{
+.table_main_heading {
   font-size: 2vw;
   font-weight: 500;
   text-transform: uppercase;
   text-align: left;
   margin-left: 2.5%;
 }
-.table-container{
+
+.table-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,64 +67,73 @@ text-transform: capitalize;
   background-color: rgba(211, 211, 211, 0.082);
   font-family: poppins;
 }
-.main_div{
+
+.main_div {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
   align-items: center;
-max-width: 24ch;
-margin-bottom: auto;
-font-size: 14px;
+  max-width: 24ch;
+  margin-bottom: auto;
+  font-size: 14px;
 
 }
-.table_title{
+
+.table_title {
   font-size: 24px;
-text-transform: capitalize;
-font-weight: 500;
+  text-transform: capitalize;
+  font-weight: 500;
 
 }
-.smm_img_container{
+
+.smm_img_container {
   margin-top: 3.5%;
   display: flex;
   justify-content: space-around;
   gap: 15px;
 }
-.smm_img_div{
+
+.smm_img_div {
   background-color: #ffffff;
   border-radius: 25px;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
 }
-.smm-heading_div{
+
+.smm-heading_div {
   justify-content: center;
   align-items: center;
   display: flex;
   gap: 20px;
-  
-}
-.Qmark_img{
 
 }
-.smm_heading2_container{
+
+.Qmark_img {}
+
+.smm_heading2_container {
   margin-top: 3%;
   width: 70%;
 }
-.smm_heading2_descp{
+
+.smm_heading2_descp {
   margin-top: 2%;
   line-height: normal;
   font-weight: 500;
   font-size: 16px;
   text-transform: capitalize;
 }
-.smm_heading3_container{
+
+.smm_heading3_container {
   margin-top: 3%;
   width: 50%;
   text-transform: capitalize;
 }
-.smm_heading3{
+
+.smm_heading3 {
   color: #ff7722;
   font-weight: 500;
 }
-.smm_text3_div{
+
+.smm_text3_div {
   font-size: 14px;
   font-weight: 500;
   margin-top: 3%;
@@ -127,38 +143,46 @@ font-weight: 500;
 /* For smaller screens (mobile), show 2 divs in a row */
 @media (max-width: 767px) {
   .main_div {
-flex: 0 0  calc(50% ); /* Adjust the width as needed */
+    flex: 0 0 calc(50%);
+    /* Adjust the width as needed */
   }
-  .Qmark_img{
-height: 25px;
-width: 20px;
+
+  .Qmark_img {
+    height: 25px;
+    width: 20px;
   }
-  .smm_heading2_container{
+
+  .smm_heading2_container {
     width: 95%;
     line-height: normal;
   }
-  .smm_heading2_descp{
+
+  .smm_heading2_descp {
     font-size: 11px;
   }
-  .smm_heading3_container{
- width: 95%;
+
+  .smm_heading3_container {
+    width: 95%;
   }
-  .smm_text3_div{
+
+  .smm_text3_div {
     font-size: 11px;
   }
 }
+
 /*For larger screens (tablets and above), show 3 divs in a row 
 @media (min-width: 768px) {
   .table-container main {
     flex: 0 0 calc(33.33% - 16px); 
   }*/
 
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .smm_heading2_container{
-      width: 95%;
-      line-height: normal;
-    }
-    .smm_heading3_container{
-      width: 95%;
-       }
-    }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .smm_heading2_container {
+    width: 95%;
+    line-height: normal;
+  }
+
+  .smm_heading3_container {
+    width: 95%;
+  }
+}

@@ -25,7 +25,7 @@ export const ServicePageBanner = () => {
             <Box className="service-top-btn-box" mt={{ base: "-10px", sm: "-10px", md: "1px", lg: "1px", xl: "1px" }}><Link to="/contact" className="service-btn-link" ><Button w={{ base: "100px", sm: "150px", md: "180px", lg: "200px", xl: "200px" }} className="service-top-btn" size={{ base: "xs", sm: "sm", md: "sm", lg: "md", xl: "lg" }} fontSize={{ base: "sm", sm: "sm", md: "sm", lg: "xl", xl: "xl" }} fontWeight={"580"} _hover={{ bg: "#F47721", color: "white" }} borderRadius={"30px"} backgroundColor={"transparent"} p={{ base: "13px", sm: "14px", md: "25px", lg: "26px", xl: "26px" }} > Get Started</Button></Link></Box>
         </Box>
         <Box marginLeft={"-10px"} width={{ base: "80%", sm: "80%", md: "40%", lg: "40%", xl: "40%" }} display={"flex"} flexDirection={"column-reverse"}>
-            <Image src="servicegif.gif" alt="service" />
+            <Image src="servicegif.gif" alt="service-img" />
         </Box>
     </Box>
     )

@@ -1,8 +1,9 @@
 .heading_span {
     color: #FF7721;
 }
+
 .content_Outercontainer {
-    margin:  auto;
+    margin: auto;
     margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;

@@ -46,10 +46,10 @@ export const ClientSlider = () => {
     <>
       <Box paddingBottom={'10%'} paddingTop={'10%'} display={{ base: "inline", sm: "inline", md: "none", lg: "none", xl: "none" }} margin={"auto"} >
         <div>
-        <heading className="page_heading"> Our Clients</heading>
+          <heading className="page_heading"> Our Clients</heading>
         </div>
-        <div style={{marginBottom:"3.5%",lineHeight:""}}>
-        <text className='heading_description'>Helping these  and many other  incredible clients reach for the stars is what pulls us out of bed every morning.</text>
+        <div style={{ marginBottom: "3.5%", lineHeight: "" }}>
+          <text className='heading_description'>Helping these  and many other  incredible clients reach for the stars is what pulls us out of bed every morning.</text>
         </div>
         <Container className='main_container' style={{ background: "#FF9450" }}>
           <Slider {...settings} className='slider'>

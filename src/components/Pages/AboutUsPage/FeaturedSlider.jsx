@@ -66,23 +66,23 @@ export default function FeaturedSlider() {
   return (
     <>
 
-      <Container  className="featured_container ">
+      <Container className="featured_container ">
         <Slider {...settings} className='slider'>
 
           <div className='' >
-            <img src="top_dig.png" className='aboutFetured_img' alt="" />
+            <img src="top_dig.png" className='aboutFetured_img' alt="aboutFetured_img" />
           </div>
           <div className='' >
-            <img src="seo_blog.png" className='aboutFetured_img' alt="" />
+            <img src="seo_blog.png" className='aboutFetured_img' alt="aboutFetured_img" />
           </div>
           <div className='' >
-            <img src="wiki.png" className='aboutFetured_img' alt="" />
+            <img src="wiki.png" className='aboutFetured_img' alt="aboutFetured_img" />
           </div>
           <div className='' >
-            <img src=" tech_view.png" className='aboutFetured_img' alt="" />
+            <img src=" tech_view.png" className='aboutFetured_img' alt="aboutFetured_img" />
           </div>
           <div className='' >
-            <img src="top_dev.png" className='aboutFetured_img' alt="" />
+            <img src="top_dev.png" className='aboutFetured_img' alt="aboutFetured_img" />
           </div>
 
 

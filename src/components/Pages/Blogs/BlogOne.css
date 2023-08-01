@@ -1,37 +1,33 @@
-.sub-question-heading{
-font-size: 2vw;
-font-weight: 550;
-margin: 10px 1px 20px 1px;
+.sub-question-heading {
+    font-size: 2vw;
+    font-weight: 550;
+    margin: 10px 1px 20px 1px;
 
 }
 
-.sub-img-heading{
+.sub-img-heading {
     margin: auto;
-
     display: flex;
     justify-content: center;
 
 }
-.sub-img{
 
+.sub-img {
     width: 80%;
 }
 
 
-.h3-title{
+.h3-title {
     font-size: 1.6vw;
     font-weight: 600;
 }
-.span-link{
-    color:#F47721;
+
+.span-link {
+    color: #F47721;
     font-weight: bold;
 }
 
-.htwo-heading{
-
+.htwo-heading {
     font-size: 1.8vw;
     font-weight: 600;
 }
-
-
-

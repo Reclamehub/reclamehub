@@ -1,37 +1,44 @@
-.brand_content_div{
+.brand_content_div {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
   width: 80%;
 }
-.brand_bg_div{
+
+.brand_bg_div {
   background-size: 80% 100%;
   padding: 3%;
 }
-.gif_div{
+
+.gif_div {
   width: auto;
 }
-.text_img_div{
+
+.text_img_div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.brandtext_div{
+
+.brandtext_div {
   font-size: 3.5vw;
   font-weight: 800;
   line-height: normal;
 }
-.img_div{
-width: 35%;
-margin-top: auto;
+
+.img_div {
+  width: 35%;
+  margin-top: auto;
 }
-.brand_img{
-margin-top: auto;
+
+.brand_img {
+  margin-top: auto;
 }
+
 /* Media query for mobiles */
 @media (max-width: 480px) {
-  .gif_div{
+  .gif_div {
     width: 100%;
   }
 
@@ -39,6 +46,4 @@ margin-top: auto;
 
 
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px) {
- 
-}
+@media (min-width: 768px) and (max-width: 1024px) {}

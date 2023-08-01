@@ -75,32 +75,32 @@ export const HomeClients = () => {
 
     return (
         <>
-       <Box  paddingTop={"5%"} paddingBottom={"0%"}>
-        <Box  display={{ base: "none", sm: "none", md: "inline", lg: "inline", xl: "inline" }} bg={useColorModeValue('white', '#1f1f1f')} fontFamily={"poppins"} margin={"auto"} >
+            <Box paddingTop={"5%"} paddingBottom={"0%"}>
+                <Box display={{ base: "none", sm: "none", md: "inline", lg: "inline", xl: "inline" }} bg={useColorModeValue('white', '#1f1f1f')} fontFamily={"poppins"} margin={"auto"} >
 
-            <div className="heading_div">
-                <heading className="page_heading">SOME OF OUR <span>CLIENTS</span></heading>
-            </div>
-            <div className="heading_descp_div">
-                <text className="heading_description">helping these and many Other incredible clients reach for the stars is what pulls us out of bed<br/>every morning.</text>
-                </div>
+                    <div className="heading_div">
+                        <heading className="page_heading">SOME OF OUR <span>CLIENTS</span></heading>
+                    </div>
+                    <div className="heading_descp_div">
+                        <text className="heading_description">helping these and many Other incredible clients reach for the stars is what pulls us out of bed<br />every morning.</text>
+                    </div>
 
-            <Box backgroundColor={"#FF9450"}>
-                <Box className="clients-img-container" >
-                    {clients.map((el) => 
-                    <Box key={el.id} className="clients-img-box" boxShadow='lg' >
-                        <Image w="100%" m="auto" h="100%" src={el.teamimg} className="clients-img" alt="img" />
+                    <Box backgroundColor={"#FF9450"}>
+                        <Box className="clients-img-container" >
+                            {clients.map((el) =>
+                                <Box key={el.id} className="clients-img-box" boxShadow='lg' >
+                                    <Image w="100%" m="auto" h="100%" src={el.teamimg} className="clients-img" alt="clients-img" />
+                                </Box>
+                            )}
+                        </Box>
+                        <Box>
+                            <Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"50px"} >Explore More</Button></Link>
+                        </Box>
                     </Box>
-                    )}
+
+
                 </Box>
-                   <Box>
-                    <Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"50px"} >Explore More</Button></Link>
-                    </Box>
             </Box>
-
-       
-        </Box>
-        </Box>
         </>
 
     )

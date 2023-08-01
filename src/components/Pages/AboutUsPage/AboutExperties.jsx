@@ -19,7 +19,7 @@ return(
         <Col lg={4} md={9} sm={12} className="experties_col">
         <div className="experties_card_div">
             <div >
-                <img className="experties_img" src="gif1.gif"/>
+                <img className="experties_img" src="gif1.gif" alt="experties-img1"/>
             </div>
             <div style={{maxWidth:"90%",margin:"auto"}}>
                 <heading className="experties_card_heading"> social media <br/> managment</heading><br/><br/>
@@ -32,7 +32,7 @@ return(
         <Col lg={4} md={9} sm={12} className="experties_col">
         <div className="experties_card_div">
             <div>
-                <img  className="experties_img" src="gif3.gif"/>
+                <img  className="experties_img" src="gif3.gif" alt="experties-img2"/>
             </div>
             <div style={{maxWidth:"90%",margin:"auto"}}>
                 <heading className="experties_card_heading">graphic<br/> designing</heading><br/><br/>
@@ -43,7 +43,7 @@ return(
         <Col lg={4} md={9} sm={12} className="experties_col">
         <div className="experties_card_div">
             <div>
-                <img className="experties_img" src="gif2.gif"/>
+                <img className="experties_img" src="gif2.gif" alt="experties-img3"/>
             </div>
             <div style={{maxWidth:"90%",margin:"auto"}}>
                 <heading className="experties_card_heading">web design<br/>& development</heading><br/><br/>
