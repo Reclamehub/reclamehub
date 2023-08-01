@@ -11,7 +11,7 @@ export const AboutChoose=()=>{
         <img style={{height:"80px"}} src="quesimg.png"  alt="reclame"/>
        </div>
        <div className="heading_descp_div" >
- <text className="heading_description choose_title">we are young, we are passionate and we are enthusiastic to transform your brand in this digital world.</text>
+ <text className="heading_description choose_title">we're young, we're passionate and we're enthusiastic to transform your brand in this digital world.</text>
 </div>
         <Container className="ChooseContent_container">
             <Row>

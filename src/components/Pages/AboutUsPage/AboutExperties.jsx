@@ -12,7 +12,7 @@ return(
     r</span> <span className="heading_span">E</span>x<span className="heading_span">p</span>e<span className="heading_span">r</span>t<span className="heading_span">i</span>e<span className="heading_span">s</span></heading>
        </div>
        <div style={{marginBottom:"3%"}}>
-       <text className="heading_description">Our expertise is in determining what makes a firm unique, attractive and lucrative.</text>
+       <text className="heading_description">Our expertise is in determining what makes a firm unique, attractive, and lucrative.</text>
        </div>
         <Container className="content_Outercontainer">
        <Row>

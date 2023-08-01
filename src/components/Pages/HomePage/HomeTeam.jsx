@@ -50,7 +50,7 @@ export const HomeTeam = () => {
             <heading className="page_heading">MEET OUR <span style={{ color: "orangered" }}>TEAM</span></heading>
         </div>
      <div className="heading_descp_div">
-        <text className="heading_description" > Meet our warriors to use the force for goodmeet our digital warriors, ready to use the force for good </text>
+        <text className="heading_description" > Meet our warriors to use the force for goodmeet our digital warriors, ready to use the force for good. </text>
         </div>
 <Container className="gallery_container1">
 <div className="t_img_div">

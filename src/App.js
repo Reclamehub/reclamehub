@@ -8,6 +8,7 @@ import { AllRoutes } from "./components/AllRoutes/AllRoutes"
 import { Footer } from "./components/Footer/Footer"
 import { Box, useColorMode, useColorModeValue } from '@chakra-ui/react';
 import { FooterMain } from './components/Footer/FooterMain';
+import ScrollToTopButton from './ScrollToTop/ScrollToTOpButton';
 function App() {
 
   // localStorage.setItem("chakra-ui-color-mode","dark")
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <AllRoutes />
       <FooterMain />
+      <ScrollToTopButton />
     </Box>
   );
 }

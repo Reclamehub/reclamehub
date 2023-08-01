@@ -5,7 +5,7 @@ import { AiOutlinePhone } from "react-icons/ai"
 import { MdAlternatemobile } from "react-icons/md"
 import { FiMail } from "react-icons/fi"
 import  {FaPhone} from "react-icons/fa"
-import { Box, Button, Heading, Input, InputGroup, InputLeftElement, InputRightElement, Textarea, background, useColorModeValue } from "@chakra-ui/react"
+import { Box,  useColorModeValue } from "@chakra-ui/react"
 import "./ContactForm.css"
 import { Container } from "react-bootstrap";
 
@@ -85,10 +85,9 @@ export const ContactForm = () => {
       </div>
     
       <div className="mb-5">
-        <text className="heading_description">We are available for a friendly chat to discuss your business needs, no obligation.
+        <text className="heading_description">We're available for a friendly chat to discuss your business needs, no obligation.
         </text>
       </div>
-     
       <form method="POST">
         <wrapper className="inputfield_wrapper">
             {/* left-side-fields */}
@@ -105,10 +104,11 @@ export const ContactForm = () => {
                 onChange={postUserData}
                 maxLength={25} // Set your desired limit here
               />
+
               <img
                 style={{ height: "20px", width: "17px", marginLeft: "-30px", marginTop: "12px" }}
                 src="person-icon2.png"
-              />
+              />  
               <label className="labels" htmlFor="fnameInput">
                 Full Name
               </label>
@@ -197,6 +197,7 @@ export const ContactForm = () => {
           </button>
         </div>
       </form>
+    
     </Container>
   );
 };

@@ -33,7 +33,7 @@ const serviceData = [
         simg: "gif3.gif",
         heading: `GRAPHIC  `,
         headingTwo: `DESIGNING`,
-        desc: `design services can help. We think that excellent design extends beyond aesthetics.Our graphic design services can help.`
+        desc: `Design Services Can Help. We Think That Excellent Design Extends Beyond Aesthetics. Our Graphic Design Services Can Help.`
 
     },
     {
@@ -57,21 +57,21 @@ const serviceData = [
         simg: "gif4.gif",
         heading: `VIDEO-AD `,
         headingTwo: `FILM`,
-        desc: `Our video ad film services are meant to assist you in creating aesthetically attractive and interesting films`
+        desc: `Our video ad film services are meant to assist you in creating aesthetically attractive and interesting films.`
     },
     {
         id: 8,
         simg: "gif7.gif",
         heading: `EMAIL `,
         headingTwo: `MARKETING`,
-        desc: `With our Email Marketing Services, you can turbocharge your marketing efforts`
+        desc: `With our Email Marketing Services, you can turbocharge your marketing efforts.`
     },
     {
         id: 9,
         simg: "gif9.gif",
         heading: `CAMPAIGN `,
         headingTwo: `MARKETING`,
-        desc: `We help businesses succeed in the digital age! We are here to boost your online presence`
+        desc: `We help businesses succeed in the digital age! We are here to boost your online presence.`
     },
 
 ]

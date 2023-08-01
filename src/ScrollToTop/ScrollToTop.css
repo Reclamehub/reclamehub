@@ -1,0 +1,49 @@
+.scroll-to-top-button-div{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    z-index: 999;
+}
+
+.scroll-to-top-button-div.visible {
+    display: block;
+  }
+.scroll_icon_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #ff7722;
+    border-radius: 50%;
+    padding: 2px;
+    height: 3vw;
+    width: 3vw;
+}
+.icon{
+font-size: 2vw;
+}
+.scroll_icon_div:hover{
+    background-color: #ff7722;
+}
+@media (max-width: 767px) {
+    .scroll_icon_div{
+        height: 8vw;
+        width: 8vw;
+    }
+    .icon{
+        font-size: 5vw;
+        }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .scroll_icon_div{
+        height: 6vw;
+        width: 6vw;
+    }
+    .icon{
+        font-size: 4.1vw;
+        }
+}

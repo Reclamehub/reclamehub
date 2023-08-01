@@ -35,7 +35,13 @@ font-size: 1vw;
 
 
 @media screen and (max-width:480px) {
-
+    .foot-main-container {
+        padding-top: 1vw;
+        padding-right: 1vw;
+        padding-left: 1vw;
+        padding-bottom: 15vw;
+      
+    }
     .foot-sub-text {
         margin-bottom: 5px;
         font-size: 2vw;
