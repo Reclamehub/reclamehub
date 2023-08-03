@@ -3,8 +3,8 @@ import React,{useEffect } from "react"
 import { HomePage } from "../Pages/HomePage/HomePage"
 import { AboutUs } from "../Pages/AboutUsPage/AboutUs"
 import { Blog } from "../Pages/Blogs/Blog"
-import { SingleBlog } from "../Pages/Blogs/SingleBlog"
-import { SingleBlogPage } from "../Pages/Blogs/SingleBlogPage"
+// import { SingleBlog } from "../Pages/Blogs/SingleBlog"
+// import { SingleBlogPage } from "../Pages/Blogs/SingleBlogPage"
 import { ContactUsPage } from "../Pages/ContactUsPage/ContactUsPage"
 import { ServicePage } from "../Pages/ServicePage/ServicePage"
 import { BlogOne } from "../Pages/Blogs/BlogOne"
@@ -42,8 +42,6 @@ export const AllRoutes = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/:id" element={<SingleBlog />} />
-            <Route path="/single" element={<SingleBlogPage />} />
             <Route path="/contact" element={<ContactUsPage />} />
             <Route path="/contactform" element={<ContactForm />} />
             <Route path="/service" element={<ServicePage />} />
@@ -59,7 +57,8 @@ export const AllRoutes = () => {
             <Route path="/CM" element={<CM />} />
             <Route path="/AD" element={<AD />} />
             <Route path="/effective-digital-marketing-startegies-for-small-businesses" element={<BlogOne />} />
-
+    {/* <Route path="/:id" element={<SingleBlog />} />
+            <Route path="/single" element={<SingleBlogPage />} /> */}
         </Routes>
 
          </ScrollToTop> 

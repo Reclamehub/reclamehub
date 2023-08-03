@@ -1,7 +1,7 @@
 import { Box, Flex, Heading, Image, Spacer, Text, useColorModeValue } from "@chakra-ui/react"
-
-
 import "./BlogOne.css"
+
+
 export const BlogOne=()=>{
 
 
