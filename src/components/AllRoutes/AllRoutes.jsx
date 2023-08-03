@@ -45,17 +45,17 @@ export const AllRoutes = () => {
             <Route path="/contact" element={<ContactUsPage />} />
             <Route path="/contactform" element={<ContactForm />} />
             <Route path="/service" element={<ServicePage />} />
-            <Route path="/SMM" element={<SMM />} />
-            <Route path="/ContentWriter" element={<ContentWriter/>} />
-            <Route path="/ORM" element={<ORM />} />
-            <Route path="/GD" element={<GD />} />
-            <Route path="/WDD" element={<WDD />} />
-            <Route path="/DA" element={<DA />} />
-            <Route path="/VAF" element={<VAF />} />
-            <Route path="/EM" element={<EM />} />
-            <Route path="/SEO" element={<SEO />} />
-            <Route path="/CM" element={<CM />} />
-            <Route path="/AD" element={<AD />} />
+            <Route path="/social-media-management" element={<SMM />} />
+            <Route path="/content-marketing" element={<ContentWriter/>} />
+            <Route path="/online-reputation-management" element={<ORM />} />
+            <Route path="/graphic-designing" element={<GD />} />
+            <Route path="/web-design-development" element={<WDD />} />
+            <Route path="/digital-advertisement" element={<DA />} />
+            <Route path="/video-ad-film" element={<VAF />} />
+            <Route path="/email-marketing" element={<EM />} />
+            <Route path="/seo-development" element={<SEO />} />
+            <Route path="/campaign-marketing" element={<CM />} />
+            <Route path="/app-design-development" element={<AD />} />
             <Route path="/effective-digital-marketing-startegies-for-small-businesses" element={<BlogOne />} />
     {/* <Route path="/:id" element={<SingleBlog />} />
             <Route path="/single" element={<SingleBlogPage />} /> */}

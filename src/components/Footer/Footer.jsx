@@ -9,7 +9,8 @@ import { color } from "framer-motion";
 export const Footer = () => {
 
 
-    return (<Box fontFamily={"poppins"} bg={useColorModeValue('white', 'black')} className="foot-main-container" borderRadius={"20px"}>
+    return (
+    <Box fontFamily={"poppins"} bg={useColorModeValue('white', 'black')} className="foot-main-container" borderRadius={"20px"}>
         <Box padding="5px">
             <Flex justifyContent={"space-between"} flexWrap={"wrap"} >
 
@@ -17,10 +18,10 @@ export const Footer = () => {
 
                     <Box> <Link to="/"><Image h={{ base: "50px", sm: "30px", md: "50px", lg: "50px", xl: "50px" }} src="navicon.png" bgColor={"white"} borderRadius={"60px"} border="1px solid black" color={"white"} alt="reclame-icon" /></Link></Box>
 
-                    <Box mt={{ base: "5px", sm: "7px", md: "10px", lg: "10px", xl: "10px" }}><Text className="footer-desc" fontSize={{ base: "3vw", sm: "2vw", md: "1vw", lg: "1vw", xl: "1vw" }}>We have a young team from professional backgrounds who are waiting to transform your brand with their infectious passion for storytelling in this digital world. An army of creative thinkers in Noida who spend a productive amount of their time on digital to explore and grow rapidly.</Text></Box>
+                    <Box mt={{ base: "5px", sm: "7px", md: "10px", lg: "10px", xl: "10px" }}><Text className="footer-desc" fontSize={{ base: "3vw", sm: "2vw", md: "1vw", lg: "1vw", xl: ".9vw" }}>We have a young team from professional backgrounds who are waiting to transform your brand with their infectious passion for storytelling in this digital world. An army of creative thinkers in Noida who spend a productive amount of their time on digital to explore and grow rapidly.</Text></Box>
 
-                    <Box mt={{ base: "20px", sm: "20px", md: "10px", lg: "10px", xl: "10px" }} >
-                        <Flex justifyContent={"space-around"} >
+                    <Box mt={{ base: "20px", sm: "20px", md: "10px", lg: "10px", xl: "10px" }} width={"90%"} >
+                        <Flex justifyContent={"space-around"} alignItems={"center"}  >
                             <Box _hover={{ color: "#F47721" }}><a href="https://www.facebook.com/reclamehubofficial/"><FaFacebookF className="icon-media" /></a></Box>
                             <Box _hover={{ color: "#F47721" }}><a href="https://www.instagram.com/reclamehub/?hl=en"><FaInstagram className="icon-media" /></a></Box>
                             <Box _hover={{ color: "#F47721" }}><a href=""><FaYoutube className="icon-media" /></a></Box>

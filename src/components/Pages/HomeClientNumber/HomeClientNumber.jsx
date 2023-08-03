@@ -17,8 +17,8 @@ export const HomeClientNumber = () => {
                     <Image w="80%" m="auto" src="globe.png" alt="globe-img"/>
                 </Box>
 
-                <Box display={"flex"} justifyContent={"space-between"} marginTop={"20px"} marginLeft={"1%"}>
-                    <Box>
+                <Box className="total_outer_div">
+                    <Box className="total_div">
                         <Box fontSize={"4vw"} fontWeight={"bold"} color="#E6B829">4 T+</Box>
                         <Box fontWeight={"600"} fontSize={"1.6vw"} textTransform={"capitalize"}>
                             <text>total hours</text><br />
@@ -26,7 +26,7 @@ export const HomeClientNumber = () => {
                         </Box>
                     </Box>
 
-                    <Box>
+                    <Box className="total_div">
                         <Box fontSize={"4vw"} fontWeight={"bold"} color="#E6B829" >$ 200 T+</Box>
                         <Box fontWeight={"600"} fontSize={"1.6vw"} textTransform={"capitalize"}>
                             <text>total number of</text><br />
@@ -36,7 +36,7 @@ export const HomeClientNumber = () => {
 
 
 
-                    <Box>
+                    <Box className="total_div">
                         <Box fontSize={"4vw"} fontWeight={"bold"} color="#E6B829"> 2,40,000</Box>
                         <Box fontWeight={"600"} fontSize={"1.6vw"} textTransform={"capitalize"}>
                             <text>total cup of</text><br />

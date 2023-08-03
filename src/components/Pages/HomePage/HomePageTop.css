@@ -1,7 +1,7 @@
 .Home-top-container {
     /* border:1px solid red; */
     background-image: url("../../../../public/homtopbg.png");
-    padding: 30px;
+    padding: 0% 2%;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -41,16 +41,15 @@
 }
 
 .home-top-img-box {
-    margin-top: -2vw;
+    margin-top: -9vw;
 }
 
 .home-btn-img {
     display: flex;
-    /* justify-content: space-between; ....*/
+
     justify-content: space-around;
 
 }
-
 .home-top-img {
     width: 28vw;
 }

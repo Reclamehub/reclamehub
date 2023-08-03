@@ -1,5 +1,6 @@
 .foot-main-container {
     padding: 1vw;
+  
 }
 
 /* .footer-desc{
@@ -27,10 +28,13 @@ font-size: 1vw;
 }
 .footer-desc{
     text-transform: capitalize;
+   
 }
 
 .icon-media {
     font-size: 30px;
+  margin-right: auto;
+
 }
 
 

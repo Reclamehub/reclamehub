@@ -9,7 +9,20 @@
   height: 5px;
   box-shadow: 10px 5px 50px white;
 }
+.total_outer_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 
+}
+.total_div{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+margin: auto;
+}
 .home-client-band {
 
   height: 1px;

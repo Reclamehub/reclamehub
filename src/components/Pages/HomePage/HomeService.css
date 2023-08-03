@@ -9,7 +9,7 @@
     text-align: center;
     align-self: normal;
     gap: 3%;
-    padding: 0px 8% 20px 8%;
+    padding: 0px 7% 20px 7%;
     margin: auto;
 
 }
@@ -36,7 +36,7 @@
 }
 
 .hservice_img {
-    max-height: 280px;
+    max-height: 256px;
 }
 
 .hservice_cards_heading {

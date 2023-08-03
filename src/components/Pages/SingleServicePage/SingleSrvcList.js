@@ -15,10 +15,9 @@ const SingleSrvcTable = (props) => {
 
       <Container className="table-container">
         <main className='main_div' >
-          <div >
-            <p className='table_title'>{props.title0}</p>
+          <div className='table_sub_headings'>
             <Box color={useColorModeValue('#000', "#15E888")} >
-              <p>{props.heading0}</p>
+              <p style={{fontWeight:"500"}}>{props.heading0}</p>
             </Box>
           </div>
           <Box color={useColorModeValue('#FF7721', "#FFB800")} >
@@ -29,10 +28,9 @@ const SingleSrvcTable = (props) => {
         </main>
 
         <main className='main_div' style={{ marginBottom: 'auto' }} >
-          <div >
-            <p className='table_title'>{props.title1}</p>
+          <div className='table_sub_headings'>
             <Box color={useColorModeValue('#000', "#15E888")} >
-              <p>{props.heading1}</p>
+              <p style={{fontWeight:"500"}}>{props.heading1}</p>
             </Box>
           </div>
           <Box color={useColorModeValue('#FF7721', "#FFB800")} >
@@ -41,12 +39,12 @@ const SingleSrvcTable = (props) => {
             </div>
           </Box>
         </main>
+           
 
-        <main className='main_div' style={{ marginBottom: 'auto' }} >
-          <div >
-            <p className='table_title'>{props.title2}</p>
+        <main className='main_div' style={{ marginBottom: 'auto', }} >
+          <div className='table_sub_headings'>
             <Box color={useColorModeValue('#000', "#15E888")} >
-              <p>{props.heading2}</p>
+              <p style={{fontWeight:"500"}}>{props.heading2}</p>
             </Box>
           </div>
           <Box color={useColorModeValue('#FF7721', "#FFB800")} >
@@ -55,12 +53,12 @@ const SingleSrvcTable = (props) => {
             </div>
           </Box>
         </main>
+         
 
         <main className='main_div' style={{ marginBottom: 'auto', }} >
-          <div >
-            <p className='table_title'>{props.title3}</p>
+          <div className='table_sub_headings'>
             <Box color={useColorModeValue('#000', "#15E888")} >
-              <p>{props.heading3}</p>
+              <p style={{fontWeight:"500",}}>{props.heading3}</p>
             </Box>
           </div>
           <Box color={useColorModeValue('#FF7721', "#FFB800")} >
@@ -69,11 +67,11 @@ const SingleSrvcTable = (props) => {
             </div>
           </Box>
         </main>
+        
         <main className='main_div' style={{ marginBottom: 'auto' }} >
-          <div >
-            <p className='table_title'>{props.title4}</p>
+          <div className='table_sub_headings'>
             <Box color={useColorModeValue('#000', "#15E888")} >
-              <p>{props.heading4}</p>
+              <p style={{fontWeight:"500"}}>{props.heading4}</p>
             </Box>
           </div>
           <Box color={useColorModeValue('#FF7721', "#FFB800")} >
@@ -87,3 +85,4 @@ const SingleSrvcTable = (props) => {
   );
 };
 export default SingleSrvcTable
+           

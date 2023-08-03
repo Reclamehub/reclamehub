@@ -20,7 +20,7 @@
 }
 
 .experties_card_div {
-    padding: 10px;
+    padding: 0px;
     border: 1px solid gray;
     border-radius: 10px;
     width: 90%;
@@ -33,9 +33,9 @@
 }
 
 .experties_img {
-    height: 350px;
-    background: #FFF4ED;
-    margin-bottom: 10px;
+height: 300px;
+ margin-bottom: 10px;
+ margin: auto;
 }
 
 .experties_card_heading {
@@ -62,7 +62,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .experties_img {
-        max-height: 350px;
+        max-height: 300px;
 
     }
 

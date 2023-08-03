@@ -1,4 +1,4 @@
-// import { Box, Flex, Heading, Text,Image } from "@chakra-ui/react"
+ import { Box, Flex, Heading, Text,Image } from "@chakra-ui/react"
 import {Container,Row,Col} from "react-bootstrap"
 import "./AboutChoose.css"
 
@@ -25,9 +25,11 @@ export const AboutChoose=()=>{
      </div>
         </Col>
                 <Col sm={12} md={6} lg={6} xl={6} className="aboutChoose_col">
+                    <Box>
                 <div style={{height:"100%",width:"100%"}} >
-               <img style={{height:"90%",width:"100%"}} src="abtgif2.gif" alt="abtgig2"/>
+               <img style={{height:"100%",width:"100%"}} src="abtgif3.gif" alt="abtgig2"/>
                 </div>
+                </Box>
                 </Col>
             </Row>
          </Container>

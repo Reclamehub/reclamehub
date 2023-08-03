@@ -8,32 +8,38 @@
 
 .brand_bg_div {
   background-size: 80% 100%;
-  padding: 3%;
+  padding: 1%;
 }
 
 .gif_div {
   width: auto;
+  padding: 3%;
 }
 
 .text_img_div {
   display: flex;
   justify-content: center;
   align-items: center;
+ width: auto;
 }
 
 .brandtext_div {
   font-size: 3.5vw;
   font-weight: 800;
   line-height: normal;
+  width: 100%;
 }
 
 .img_div {
   width: 35%;
-  margin-top: auto;
+  margin-top: 28%;
+  margin-left: auto;
 }
 
 .brand_img {
+  width: 100%;
   margin-top: auto;
+  margin-left: auto;
 }
 
 /* Media query for mobiles */

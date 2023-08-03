@@ -22,7 +22,7 @@ export const HomeAbout = () => {
                     }} >
                     <div className="home-about-content-div" >
                         <div className="heading_div">
-                            <heading className="page_heading" style={{ color: "black" }} >WHO <span style={{ color: "#F47721" }}>WE</span> ARE </heading>
+                            <heading className="page_heading" style={{ color: "black" }} >WHO <span style={{ color: "#E1B22E" }}>WE</span> ARE </heading>
                         </div>
                         <div className="heading_descp_div" >
                             <text className="heading_description" style={{ lineHeight: "normal", color: "black" }}>

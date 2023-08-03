@@ -21,7 +21,7 @@ export const ServicePageTypes = () => {
                                 <p className="Scard_para">Are you looking to increase brand awareness, generate leads, or establish thought leadership in your industry?<br />
                                     Look no further than Reclame Hub, our Social media management services in Noida, India Elevate your Brand’s Online Presence, to connect you with your target audience and strong online presence.
                                 </p>
-                                <button className="srvc_type_btn"onClick={()=>{history("/SMM")}}>Know More</button>
+                                <button className="srvc_type_btn"onClick={()=>{history("/social-media-management")}}>Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s1.gif" alt="s1-gif" />
@@ -40,7 +40,7 @@ export const ServicePageTypes = () => {
                                 <p className="Scard_para">Discover the best B2B Content Marketing Agency Services in India with Reclame Hub. From blog posts and whitepapers to social media 
                                 content and email marketing campaigns, we have the expertise and resources to deliver results that exceed your expectations.
                                 </p>
-                                <button className="srvc_type_btn" onClick={()=>{history("/contentWriter")}}>Know More</button>
+                                <button className="srvc_type_btn" onClick={()=>{history("/content-marketing")}}>Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s2.gif" alt="s2-gif" />
@@ -58,7 +58,7 @@ export const ServicePageTypes = () => {
                                 <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>online reputation management</h2>
                                 <p className="Scard_para">Our Reliable Marketing services in Noida, India, specializes in delivering effective marketing solutions tailored to your specific needs. Our team looks into the necessity of having a strong online presence to successfully manage brand reputation.
                                 </p>
-                                <button className="srvc_type_btn" onClick={()=>{history("/ORM")}}>Know More</button>
+                                <button className="srvc_type_btn" onClick={()=>{history("/online-reputation-management")}}>Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s3.gif" alt="s3-gif" />
@@ -81,8 +81,10 @@ export const ServicePageTypes = () => {
                             <div className="Rservice_heading_div">
                                 <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>graphic designing</h2>
                                 <p className="Scard_para">Expert Graphic Designing Company in Noida | Creative Design Services | Reclame Hub
-                                </p><br/>
-                                <button className="srvc_type_btn" onClick={()=>{history("/GD")}}>Know More</button>
+                                </p>
+                                <br/>
+                              
+                                <button className="srvc_type_btn" onClick={()=>{history("/graphic-designing")}}>Know More</button>
                             </div>
                         </div>
                         </Box>
@@ -99,7 +101,7 @@ export const ServicePageTypes = () => {
                                 <p className="Scard_para">Professional Website Development Services | Reclame Hub Leading Website Development Company offering custom ecommerce solutions. 
                                 Expertise in Magento, WordPress Website Development in India. Upgrade your business today.
                                 </p>
-                                <button className="srvc_type_btn"onClick={()=>{history("/WDD")}} >Know More</button>
+                                <button className="srvc_type_btn"onClick={()=>{history("/web-design-development")}} >Know More</button>
                             </div>
                         </div>
                         </Box>
@@ -117,7 +119,7 @@ export const ServicePageTypes = () => {
                                 <p className="Scard_para"> Elevate your small business with Reclame Hub, a premier digital marketing agency specializing in tailored strategies to enhance your online presence, 
                                 drive traffic, and boost conversions.
                                 </p>
-                                <button className="srvc_type_btn"onClick={()=>{history("/DA")}} >Know More</button>
+                                <button className="srvc_type_btn"onClick={()=>{history("/digital-advertisement")}} >Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s6.gif" />
@@ -138,7 +140,7 @@ export const ServicePageTypes = () => {
                                 <p className="Scard_para">At Reclame Hub, we enhance your virtual world with the power of captivating video content. Our skilled team will create high-quality video-ad films 
                                 that effectively communicate your brand message, engage your target audience, and leave a lasting impact.
                                 </p>
-                                <button className="srvc_type_btn"onClick={()=>{history("/VAF")}} >Know More</button>
+                                <button className="srvc_type_btn"onClick={()=>{history("/video-ad-film")}} >Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s7.gif" />
@@ -159,7 +161,7 @@ export const ServicePageTypes = () => {
                                 <p className="Scard_para"> As experts in email marketing, we know that effective communication is key. With our tailored strategies and services, we help build strong connections with your audience. Our team will craft personalized email 
                                 campaigns that deliver the right message to people at the right time.
                                 </p>
-                                <button className="srvc_type_btn"onClick={()=>{history("/EM")}} >Know More</button>
+                                <button className="srvc_type_btn"onClick={()=>{history("/email-marketing")}} >Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s8.gif" />
@@ -183,7 +185,7 @@ export const ServicePageTypes = () => {
                                 <p className="Scard_para">In today’s landscape enhancing online visibility is of utmost importance. Reclame Hub offers top-level SEO services to your website to rank higher. We provide the best possible solutions to build your
                                  online presence and drive more traffic to your website.
                                 </p>
-                                <button className="srvc_type_btn"onClick={()=>{history("/SEO")}} >Know More</button>
+                                <button className="srvc_type_btn"onClick={()=>{history("/seo-development")}} >Know More</button>
                             </div>
                         </div>
                         </Box>
@@ -199,7 +201,7 @@ export const ServicePageTypes = () => {
                                 <h2 style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw",marginBottom:"2rem" }}>campaign marketing</h2>
                                 <p className="Scard_para">We work closely with our expertly crafted campaigns to develop tailored strategies that align with your business goals, from identifying your target audience and creating engaging content to driving measurable results.
                                 </p>
-                                <button className="srvc_type_btn"onClick={()=>{history("/CM")}} >Know More</button>
+                                <button className="srvc_type_btn"onClick={()=>{history("/campaign-marketing")}} >Know More</button>
                             </div>
                         </div>
                         </Box>
@@ -217,7 +219,7 @@ export const ServicePageTypes = () => {
                                 <p className="Scard_para"> Reclame Hub specializes in app design and development, crafting intuitive and visually appealing applications that deliver outstanding user experiences. 
                                 we'll bring your ideas to life, ensuring seamless functionality and a polished interface.
                            </p>
-                           <button className="srvc_type_btn"onClick={()=>{history("/AD")}} >Know More</button>
+                           <button className="srvc_type_btn"onClick={()=>{history("/app-design-development")}} >Know More</button>
                             </div>
                             <div className="service_img_div">
                                 <img className="service_img" src="s11.gif" />
