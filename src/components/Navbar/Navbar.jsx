@@ -16,7 +16,7 @@ export const Navbar = () => {
           <Flex className="nav-col-two">
             <Box>
             </Box>
-            <Box><Text _hover={{ color: "#F47721" }}><Link to="/explore">EXPLORE </Link></Text> </Box>
+            <Box><Text _hover={{ color: "#F47721" }}><Link to="/">EXPLORE </Link></Text> </Box>
             <Box><Text _hover={{ color: "#F47721" }}><Link to="/about">ABOUT US</Link></Text> </Box>
             <Box><Link to="/service"><Text _hover={{ color: "#F47721" }}>SERVICES</Text></Link></Box>
             <Box><Link to="/"><Text _hover={{ color: "#F47721" }}>PORTFOLIO</Text></Link></Box>

@@ -10,8 +10,6 @@
  gap: 3%;
  color: #ffffff;
 }
-/* ------------- */
-
 .exp_container{
     display: flex;
     justify-content: space-around;
@@ -68,6 +66,13 @@ margin: 5% auto 5% 0px;
 border: 2px solid #F47721;
 border-radius: 30px;
 background-color: transparent;
+}
+/* exp-service-css */
+.exp_service_card_wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
 }
 /* -------------------------------------- */
 @media (max-width: 767px) {

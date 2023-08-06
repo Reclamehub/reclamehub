@@ -6,9 +6,7 @@ import ChatBox from './ChatBox';
 import DropDownBar from './DropDownBar';
 import Card from './Card';
 import "./Explore.css"
-import ImageFormToggle from './ImageFormToggle';
-
-
+import ABC from './ImgForm';
 
 
 export const Explore = () => {
@@ -43,8 +41,10 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 <img src="Ellipse60.png" alt="explore-top-img"/>
 </div>
 </Container>
-<Container>
-<div className='exp_heading_wrapper' style={{width:"90%"}}>
+
+
+ <Container className='form-img-toggle-container'>
+ <div className='exp_heading_wrapper' style={{width:"90%"}}>
       <div className='exp_heading_div' style={{marginBottom:"1%"}}>
         <heading className="exp_heading" >How reclame hub can help your bussiness ?</heading>
       </div>
@@ -52,21 +52,44 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
         <text className='exphelp_heading'>We believe in helping businesses at 360* angles so you can focus on your core operations business.</text>
         </div>
         </div>
- </Container>
-
- 
-<Container className='form-img-toggle-container'>
-  <div>
+  <div className='img_form_wrapper'>
+    <div>
 <Card img="expvector3.png" title1="company" title2="formation" text="We can incorporate all kinds of entities required to set up the business such as private limited companies, OPC, LLP, Partnership Firm, and many more..."/>
 <Card img="expvector2.png" title1="business registration &" title2="license" text="We can incorporate all kinds of entities required to set up the business such as private limited companies, OPC, LLP, Partnership Firm, and many more..."/>
 <Card img="expvector1.png" title1="brand &" title2="marketing" text="We can incorporate all kinds of entities required to set up the business such as private limited companies, OPC, LLP, Partnership Firm, and many more..."/>
 </div>
 <div>
-      <ImageFormToggle />
+     <ABC/>
     </div>
-
-
+    </div>
 </Container>
+
+  <Container className="exp_service_container">
+  <div className='exp_heading_wrapper' style={{width:"90%"}}>
+      <div className='exp_heading_div' style={{marginBottom:"1%"}}>
+        <heading className="exp_heading" >Our services</heading>
+      </div>
+      <div className='exp_text_div' style={{width:"auto"}}>
+        <text className='exphelp_heading'>Setup & Delivered 2,00,000 + New Companies and Business Licenses for MSMEs in India and continuing.</text>
+        </div>
+        </div>
+
+        <div className='exp_service_card_wrapper'>
+          <div>
+          <Card img="expvector3.png" title1="company" title2="formation" text="We can incorporate all kinds of entities required to set up the business such as private limited companies, OPC, LLP, Partnership Firm, and many more..."/>
+<Card img="expvector2.png" title1="business registration &" title2="license" text="We can incorporate all kinds of entities required to set up the business such as private limited companies, OPC, LLP, Partnership Firm, and many more..."/>
+<Card img="expvector1.png" title1="brand &" title2="marketing" text="We can incorporate all kinds of entities required to set up the business such as private limited companies, OPC, LLP, Partnership Firm, and many more..."/>
+          </div>
+       
+        <div>
+        <Card img="expvector3.png" title1="company" title2="formation" text="We can incorporate all kinds of entities required to set up the business such as private limited companies, OPC, LLP, Partnership Firm, and many more..."/>
+<Card img="expvector2.png" title1="business registration &" title2="license" text="We can incorporate all kinds of entities required to set up the business such as private limited companies, OPC, LLP, Partnership Firm, and many more..."/>
+<Card img="expvector1.png" title1="brand &" title2="marketing" text="We can incorporate all kinds of entities required to set up the business such as private limited companies, OPC, LLP, Partnership Firm, and many more..."/>
+        </div>
+        </div>
+  </Container>
+
+
 
 </Box>
 </>
