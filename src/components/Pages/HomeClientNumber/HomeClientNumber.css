@@ -29,6 +29,11 @@ margin: auto;
   background-color: white;
   margin-top: -3px;
 }
+.line_div{
+  height: 100px;
+  width: 2px;
+  background-color: lightgrey;
+}
 
 @media screen and (max-width:480px) {
   .vl {
@@ -36,5 +41,16 @@ margin: auto;
     height: 28px;
     margin-top: 8px;
   }
+  .line_div{
+    height: 30px;
 
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .line_div{
+    height: 60px;
+
+  }
 }

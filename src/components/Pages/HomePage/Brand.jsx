@@ -1,4 +1,4 @@
-import { Flex, Image, text, Box, Center } from "@chakra-ui/react"
+import { Flex, Image, text, Box, Center, useColorModeValue } from "@chakra-ui/react"
 import "./Brand.css"
 import home_brand_bg from "../../../Bg_images/home_brand_bg.png"
 import { Container } from "react-bootstrap"
@@ -9,12 +9,8 @@ export const Brand = () => {
     return (
 
         <Box borderBottom="4px solid white" paddingBottom={"5%"} paddingTop={"5%"}>
-            <div className="brand_bg_div"
-                style={{
-                    backgroundImage: `url(${home_brand_bg})`,
-                    backgroundPosition: 'center',
-                    backgroundRepeat: "no-repeat"
-                }} >
+            <div className="brand_bg_div">
+           <Box bg={useColorModeValue('#fff' ,'#')}>
                 <main className="brand_content_div" >
                     <div className="gif_div">
                         <img className="brand_gif" src="brandgif.gif" alt="brand-gif" />
@@ -31,6 +27,7 @@ export const Brand = () => {
                         </div>
                     </div>
                 </main>
+                </Box>
             </div>
         </Box>
 

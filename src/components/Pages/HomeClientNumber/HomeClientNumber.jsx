@@ -10,11 +10,11 @@ export const HomeClientNumber = () => {
 
             <Box w="80%" m="auto">
                 <Box display={useColorModeValue("inline", "none")} bg={useColorModeValue('white', 'black')} w="100%" m="auto" color={useColorModeValue('white', 'white')} >
-                    <Image w="80%" m="auto" src="globe2.png" alt="globe-img"/>
+                    <Image w="80%" m="auto" src="globe2.png" alt="globe-img" />
                 </Box>
 
                 <Box display={useColorModeValue("none", "inline")} bg={useColorModeValue('black', 'black')} w="100%" m="auto" color={useColorModeValue('black', 'black')} >
-                    <Image w="80%" m="auto" src="globe.png" alt="globe-img"/>
+                    <Image w="80%" m="auto" src="globe.png" alt="globe-img" />
                 </Box>
 
                 <Box className="total_outer_div">
@@ -25,7 +25,7 @@ export const HomeClientNumber = () => {
                             <text>spend</text>
                         </Box>
                     </Box>
-
+                    <div className="line_div" style={{ margin: "auto" }}></div>
                     <Box className="total_div">
                         <Box fontSize={"4vw"} fontWeight={"bold"} color="#E6B829" >$ 200 T+</Box>
                         <Box fontWeight={"600"} fontSize={"1.6vw"} textTransform={"capitalize"}>
@@ -34,7 +34,7 @@ export const HomeClientNumber = () => {
                         </Box>
                     </Box>
 
-
+                    <div className="line_div" style={{  margin: "auto" }}></div>
 
                     <Box className="total_div">
                         <Box fontSize={"4vw"} fontWeight={"bold"} color="#E6B829"> 2,40,000</Box>

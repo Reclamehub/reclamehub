@@ -1,0 +1,11 @@
+.drop_container{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+   }
+.dropdown{
+    color: aliceblue;
+}
+.btn{
+    color: aliceblue;
+}

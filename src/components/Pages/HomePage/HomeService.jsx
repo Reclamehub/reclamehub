@@ -1,5 +1,6 @@
-import { Box, Text, Image, useColorModeValue, Heading, Button } from "@chakra-ui/react"
+import { Box, Text, Image, useColorModeValue,useColorMode, Heading, Button } from "@chakra-ui/react"
 import "./HomeService.css"
+
 import { useNavigate } from "react-router-dom"
 import { Container, Row } from "react-bootstrap"
 
@@ -77,6 +78,8 @@ const serviceData = [
 ]
 
 export const HomeService = () => {
+    const { colorMode } = useColorMode();
+
     const navigate = useNavigate();
     const handleClick = () => {
         navigate('/service');
@@ -96,10 +99,14 @@ export const HomeService = () => {
                 <text className="heading_description" style={{ color: "#ffffff", textTransform: "capitalize" }}>all | designing | development  | digital marketing </text>
             </div>
 
-
+   {/* <Box className="hservice_cards_container" bg={useColorModeValue('#ffffff','#1D1D1D')}>   </Box> */}
             <Container className="hservice_cards_container">
                 {serviceData.map((el) =>
-                    <div className="hservice_card_div" key={el.id}  >
+                    <div className="hservice_card_div"
+                    style={{
+                        backgroundColor: colorMode === "light" ? '#FF9450' : "#1D1D1D",
+                    }}
+                     key={el.id}  >
                         <img className="hservice_img" src={el.simg} />
 
                         <div style={{ marginBottom: "auto", fontFamily: "poppins" }}>
@@ -109,6 +116,7 @@ export const HomeService = () => {
 
                     </div>
                 )}
+             
             </Container>
             <Box marginTop={"7%"}><Button onClick={handleClick} border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"15px"} >Explore More</Button></Box>
         </Box>

@@ -3,17 +3,21 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  width: 80%;
+  width: 100%;
 }
 
 .brand_bg_div {
-  background-size: 80% 100%;
+ width: 75%;
+ margin: auto;
   padding: 1%;
+  border: 6px solid;
+  border-image: linear-gradient(to bottom, #000, #ffffff, #ff7721)1;
 }
 
 .gif_div {
   width: auto;
   padding: 3%;
+
 }
 
 .text_img_div {

@@ -21,6 +21,7 @@ import {SEO}from "../Pages/SingleServicePage/SEO"
 import {CM}from "../Pages/SingleServicePage/CM"
 import {AD} from "../Pages/SingleServicePage/AD"
 import { useLocation } from "react-router-dom";
+import {Explore} from "../Pages/Explore/Explore"
 
 const ScrollToTop = ({ children }) => {
     const { pathname } = useLocation();
@@ -36,10 +37,11 @@ export const AllRoutes = () => {
 
 
     return (
-       <ScrollToTop>
+      //  <ScrollToTop>
         <Routes>
 
             <Route path="/" element={<HomePage />} />
+            <Route path="/explore" element={<Explore />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<ContactUsPage />} />
@@ -61,6 +63,6 @@ export const AllRoutes = () => {
             <Route path="/single" element={<SingleBlogPage />} /> */}
         </Routes>
 
-         </ScrollToTop> 
+        //  </ScrollToTop> 
     )
 }

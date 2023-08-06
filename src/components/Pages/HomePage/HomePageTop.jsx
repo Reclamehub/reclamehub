@@ -1,5 +1,4 @@
 import { Flex, Button, Image, Box, Text, useColorModeValue } from "@chakra-ui/react"
-
 import "./HomePageTop.css"
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
