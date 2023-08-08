@@ -13,7 +13,7 @@ const ScrollToTopButton = () => {
   };
 
   const handleScroll = () => {
-    setIsVisible(window.pageYOffset > 100); // Show the button when the user scrolls down 100 pixels
+    setIsVisible(window.pageYOffset > 150); // Show the button when the user scrolls down 100 pixels
   };
 
   useEffect(() => {

@@ -1,0 +1,37 @@
+.choose_container{
+   margin: auto;
+}
+.choose_card_wrapper1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.choose_card_wrapper2{
+    display: flex;
+  justify-content: center;
+    padding-bottom: 3.5%;
+
+}
+.choose_img_div{
+ margin: 5% auto 0px auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+
+}
+.choose_card_div{
+ margin: -20px auto 0px auto;
+}
+
+@media (max-width: 767px) {
+    .choose_card_wrapper1{
+   flex-direction: column;
+  
+    }
+    .choose_card_wrapper2{
+      flex-direction: column;
+      margin: auto;
+    } 
+}

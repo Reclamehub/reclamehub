@@ -8,7 +8,7 @@ export const ContactUsAddress = () => {
 
     return (
         <>
-            <Container style={{ fontFamily: "poppins", marginTop: '50px', marginBottom: "50px" }}>
+            <Container style={{ fontFamily: "poppins", marginTop: '50px', paddingBottom: "50px" }}>
                 <Box border={useColorModeValue('1px solid #F47721', "1px solid white")} display={"flex"} flexWrap={{ base: "wrap", sm: "wrap", md: "nowrap", lg: "nowrap", xl: "nowrap" }} m="auto" w={{ base: "90%", sm: "80%", md: "80%", lg: "60%", xl: "60%" }}>
 
                     {/* first flex box */}

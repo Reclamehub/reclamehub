@@ -1,8 +1,8 @@
 .form_main_Container {
   width: 80%;
   box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.6);
-  margin: 5% auto;
-  padding: 3.5%;
+  padding: 7% 0px 5% 0px;
+ 
 }
 
 .form_group {

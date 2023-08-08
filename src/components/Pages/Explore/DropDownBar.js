@@ -44,7 +44,7 @@ function DropDownBar() {
               </ul>
             </div>
 
-            <div className="dropdown">
+            {/* <div className="dropdown">
               <button className="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown button
               </button>
@@ -60,7 +60,7 @@ function DropDownBar() {
               <ul className="dropdown-menu">
                 <li><a className="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </div>
+            </div> */}
             {/* Add more desktop dropdowns here */}
           </>
       

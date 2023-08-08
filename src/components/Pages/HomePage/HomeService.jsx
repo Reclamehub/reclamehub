@@ -1,6 +1,5 @@
-import { Box, Text, Image, useColorModeValue,useColorMode, Heading, Button } from "@chakra-ui/react"
+import { Box, Text, Image, useColorModeValue,useColorMode, Button } from "@chakra-ui/react"
 import "./HomeService.css"
-
 import { useNavigate } from "react-router-dom"
 import { Container, Row } from "react-bootstrap"
 

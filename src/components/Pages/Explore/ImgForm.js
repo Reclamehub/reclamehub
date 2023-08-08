@@ -1,157 +1,219 @@
 import React, { useState } from 'react';
-import swal from 'sweetalert';
-import './ImgForm.css'; // Import the CSS file for styling
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
+import ReactCardFlip from 'react-card-flip';
+import './ImgForm.css'; 
 
-const ImgForm = () => {
-  const [showForm, setShowForm] = useState(false);
-
-  const handleImageClick = () => {
-    setShowForm(true);
-  };
-
-  const handleFormSubmit = (event) => {
-    event.preventDefault(); // Prevent default form submission behavior
-    // Your form submission logic here
-    setShowForm(false); // Hide the form after submission
-  };
-
-  const [userData, setUserData] = useState({
+function FormComponent({ onFormSubmit }) {
+  const form = useRef();
+  const [formData, setFormData] = useState({
     fname: '',
-    mobile: '',
+    mobileNumber: '',
     email: '',
     message: '',
   });
 
-  const [errors, setErrors] = useState({
-    fname: '',
-    mobile: '',
-    email: '',
-    message: '',
-  });
+  const [errors, setErrors] = useState({});
 
-  const postUserData = (event) => {
-    const { name, value, maxLength, minLength } = event.target;
-    setUserData({ ...userData, [name]: value });
-
-    if (value.length < minLength) {
-      setErrors({ ...errors, [name]: `Minimum length is ${minLength} characters` });
-    } else if (value.length > maxLength) {
-      setErrors({ ...errors, [name]: `Exceeded limit of ${maxLength} characters` });
-    } else {
-      setErrors({ ...errors, [name]: '' });
-    }
-
-    if (name === 'email' && value.length > 0) {
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!emailRegex.test(value)) {
-        setErrors({ ...errors, [name]: 'Invalid email address' });
-      } else {
-        setErrors({ ...errors, [name]: '' });
-      }
-    }
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
   };
 
-  const submitData = async (event) => {
-    event.preventDefault();
-    const { fname, mobile, email, message } = userData;
+  const validateForm = () => {
+    const newErrors = {};
+    if (!formData.fname) {
+      newErrors.fname = 'Name is required';
+    }
+    if (!formData.mobileNumber) {
+      newErrors.mobileNumber = 'Mobile number is required';
+    } else if (!/^\d{10}$/.test(formData.mobileNumber)) {
+      newErrors.mobileNumber = 'Mobile number must be 10 digits';
+    }
+    if (!formData.email) {
+      newErrors.email = 'Email is required';
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      newErrors.email = 'Invalid email format';
+    }
+    if (!formData.message) {
+      newErrors.message = 'Message is required';
+    }
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
 
-    if (fname && mobile && email && message) {
-      // Your fetch logic here
-      // ...
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (validateForm()) {
+      onFormSubmit(formData);
 
-      setUserData({
-        fname: '',
-        mobile: '',
-        email: '',
-        message: '',
-      });
-
-      swal({
-        title: 'Success!',
-        text: "Data successfully stored, we'll get back to you soon!",
-        icon: 'success',
-        button: 'Okay!',
-      });
-    } else {
-      swal({
-        title: 'Oops!',
-        text: 'Please fill out all the required information!',
-        icon: 'error',
-        button: 'Back!',
-      });
+      emailjs
+      .sendForm(
+        "service_xo7ec5n",
+        "template_73iu3bk",
+        form.current,
+        "SI_dZpUjTsI9qvVQD"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("SUCCESS!");
+          
+          setFormData({
+            fname: '',
+            mobileNumber: '',
+            email: '',
+            message: '',
+          });
+        },
+        
+        (error) => {
+          console.log(error.text);
+          alert("FAILED...", error);
+        }
+      );
     }
   };
 
   return (
-    <div className="image-with-form-container">
-      {showForm ? (
-        <form onSubmit={handleFormSubmit}>
-          <div className="input_errorbox">
+   <wrapper className="form_outer_container">
+    <div className='form_heading1_div'>
+    <heading>WELCOME !</heading>
+    </div>
+    <div className='form_heading2_div'>
+    <heading>Reclame hub <br/> <span style={{color:"#ff7722"}}>digital marketing agency</span></heading>
+    </div>
+    <div className="form-container">
+    <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center",alignItems:"center",margin:"auto",textAlign:"center",width:"100%"}}>
+     <p style={{textTransform:"uppercase",fontSize:"16px"}}>talk to our experts</p>
+     <p style={{fontSize:"12px"}}>We are available for a friendly chat to discuss your business needs, no obligation.</p>
+    </div>
+      <form ref={form}  onSubmit={handleSubmit} className='form'>
+        <div className="field_errorbox">
+          <div className="field_group">
             <input
+              id=""
+              required
               type="text"
               name="fname"
-              placeholder="Enter your name"
-              required
-              minLength={2}
-              maxLength={50}
-              value={userData.fname}
-              onChange={postUserData}
+              className="form_fields"
+              value={formData.fname}
+              onChange={handleChange}
             />
-            {errors.fname && <div className="error_message">{errors.fname}</div>}
-          </div>
-
-          <div className="input_errorbox">
-            <input
-              type="tel"
-              name="mobile"
-              placeholder="Enter your mobile number"
-              required
-              minLength={10}
-              maxLength={10}
-              value={userData.mobile}
-              onChange={postUserData}
+            <img
+              style={{ height: '20px', width: '17px', marginLeft: '-35px', marginTop: '12px' }}
+              src="person-icon2.png"
+              alt=""
             />
-            {errors.mobile && <div className="error_message">{errors.mobile}</div>}
+            <label className="form_labels" htmlFor="fnameInput">
+              Name
+            </label>
           </div>
+          <div>{errors.name && <p className="error">{errors.name}</p>}</div>
+        </div>
 
-          <div className="input_errorbox">
+        <div className="field_errorbox">
+          <div className="field_group">
             <input
+              required
+              type="text"
+              name="mobileNumber"
+              className="form_fields"
+              value={formData.mobileNumber}
+              onChange={handleChange}
+            />
+           <img src={"ph-icon.png"} className="ph-icon" 
+           style={{ height: "20px", width: "20px", marginLeft: "-35px", marginTop: "12px", }}
+           />
+            <label className="form_labels" htmlFor="fnameInput">
+              Mobile Number
+            </label>
+          </div>
+          <div>
+            {errors.mobileNumber && <p className="error">{errors.mobileNumber}</p>}
+          </div>
+        </div>
+
+        <div className="field_errorbox">
+          <div className="field_group">
+            <input
+              required
               type="email"
               name="email"
-              placeholder="Enter your email"
-              required
-              maxLength={50}
-              value={userData.email}
-              onChange={postUserData}
+              className="form_fields"
+              value={formData.email}
+              onChange={handleChange}
             />
-            {errors.email && <div className="error_message">{errors.email}</div>}
+            <img
+                style={{ height: "20px", width: "20px", marginLeft: "-35px", marginTop: "12px" }}
+                src="arcticons_spike-email1.png"
+              />
+            <label className="form_labels" htmlFor="fnameInput">
+              Email
+            </label>
           </div>
-
-          <div className="input_errorbox">
-            <textarea
-              name="message"
-              placeholder="Enter your message"
-              required
-              maxLength={200}
-              value={userData.message}
-              onChange={postUserData}
-            />
-            {errors.message && <div className="error_message">{errors.message}</div>}
-          </div>
-
-          <button type="submit">Submit</button>
-        </form>
-      ) : (
-        <div className="image-container" onClick={handleImageClick}>
-          <img
-            src="startup.png"
-            alt="Image"
-            className="image"
-          />
+          <div>{errors.email && <p className="error">{errors.email}</p>}</div>
         </div>
-      )}
+
+        <div className="field_errorbox">
+          <div className="field_group mss_field">
+            <textarea
+              required
+              name="message"
+              className="form_fields mssg_field"
+              value={formData.message}
+              onChange={handleChange}
+            />
+           <img
+                style={{ height: "20px", width: "20px", marginLeft: "-35px", marginTop: "12px",color:"#fff" }}
+                src="arcticons_huawei-email1.png"
+              />
+            <label className="form_labels" htmlFor="fnameInput">
+              Message
+            </label>
+          </div>
+          <div>{errors.message && <p className="error">{errors.message}</p>}</div>
+        </div>
+        <div className="submit_btndiv">
+          <button className="form_submit_btn" type="submit">
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+    </wrapper>
+  );
+}
+
+function ImageWithForm() {
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleFormSubmit = (formData) => {
+    // Handle form submission here
+    console.log('Form Data:', formData);
+    setIsFlipped(false); // Flip back to the image after form submission
+  };
+
+  const handleImageClick = () => {
+    setIsFlipped(!isFlipped);
+  };
+
+  return (
+    <div className="image-with-form">
+      <ReactCardFlip isFlipped={isFlipped}>
+        <div className="image-front" key="front" onClick={handleImageClick}>
+          {/* Your image element goes here */}
+          <img src="startup.png" alt="Your Image" />
+        </div>
+        <div className="image-back" key="back">
+          <FormComponent onFormSubmit={handleFormSubmit} />
+        </div>
+      </ReactCardFlip>
     </div>
   );
-};
+}
 
-export default ImgForm;
+export default ImageWithForm;

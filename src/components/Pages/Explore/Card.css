@@ -1,5 +1,5 @@
 .exphelpcard_container{
-   padding-top: 15px;
+
 }
 .exphelp_card_div{
     display: flex;
@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 3.5%;
+    margin-top: 30px;
     width: 17rem;
     padding: 12px;
     border-radius: 10px;
