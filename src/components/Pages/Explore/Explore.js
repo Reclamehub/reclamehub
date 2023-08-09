@@ -107,17 +107,19 @@ marginTop:"4.5%",marginBottom:"3%"}}>
 
   <Clients/>
   <div style={{
-   background: colorMode === "light" ? '#fff' : "#1D1D1D",
+   background: colorMode === "light" ? '#ffffff' : "#1D1D1D",
   width:"100%",height:"20px",
 marginTop:"3.5%",marginBottom:"3%"}}>
 </div>
 <Choose/>
 <div style={{
-   background: colorMode === "light" ? '#fff' : "#1D1D1D",
+   background: colorMode === "light" ? '#ffffff' : "#1D1D1D",
   width:"100%",height:"20px",
 marginTop:"3.5%",marginBottom:"3%"}}>
 </div>
+<Container className='mb-5'>
   <Media/>
+  </Container>
 
 <Connect/>
 

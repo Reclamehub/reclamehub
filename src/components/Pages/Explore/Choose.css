@@ -2,27 +2,23 @@
    margin: auto;
 }
 .choose_card_wrapper1{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
+ display: flex;
+ justify-content: space-around;
+ margin: auto;
 }
 .choose_card_wrapper2{
-    display: flex;
+  display: flex;
   justify-content: center;
-    padding-bottom: 3.5%;
-
+  align-items: center;
+  margin: 2% auto 4.8% auto;
+  gap: 60px;
 }
 .choose_img_div{
- margin: 5% auto 0px auto;
- display: flex;
- justify-content: center;
- align-items: center;
- 
-
-}
+ margin: 15px auto 0px auto;
+width: 60%;
+ }
 .choose_card_div{
- margin: -20px auto 0px auto;
+margin-top: auto;
 }
 
 @media (max-width: 767px) {

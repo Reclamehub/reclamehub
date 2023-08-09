@@ -8,7 +8,7 @@ const Card = (props) => {
     <div className='exphelpcard_container'>
   <div className='exphelp_card_div'
       style={{
-        backgroundColor: colorMode === "light" ? '#ffffff' : "#1D1D1D",
+        backgroundColor: colorMode === "light" ? '#1D1D1D' : "#1D1D1D",
     }}>
           <div className='expcard_icon_div'>
     <img src={props.img} className='expcard_icon'/>
