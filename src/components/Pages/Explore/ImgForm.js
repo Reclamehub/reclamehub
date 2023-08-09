@@ -52,8 +52,8 @@ function FormComponent({ onFormSubmit }) {
 
       emailjs
       .sendForm(
-        "service_xo7ec5n",
-        "template_73iu3bk",
+        "service_wx18els",
+        "template_m03q7s3",
         form.current,
         "sOEaQnJnVavIafK5A"
       )
