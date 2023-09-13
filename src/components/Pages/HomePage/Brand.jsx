@@ -8,7 +8,7 @@ export const Brand = () => {
 
     return (
 
-        <Box borderBottom="4px solid white" paddingBottom={"5%"} paddingTop={"5%"}>
+        <Box borderBottom="4px solid white" paddingBottom={"3.5%"} paddingTop={"3.5%"}>
             <div className="brand_bg_div">
            <Box bg={useColorModeValue('#fff' ,'#')}>
                 <main className="brand_content_div" >
