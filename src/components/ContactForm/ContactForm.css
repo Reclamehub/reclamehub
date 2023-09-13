@@ -111,13 +111,13 @@ textarea:valid~label {
   .input_fields {
     width: 85vw;
     margin-bottom: 0.2rem;
-
-  }
+}
   .mssg_input {
  margin-bottom: .2rem;
- height: 50px;
+ min-height: 50px;
+ max-height: 70px;
  width: 85vw;
- padding-top: 5px;
+ padding-top: 12px;
   }
   .input_errorbox{
     margin-bottom: 20px;

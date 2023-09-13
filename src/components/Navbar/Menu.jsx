@@ -35,7 +35,7 @@ export const MenuNav = () => {
             <Box display={"flex"} border="1px solid black" gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
               <Box display={"flex"} justifyContent={"center"} flexDirection={"column"} >
                 <FaHandsHelping style={{ marginTop: "-15px" }} size="4vw" color="orangered" /></Box>
-              <Box><Link onClick={onClose} to=""><Text >EXPLORE</Text></Link></Box>
+              <Box><Link onClick={onClose} to="/explore"><Text >EXPLORE</Text></Link></Box>
             </Box>
 
 

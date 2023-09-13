@@ -23,53 +23,53 @@ const Choose = () => {
             <div>
             </div>
 
-<div className='choose_card_wrapper1'>
-            <div style={{ display: "flex", flexDirection: "column",justifyContent:"center",alignItems:"center",width:"100%" }}>
-                <div className='choose_img_div'>
-                    <img style={{width:"100%",}} src="googleimg.png" alt="g-img" />
+            <div className='choose_card_wrapper1'>
+                <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: "100%" }}>
+                    <div className='choose_img_div'>
+                        <img style={{ width: "100%", height: "50px" }} src="googleimg.png" alt="g-img" />
+                    </div>
+                    <div className='choose_card_div'>
+                        <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
+                    </div>
                 </div>
-                <div className='choose_card_div'>
-                    <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
+
+                <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: "100%" }}>
+                    <div className='choose_img_div'>
+                        <img style={{ width: "100%", height: "50px" }} src="exaxis.png" alt="g-img" />
+                    </div>
+                    <div className='choose_card_div'>
+                        <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
+                    </div>
+                </div>
+
+                <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: "100%" }}>
+                    <div className='choose_img_div' >
+                        <img style={{ width: "100%", height: "50px" }} src="exsi.png" alt="g-img" />
+                    </div>
+                    <div className='choose_card_div'>
+                        <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
+                    </div>
                 </div>
             </div>
 
-            <div style={{ display: "flex", flexDirection: "column",justifyContent:"center",alignItems:"center",width:"100%"}}>
-            <div className='choose_img_div'>
-                    <img style={{width:"100%",}} src="exaxis.png" alt="g-img" />
-                </div>
-                <div className='choose_card_div'>
-                    <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
-                </div>
-            </div>
-
-            <div style={{ display: "flex", flexDirection: "column",justifyContent:"center",alignItems:"center",width:"100%"}}>
-            <div className='choose_img_div' >
-                    <img style={{width:"100%",}} src="exsi.png" alt="g-img" />
-                </div>
-                <div className='choose_card_div'>
-                    <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
-                </div>
-            </div>
-        </div>
-            
             <div className='choose_card_wrapper2'>
-            <div style={{ display: "flex", flexDirection: "column",justifyContent:"center",}}>
-            <div className='choose_img_div'>
-                    <img style={{width:"100%",}} src="exgp.png" alt="g-img" />
+                <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", }}>
+                    <div className='choose_img_div'>
+                        <img style={{ width: "100%", height: "50px" }} src="exgp.png" alt="g-img" />
+                    </div>
+                    <div className='choose_card_div'>
+                        <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
+                    </div>
                 </div>
-                <div className='choose_card_div'>
-                    <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
-                </div>
-            </div>
 
-            <div style={{ display: "flex", flexDirection: "column",justifyContent:"center",}}>
-            <div className='choose_img_div'>
-                    <img style={{width:"100%",}} src="exfcbk.png" alt="g-img" />
+                <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", }}>
+                    <div className='choose_img_div'>
+                        <img style={{ width: "100%", height: "100%" }} src="exfcbk.png" alt="g-img" />
+                    </div>
+                    <div className='choose_card_div'>
+                        <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
+                    </div>
                 </div>
-                <div className='choose_card_div'>
-                    <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
-                </div>
-            </div>
             </div>
 
         </Container>

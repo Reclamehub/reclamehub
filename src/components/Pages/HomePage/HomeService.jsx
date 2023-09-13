@@ -83,11 +83,6 @@ export const HomeService = () => {
     const handleClick = () => {
         navigate('/service');
     };
-    // <div  style={{
-    //     backgroundImage:`url(${Ellipse10})`,
-    //     backgroundSize: '100% 100%',
-    //     backgroundPosition: 'center',
-    // }} >
 
     return (
         <Box p="2vw" paddingTop={"5%"} paddingBottom={"5%"} bg={useColorModeValue('#FF9450', 'black')} margin={"auto"}>
@@ -107,8 +102,7 @@ export const HomeService = () => {
                     }}
                      key={el.id}  >
                         <img className="hservice_img" src={el.simg} />
-
-                        <div style={{ marginBottom: "auto", fontFamily: "poppins" }}>
+                      <div style={{ marginBottom: "auto", fontFamily: "poppins" }}>
                             <heading className="hservice_cards_heading"> {el.heading} <br /> {el.headingTwo}</heading>
                             <p className="hservice_cards_text">{el.desc}</p>
                         </div>

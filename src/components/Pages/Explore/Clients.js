@@ -45,18 +45,18 @@ const Clients = () => {
 
   return (
     <Container className='exp_client_container'>
-       <div className="exp_heading_wrapper"style={{margin:"auto",display:"flex",justifyContent:"center",textAlign:"center",width:"95%"}}>
-     <div className='exp_heading_div'
-       style={{
-           color: colorMode === "light" ? '#000' : "#ffffff",
-       }}
-     >
-         <heading>What our clients say about<span style={{color:"#ff7721"}}>  reclame hub </span> </heading>
-     </div>
-     <div className='exp_text_div'>
-         <text>Let us hear stories from our valuable clients</text>
-     </div>
-     </div>
+      <div className="exp_heading_wrapper" style={{ margin: "auto", display: "flex", justifyContent: "center", textAlign: "center", width: "95%" }}>
+        <div className='exp_heading_div'
+          style={{
+            color: colorMode === "light" ? '#000' : "#ffffff",
+          }}
+        >
+          <heading>What our clients say about<span style={{ color: "#ff7721" }}>  reclame hub </span> </heading>
+        </div>
+        <div className='exp_text_div'>
+          <text>Let us hear stories from our valuable clients</text>
+        </div>
+      </div>
       <div className='slider_main_div'
         style={{
           backgroundColor: "#1D1D1D",
@@ -66,7 +66,7 @@ const Clients = () => {
           boxShadow: "0px 20px 0px 0px #3D3D3D",
         }}
       >
-        <Container fluid  className='slider_container' >
+        <Container fluid className='slider_container' >
           <Slider {...settings} className='slider'>
             {data.map((item, index) => (
               <div key={index} className='slider-item'>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import ReactCardFlip from 'react-card-flip';
-import './ImgForm.css'; 
+import './ImgForm.css';
 
 function FormComponent({ onFormSubmit }) {
   const form = useRef();
@@ -51,139 +51,139 @@ function FormComponent({ onFormSubmit }) {
       onFormSubmit(formData);
 
       emailjs
-      .sendForm(
-        "service_wx18els",
-        "template_m03q7s3",
-        form.current,
-        "sOEaQnJnVavIafK5A"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert("SUCCESS!");
-          
-          setFormData({
-            fname: '',
-            mobileNumber: '',
-            email: '',
-            message: '',
-          });
-        },
-        
-        (error) => {
-          console.log(error.text);
-          alert("FAILED...", error);
-        }
-      );
+        .sendForm(
+          "service_wx18els",
+          "template_m03q7s3",
+          form.current,
+          "sOEaQnJnVavIafK5A"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            alert("SUCCESS!");
+
+            setFormData({
+              fname: '',
+              mobileNumber: '',
+              email: '',
+              message: '',
+            });
+          },
+
+          (error) => {
+            console.log(error.text);
+            alert("FAILED...", error);
+          }
+        );
     }
   };
 
   return (
-   <wrapper className="form_outer_container">
-    <div className='form_heading1_div'>
-    <heading>WELCOME !</heading>
-    </div>
-    <div className='form_heading2_div'>
-    <heading>Reclame hub <br/> <span style={{color:"#ff7722"}}>digital marketing agency</span></heading>
-    </div>
-    <div className="form-container">
-    <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center",alignItems:"center",margin:"auto",textAlign:"center",width:"100%"}}>
-     <p style={{textTransform:"uppercase",fontSize:"16px"}}>talk to our experts</p>
-     <p style={{fontSize:"12px"}}>We are available for a friendly chat to discuss your business needs, no obligation.</p>
-    </div>
-      <form ref={form}  onSubmit={handleSubmit} className='form'>
-        <div className="field_errorbox">
-          <div className="field_group">
-            <input
-              id=""
-              required
-              type="text"
-              name="fname"
-              className="form_fields"
-              value={formData.fname}
-              onChange={handleChange}
-            />
-            <img
-              style={{ height: '20px', width: '17px', marginLeft: '-35px', marginTop: '12px' }}
-              src="person-icon2.png"
-              alt=""
-            />
-            <label className="form_labels" htmlFor="fnameInput">
-              Name
-            </label>
-          </div>
-          <div>{errors.name && <p className="error">{errors.name}</p>}</div>
+    <wrapper className="form_outer_container">
+      <div className='form_heading1_div'>
+        <heading>WELCOME !</heading>
+      </div>
+      <div className='form_heading2_div'>
+        <heading>Reclame hub <br /> <span style={{ color: "#ff7722" }}>digital marketing agency</span></heading>
+      </div>
+      <div className="form-container">
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignItems: "center", margin: "auto", textAlign: "center", width: "100%" }}>
+          <p style={{ textTransform: "uppercase", fontSize: "16px" }}>talk to our experts</p>
+          <p style={{ fontSize: "12px" }}>We are available for a friendly chat to discuss your business needs, no obligation.</p>
         </div>
-
-        <div className="field_errorbox">
-          <div className="field_group">
-            <input
-              required
-              type="text"
-              name="mobileNumber"
-              className="form_fields"
-              value={formData.mobileNumber}
-              onChange={handleChange}
-            />
-           <img src={"ph-icon.png"} className="ph-icon" 
-           style={{ height: "20px", width: "20px", marginLeft: "-35px", marginTop: "12px", }}
-           />
-            <label className="form_labels" htmlFor="fnameInput">
-              Mobile Number
-            </label>
-          </div>
-          <div>
-            {errors.mobileNumber && <p className="error">{errors.mobileNumber}</p>}
-          </div>
-        </div>
-
-        <div className="field_errorbox">
-          <div className="field_group">
-            <input
-              required
-              type="email"
-              name="email"
-              className="form_fields"
-              value={formData.email}
-              onChange={handleChange}
-            />
-            <img
-                style={{ height: "20px", width: "20px", marginLeft: "-35px", marginTop: "12px" }}
-                src="arcticons_spike-email1.png"
+        <form ref={form} onSubmit={handleSubmit} className='form'>
+          <div className="field_errorbox">
+            <div className="field_group">
+              <input
+                id=""
+                required
+                type="text"
+                name="fname"
+                className="form_fields"
+                value={formData.fname}
+                onChange={handleChange}
+                />
+                <label className="form_labels" htmlFor="fnameInput">
+                Name
+              </label>
+              <img
+                style={{ height: '20px', width: '17px', order:"2", marginLeft:"-37px" }}
+                src="inputicon1.png"
+                alt=""
               />
-            <label className="form_labels" htmlFor="fnameInput">
-              Email
-            </label>
+            </div>
+            <div>{errors.name && <p className="error">{errors.name}</p>}</div>
           </div>
-          <div>{errors.email && <p className="error">{errors.email}</p>}</div>
-        </div>
 
-        <div className="field_errorbox">
-          <div className="field_group mss_field">
-            <textarea
-              required
-              name="message"
-              className="form_fields mssg_field"
-              value={formData.message}
-              onChange={handleChange}
-            />
-           <img
-                style={{ height: "20px", width: "20px", marginLeft: "-35px", marginTop: "12px",color:"#fff" }}
-                src="arcticons_huawei-email1.png"
+          <div className="field_errorbox">
+            <div className="field_group">
+              <input
+                required
+                type="text"
+                name="mobileNumber"
+                className="form_fields"
+                value={formData.mobileNumber}
+                onChange={handleChange}
               />
-            <label className="form_labels" htmlFor="fnameInput">
-              Message
-            </label>
+              <img src={"inputicon2.png"} className="ph-icon"
+                style={{ height: "20px", width: "20px", marginLeft: "-37px",  }}
+              />
+              <label className="form_labels" htmlFor="fnameInput">
+                Mobile Number
+              </label>
+            </div>
+            <div>
+              {errors.mobileNumber && <p className="error">{errors.mobileNumber}</p>}
+            </div>
           </div>
-          <div>{errors.message && <p className="error">{errors.message}</p>}</div>
-        </div>
-        <div className="submit_btndiv">
-          <button className="form_submit_btn" type="submit">
-            Send Message
-          </button>
-        </div>
-      </form>
-    </div>
+
+          <div className="field_errorbox">
+            <div className="field_group ">
+              <input
+                required
+                type="email"
+                name="email"
+                className="form_fields"
+                value={formData.email}
+                onChange={handleChange}
+              />
+              <img
+                style={{ height: "20px", width: "20px", marginLeft: "-38px",  }}
+                src="inputicon3.png"
+              />
+              <label className="form_labels" htmlFor="fnameInput">
+                Email
+              </label>
+            </div>
+            <div>{errors.email && <p className="error">{errors.email}</p>}</div>
+          </div>
+
+          <div className="field_errorbox">
+            <div className="field_group mss_field">
+              <textarea
+              required
+                name="message"
+                className="form_fields mssg_field"
+                value={formData.message}
+                onChange={handleChange}
+              />
+              <img
+                style={{ height: "20px", width: "20px", marginLeft: "-38px", color: "#fff" }}
+                src="inputicon4.png"
+              />
+              <label className="form_labels" htmlFor="fnameInput">
+                Message
+              </label>
+            </div>
+            <div>{errors.message && <p className="error">{errors.message}</p>}</div>
+          </div>
+          <div className="submit_btndiv">
+            <button className="form_submit_btn" type="submit">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
     </wrapper>
   );
 }

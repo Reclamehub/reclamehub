@@ -1,106 +1,20 @@
-.explore_banner_container{
+.explore_banner_container {
     background-color: #1D1D1D;
     padding: 10px 3%;
- max-width: 100%;
+    max-width: 100%;
 }
-.exp_links_div{
-  font-size: 14px;
+
+.exp_links_div {
+    font-size: 14px;
     display: flex;
     justify-content: flex-end;
- gap: 3%;
- color: #ffffff;
+    gap: 3%;
+    color: #ffffff;
 }
-.exp_container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 3%;
-}
-.exp_top_heading_wrapper{
-    width: 75%;
-    display: flex;
- flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: left;
- 
-  }
-.exp_top_heading_div{
-   margin: 5% 0px 3% 0px;
-    font-size: 2.8vw;
-    font-weight: 550;
-    text-transform: uppercase;
-   color: #F47721;
-   }
-.exp_top_text_div{
-    font-size: 18px;
-    font-weight: 400;
-    width: 80%;
-   }
-.exp_btn_div{
-    text-align: center;
-    width: 80%;
-    display: flex;
-justify-content: flex-start;
-gap: 10%;
-margin: 5% auto 5% 0px;
-   
-}
-.exp_btn{
-    margin-top: 3.5%;
-    text-transform: capitalize;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   padding: 1.4% 0px;
-    width: 160px;
-    font-size: 15px;
-    font-weight: 500;
-border: 2px solid #F47721;
-border-radius: 30px;
-background-color: transparent;
-}
-.exp_btn:hover{
-    background-color: #F47721;
-color: #ffffff;
-}
-/* exp-service-css */
-.exp_service_container{
-    
-}
-.exp_heading_wrapper{
-    padding-bottom: .5%;
-    width: 90%;
-    display: flex;
- flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: left;
- 
-  }
-.exp_heading_div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 2.8vw;
-    font-weight: 550;
-    text-transform: uppercase;
-   color: #F47721;
-   }
-.exp_text_div{
-    font-size: 18px;
-    font-weight: 400;
-    width: 80%;
-   }
-.exp_service_card_wrapper{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
- margin:  auto;
-}
-/*  */
-.expbg_container{
+
+
+
+.expbg_container {
     margin-top: 5%;
     padding: 15px 0px;
     background-color: #1D1D1D;
@@ -108,51 +22,52 @@ color: #ffffff;
 
 /* -------------------------------------- */
 @media (max-width: 767px) {
-    .exp_top_heading_div{
+    .exp_top_heading_div {
         font-size: 4vw;
     }
-    .exp_top_text_div{
-    font-size: 12px;
-    width: 80%;
+
+    .exp_top_text_div {
+        font-size: 12px;
+        width: 80%;
     }
-    .exp_btn{
-    font-size: 10px;
-     }
-.exp_service_card_wrapper{
-  display: flex;
- flex-wrap: wrap;
-  margin: auto;
-}
-.exp_heading_wrapper{
-    width: 95%;
-    display: flex;
-justify-content: center;
-text-align: center;
-margin: auto;
- }
- .exp_heading_div{
-    font-size: 4vw;
-}
-.exp_text_div{
-    font-size: 12px;
-    width: 95%;
-   }
-.exp_service_card_wrapper{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: auto;
-}
-}
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .exp_btn{
-     font-size: 12px;
-     }
+
+    .exp_btn {
+        font-size: 10px;
+    }
+
+    .exp_service_card_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .exp_heading_wrapper {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .exp_heading_div {
+        font-size: 4vw;
+    }
+
+    .exp_text_div {
+        font-size: 12px;
+        width: 95%;
+    }
+
+    .exp_service_card_wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+    }
 }
 
-  
-  
-  
-  
-  
-  
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .exp_btn {
+        font-size: 12px;
+    }
+}

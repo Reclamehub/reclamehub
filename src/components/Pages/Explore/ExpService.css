@@ -1,0 +1,6 @@
+.exp_service_card_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}

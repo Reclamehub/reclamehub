@@ -54,26 +54,50 @@ export const ContactForm = () => {
 
     if (fname && mobile && email && message) {
       // Your fetch logic here
+      const res = fetch(
+        "https://reclamehub-6c70d-default-rtdb.firebaseio.com/userDataRecords.json",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
 
-      setUserData({
-        fname: "",
-        mobile: "",
-        email: "",
-        message: "",
-      });
+          body: JSON.stringify({
+            fname,
+    mobile,
+    email,
+    message,
+          }),
+        }
+      );
 
-      swal({
-        title: "Success!",
-        text: "Data successfully stored, we'll get back to you soon!",
-        icon: "success",
-        button: "Okay!",
-      });
+      if (res) {
+        setUserData({
+          fname: "",
+          mobile: "",
+          email: "",
+          message: "",
+        });
+        swal({
+          title: "Success!",
+          text: "Data successfully stored, we'll get back to you soon!",
+          icon: "success",
+          button: "Okay !",
+        });
+      } else {
+        swal({
+          title: " Oops!",
+          text: " Please fill out all the required information!",
+          icon: "error",
+          button: "Back !",
+        });
+      }
     } else {
       swal({
-        title: "Oops!",
-        text: "Please fill out all the required information!",
+        title: " Oops!",
+        text: " Please fill out all the required information!",
         icon: "error",
-        button: "Back!",
+        button: "Back !",
       });
     }
   };

@@ -22,7 +22,7 @@ import {CM}from "../Pages/SingleServicePage/CM"
 import {AD} from "../Pages/SingleServicePage/AD"
 import { useLocation } from "react-router-dom";
 import {Explore} from "../Pages/Explore/Explore"
-
+import {IsoService} from "../Pages/ExpServiceTypes/IsoService"
 const ScrollToTop = ({ children }) => {
     const { pathname } = useLocation();
   
@@ -42,6 +42,7 @@ export const AllRoutes = () => {
 
             <Route path="/" element={<HomePage />} />
             <Route path="/explore" element={<Explore />} />
+            <Route path="/iso" element={<IsoService />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<ContactUsPage />} />
