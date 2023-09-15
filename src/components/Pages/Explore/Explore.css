@@ -12,36 +12,43 @@
     color: #ffffff;
 }
 
-
-
 .expbg_container {
     margin-top: 5%;
     padding: 15px 0px;
     background-color: #1D1D1D;
 }
+.exp_heading_wrapper {
+    padding-bottom: .5%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+
+}
+
+.exp_heading_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2.8vw;
+    font-weight: 580;
+    text-transform: uppercase;
+    color: #F47721;
+}
+
+.exp_text_div {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    width: 80%;
+}
 
 /* -------------------------------------- */
 @media (max-width: 767px) {
-    .exp_top_heading_div {
-        font-size: 4vw;
-    }
-
-    .exp_top_text_div {
-        font-size: 12px;
-        width: 80%;
-    }
-
-    .exp_btn {
-        font-size: 10px;
-    }
-
-    .exp_service_card_wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto;
-    }
-
-    .exp_heading_wrapper {
+   .exp_heading_wrapper {
         width: 95%;
         display: flex;
         justify-content: center;
@@ -56,13 +63,6 @@
     .exp_text_div {
         font-size: 12px;
         width: 95%;
-    }
-
-    .exp_service_card_wrapper {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: auto;
     }
 }
 

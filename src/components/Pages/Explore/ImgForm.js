@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import ReactCardFlip from 'react-card-flip';
@@ -200,19 +200,29 @@ function ImageWithForm() {
   const handleImageClick = () => {
     setIsFlipped(!isFlipped);
   };
+  useEffect(() => {
+    // Use setTimeout to automatically flip the card after 2 seconds
+    const flipTimer = setTimeout(() => {
+      setIsFlipped(true);
+    }, 2000);
 
+    return () => {
+      // Clear the timer when the component unmounts
+      clearTimeout(flipTimer);
+    };
+  }, []);
   return (
     <div className="image-with-form">
-      <ReactCardFlip isFlipped={isFlipped}>
-        <div className="image-front" key="front" onClick={handleImageClick}>
-          {/* Your image element goes here */}
-          <img src="startup.png" alt="Your Image" />
-        </div>
-        <div className="image-back" key="back">
-          <FormComponent onFormSubmit={handleFormSubmit} />
-        </div>
-      </ReactCardFlip>
-    </div>
+    <ReactCardFlip isFlipped={isFlipped}>
+      <div className="image-front" key="front" onClick={handleImageClick}>
+        {/* Your image element goes here */}
+        <img src="startup.png" alt="Your Image" />
+      </div>
+      <div className="image-back" key="back">
+        <FormComponent onFormSubmit={handleFormSubmit} />
+      </div>
+    </ReactCardFlip>
+  </div>
   );
 }
 

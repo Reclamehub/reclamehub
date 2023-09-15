@@ -35,7 +35,7 @@ export const Footer = () => {
                 <Box>
                     <Heading className="footer-sub-heading" fontSize={{ base: "3vw", sm: "3vw", md: "1.5vw", lg: "1.5vw", xl: "1.5vw" }}>OUR SERVICE</Heading>
 
-                    <Text className="foot-sub-text" mt={{ base: "10px", sm: "10px", md: "10px", lg: "20px", xl: "25px" }}>GRAPHIC DESINING</Text>
+                    <Text className="foot-sub-text" mt={{ base: "10px", sm: "10px", md: "10px", lg: "20px", xl: "25px" }}>GRAPHIC DESIGNING</Text>
                     <Text className="foot-sub-text">SOCIAL MEDIA MANAGEMENT</Text>
                     <Text className="foot-sub-text">WEB DEVELOPMENT</Text>
                     <Text className="foot-sub-text">EMAIL MARKETING</Text>

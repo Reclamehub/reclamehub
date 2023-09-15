@@ -1,23 +1,19 @@
 import React from 'react'
 import { Box, useColorModeValue, useColorMode, } from "@chakra-ui/react"
 import { Container, Row, Col } from "react-bootstrap"
-import "./Card.css"
+import "./ChooseCard.css"
 const Card = (props) => {
   const { colorMode } = useColorMode();
   return (
     // explore-help + service-cards
-    <div className='exphelpcard_container'>
-      <div className='exphelp_card_div'
+    <div className='expchoose_card_container'>
+      <div className='expchoose_card_div'
         style={{
           backgroundColor: colorMode === "light" ? '#1D1D1D' : "#1D1D1D",
         }}>
         <div>
-        <div className='expcard_icon_div'>
-          <img src={props.img} className='expcard_icon' />
-        </div>
-        <div className='card_title_div'>
-          <heading className="card_title">{props.title1}</heading><br></br>
-          <text className='card_text'>{props.text}</text>
+        <div className='choose_card_text_div'>
+          <text className='choose_card_text'>{props.text}</text>
         </div>
       </div>
       </div>

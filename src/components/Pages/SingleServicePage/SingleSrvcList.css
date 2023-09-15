@@ -86,7 +86,7 @@
 
 } */
 .table_sub_headings{
-  height: 62px;
+  height: 65px;
 }
 
 .smm_img_container {
@@ -184,7 +184,9 @@
     width: 95%;
     line-height: normal;
   }
-
+  .table_sub_headings{
+    height: 100px;
+  }
   .smm_heading3_container {
     width: 95%;
   }

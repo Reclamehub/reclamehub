@@ -10,15 +10,15 @@ const Clients = () => {
   const data = [
     {
       img: "tlaxmi.png",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in ",
+      text: "Our experience with Reclame Hub has been splendid. They have consistently delivered impressive results. We highly recommend their services to anyone looking to grow their business. ",
     },
     {
       img: "tisha.png",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in ",
+      text: "Reclame Hub navigated the complex rebranding process. Their strategic marketing and advertising solutions and creative designs helped elevate our brand identity, resulting in increased customer engagement and brand recognition. Their expertise and guidance helped us reach new heights and expand our customer base. Their dedication and commitment to our success are truly commendable.",
     },
     {
       img: "tswati.png",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in ",
+      text: "Reclame Hub navigated the complex rebranding process. Their strategic marketing and advertising solutions and creative designs helped elevate our brand identity, resulting in increased customer engagement and brand recognition. Their expertise and guidance helped us reach new heights and expand our customer base. Their dedication and commitment to our success are truly commendable. ",
     },
     // Add more data entries
   ];

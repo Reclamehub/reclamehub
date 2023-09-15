@@ -8,12 +8,12 @@ const ExpBanner = () => {
           <Container className='exp_container'>
           <div className='exp_top_heading_wrapper'>
             <div className='exp_top_heading_div'>
-              <heading className="exp_heading">Lorem Ipsum is simply dummy text of<br /> the printing. </heading>
+              <heading className="exp_heading">Welcome to Reclame Hub, Where Entrepreneurial, Tech-Savvy Innovation Meets Excellence</heading>
             </div>
             <div className='exp_top_text_div'>
               <text>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-              </text>
+              Reclame Hub is Leading the Way in Business Registration, Company Incorporation, CA Consultancy, Business License
+           </text>
             </div>
             <div className='exp_btn_div'>
               <button className='exp_btn'>arrange call</button>

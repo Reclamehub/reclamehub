@@ -44,19 +44,19 @@ export const Explore = () => {
         </div>
         {/* How reclame can help - section */}
         <Container>
-          <div className='exp_heading_wrapper'>
+          <div className='exp_heading_wrapper' style={{width:"100%"}}>
             <div className='exp_heading_div' >
-              <heading className="exp_heading" >How reclame hub can help your bussiness ?</heading>
-            </div>
+              <heading className="exp_heading"  >How Your Business Can Benefit from Reclame Hub </heading>
+            </div><br/>
             <div className='exp_text_div'>
-              <text className='exphelp_heading'>We believe in helping businesses at 360* angles so you can focus on your core operations business.</text>
+              <text className='exphelp_heading'>Reclame Hub does not just promise success; we actually make it happen. With a track record of establishing over 1,000 + new Businesses and assisting MSMEs across India to obtain business licences. </text>
             </div>
           </div>
           <div className='cards_imgform_wrapper'>
             <div>
-              <Card img="expvector3.png" title1="company formation" text="We can incorporate all kinds of entities required to set up the business such as private limited companies, OPC, LLP, Partnership Firm, and many more..." />
-              <Card img="expvector2.png" title1="business registration & license" text="We can secure all kinds of licenses / registrations required for running different kinds of business legally and hassle free." />
-              <Card img="expvector1.png" title1="brand & marketing" text="Logo designing, Trademark, Website Development, Digital Marketing, Do all such activities to create Online Business Presence." />
+              <Card img="expvector3.png" title1="company formation" text="Starting a business requires a strong foundation. Our expertise in company incorporation, such as private limited, OPC, LLP, etc., ensures that your business kicks off with the right legal structure and licenses, enabling you to conquer the complexities of the business world with confidence" />
+              <Card img="expvector2.png" title1="business registration & license" text="We assist businesses with the entire administrative process of business registration and obtaining the necessary licenses. We assist you to have special permits for your specific industry operations. " />
+              <Card img="expvector1.png" title1="brand & marketing" text="We can leverage strategic planning, innovative campaigns, logo designing, trademarking, website development, digital marketing, and all such activities to create an online business presence. With Google Ads, we’ll help you be the   star on the digital horizon. Let your brand values echo exceptionally well across websites. Increase your visibility and expand your reach. " />
             </div>
             <div>
               <ImgForm />

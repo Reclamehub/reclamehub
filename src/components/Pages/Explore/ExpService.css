@@ -4,3 +4,11 @@
     align-items: center;
     margin: auto;
 }
+
+@media (max-width: 767px) {
+.exp_service_card_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+}
