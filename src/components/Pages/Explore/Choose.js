@@ -26,7 +26,7 @@ const Choose = () => {
             <div className='choose_card_wrapper1'>
                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: "100%" }}>
                     <div className='choose_img_div'>
-                        <img style={{ width: "100%", height: "50px" }} src="googleimg.png" alt="g-img" />
+                        <img style={{ width: "90%", height: "57px" }} src="googleimg.png" alt="g-img" />
                     </div>
                     <div className='choose_card_div'>
                         <ChooseCard text="The team at Reclame Hub has been significantly helping us reach our advertising goals. Their expertise in digital marketing and data analysis has allowed us to optimise our campaigns and improve our Return on investment. We highly recommend their services to any business looking to maximise their online presence and drive results." />

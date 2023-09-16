@@ -33,7 +33,7 @@ export const Explore = () => {
         </div>
       </a>
           </div>
-          {/* <DropDownBar/> */}
+          <DropDownBar/>
         </Container>
 <ExpBanner/>
         <div style={{

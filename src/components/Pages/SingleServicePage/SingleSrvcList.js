@@ -21,7 +21,7 @@ const SingleSrvcTable = (props) => {
             </Box>
           </div>
           <Box color={useColorModeValue('#FF7721', "#FFB800")} >
-            <div >
+          <div className='table_text'>
               <p>{props.text0}</p>
             </div>
           </Box>
@@ -34,7 +34,7 @@ const SingleSrvcTable = (props) => {
             </Box>
           </div>
           <Box color={useColorModeValue('#FF7721', "#FFB800")} >
-            <div >
+          <div className='table_text'>
               <p>{props.text1}</p>
             </div>
           </Box>
@@ -48,7 +48,7 @@ const SingleSrvcTable = (props) => {
             </Box>
           </div>
           <Box color={useColorModeValue('#FF7721', "#FFB800")} >
-            <div >
+          <div className='table_text'>
               <p>{props.text2}</p>
             </div>
           </Box>
@@ -62,7 +62,7 @@ const SingleSrvcTable = (props) => {
             </Box>
           </div>
           <Box color={useColorModeValue('#FF7721', "#FFB800")} >
-            <div >
+          <div className='table_text'>
               <p>{props.text3}</p>
             </div>
           </Box>
@@ -75,7 +75,7 @@ const SingleSrvcTable = (props) => {
             </Box>
           </div>
           <Box color={useColorModeValue('#FF7721', "#FFB800")} >
-            <div >
+            <div className='table_text'>
               <p>{props.text4}</p>
             </div>
           </Box>
