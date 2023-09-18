@@ -16,8 +16,12 @@ const ExpBanner = () => {
            </text>
             </div>
             <div className='exp_btn_div'>
-              <button className='exp_btn'>arrange call</button>
-              <button className='exp_btn'> live chat</button>
+
+              <button className='exp_btn'>           
+       <a href="https://wa.me/8527352284"
+        >arrange call </a></button>
+             
+              {/* <button className='exp_btn'> live chat</button> */}
             </div>
           </div>
           <div>

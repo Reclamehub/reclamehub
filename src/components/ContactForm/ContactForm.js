@@ -1,13 +1,14 @@
 import React, { useState } from "react"
 import swal from 'sweetalert';
-import { CgProfile } from "react-icons/cg"
-import { AiOutlinePhone } from "react-icons/ai"
-import { MdAlternatemobile } from "react-icons/md"
-import { FiMail } from "react-icons/fi"
-import  {FaPhone} from "react-icons/fa"
-import { Box,  useColorModeValue } from "@chakra-ui/react"
 import "./ContactForm.css"
 import { Container } from "react-bootstrap";
+// import { CgProfile } from "react-icons/cg"
+// import { AiOutlinePhone } from "react-icons/ai"
+// import { MdAlternatemobile } from "react-icons/md"
+// import { FiMail } from "react-icons/fi"
+// import  {FaPhone} from "react-icons/fa"
+// import { Box,  useColorModeValue } from "@chakra-ui/react"
+
 
 
 

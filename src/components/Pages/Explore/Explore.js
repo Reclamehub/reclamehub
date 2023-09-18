@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import ChatBox from './ChatBox';
 import DropDownBar from './DropDownBar';
 import { BsWhatsapp } from "react-icons/bs"
+import {FiMail} from"react-icons/fi"
 import Card from './Card';
 import ExpBanner from './ExpBanner';
 import ImgForm from './ImgForm';
@@ -22,16 +23,18 @@ export const Explore = () => {
     <>
       <Box bg={useColorModeValue('#fffffff', '#000')} color={useColorModeValue('#000', '#ffffff')} fontFamily={"poppins"} margin={"auto"}>
         <Container fluid className='explore_banner_container'>
-          <div className='exp_links_div'>
-          <a href="mailto:"> <p>support@reclame.com</p></a>
-            {/* <p>Learning resource</p> */}
-            <a href="https://wa.me/91857352284"
-        className="">
+          <div className='exp_links_div' >
           <div style={{display:"flex",justifyContent:"center",gap:"7px"}}>
+          <a href="mailto:"> 
+          <p>support@reclame.com</p></a>
+          <FiMail style={{marginTop:"2px"}}/>
+         </div>
+          <div style={{display:"flex",justifyContent:"center",gap:"7px"}}>
+          <a href="https://wa.me/8527352284" > 
           <p >8527352284</p>
+      </a>
         <BsWhatsapp  style={{marginTop:"2px"}}/>
         </div>
-      </a>
           </div>
           <DropDownBar/>
         </Container>
