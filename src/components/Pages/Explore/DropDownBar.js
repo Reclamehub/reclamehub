@@ -27,11 +27,11 @@ function DropDownBar() {
 
           <div className="dropdown">
             <button className="btn drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              IPR/Trademark
+              Trademark
             </button>
             <ul className="dropdown-menu">
               <li><a className="dropdown-item" >
-                <span className='drop-item-heading'><p>  IPR/Trademark</p></span>
+                <span className='drop-item-heading'><p>Trademark</p></span>
                 <p>trade mark</p>
                 <p>Trademark oppositions</p>
                 <p>Trademark hearing</p>
