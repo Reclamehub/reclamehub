@@ -50,7 +50,7 @@ function DropDownBar() {
                 <span className='drop-item-heading'><p>  india</p></span>
                 <p>gst registration</p>
                 <p>gst modification</p>
-                <p>gst concellation</p>
+                <p>gst cancellation</p>
                 <p>gst return filing</p>
               </a></li>
             </ul>
