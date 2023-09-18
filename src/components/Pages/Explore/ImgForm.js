@@ -1,7 +1,8 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import ReactCardFlip from 'react-card-flip';
+import Swal from 'sweetalert2';
 import './ImgForm.css';
 
 function FormComponent({ onFormSubmit }) {
@@ -49,7 +50,7 @@ function FormComponent({ onFormSubmit }) {
     e.preventDefault();
     if (validateForm()) {
       onFormSubmit(formData);
-
+  
       emailjs
         .sendForm(
           "service_wx18els",
@@ -60,24 +61,33 @@ function FormComponent({ onFormSubmit }) {
         .then(
           (result) => {
             console.log(result.text);
-            alert("SUCCESS!");
-
-            setFormData({
-              fname: '',
-              mobileNumber: '',
-              email: '',
-              message: '',
+            // Use SweetAlert2 for success
+            Swal.fire({
+              icon: 'success',
+              title: 'SUCCESS!',
+              text: 'Your message has been sent successfully!',
+            }).then(() => {
+              setFormData({
+                fname: '',
+                mobileNumber: '',
+                email: '',
+                message: '',
+              });
             });
           },
-
           (error) => {
             console.log(error.text);
-            alert("FAILED...", error);
+            // Use SweetAlert2 for error
+            Swal.fire({
+              icon: 'error',
+              title: 'FAILED...',
+              text: 'Something went wrong. Please try again later.',
+            });
           }
         );
     }
   };
-
+  
   return (
     <wrapper className="form_outer_container">
       <div className='form_heading1_div'>
@@ -112,7 +122,7 @@ function FormComponent({ onFormSubmit }) {
                 alt=""
               />
             </div>
-            <div>{errors.name && <p className="error">{errors.name}</p>}</div>
+            <div>{errors.fname && <p className="error">{errors.fname}</p>}</div>
           </div>
 
           <div className="field_errorbox">

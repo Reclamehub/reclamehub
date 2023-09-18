@@ -1,7 +1,7 @@
 import React from 'react'
 import { useColorMode, useColorModeValue } from "@chakra-ui/react"
 import { Container } from 'react-bootstrap'
-import Card from './Card'
+import MediaCard from "./MediaCard"
 import "./Media.css"
 
 const Media = () => {
@@ -23,13 +23,13 @@ const Media = () => {
             <div>
             </div>
             <div className='media_card_wrapper1'>
-                <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
-                <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
-                <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
+                <MediaCard  img="mstory.png" />
+                <MediaCard img= "m24.png"/>
+                <MediaCard img="mm.png" />
             </div>
             <div className='media_card_wrapper2'>
-                <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
-                <Card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex " />
+                <MediaCard img="mnoida.png" />
+                <MediaCard img="mgoogle.png"/>
             </div>
         </Container>
     )

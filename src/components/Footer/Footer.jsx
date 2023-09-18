@@ -35,10 +35,10 @@ export const Footer = () => {
                 <Box>
                     <Heading className="footer-sub-heading" fontSize={{ base: "3vw", sm: "3vw", md: "1.5vw", lg: "1.5vw", xl: "1.5vw" }}>OUR SERVICE</Heading>
 
-                    <Text className="foot-sub-text" mt={{ base: "10px", sm: "10px", md: "10px", lg: "20px", xl: "25px" }}>GRAPHIC DESIGNING</Text>
-                    <Text className="foot-sub-text">SOCIAL MEDIA MANAGEMENT</Text>
-                    <Text className="foot-sub-text">WEB DEVELOPMENT</Text>
-                    <Text className="foot-sub-text">EMAIL MARKETING</Text>
+                    <Link className="footer_working_link" to="/graphic-designing"> <Text className="foot-sub-text" mt={{ base: "10px", sm: "10px", md: "10px", lg: "20px", xl: "25px" }}>GRAPHIC DESIGNING</Text></Link>
+                    <Link className="footer_working_link" to="/social-media-management">  <Text className="foot-sub-text">SOCIAL MEDIA MANAGEMENT</Text></Link>
+                    <Link className="footer_working_link" to="/web-design-development"><Text className="foot-sub-text">WEB DEVELOPMENT</Text></Link>
+                    <Link className="footer_working_link" to="/email-marketing"><Text className="foot-sub-text">EMAIL MARKETING</Text></Link>
                 </Box>
 
                 <Box>
@@ -55,9 +55,10 @@ export const Footer = () => {
 
                  <Text className="foot-sub-text ph_link" mt={{ base: "5px", sm: "7px", md: "10px", lg: "20px", xl: "25px" }}> <a href="tel:9120190055">+91-9120190055</a></Text>
                     <Text className="foot-sub-text em_link"> <a href="mailto:">info@reclamehub.com </a></Text>
-                    <Text className="foot-sub-text" >808, 8th Floor Iconic Tower</Text>
+                  <Link className="footer_working_link" to="/address">  <Text className="foot-sub-text" >808, 8th Floor Iconic Tower</Text>
                     <Text className="foot-sub-text" >Sector 62, Noida, 201301</Text>
                     <Text className="foot-sub-text" >Uttar Pradesh, India</Text>
+                    </Link>
                 </Box>
             </Flex>
         </Box>

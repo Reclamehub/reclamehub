@@ -10,18 +10,25 @@ import { Footer } from "./components/Footer/Footer"
 import { Box, useColorMode, useColorModeValue } from '@chakra-ui/react';
 import { FooterMain } from './components/Footer/FooterMain';
 import ScrollToTopButton from './ScrollToTop/ScrollToTOpButton';
+// import ReactGA from "react-ga"
+
+// useEffect(()=>{
+//   ReactGA.pageView(Window.location.pathname);
+// },[]);
+
+// const details=(item: fooditem)=>{
+// React.isValidElement({
+//   category: item.name,
+//   action:"test action",
+//   label:"test lable",
+//   value:item.price,
+// });
+// Navigate("./food-details,{state:item"});
+// }
+
+
 function App() {
-  // const ScrollToTop = ({ children }) => {
-  //   const { pathname } = useLocation();
 
-  //   useEffect(() => {
-  //     window.scrollTo(0, 0);
-  //   }, [pathname]);
-
-  //   return children;
-  // };
-
-  // localStorage.setItem("chakra-ui-color-mode","dark")
   return (
 
     <Box className="App" >

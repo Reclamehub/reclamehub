@@ -43,9 +43,19 @@
   .slider_main_div {
     width: 80%;
   }
-
+.main_card_wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
   .choose_card_wrapper1 {
     gap: 15px;
+    flex-direction: column;
+
+  }
+  .choose_card_wrapper2 {
+    gap: 15px;
+    flex-direction: column;
 
   }
 }

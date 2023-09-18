@@ -36,7 +36,9 @@ font-size: 1vw;
   margin-right: auto;
 
 }
-
+.footer_working_link:hover{
+    color: #ff7722;
+}
 
 @media screen and (max-width:480px) {
     .foot-main-container {

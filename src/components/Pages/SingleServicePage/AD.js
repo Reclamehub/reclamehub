@@ -49,7 +49,7 @@ export const AD = () => {
     ];
     return (
         <>
-            <Box bg={useColorModeValue('white', "black")} fontFamily={"poppins"}>
+            <Box bg={useColorModeValue('white', "black")} fontFamily={"poppins"} id="ad">
                 <SingleSrvcBanner title1={BannerData[10].title1} title2={BannerData[10].title2} descp={BannerData[10].descp} />
                 <SingleSrvcList
                     title0={SMMTableData[0].title0} heading0={SMMTableData[0].heading0} text0={SMMTableData[0].text0}

@@ -28,6 +28,9 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .media_card_wrapper1 {
-        gap: "15px"
+        gap: 15px;
+    }
+    .media_card_wrapper2 {
+        gap: 25px;
     }
 }

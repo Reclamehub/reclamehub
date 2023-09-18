@@ -22,7 +22,7 @@ const Choose = () => {
             </div>
             <div>
             </div>
-
+<div className='main_card_wrapper'>
             <div className='choose_card_wrapper1'>
                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: "100%" }}>
                     <div className='choose_img_div'>
@@ -71,7 +71,7 @@ const Choose = () => {
                     </div>
                 </div>
             </div>
-
+            </div>
         </Container>
     )
 }
