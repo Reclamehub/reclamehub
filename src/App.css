@@ -43,6 +43,7 @@
 
 .heading_descp_div {
   margin-bottom: 3.5%;
+  
 }
 
 .heading_description {
@@ -51,6 +52,7 @@
   font-weight: 400;
   font-family: poppins;
   text-transform: capitalize;
+  padding: 8px;
 }
 
 /* .heading_descp_div::first-letter {

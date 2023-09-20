@@ -8,7 +8,7 @@
     justify-content: center;
     text-align: center;
     align-self: normal;
-    gap: 3%;
+    gap: 4.2%;
     padding: 0px 7% 20px 7%;
     margin: auto;
 
@@ -42,6 +42,7 @@
 .hservice_cards_heading {
     font-weight: 600;
     font-size: 15px;
+    
 }
 
 .hservice_cards_text {
@@ -49,11 +50,13 @@
     padding: 5px;
     font-size: 14px;
     color: #ffffff;
+   
 }
 
 /* css-for-galaxy-fold */
 @media (min-width: 280px) and (max-width: 320px) { 
    .hservice_cards_container{
+    gap: 20px;
     display: grid !important;
     grid-template-columns: repeat(1, 1fr) !important;
    }
@@ -66,7 +69,7 @@
     .hservice_cards_container {
         width: 100%;
         padding: 0px 10px 20px 10px;
-        gap: 20px;
+        gap: 22.5px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
