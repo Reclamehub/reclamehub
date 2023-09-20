@@ -17,7 +17,7 @@ const Media = () => {
                     <heading>in the media</heading>
                 </div>
                 <div className='exp_text_div'>
-                    <text>Let us hear stories from our valuable clients</text>
+                    {/* <text>Let us hear stories from our valuable clients</text> */}
                 </div>
             </div>
             <div>
