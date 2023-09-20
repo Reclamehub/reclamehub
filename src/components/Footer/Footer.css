@@ -11,6 +11,8 @@ font-size: 1vw;
     padding-top: 25px;
     text-align: left;
     font-size: 1vw;
+    margin-right: auto;
+    text-transform: uppercase; 
 }
 
 .foot-sub-text {

@@ -10,7 +10,7 @@ const serviceData = [
         simg: "gif1.gif",
         heading: `SOCIAL MEDIA `,
         headingTwo: ` MANAGEMENT`,
-        desc: `Are you languishing in managing your social media? No need to look further, here we are the best Digital marketing agency in Noida.`
+        desc: `Tired of feeling overwhelmed by the never-ending demands of social media? Let us take control and transform your social media presence. `
 
     },
     {
@@ -18,7 +18,7 @@ const serviceData = [
         simg: "gif6.gif",
         heading: `CONTENT  `,
         headingTwo: `WRITER`,
-        desc: `Ready to take your initial step forward? Contact us today for amazing content development.`
+        desc: `Ready to take your initial step forward? Contact us today for amazing content development. We will help you build content that is SEO-friendly and could maximize your online presence. `
 
     },
     {
@@ -26,7 +26,7 @@ const serviceData = [
         simg: "gif5.gif",
         heading: `ONLINE  REPUTATION `,
         headingTwo: `MANAGEMENT`,
-        desc: `Want to take control of your online presence, then join the best Digital marketing agency.`
+        desc: `Want to take control of your online presence, then join the best Digital marketing agency. `
 
     },
     {
@@ -34,7 +34,7 @@ const serviceData = [
         simg: "gif3.gif",
         heading: `GRAPHIC  `,
         headingTwo: `DESIGNING`,
-        desc: `If you want to redesign your website, start a new social media campaign, or improve your entire digital presence, our graphic design services can help.`
+        desc: `Whether you're looking to give your website a fresh new look, launch an impactful social media campaign, or enhance your overall digital footprint, our graphic design services can help. `
 
     },
     {
@@ -42,7 +42,7 @@ const serviceData = [
         simg: "gif22.gif",
         heading: `WEB DESIGN &`,
         headingTwo: `DEVELOPMENT`,
-        desc: `Are you ready to boost your online presence with a beautiful and effective website? `
+        desc: `Are you ready to boost your online presence with a beautiful and effective website?  `
     },
     {
         id: 6,
@@ -70,7 +70,7 @@ const serviceData = [
         simg: "gif9.gif",
         heading: `CAMPAIGN `,
         headingTwo: `MARKETING`,
-        desc: `We help businesses succeed in the digital age! We are here to boost your online presence .`
+        desc: `We help businesses succeed in the digital age! We are here to boost your online presence.`
     },
 
 ]
@@ -89,7 +89,7 @@ export const HomeService = () => {
                 <heading className="page_heading" >services we provide</heading>
             </div>
             <div className="heading_descp_div">
-                <text className="heading_description" style={{ color: "#ffffff", textTransform: "capitalize" }}>all | designing | development  | digital marketing </text>
+                <text className="heading_description" style={{ color: "#ffffff", textTransform: "capitalize" }}> Your Aim, Our Assistance. The services provided are as follows</text>
             </div>
 
    {/* <Box className="hservice_cards_container" bg={useColorModeValue('#ffffff','#1D1D1D')}>   </Box> */}

@@ -82,7 +82,7 @@ export const HomeClients = () => {
                         <heading className="page_heading">SOME OF OUR <span>CLIENTS</span></heading>
                     </div>
                     <div className="heading_descp_div">
-                        <text className="heading_description ">helping these and many Other incredible clients reach for the stars is what pulls us out of bed every morning.</text>
+                        <text className="heading_description ">Helping these and many other incredible clients reach for the stars is what pulls us out of bed every morning.</text>
                     </div>
 
                     <Box backgroundColor={"#FF9450"}>
