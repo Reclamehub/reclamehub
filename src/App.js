@@ -10,6 +10,7 @@ import { Footer } from "./components/Footer/Footer"
 import { Box, useColorMode, useColorModeValue } from '@chakra-ui/react';
 import { FooterMain } from './components/Footer/FooterMain';
 import ScrollToTopButton from './ScrollToTop/ScrollToTOpButton';
+import ExpServiceTypeForm from "../src/components/Pages/ExpServiceTypes/ExpServiceTypeForm"
 // import ReactGA from "react-ga"
 
 // useEffect(()=>{

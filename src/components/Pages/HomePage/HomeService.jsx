@@ -10,7 +10,7 @@ const serviceData = [
         simg: "gif1.gif",
         heading: `SOCIAL MEDIA `,
         headingTwo: ` MANAGEMENT`,
-        desc: `Struggling with social media management? We're your solution, the top Digital Marketing Agency in Noida.`
+        desc: `Are you languishing in managing your social media? No need to look further, here we are the best Digital marketing agency in Noida.`
 
     },
     {
@@ -18,7 +18,7 @@ const serviceData = [
         simg: "gif6.gif",
         heading: `CONTENT  `,
         headingTwo: `WRITER`,
-        desc: `We will help you build content that is SEO-friendly and could maximize your online presence.`
+        desc: `Ready to take your initial step forward? Contact us today for amazing content development.`
 
     },
     {
@@ -26,7 +26,7 @@ const serviceData = [
         simg: "gif5.gif",
         heading: `ONLINE  REPUTATION `,
         headingTwo: `MANAGEMENT`,
-        desc: `We will help you build content that is SEO-friendly and could maximize your online presence.`
+        desc: `Want to take control of your online presence, then join the best Digital marketing agency.`
 
     },
     {
@@ -34,7 +34,7 @@ const serviceData = [
         simg: "gif3.gif",
         heading: `GRAPHIC  `,
         headingTwo: `DESIGNING`,
-        desc: `Design Services Can Help. We Think That Excellent Design Extends Beyond Aesthetics. Our Graphic Design Services Can Help.`
+        desc: `If you want to redesign your website, start a new social media campaign, or improve your entire digital presence, our graphic design services can help.`
 
     },
     {
@@ -42,37 +42,35 @@ const serviceData = [
         simg: "gif22.gif",
         heading: `WEB DESIGN &`,
         headingTwo: `DEVELOPMENT`,
-        desc: `
-    
-    Are you ready to boost your online presence with a beautiful and effective website? Contact the best digital marketing agency.`
+        desc: `Are you ready to boost your online presence with a beautiful and effective website? `
     },
     {
         id: 6,
         simg: "gif8.gif",
         heading: `DIGITAL `,
         headingTwo: `ADVERTISEMENT`,
-        desc: `We'll help you manage the ever-changing digital world and remain ahead of the competition with our data-driven strategies and industry experience.`
+        desc: `Elevate Your Small Business With Reclame Hub, A leading Digital Marketing Agency Specializing In Tailored Strategies To improve Your Online Presence, Drive Traffic, And increase Conversions.`
     },
     {
         id: 7,
         simg: "gif4.gif",
         heading: `VIDEO-AD `,
         headingTwo: `FILM`,
-        desc: `Our video ad film services are meant to assist you in creating aesthetically attractive and interesting films.`
+        desc: `Our video ad film services are meant to assist you in creating aesthetically attractive and interesting films that will resonate with your audience. `
     },
     {
         id: 8,
         simg: "gif7.gif",
         heading: `EMAIL `,
         headingTwo: `MARKETING`,
-        desc: `With our Email Marketing Services, you can turbocharge your marketing efforts.`
+        desc: `With our Email Marketing Services, you can turbocharge your marketing efforts! `
     },
     {
         id: 9,
         simg: "gif9.gif",
         heading: `CAMPAIGN `,
         headingTwo: `MARKETING`,
-        desc: `We help businesses succeed in the digital age! We are here to boost your online presence.`
+        desc: `We help businesses succeed in the digital age! We are here to boost your online presence .`
     },
 
 ]

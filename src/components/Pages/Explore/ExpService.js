@@ -3,6 +3,7 @@ import Card from './Card';
 import { useColorMode, useColorModeValue } from "@chakra-ui/react"
 import { Container } from 'react-bootstrap'
 import "./ExpService.css"
+import { Link } from 'react-router-dom';
 
 const ExpService = () => {
   return (
@@ -18,8 +19,12 @@ const ExpService = () => {
         </div>
         <div className='exp_service_card_wrapper'>
           <div>
-            <Card img="expvector3.png" title1="iso" text="Do you want to stand tall in the competition? Get yourself an ISO certification. We ensure your smooth and successful ISO certification process to raise the flag of quality and credibility, showing the world your commitment to quality management." />
-            <Card img="expvector2.png" title1="copy right" text="Creativity is like a prized jewel. Our copyright services protect your creations by registering them, giving you exclusive rights, and prohibiting unauthorized use or infringement. You can relax knowing that our trustworthy and comprehensive assistance is going to set you up to concentrate on growth and development." />
+           <Link to="/ISO-Certification">
+            <Card img="expvector3.png" title1="iso" text="Do you want to stand tall in the competition? Get yourself an ISO certification. We ensure your smooth and successful ISO certification process to raise the flag of quality and credibility, showing the world your commitment to quality management."/>
+            </Link>
+            <div>
+              <Card img="expvector2.png" title1="copy right" text="Creativity is like a prized jewel. Our copyright services protect your creations by registering them, giving you exclusive rights, and prohibiting unauthorized use or infringement. You can relax knowing that our trustworthy and comprehensive assistance is going to set you up to concentrate on growth and development." />
+            </div>
             <Card img="expvector1.png" title1="fssai" text="FSSAI protects the quality of your product through Food Safety. Our services ensure you sail the safe waters of food standards, ensuring your culinary treasures are compliant and safe for all who partake." />
           </div>
           <div>

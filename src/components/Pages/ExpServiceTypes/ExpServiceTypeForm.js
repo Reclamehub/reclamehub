@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import ReactCardFlip from 'react-card-flip';
 import Swal from 'sweetalert2';
-import './ImgForm.css';
+import './ExpServiceTypeForm.css';
 
 function FormComponent({ onFormSubmit }) {
   const form = useRef();
@@ -49,8 +48,6 @@ function FormComponent({ onFormSubmit }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      onFormSubmit(formData);
-  
       emailjs
         .sendForm(
           "service_wx18els",
@@ -87,21 +84,14 @@ function FormComponent({ onFormSubmit }) {
         );
     }
   };
-  
+
   return (
-    <wrapper className="form_outer_container">
-      <div className='form_heading1_div'>
-        <heading>WELCOME !</heading>
-      </div>
-      <div className='form_heading2_div'>
-        <heading>Reclame hub <br /> <span style={{ color: "#ff7722" }}>digital marketing agency</span></heading>
-      </div>
-      <div className="form-container">
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignItems: "center", margin: "auto", textAlign: "center", width: "100%" }}>
-          <p style={{ textTransform: "uppercase", fontSize: "16px" }}>talk to our experts</p>
-          <p style={{ fontSize: "12px" }}>We are available for a friendly chat to discuss your business needs, no obligation.</p>
+    <div className="exptypes_form_outercontainer">
+      <div className='exp_types_form'>
+        <div style={{ margin: "auto", color: "#000", fontFamily: "poppins", textTransform: "uppercase" }}>
+          <h2>Let's Talk</h2>
         </div>
-        <form ref={form} onSubmit={handleSubmit} className='form'>
+        <form ref={form} onSubmit={handleSubmit}>
           <div className="field_errorbox">
             <div className="field_group">
               <input
@@ -112,15 +102,10 @@ function FormComponent({ onFormSubmit }) {
                 className="form_fields"
                 value={formData.fname}
                 onChange={handleChange}
-                />
-                <label className="form_labels" htmlFor="fnameInput">
+              />
+              <label className="form_labels" htmlFor="fnameInput">
                 Name
               </label>
-              <img
-                style={{ height: '20px', width: '17px', order:"2", marginLeft:"-37px" }}
-                src="inputicon1.png"
-                alt=""
-              />
             </div>
             <div>{errors.fname && <p className="error">{errors.fname}</p>}</div>
           </div>
@@ -134,9 +119,6 @@ function FormComponent({ onFormSubmit }) {
                 className="form_fields"
                 value={formData.mobileNumber}
                 onChange={handleChange}
-              />
-              <img src={"inputicon2.png"} className="ph-icon"
-                style={{ height: "20px", width: "20px", marginLeft: "-37px",  }}
               />
               <label className="form_labels" htmlFor="fnameInput">
                 Mobile Number
@@ -157,10 +139,6 @@ function FormComponent({ onFormSubmit }) {
                 value={formData.email}
                 onChange={handleChange}
               />
-              <img
-                style={{ height: "20px", width: "20px", marginLeft: "-38px",  }}
-                src="inputicon3.png"
-              />
               <label className="form_labels" htmlFor="fnameInput">
                 Email
               </label>
@@ -171,15 +149,11 @@ function FormComponent({ onFormSubmit }) {
           <div className="field_errorbox">
             <div className="field_group mss_field">
               <textarea
-              required
+                required
                 name="message"
                 className="form_fields mssg_field"
                 value={formData.message}
                 onChange={handleChange}
-              />
-              <img
-                style={{ height: "20px", width: "20px", marginLeft: "-38px", color: "#fff" }}
-                src="inputicon4.png"
               />
               <label className="form_labels" htmlFor="fnameInput">
                 Message
@@ -189,51 +163,13 @@ function FormComponent({ onFormSubmit }) {
           </div>
           <div className="submit_btndiv">
             <button className="form_submit_btn" type="submit">
-              Send Message
+              Submit
             </button>
           </div>
         </form>
       </div>
-    </wrapper>
+    </div>
   );
 }
 
-function ImageWithForm() {
-  const [isFlipped, setIsFlipped] = useState(false);
-
-  const handleFormSubmit = (formData) => {
-    // Handle form submission here
-    console.log('Form Data:', formData);
-    setIsFlipped(false); // Flip back to the image after form submission
-  };
-
-  const handleImageClick = () => {
-    setIsFlipped(!isFlipped);
-  };
-  useEffect(() => {
-    // Use setTimeout to automatically flip the card after 2 seconds
-    const flipTimer = setTimeout(() => {
-      setIsFlipped(true);
-    }, 2000);
-
-    return () => {
-      // Clear the timer when the component unmounts
-      clearTimeout(flipTimer);
-    };
-  }, []);
-  return (
-    <div className="image-with-form">
-    <ReactCardFlip isFlipped={isFlipped}>
-      <div className="image-front" key="front" onClick={handleImageClick}>
-        {/* Your image element goes here */}
-        <img src="startup.png" alt="Your Image" />
-      </div>
-      <div className="image-back" key="back">
-        <FormComponent onFormSubmit={handleFormSubmit} />
-      </div>
-    </ReactCardFlip>
-  </div>
-  );
-}
-
-export default ImageWithForm;
+export default FormComponent;

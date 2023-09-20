@@ -81,6 +81,14 @@
   outline: none;
   background-color: #2D2D2D;
 }
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  background-color: none !important;
+}
+input:-webkit-autofill {
+ background-color: transparent !important;
+}
+
 .mssg_field{
  
 }
@@ -90,8 +98,7 @@
   top: 2px;
   left: 10px;
   font-size: 15px;
-  /* color: #777; */
-  pointer-events: none;
+ pointer-events: none;
   transition: 0.2s;
 }
 
@@ -106,6 +113,7 @@
 .form_fields:hover{
   border: none;
   outline: none;
+  background-color: none;
  }
 .mssg_field {
   padding: 25px 14px 0px 10px;

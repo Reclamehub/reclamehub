@@ -53,10 +53,10 @@ function FormComponent({ onFormSubmit }) {
   
       emailjs
         .sendForm(
-          "service_wx18els",
-          "template_m03q7s3",
+          "service_j2btiyq",
+          "template_1d6c5fr",
           form.current,
-          "sOEaQnJnVavIafK5A"
+          "yTENAXa-3HYEajU5K"
         )
         .then(
           (result) => {
@@ -129,7 +129,7 @@ function FormComponent({ onFormSubmit }) {
             <div className="field_group">
               <input
                 required
-                type="text"
+                type="number"
                 name="mobileNumber"
                 className="form_fields"
                 value={formData.mobileNumber}

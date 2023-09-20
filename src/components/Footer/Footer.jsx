@@ -18,7 +18,7 @@ export const Footer = () => {
 
                     <Box> <Link to="/"><Image h={{ base: "50px", sm: "30px", md: "50px", lg: "50px", xl: "50px" }} src="navicon.png" bgColor={"white"} borderRadius={"60px"} border="1px solid black" color={"white"} alt="reclame-icon" /></Link></Box>
 
-                    <Box mt={{ base: "5px", sm: "7px", md: "10px", lg: "10px", xl: "10px" }}><Text className="footer-desc" fontSize={{ base: "3vw", sm: "2vw", md: "1vw", lg: "1vw", xl: ".9vw" }}>We have a young team from professional backgrounds who are waiting to transform your brand with their infectious passion for storytelling in this digital world. An army of creative thinkers in Noida who spend a productive amount of their time on digital to explore and grow rapidly.</Text></Box>
+                    <Box mt={{ base: "5px", sm: "7px", md: "10px", lg: "10px", xl: "10px" }}><Text className="footer-desc" fontSize={{ base: "3vw", sm: "2vw", md: "1vw", lg: "1vw", xl: ".9vw" }}>We Have A Young Team From Professional Backgrounds Who Are Waiting To Transform Your Brand With Their Infectious Passion For Storytelling In This Digital World. An Army Of Creative Thinkers In Noida Who Spend A Productive Amount Of Their Time On Digital Media To Explore And Grow Rapidly.</Text></Box>
 
                     <Box mt={{ base: "20px", sm: "20px", md: "10px", lg: "10px", xl: "10px" }} width={"90%"} >
                         <Flex justifyContent={"space-around"} alignItems={"center"}  >

@@ -17,7 +17,7 @@
 .hservice_card_div {
     padding: 5px;
     font-size: 12px;
-    max-height: 100%;
+    height: 430px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +51,17 @@
     color: #ffffff;
 }
 
-/* css-for-mobiles */
+/* css-for-galaxy-fold */
+@media (min-width: 280px) and (max-width: 320px) { 
+   .hservice_cards_container{
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+   }
+   .hservice_card_div{
+    height: 280px !important;
+}
+  }
+  /* css-for-mobiles */
 @media (max-width: 480px) {
     .hservice_cards_container {
         width: 100%;
@@ -59,6 +69,9 @@
         gap: 20px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .hservice_card_div{
+        height: 315px;
     }
 
     .hservice_img {
@@ -85,7 +98,9 @@
         grid-template-columns: repeat(3, 1fr);
 
     }
-
+    .hservice_card_div{
+        height: 400px;
+    }
     .hservice_img {
         max-height: 160px;
     }
