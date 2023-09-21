@@ -7,7 +7,7 @@ const MediaCard = (props) => {
   return (
     // media-cards
     <div className='expmedia_card_container'>
-      <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} width={"100%"}>
+      <Box bg={useColorModeValue('#FFFAF0', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} width={"100%"}>
       <div className='expmedia_card_div'>
         <div>
         <div className='media_card_text_div'>

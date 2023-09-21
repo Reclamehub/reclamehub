@@ -29,7 +29,7 @@ const Choose = () => {
                         <img style={{ width: "90%", height: "57px" }} src="googleimg.png" alt="g-img" />
                     </div>
                     <div className='choose_card_div'>
-                        <ChooseCard text="The team at Reclame Hub has been significantly helping us reach our advertising goals. Their expertise in digital marketing and data analysis has allowed us to optimise our campaigns and improve our Return on investment. We highly recommend their services to any business looking to maximise their online presence and drive results." />
+                        <ChooseCard text="Reclame Hub makes your online presence stand out with the help of Google Partnership. With the Google partnership, we bring the advantage of high-quality advertising solutions, analytics tools, and industry insights you need to make your digital marketing campaigns rock! " />
                     </div>
                 </div>
 
@@ -38,7 +38,7 @@ const Choose = () => {
                         <img style={{ width: "100%", height: "50px" }} src="exic.png" alt="g-img" />
                     </div>
                     <div className='choose_card_div'>
-                        <ChooseCard text="Our partnership with Reclame Hub has greatly benefited our marketing strategies. Their innovative and personalised approach helped us engage our target audience effectively. Their social media expertise has resulted in increased brand awareness and customer engagement. We extremely appreciate their services and recommend them to any business or financial institution seeking effective advertising solutions. " />
+                        <ChooseCard text="Our partnership with ICICI Bank lets us offer many financial decisions that meet your business goals. Our partnership with ICICI Bank ensures secure payment gateways, smooth transaction processes, and financial strategy optimization." />
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@ const Choose = () => {
                         <img style={{ width: "100%", height: "50px" }} src="exsi.png" alt="g-img" />
                     </div>
                     <div className='choose_card_div'>
-                        <ChooseCard text="Reclame Hub has expertise in government legal compliances and has been invaluable in dealing with the complex regulations and legal requirements in the StartupIndia company formation process. Their knowledge and experience have saved our time and resources allowing us to focus on growing our business. We are happy for their support and would recommend their services to any aspiring startup looking to establish themselves in the Indian market.  " />
+                        <ChooseCard text="Startup India is a private initiative that Reclame Hub is proud to be an affiliate of because it helps and supports startups. Startups can benefit from this collaboration because we streamline the delivery of individualised marketing and establishing strategies. This gives them a leg up on the competition and paves the way for future success. " />
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ const Choose = () => {
                         <img style={{ width: "100%", height: "50px" }} src="exgp.png" alt="g-img" />
                     </div>
                     <div className='choose_card_div'>
-                        <ChooseCard text="Reclame Hub has been a reliable partner in our government compliance search. Their extensive network and understanding of the local market dynamics have been instrumental in assisting us with the necessary business registrations and legal documentation. Their efficient services have helped us throughout the intricacies of the Startup India initiative smoothly. Their commitment to excellence is commendable." />
+                        <ChooseCard text="As a verified Google Partner, we've proven our expertise with Google Ads and other digital advertising tools. Because of this partnership, we have access to advanced tools and knowledge that help us run successful digital advertising campaigns for your company." />
                     </div>
                 </div>
 
@@ -67,7 +67,7 @@ const Choose = () => {
                         <img style={{ width: "100%", height: "100%" }} src="exfcbk.png" alt="g-img" />
                     </div>
                     <div className='choose_card_div'>
-                        <ChooseCard text="Reclame Hub has an extensive network and understanding of the market dynamic. They streamlined the process of business registration and provided us with all necessary legal documentation. Their continuous support in establishing our presence in the Indian market is praiseworthy." />
+                        <ChooseCard text="We get benefits from Facebook's global reach through its collaboration. Reclame Hub creates engaging social media campaigns using Facebook advertising tools and insights. These campaigns aim to strengthen brand recognition, audience engagement, and organization-audience relationships." />
                     </div>
                 </div>
             </div>

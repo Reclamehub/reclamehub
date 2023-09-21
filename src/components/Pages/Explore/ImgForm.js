@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useRef } from 'react';
 import {Box,useColorModeValue} from "@chakra-ui/react"
 import {IoPersonOutline} from "react-icons/io5"
+import {MdOutlineMailOutline} from "react-icons/md"
 import {AiOutlinePhone,AiOutlineMail} from "react-icons/ai"
 import {SiMailgun} from "react-icons/si"
 import emailjs from 'emailjs-com';
@@ -93,7 +94,7 @@ function FormComponent({ onFormSubmit }) {
   };
   
   return (
-    <Box bg={useColorModeValue('#fffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} >
+    <Box bg={useColorModeValue('#FFFAF0', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} >
     
     <wrapper className="form_outer_container">
       <div className='form_heading1_div'>
@@ -180,7 +181,7 @@ function FormComponent({ onFormSubmit }) {
                 value={formData.message}
                 onChange={handleChange}
               />
-              <AiOutlineMail
+              <MdOutlineMailOutline
                 style={{ height: "20px", width: "20px", marginLeft: "-38px",  }}
               />
               <label className="exp_form_labels" htmlFor="fnameInput">

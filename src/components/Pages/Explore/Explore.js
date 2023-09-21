@@ -27,8 +27,8 @@ export const Explore = () => {
         <Container fluid className='explore_banner_container'>
           <div className='exp_links_div' >
           <div style={{display:"flex",justifyContent:"center",gap:"7px"}}>
-          <a href="mailto:"> 
-          <p>support@reclame.com</p></a>
+          <a href="mailto:support@reclamehub.com"> 
+          <p>support@reclamehub.com</p></a>
           <FiMail style={{marginTop:"2px"}}/>
          </div>
           <div style={{display:"flex",justifyContent:"center",gap:"7px"}}>
@@ -60,8 +60,8 @@ export const Explore = () => {
           </div>
           <div className='cards_imgform_wrapper'>
             <div>
-              <Card img="expvector3.png" title1="company formation" text="Starting a business requires a strong foundation. Our expertise in company incorporation, such as private limited, OPC, LLP, etc., ensures that your business kicks off with the right legal structure and licenses, enabling you to conquer the complexities of the business world with confidence" />
-              <Card img="expvector2.png" title1="business registration & license" text="We assist businesses with the entire administrative process of business registration and obtaining the necessary licenses. We assist you to have special permits for your specific industry operations. " />
+              <Card img="expvector3.png" title1="company formation" text="Starting a business requires a strong foundation. Our expertise in company incorporation, such as private limited, OPC, LLP, etc., ensures that your business kicks off with the right legal structure and licenses, enabling you to conquer the complexities of the business world with confidence." />
+              <Card img="expvector2.png" title1="business registration & license" text="We assist businesses with the entire administrative process of business registration and obtaining the necessary licenses. We assist you to have special permits for your specific industry operations." />
               <Card img="expvector1.png" title1="brand & marketing" text="We can leverage strategic planning, innovative campaigns, logo designing, trademarking, website development, digital marketing, and all such activities to create an online business presence. With Google Ads, we’ll help you be the   star on the digital horizon. Let your brand values echo exceptionally well across websites. Increase your visibility and expand your reach. " />
             </div>
             <div>
