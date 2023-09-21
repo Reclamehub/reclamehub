@@ -6,11 +6,9 @@
 }
 
 .image-with-form {
-  background-color: #1D1D1D;
   width: 300px;
   height: 100%;
 }
-
 .image-front,
 .image-back {
   margin: auto;
@@ -19,13 +17,11 @@
   font-family: poppins;
   font-size: 16px;
   cursor: pointer;
-  box-shadow: 0px 0px 5px 0px #f1f0f0;
+  box-shadow: 0px 0px 5px 2px #f1f0f0;
 }
 
-/* Your existing styles */
-.form_outer_container{
-  color: #ffffff;
-}
+.form_outer_container{}
+
 .form-container {
   display: flex;
   justify-content: center;
@@ -33,9 +29,8 @@
   margin: auto;
   width: 100%;
   padding: 10px;
-
+ 
 }
-
 .form_heading1_div {
   height: 50px;
   font-size: 16px;
@@ -59,67 +54,83 @@
 
 .form {
   margin: auto;
-}
+ }
 
-.field_group {
+.exp_field_group {
   width: auto;
   margin: 2rem auto 0px auto;
   position: relative;
   display: flex;
   align-items: center;
+  border: none;
+  outline: none;
+  color: #000 !important;
+  }
+.field_errorbox{
+  margin-right: 20px;
+  border: none;
+  outline: none;
 
 }
-.form_fields {
-  margin-right: 15px;
+.exp_form_fields {
   padding-top: 15px;
   padding-left: 10px;
-  border: 1px solid;
   height: 50px;
   width: 280px;
   border-radius: 15px;
+ background-color: #f1f0f0;
+ color: #000 !important;
+border: none;
+outline: none;
+}
+/* input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  color: #000;
   border: none;
   outline: none;
-  background-color: #2D2D2D;
-}
-input:-webkit-autofill,
-input:-webkit-autofill:focus {
-  background-color: none !important;
 }
 input:-webkit-autofill {
- background-color: transparent !important;
+ border: none;
+ outline: none;
+} */
+.exp_form_fields:focus~label,
+.exp_form_fields:valid~label {
+  padding-top: 2.5px;
+  top: -3px;
+  left: 10px;
+  font-size: 12px;
+  border: none;
+  outline: none;
 }
-
+.exp_form_fields:hover{
+  color: #000 !important;
+  border: none;
+  outline: none;
+  background-color: none;
+ }
+.mssg_field {
+  color: #000 !important;
+  padding: 25px 14px 0px 10px;
+  min-height: 50px;
+  max-height: 70px;
+  border: none;
+  outline: none;
+}
 .mssg_field{
  
 }
 
-.form_labels {
+.exp_form_labels {
   position: absolute;
   top: 2px;
   left: 10px;
   font-size: 15px;
  pointer-events: none;
   transition: 0.2s;
+color: #000;
 }
 
-.form_fields:focus~label,
-.form_fields:valid~label {
-  padding-top: 2.5px;
-  top: -3px;
-  left: 10px;
-  font-size: 12px;
 
-}
-.form_fields:hover{
-  border: none;
-  outline: none;
-  background-color: none;
- }
-.mssg_field {
-  padding: 25px 14px 0px 10px;
-  min-height: 50px;
-  max-height: 70px;
-}
 
 .form_submit_btn {
   margin-top: 25px;

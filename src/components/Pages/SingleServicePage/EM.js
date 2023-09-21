@@ -84,7 +84,7 @@ export const EM = () => {
                 </Container>
 
 
-                <ContactForm />
+                <ContactForm heading="Talk to Our Experts"/>
                 <Connect />
             </Box>
         </>

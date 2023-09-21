@@ -6,12 +6,10 @@ const Card = (props) => {
   const { colorMode } = useColorMode();
   return (
     // explore-help + service-cards
+    <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} width={"100%"}>
     <div className='exphelpcard_container'>
-      <div className='exphelp_card_div'
-        style={{
-          backgroundColor: colorMode === "light" ? '#1D1D1D' : "#1D1D1D",
-        }}>
-        <div>
+      <div className='exphelp_card_div'>
+    <div>
         <div className='expcard_icon_div'>
           <img src={props.img} className='expcard_icon' />
         </div>
@@ -22,6 +20,7 @@ const Card = (props) => {
       </div>
       </div>
     </div>
+    </Box>
   )
 }
 

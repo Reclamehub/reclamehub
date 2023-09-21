@@ -8,16 +8,16 @@ const Choose = () => {
     const { colorMode } = useColorMode();
     return (
         <Container className='choose_container'>
-            <div className="exp_heading_wrapper" style={{ margin: "auto", display: "flex", justifyContent: "center", textAlign: "center", width: "95%" }}>
-                <div className='exp_heading_div'
+            <div className="exp_heading_wrapper mb-3" style={{ margin: "auto", display: "flex", justifyContent: "center", textAlign: "center", width: "95%" }}>
+                <div className='exp_heading_div mb-2'
                     style={{
                         color: colorMode === "light" ? '#000' : "#ffffff",
                     }}
                 >
-                    <heading>why choose us ?</heading>
+                    <heading>Channel Partners</heading>
                 </div>
                 <div className='exp_text_div'>
-                    <text>Let us hear stories from our valuable clients</text>
+                    <text>We collaborate with the following entities to bring your products and services to great heights </text>
                 </div>
             </div>
             <div>

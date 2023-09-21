@@ -10,7 +10,7 @@ const serviceData = [
         simg: "gif1.gif",
         heading: `SOCIAL MEDIA `,
         headingTwo: ` MANAGEMENT`,
-        desc: `Tired of feeling overwhelmed by the never-ending demands of social media? Let us take control and transform your social media presence. `
+        desc: `Tired of feeling overwhelmed by the never-ending demands of social media? Let us take control and transform your social media presence.  `
 
     },
     {
@@ -26,7 +26,7 @@ const serviceData = [
         simg: "gif5.gif",
         heading: `ONLINE  REPUTATION `,
         headingTwo: `MANAGEMENT`,
-        desc: `Want to take control of your online presence, then join the best Digital marketing agency. `
+        desc: `Want to take control of your online presence, then join the best Digital marketing agency.  `
 
     },
     {
@@ -34,7 +34,7 @@ const serviceData = [
         simg: "gif3.gif",
         heading: `GRAPHIC  `,
         headingTwo: `DESIGNING`,
-        desc: `Whether you're looking to give your website a fresh new look, launch an impactful social media campaign, or enhance your overall digital footprint, our graphic design services can help. `
+        desc: `Whether you're looking to give your website a fresh new look, launch an impactful social media campaign, or enhance your overall digital footprint, our graphic design services can help.`
 
     },
     {
@@ -42,28 +42,28 @@ const serviceData = [
         simg: "gif22.gif",
         heading: `WEB DESIGN &`,
         headingTwo: `DEVELOPMENT`,
-        desc: `Are you ready to boost your online presence with a beautiful and effective website?  `
+        desc: `Elevate your Brand to new heights with stunning website that captivate your audience. `
+
     },
     {
         id: 6,
         simg: "gif8.gif",
         heading: `DIGITAL `,
         headingTwo: `ADVERTISEMENT`,
-        desc: `Elevate Your Small Business With Reclame Hub, A leading Digital Marketing Agency Specializing In Tailored Strategies To improve Your Online Presence, Drive Traffic, And increase Conversions.`
-    },
+        desc: `We are Designed with one goal in mind - to skyrocket your online visibility, drive targeted visitors to your website, and deliver remarkable results.`    },
     {
         id: 7,
         simg: "gif4.gif",
         heading: `VIDEO-AD `,
         headingTwo: `FILM`,
-        desc: `Our video ad film services are meant to assist you in creating aesthetically attractive and interesting films that will resonate with your audience. `
+        desc: `We transform your vision into a reality with our expertise in creating eye-catching video ad films,  storytelling, creative production, and digital marketing.  `
     },
     {
         id: 8,
         simg: "gif7.gif",
         heading: `EMAIL `,
         headingTwo: `MARKETING`,
-        desc: `With our Email Marketing Services, you can turbocharge your marketing efforts! `
+        desc: `Start using our services today and witness the transformation in your marketing strategy! With email marketing.`
     },
     {
         id: 9,

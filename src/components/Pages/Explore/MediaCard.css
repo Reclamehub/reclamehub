@@ -11,13 +11,12 @@
     height: 220px;
     padding: 10px 6px;
     border-radius: 10px;
-    box-shadow: 0px 0px 7px 0px #f1f0f0;
+    box-shadow: 0px 0px 7px 2px #f1f0f0;
  }
 .media_card_text_div{
     text-transform: capitalize;
     font-size: 12px;
     font-weight: 400;
-    color: #ffffff;
     margin-bottom: auto;
 }
 @media (max-width: 480px) {

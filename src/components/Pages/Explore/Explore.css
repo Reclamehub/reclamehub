@@ -1,7 +1,7 @@
 .explore_banner_container {
-    background-color: #1D1D1D;
     padding: 10px 3%;
     max-width: 100%;
+    box-shadow: 0px 0px 2px 0px #f1f0f0;
 }
 
 .exp_links_div {
@@ -9,13 +9,13 @@
     display: flex;
     justify-content: flex-end;
     gap: 3%;
-    color: #ffffff;
+    
 }
 
 .expbg_container {
     margin-top: 5%;
     padding: 15px 0px;
-    background-color: #1D1D1D;
+   
 }
 .exp_heading_wrapper {
     padding-bottom: .5%;

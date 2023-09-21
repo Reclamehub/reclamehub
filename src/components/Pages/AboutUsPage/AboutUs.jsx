@@ -25,7 +25,7 @@ export const AboutUs = () => {
             <AboutFeatured />
             <FeaturedSlider />
             <AboutCoreValue />
-            <ContactForm />
+            <ContactForm heading="Talk to Our Experts"/>
 
             <Connect />
         </Box>

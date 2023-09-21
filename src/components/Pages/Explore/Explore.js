@@ -21,7 +21,9 @@ export const Explore = () => {
   const { colorMode } = useColorMode();
   return (
     <>
-      <Box bg={useColorModeValue('#fffffff', '#000')} color={useColorModeValue('#000', '#ffffff')} fontFamily={"poppins"} margin={"auto"}>
+      <Box bg={useColorModeValue('#fffffff', '#000')} color={useColorModeValue('#000', '#ffffff')} fontFamily={"poppins"} margin={"auto"} >
+      
+      <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} width={"100%"}>
         <Container fluid className='explore_banner_container'>
           <div className='exp_links_div' >
           <div style={{display:"flex",justifyContent:"center",gap:"7px"}}>
@@ -38,6 +40,7 @@ export const Explore = () => {
           </div>
           <DropDownBar/>
         </Container>
+        </Box>
 <ExpBanner/>
         <div style={{
           background: colorMode === "light" ? '#fff' : "#1D1D1D",

@@ -12,7 +12,7 @@ import { Container } from "react-bootstrap";
 
 
 
-export const ContactForm = () => {
+export const ContactForm = (props) => {
   const [userData, setUserData] = useState({
     fname: "",
     mobile: "",
@@ -106,7 +106,7 @@ export const ContactForm = () => {
   return (
     <Container fluid className="form_main_Container">
       <div className="heading_div">
-        <heading className="page_heading" style={{color:"#F47721"}}>contact us</heading>
+        <heading className="page_heading" style={{color:"#F47721"}} >{props.heading}</heading>
       </div>
     
       <div className="mb-5">

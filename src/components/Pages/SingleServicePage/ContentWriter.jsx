@@ -119,7 +119,7 @@ export const ContentWriter = () => {
         <text className="smm-text3">Whether it be social media or website, we believe that to make it trending and eye catching tio viewers it should be something more than aesthetic and less than beyond imagination.</text>
     </div>
 </Container> */}
-                <ContactForm />
+               <ContactForm heading="Talk to Our Experts"/>
                 <Connect />
             </Box>
         </>

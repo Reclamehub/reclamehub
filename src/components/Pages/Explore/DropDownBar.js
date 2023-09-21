@@ -1,15 +1,15 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import { Box,useColorModeValue } from '@chakra-ui/react';
 import "./DropDownBar.css";
 
 function DropDownBar() {
   return (
     <>
+      <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} width={"100%"}>
       <Container className='drop_container'>
-
-        <>
-          <div className="dropdown">
-            <button className="btn drop-btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+         <div className="dropdown">
+            <button className=" drop-btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               Business License
             </button>
             <ul className="dropdown-menu">
@@ -26,7 +26,7 @@ function DropDownBar() {
           </div>
 
           <div className="dropdown">
-            <button className="btn drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <button className=" drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               Trademark
             </button>
             <ul className="dropdown-menu">
@@ -42,7 +42,7 @@ function DropDownBar() {
           </div>
 
           <div className="dropdown">
-            <button className="btn drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <button className=" drop-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               GST
             </button>
             <ul className="dropdown-menu">
@@ -66,9 +66,10 @@ function DropDownBar() {
           </div> */}
 
 
-        </>
+     
 
       </Container>
+      </Box>
     </>
   );
 }

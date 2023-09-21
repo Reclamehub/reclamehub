@@ -115,7 +115,7 @@ export const GD = () => {
                         <text className="smm-text3"> We understand the significance of fulfilling deadlines in digital marketing efforts. Our staff is dedicated to producing high-quality designs on time, helping you to stay on track with your project.</text>
                     </div>
                 </Container>
-                <ContactForm />
+                <ContactForm heading="Talk to Our Experts"/>
                 <Connect />
             </Box>
         </>

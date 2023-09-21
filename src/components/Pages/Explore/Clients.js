@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { useColorMode } from "@chakra-ui/react";
+import { Box,useColorModeValue } from "@chakra-ui/react";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -22,8 +22,6 @@ const Clients = () => {
     },
     // Add more data entries
   ];
-
-  const { colorMode } = useColorMode();
   const settings = {
     dots: false,
     infinite: true,
@@ -44,28 +42,26 @@ const Clients = () => {
   };
 
   return (
+    <Box bg={useColorModeValue('#ffffff', '#000')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} width={"100%"}>
     <Container className='exp_client_container'>
       <div className="exp_heading_wrapper" style={{ margin: "auto", display: "flex", justifyContent: "center", textAlign: "center", width: "95%" }}>
-        <div className='exp_heading_div'
-          style={{
-            color: colorMode === "light" ? '#000' : "#ffffff",
-          }}
-        >
+        <div className='exp_heading_div'   >
           <heading>What our clients say about<span style={{ color: "#ff7721" }}>  reclame hub </span> </heading>
         </div>
-        <div className='exp_text_div'>
+        {/* <div className='exp_text_div'>
           <text>Let us hear stories from our valuable clients</text>
-        </div>
+        </div> */}
       </div>
+
       <div className='slider_main_div'
         style={{
-          backgroundColor: "#1D1D1D",
+          // backgroundColor: "#1D1D1D",
           height: 'auto',
-          borderRadius: "20px",
           margin: "auto",
-          boxShadow: "0px 20px 0px 0px #3D3D3D",
+          // boxShadow: "0px 0px 5px 0px #3D3D3D",
         }}
       >
+        <Box bg={useColorModeValue('#ffffff', '#1D1D1D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} width={"100%"}className='client_box'>
         <Container fluid className='slider_container' >
           <Slider {...settings} className='slider'>
             {data.map((item, index) => (
@@ -76,8 +72,10 @@ const Clients = () => {
             ))}
           </Slider>
         </Container>
+        </Box>
       </div>
     </Container>
+    </Box>
   );
 }
 

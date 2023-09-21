@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useRef } from 'react';
+import {Box,useColorModeValue} from "@chakra-ui/react"
+import {IoPersonOutline} from "react-icons/io5"
+import {AiOutlinePhone,AiOutlineMail} from "react-icons/ai"
+import {SiMailgun} from "react-icons/si"
 import emailjs from 'emailjs-com';
 import ReactCardFlip from 'react-card-flip';
 import Swal from 'sweetalert2';
@@ -89,6 +93,8 @@ function FormComponent({ onFormSubmit }) {
   };
   
   return (
+    <Box bg={useColorModeValue('#fffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} >
+    
     <wrapper className="form_outer_container">
       <div className='form_heading1_div'>
         <heading>WELCOME !</heading>
@@ -103,42 +109,40 @@ function FormComponent({ onFormSubmit }) {
         </div>
         <form ref={form} onSubmit={handleSubmit} className='form'>
           <div className="field_errorbox">
-            <div className="field_group">
+            <div className="exp_field_group">
               <input
-                id=""
+              id=""
                 required
                 type="text"
                 name="fname"
-                className="form_fields"
+                className="exp_form_fields"
                 value={formData.fname}
                 onChange={handleChange}
                 />
-                <label className="form_labels" htmlFor="fnameInput">
+                <label className="exp_form_labels" htmlFor="fnameInput">
                 Name
               </label>
-              <img
-                style={{ height: '20px', width: '17px', order:"2", marginLeft:"-37px" }}
-                src="inputicon1.png"
-                alt=""
-              />
+              <IoPersonOutline
+                style={{ height: '20px', width: '17px', order:"2", marginLeft:"-37px",background:"none"}}
+                />
             </div>
             <div>{errors.fname && <p className="error">{errors.fname}</p>}</div>
           </div>
 
           <div className="field_errorbox">
-            <div className="field_group">
+            <div className="exp_field_group">
               <input
                 required
                 type="number"
                 name="mobileNumber"
-                className="form_fields"
+                className="exp_form_fields"
                 value={formData.mobileNumber}
                 onChange={handleChange}
               />
-              <img src={"inputicon2.png"} className="ph-icon"
-                style={{ height: "20px", width: "20px", marginLeft: "-37px",  }}
+              <AiOutlinePhone  
+                style={{ height: "25px", width: "25px", marginLeft: "-37px",  }}
               />
-              <label className="form_labels" htmlFor="fnameInput">
+              <label className="exp_form_labels" htmlFor="fnameInput">
                 Mobile Number
               </label>
             </div>
@@ -148,20 +152,19 @@ function FormComponent({ onFormSubmit }) {
           </div>
 
           <div className="field_errorbox">
-            <div className="field_group ">
+            <div className="exp_field_group ">
               <input
                 required
                 type="email"
                 name="email"
-                className="form_fields"
+                className="exp_form_fields"
                 value={formData.email}
                 onChange={handleChange}
               />
-              <img
+              <SiMailgun
                 style={{ height: "20px", width: "20px", marginLeft: "-38px",  }}
-                src="inputicon3.png"
-              />
-              <label className="form_labels" htmlFor="fnameInput">
+               />
+              <label className="exp_form_labels" htmlFor="fnameInput">
                 Email
               </label>
             </div>
@@ -169,19 +172,18 @@ function FormComponent({ onFormSubmit }) {
           </div>
 
           <div className="field_errorbox">
-            <div className="field_group mss_field">
+            <div className="exp_field_group mss_field">
               <textarea
               required
                 name="message"
-                className="form_fields mssg_field"
+                className="exp_form_fields mssg_field"
                 value={formData.message}
                 onChange={handleChange}
               />
-              <img
-                style={{ height: "20px", width: "20px", marginLeft: "-38px", color: "#fff" }}
-                src="inputicon4.png"
+              <AiOutlineMail
+                style={{ height: "20px", width: "20px", marginLeft: "-38px",  }}
               />
-              <label className="form_labels" htmlFor="fnameInput">
+              <label className="exp_form_labels" htmlFor="fnameInput">
                 Message
               </label>
             </div>
@@ -195,6 +197,7 @@ function FormComponent({ onFormSubmit }) {
         </form>
       </div>
     </wrapper>
+    </Box>
   );
 }
 
@@ -222,6 +225,7 @@ function ImageWithForm() {
     };
   }, []);
   return (
+    <Box bg={useColorModeValue('#fffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} >
     <div className="image-with-form">
     <ReactCardFlip isFlipped={isFlipped}>
       <div className="image-front" key="front" onClick={handleImageClick}>
@@ -233,6 +237,7 @@ function ImageWithForm() {
       </div>
     </ReactCardFlip>
   </div>
+  </Box>
   );
 }
 

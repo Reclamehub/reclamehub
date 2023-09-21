@@ -13,7 +13,7 @@ export const ContactUsPage = () => {
         <section id="contact">
             <Box bg={useColorModeValue('white', "black")} >
                 <div style={{ marginTop: '-4%' }}>
-                    <ContactForm />
+                    <ContactForm heading="contact us"/>
                 </div>
                 <ContactUsAddress />
 

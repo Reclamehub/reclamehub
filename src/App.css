@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: poppins !important;
 
 }
 
@@ -43,10 +44,10 @@
 
 .heading_descp_div {
   margin-bottom: 3.5%;
-  
 }
 
 .heading_description {
+ 
   line-height: normal;
   font-size: 18px;
   font-weight: 400;

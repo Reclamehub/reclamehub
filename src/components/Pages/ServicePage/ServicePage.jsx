@@ -15,7 +15,7 @@ export const ServicePage = () => {
                 <ServicePageBanner />
                 <ServicePageLevel />
                 <ServicePageTypes />
-                <ContactForm />
+                <ContactForm heading="Talk to Our Experts"/>
                 <Connect />
             </section>
             <br />

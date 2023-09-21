@@ -115,7 +115,7 @@ export const ORM = () => {
                         <text className="smm-text3">Your internet reputation is a significant asset that must be carefully managed and protected. You can protect your brand's image, create trust with your audience, and improve your online presence with our expert online reputation management services. Contact us today to see how we can assist you with navigating the digital world and maintaining a good and impactful online presence.</text>
                     </div>
                 </Container>
-                <ContactForm />
+                <ContactForm heading="Talk to Our Experts"/>
                 <Connect />
             </Box>
         </>

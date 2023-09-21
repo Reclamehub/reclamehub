@@ -8,9 +8,9 @@ export const Connect = () => {
     const history = useNavigate()
     return (
         <>
-        <Box bg={useColorModeValue('white', '#1f1f1f')} alignItems={"center"} paddingTop={"5%"} paddingBottom={"5%"} borderTop={"4px solid white"}>
-            <div className="heading_div">
-                <heading className="page_heading" fontSize={"3.5vw"}> WHAT ARE YOU WAITING FOR?</heading>
+        <Box bg={useColorModeValue('white', '#1f1f1f')} alignItems={"center"} paddingTop={"6%"} paddingBottom={"6%"} borderTop={"4px solid white"}>
+            <div className="heading_div" style={{width:"100%", }}>
+                <heading className="page_heading" fontSize={"3.5vw"} style={{textTransform:"capitalize"}}> What are you waiting for ?</heading>
                 
         </div>
         <div style={{marginTop:"3.5%"}}>

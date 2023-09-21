@@ -79,7 +79,7 @@ export const DA = () => {
                     </div>
                 </Container>
 
-                <ContactForm />
+                <ContactForm heading="Talk to Our Experts"/>
                 <Connect />
             </Box>
         </>
