@@ -11,7 +11,7 @@ const Choose = () => {
             <div className="exp_heading_wrapper mb-3" style={{ margin: "auto", display: "flex", justifyContent: "center", textAlign: "center", width: "95%" }}>
                 <div className='exp_heading_div mb-2'
                     style={{
-                        color: colorMode === "light" ? '#000' : "#ffffff",
+                        color: colorMode === "light" ? '#F47722' : "#ffffff",
                     }}
                 >
                     <heading>Channel Partners</heading>
