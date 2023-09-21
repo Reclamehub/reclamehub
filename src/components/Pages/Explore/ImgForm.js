@@ -94,7 +94,7 @@ function FormComponent({ onFormSubmit }) {
   };
   
   return (
-    <Box bg={useColorModeValue('#FFFAF0', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} >
+    <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} >
     
     <wrapper className="form_outer_container">
       <div className='form_heading1_div'>
@@ -226,7 +226,7 @@ function ImageWithForm() {
     };
   }, []);
   return (
-    <Box bg={useColorModeValue('#fffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} >
+    <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} >
     <div className="image-with-form">
     <ReactCardFlip isFlipped={isFlipped}>
       <div className="image-front" key="front" onClick={handleImageClick}>
