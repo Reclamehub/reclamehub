@@ -1,18 +1,20 @@
 .Home-top-container {
     /* border:1px solid red; */
     background-image: url("../../../../public/homtopbg.png");
-    padding: 0% 2%;
+    padding: 2% 0px;
     font-family: 'Poppins', sans-serif;
 }
 
 .home-all-heading {
-    padding: 8vw 5vw 1vw 5vw;
+    padding: 7vw 5vw 1vw 0vw;
     text-transform: capitalize;
+    margin-right: auto;
 }
 
 .home-heading-one {
     text-align: left;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
+    margin-right: auto !important;
 }
 
 .home-heading-two {
@@ -52,58 +54,27 @@ justify-content: space-around;
 .home-top-img {
     width: 28vw;
 }
-
-.home-top-btn-box {
-    width: auto;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: auto;
-    margin-top: 5%;
+.home_top_btn_div{
     margin-right: auto;
-    margin-left: 8%;
 }
-
-.home-top-btn {
-    border: 2px solid #F47721;
-    border-radius: 30px;
-    background-color: transparent;
-    /* borderRadius={"30px"}  border={"2px solid #F47721"} bg="transparent" fontSize={"1vw"} fontWeight={"500 */
-}
-
-.home-top-btn :hover {
-    color: #F47721;
-}
-
-
-
-/* .contact-btn-link :hover{
-color:red
-} */
 
 
 
 @media screen and (max-width:480px) {
-    .home-top-btn-box {
-        align-items: center;
-        width: 30vw;
-        /* border:1px solid red; */
-        display: flex;
-        justify-content: left;
-        margin-bottom: 10vw;
-        margin-left: 20px;
-    }
-
-    .home-all-heading {
+.home-all-heading {
         line-height: 7px;
+        margin-right: auto;
     }
 
     .home-heading-one {
+        margin-right: auto;
         text-align: left;
-        font-size: 2.3vw;
+        font-size: 2vw;
         line-height: normal;
 
     }
-
-
+}
+/*  */
+@media (min-width: 768px) and (max-width: 1024px) {
+  
 }

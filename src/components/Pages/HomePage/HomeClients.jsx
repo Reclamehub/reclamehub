@@ -79,13 +79,13 @@ export const HomeClients = () => {
                 <Box display={{ base: "none", sm: "none", md: "inline", lg: "inline", xl: "inline" }} bg={useColorModeValue('white', '#1f1f1f')} fontFamily={"poppins"} margin={"auto"} >
 
                     <div className="heading_div">
-                        <heading className="page_heading">SOME OF OUR <span>CLIENTS</span></heading>
+                        <heading className="page_heading">SOME OF OUR CLIENTS</heading>
                     </div>
                     <div className="heading_descp_div">
                         <text className="heading_description ">Helping these and many other incredible clients reach for the stars is what pulls us out of bed every morning.</text>
                     </div>
 
-                    <Box backgroundColor={"#FF9450"}>
+                    <Box backgroundColor={"#FF9450"} paddingBottom={"3%"}>
                         <Box className="clients-img-container" >
                             {clients.map((el) =>
                                 <Box key={el.id} className="clients-img-box" boxShadow='lg' >
@@ -93,9 +93,9 @@ export const HomeClients = () => {
                                 </Box>
                             )}
                         </Box>
-                        <Box>
-                            <Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"50px"} >Explore More</Button></Link>
-                        </Box>
+                       
+                        <Box className="expMore_btn_div" marginTop={"0%"}><Link to ="/service">< button className="expMore_btn">Explore More</button></Link></Box>
+                       
                     </Box>
 
 

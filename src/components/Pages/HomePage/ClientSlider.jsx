@@ -44,14 +44,14 @@ export const ClientSlider = () => {
 
   return (
     <>
-      <Box paddingBottom={'10%'} paddingTop={'10%'} display={{ base: "inline", sm: "inline", md: "none", lg: "none", xl: "none" }} margin={"auto"} >
+      <Box paddingBottom={'11%'} paddingTop={'10%'} display={{ base: "inline", sm: "inline", md: "none", lg: "none", xl: "none" }} margin={"auto"} >
         <div>
-          <heading className="page_heading"> Our Clients</heading>
+          <heading className="page_heading">some of Our Clients</heading>
         </div>
-        <div style={{ marginBottom: "3.5%", lineHeight: "" }}>
+        <div className="heading_descp_div"style={{ marginBottom: "3.5%", lineHeight: "normal" }}>
           <text className='heading_description'>Helping these  and many other  incredible clients reach for the stars is what pulls us out of bed every morning.</text>
         </div>
-        <Container className='main_container' style={{ background: "#FF9450" }}>
+        <Container className='main_container ' style={{ background: "#FF9450",paddingBottom:"5%" }}>
           <Slider {...settings} className='slider'>
             {images.map((image, index) => (
               <div key={index} className='clientImg_div' >
@@ -59,7 +59,7 @@ export const ClientSlider = () => {
               </div>
             ))}
           </Slider>
-          <Box className='expMore_btn_div'><Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"15px"} textAlign={"center"} className='expMore_btn'>Explore More</Button></Link></Box>
+           <Box className='expMore_btn_div' ><Link to="/service">< button  className="expMore_btn">Explore More</button></Link></Box>
         </Container>
       </Box>
     </>

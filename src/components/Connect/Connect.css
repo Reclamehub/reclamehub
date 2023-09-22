@@ -1,14 +1,31 @@
 .connect_btn{
-    padding: 0.8% 3% ;
-    font-size: 18px;
-    font-weight: 500;
-background: none;
-border: 2px solid #ff7721;
-border-radius: 30px;
-text-transform: capitalize;
+    text-align: center;
+    font-family: poppins;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    font-weight: 550;
+    outline: 2px solid #F47721;
+    padding: 8px 25px;
+    border-radius: 30px;
 }
 
 .connect_btn:hover{
 background-color: #ff7721;
 color: #ffffff;
 }
+@media (max-width: 480px) {
+    .connect_btn{
+        padding: 3px 12px ;
+        font-size: 12px !important;
+        font-weight: 500;
+    background: none;
+    outline: 2px solid #ff7721 !important;
+    border-radius: 30px;
+    text-transform: capitalize;
+    }
+  
+  }
+  
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px) {}

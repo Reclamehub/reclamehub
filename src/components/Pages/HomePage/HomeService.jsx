@@ -88,8 +88,8 @@ export const HomeService = () => {
             <div className="heading_div">
                 <heading className="page_heading" >services we provide</heading>
             </div>
-            <div className="heading_descp_div">
-                <text className="heading_description" style={{ color: "#ffffff", textTransform: "capitalize" }}> Your Aim, Our Assistance. The services provided are as follows</text>
+            <div className="heading_descp_div srvc_heading_descp">
+                <text className="heading_description " style={{ color: "#ffffff", textTransform: "capitalize", }}> Your Aim, Our Assistance. The services provided are as follows</text>
             </div>
 
    {/* <Box className="hservice_cards_container" bg={useColorModeValue('#ffffff','#1D1D1D')}>   </Box> */}
@@ -113,7 +113,7 @@ export const HomeService = () => {
                 ))}
              
             </Container>
-            <Box className="expMore_btn_div" marginTop={"11%"}>< button onClick={handleClick} className="expMore_btn">Explore More</button></Box>
+            <Box className="expMore_btn_div">< button onClick={handleClick} className="expMore_btn">Explore More</button></Box>
         </Box>
 
     )

@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (<div>
     <Container className="nav-container" maxW='100%' bg={useColorModeValue('white', 'black')}>
       <Flex className="nav-row">
-        <Box className="nav-icon-box"><Link to="/"> <Image bgColor={"white"} borderRadius={"60px"} border="1px solid black" color={"white"} className="nav-icon-img" src="navicon.png" /></Link></Box>
+        <Box className="nav-icon-box"><Link to="/"> <Image bgColor={""} borderRadius={"0px"} border="0px solid black" color={"white"} className="nav-icon-img" src="navicon22.png" /></Link></Box>
         <Box className="nav-col-two-container">
           <Flex className="nav-col-two">
             <Box>

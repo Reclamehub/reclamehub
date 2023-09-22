@@ -21,10 +21,8 @@ return(
                 <img className="experties_img" src="gif1.gif" alt="experties-img1"/>
             </div>
             <div style={{maxWidth:"90%",margin:"auto"}}>
-                <heading className="experties_card_heading"> social media <br/> managment</heading><br/><br/>
-                <text className="experties_card_text" >Struggling with social media management? We're your solution, the top Digital Marketing agency in Noida.
-               
-                </text>
+                <heading className="experties_card_heading"> social media <br/> management</heading><br/><br/>
+                <text className="experties_card_text" >Tired of feeling overwhelmed by the never-ending demands of social media? Let us take control and transform your social media presence.  </text>
             </div>
         </div>
         </Box>
@@ -38,7 +36,7 @@ return(
             </div>
             <div style={{maxWidth:"90%",margin:"auto"}}>
                 <heading className="experties_card_heading">graphic<br/> designing</heading><br/><br/>
-                <text className="experties_card_text" >our graphic design services can help. We think that excellent design extends beyond aesthetics.</text>
+                <text className="experties_card_text" > Whether you're looking to give your website a fresh new look, launch an impactful social media campaign, or enhance your overall digital footprint, our graphic design services can help. </text>
             </div>
             </div>
             </Box>
@@ -52,9 +50,7 @@ return(
             </div>
             <div style={{maxWidth:"90%",margin:"auto"}}>
                 <heading className="experties_card_heading">web design<br/>& development</heading><br/><br/>
-                <text className="experties_card_text">Are you ready to boost your online presence with a beautiful and effective website? Contact the best digital marketing agency
-             
-                </text>
+                <text className="experties_card_text">Elevate your Brand to new heights with stunning website that captivate your audience. </text>
             </div>
         </div>
             </Box>
@@ -76,8 +72,8 @@ return(
 //     <Flex  w="85%" m="auto" flexDirection={{base:"column",sm:"column",md:"row",lg:"row",xl:"row"}} justifyContent={{base:"center",sm:"center",md:"space-around",lg:"space-around",xl:"space-around"}}>
 //         <Box border="1px solid gray"  p=borde>
 //         <Box display={"flex"} justifyContent={"center"}>
-//             <Image boxSize={{base:"200px",sm:"200px",md:"240px",lg:"350px",xl:"350px"}}  src="gif1.gif" alt="social media managment" background={"#FFF4ED"} /></Box>
-//             <Box> <Text style={{width:"10%"}} color="#FF7721" fontWeight={"bold"} fontSize={"20px"}> SOCIAL MEDIA MANAGMENT</Text>
+//             <Image boxSize={{base:"200px",sm:"200px",md:"240px",lg:"350px",xl:"350px"}}  src="gif1.gif" alt="social media management" background={"#FFF4ED"} /></Box>
+//             <Box> <Text style={{width:"10%"}} color="#FF7721" fontWeight={"bold"} fontSize={"20px"}> SOCIAL MEDIA MANAGeMENT</Text>
 //             <Text style={{width:"10%"}} color="#FF7721" fontWeight={""}  margin={"auto"} width={"50%"} textTransform={"capitalize"} fontSize={"14px"}> Struggling with social media management? we're your solution, the top digital marketing agency in noida.</Text>
 //             </Box>
 //             <Box width={"50%"} textAlign={"center"}></Box>

@@ -26,11 +26,12 @@ align-items: center;
 }
 
 .nav-icon-box {
-    width: auto;
+    width: 200px;
+    padding: 0px 10px;
    }
 .nav-icon-img{
-    width: 90%;
-    margin-top: 2px;
+    min-width: 100%;
+    /* margin-top: 2px; */
     }
 
 

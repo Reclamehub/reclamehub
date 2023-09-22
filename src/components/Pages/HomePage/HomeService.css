@@ -60,7 +60,7 @@ margin-bottom: auto;
  
 }
 .expMore_btn_div{
-     
+     margin-top: 11%;
 }
 .expMore_btn{
 font-size: 14px !important;
@@ -77,17 +77,30 @@ border-radius: 30px;
 
 /* css-for-galaxy-fold */
 @media (min-width: 280px) and (max-width: 320px) { 
+    .srvc_heading_descp{
+        line-height: normal;
+        text-align: center;
+        margin: 0px auto 3.5% auto ;
+        width: 100% !important;
+    }
    .hservice_cards_container{
     gap: 20px;
     display: grid !important;
     grid-template-columns: repeat(1, 1fr) !important;
    }
    .hservice_card_div{
-    height: 280px !important;
+    height: 350px !important;
+    width: 90% !important;
 }
   }
   /* css-for-mobiles */
 @media (max-width: 480px) {
+    .srvc_heading_descp{
+        line-height: normal;
+        text-align: center;
+        margin: 0px auto 3.5% auto ;
+        width: 80%;
+    }
     .hservice_cards_container {
         width: 100%;
         padding: 0px 10px 20px 10px;
@@ -114,13 +127,13 @@ border-radius: 30px;
         font-size: 12px;
     }
     .expMore_btn_div{
-     
-    }
+        margin-top: 8%;
+   }
     .expMore_btn{
-font-size: 14px !important;
+font-size: 12px !important;
 font-weight: 500;
 outline: 2px solid #fff;
-padding: 4px 10px;
+padding: 3px 10px;
 border-radius: 30px;
 }
 
