@@ -113,7 +113,7 @@ export const ContactForm = (props) => {
         <text className="heading_description">We're available for a friendly chat to discuss your business needs, no obligation.
         </text>
       </div>
-      <form method="POST">
+      <form method="POST" className="contactus_form">
         <wrapper className="inputfield_wrapper">
             {/* left-side-fields */}
           <div>

@@ -13,7 +13,7 @@ export const AboutBanner = () => {
             </div>
 
             <div className="mb-3">
-                <text className="heading_description">reclame hub design your digital to look good & respond to work effectively.</text>
+                <text className="heading_description about_subheadings">reclame hub design your digital to look good & respond to work effectively.</text>
             </div>
             <Box display={"flex"} justifyContent={"center"}><Image maxWidth={{ base: "80vw", sm: "70vw", md: "60vw", lg: "40vw", xl: "40vw" }} src="abtgif.gif" alt="top-img" /></Box>
 
