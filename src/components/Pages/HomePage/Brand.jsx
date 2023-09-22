@@ -2,6 +2,7 @@ import { Flex, Image, text, Box, Center, useColorModeValue } from "@chakra-ui/re
 import "./Brand.css"
 import home_brand_bg from "../../../Bg_images/home_brand_bg.png"
 import { Container } from "react-bootstrap"
+import { Link } from "react-router-dom"
 
 
 export const Brand = () => {
@@ -11,6 +12,7 @@ export const Brand = () => {
         <Box borderBottom="4px solid white" paddingBottom={"3.5%"} paddingTop={"3.5%"}>
             <div className="brand_bg_div">
            <Box bg={useColorModeValue('#fff' ,'#')}>
+            <Link to="/contact">
                 <main className="brand_content_div" >
                     <div className="gif_div">
                         <img className="brand_gif" src="brandgif.gif" alt="brand-gif" />
@@ -27,6 +29,7 @@ export const Brand = () => {
                         </div>
                     </div>
                 </main>
+                </Link>
                 </Box>
             </div>
         </Box>

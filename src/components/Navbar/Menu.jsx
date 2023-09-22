@@ -32,7 +32,7 @@ export const MenuNav = () => {
 
           </DrawerHeader>
           <DrawerBody>
-            <Box display={"flex"} border="1px solid black" gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
+            <Box display={"flex"}  gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
               <Box display={"flex"} justifyContent={"center"} flexDirection={"column"} >
                 <FaHandsHelping style={{ marginTop: "-15px" }} size="4vw" color="orangered" /></Box>
               <Box><Link onClick={onClose} to="/explore"><Text >EXPLORE</Text></Link></Box>
@@ -40,22 +40,22 @@ export const MenuNav = () => {
 
 
 
-            <Box display={"flex"} border="1px solid black" gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
+            <Box display={"flex"}  gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
               <Box display={"flex"} justifyContent={"center"} flexDirection={"column"} > <CgProfile style={{ marginTop: "-15px" }} size="4vw" color="orangered" /></Box>
               <Box><Link onClick={onClose} to="/about"><Text>ABOUT US</Text></Link></Box>
             </Box>
 
-            <Box display={"flex"} border="1px solid black" gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
+            <Box display={"flex"}  gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
               <Box display={"flex"} justifyContent={"center"} flexDirection={"column"} > <BiStar style={{ marginTop: "-15px" }} size="4vw" color="orangered" /></Box>
               <Box><Link onClick={onClose} to="/service"><Text >SERVICES</Text></Link></Box>
             </Box>
 
-            <Box display={"flex"} border="1px solid black" gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
+            <Box display={"flex"}  gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
               <Box display={"flex"} justifyContent={"center"} flexDirection={"column"} > <AiFillLock style={{ marginTop: "-15px" }} size="4vw" color="orangered" /></Box>
               <Box><Link onClick={onClose} to=""><Text >PORTFOLIO</Text></Link></Box>
             </Box>
 
-            <Box display={"flex"} border="1px solid black" gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
+            <Box display={"flex"}  gap="2vw" p="10px" fontWeight={"bold"} fontSize={"3.5vw"}>
               <Box display={"flex"} justifyContent={"center"} flexDirection={"column"} > <BsTelephoneFill style={{ marginTop: "-15px" }} size="4vw" color="orangered" /></Box>
               <Box><Link onClick={onClose} to="contact"><Text >CONTACT US</Text></Link></Box>
             </Box>

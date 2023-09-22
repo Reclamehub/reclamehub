@@ -24,8 +24,10 @@ export const Navbar = () => {
 
           </Flex>
         </Box>
+        <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>
         <Box className="color-mode-change"><DarkMode /></Box>
         <Box className="nav-menu-mob"><MenuNav /></Box>
+        </Box>
       </Flex>
     </Container>
   </div>)

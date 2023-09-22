@@ -21,8 +21,8 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-self: normal;
+  justify-content: center;
+  align-items: center;
     box-shadow: 1px 1px 10px 2px #f1f0f0;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -34,9 +34,16 @@
     align-self: center;
 
 }
+.srvc_card_text_wrapper{
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .hservice_img {
-    max-height: 256px;
+height: 250px;
+margin-bottom: auto;
 }
 
 .hservice_cards_heading {
@@ -50,8 +57,23 @@
     padding: 5px;
     font-size: 14px;
     color: #ffffff;
-   
+ 
 }
+.expMore_btn_div{
+     
+}
+.expMore_btn{
+font-size: 14px !important;
+font-weight: 500;
+outline: 2px solid #fff;
+padding: 5px 12px;
+border-radius: 30px;
+}
+.expMore_btn:hover{
+  color: #fff;
+  background-color:#F47721 ;
+  outline: none;
+    }
 
 /* css-for-galaxy-fold */
 @media (min-width: 280px) and (max-width: 320px) { 
@@ -69,16 +91,19 @@
     .hservice_cards_container {
         width: 100%;
         padding: 0px 10px 20px 10px;
-        gap: 22.5px;
+        gap: 22px;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
     }
     .hservice_card_div{
-        height: 315px;
+        height: 325px;
+        width: 75%;
+        margin: auto;
     }
 
     .hservice_img {
-        max-height: 120px;
+        height: 135px;
     }
 
     .hservice_cards_heading {
@@ -86,8 +111,18 @@
     }
 
     .hservice_cards_text {
-        font-size: 10px;
+        font-size: 12px;
     }
+    .expMore_btn_div{
+     
+    }
+    .expMore_btn{
+font-size: 14px !important;
+font-weight: 500;
+outline: 2px solid #fff;
+padding: 4px 10px;
+border-radius: 30px;
+}
 
 }
 

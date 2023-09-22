@@ -13,14 +13,16 @@
     align-items: center;
     text-align: left;
 margin-right: auto;
+margin-top: 20px;
 }
 
 .exp_top_heading_div {
-    margin: 5% 0px 3% 0px;
+    margin: 0% 0px 3% 0px;
     font-size: 2.8vw;
     font-weight: 580;
     text-transform: uppercase;
-    color: #F47721;
+    color: #000;
+   
 }
 
 .exp_top_text_div {
@@ -28,6 +30,7 @@ margin-right: auto;
     font-size: 18px;
     font-weight: 400;
     width: 80%;
+    text-align: left;
 }
 
 .exp_btn_div {
@@ -63,8 +66,15 @@ margin-right: auto;
 
 
 @media (max-width: 767px) {
+    .exp_container{
+        /* flex-direction: column; */
+    }
+    .exp_top_heading_wrapper{
+        width: 100%;
+    }
     .exp_top_heading_div {
         font-size: 4vw;
+        line-height: 15px;
     }
 
     .exp_top_text_div {
@@ -74,5 +84,8 @@ margin-right: auto;
 
     .exp_btn {
         font-size: 10px;
+    }
+    .exp_top_img{
+        width: 30%;
     }
 }

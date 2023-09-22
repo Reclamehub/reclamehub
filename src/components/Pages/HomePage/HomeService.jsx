@@ -7,7 +7,7 @@ import "./HomeService.css"
 const serviceData = [
     {
         id: 1,
-        simg: "gif1.gif",
+        simg: "srvcgif1.gif",
         heading: `SOCIAL MEDIA `,
         headingTwo: ` MANAGEMENT`,
         desc: `Tired of feeling overwhelmed by the never-ending demands of social media? Let us take control and transform your social media presence.  `
@@ -15,7 +15,7 @@ const serviceData = [
     },
     {
         id: 2,
-        simg: "gif6.gif",
+        simg: "srvcgif2.gif",
         heading: `CONTENT  `,
         headingTwo: `WRITER`,
         desc: `Ready to take your initial step forward? Contact us today for amazing content development. We will help you build content that is SEO-friendly and could maximize your online presence. `
@@ -84,7 +84,7 @@ export const HomeService = () => {
     };
 
     return (
-        <Box p="2vw" paddingTop={"5%"} paddingBottom={"5%"} bg={useColorModeValue('#FF9450', 'black')} margin={"auto"}>
+        <Box p="2vw" paddingTop={"5%"} paddingBottom={"5%"} bg={useColorModeValue('#ff9450', 'black')} margin={"auto"}>
             <div className="heading_div">
                 <heading className="page_heading" >services we provide</heading>
             </div>
@@ -98,11 +98,13 @@ export const HomeService = () => {
           <Link to="/service">
                     <div className="hservice_card_div"
                     style={{
-                        backgroundColor: colorMode === "light" ? '#FF9450' : "#1D1D1D",
+                        backgroundColor: colorMode === "light" ? '#ff9450' : "#1D1D1D",
                     }}
-                     key={el.id}  >
-                        <img className="hservice_img" src={el.simg} />
-                      <div style={{ marginBottom: "auto", fontFamily: "poppins" }}>
+                     key={el.id} >
+                        <div className="hservice_img">
+                        <img  style={{maxHeight:"100%"}}src={el.simg} />
+                        </div>
+                      <div className="srvc_card_text_wrapper" style={{ fontFamily: "poppins" }}>
                             <heading className="hservice_cards_heading"> {el.heading} <br /> {el.headingTwo}</heading>
                             <p className="hservice_cards_text">{el.desc}</p>
                         </div>
@@ -111,7 +113,7 @@ export const HomeService = () => {
                 ))}
              
             </Container>
-            <Box marginTop={"11%"}><Button onClick={handleClick} border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"15px"} >Explore More</Button></Box>
+            <Box className="expMore_btn_div" marginTop={"11%"}>< button onClick={handleClick} className="expMore_btn">Explore More</button></Box>
         </Box>
 
     )

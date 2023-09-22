@@ -7,8 +7,8 @@ export const AboutBanner = () => {
     return (
         <Box alignItems={"center"} paddingTop={"20px"}>
             <div className="heading_div">
-                <heading className="page_heading">
-                    <span style={{ color: "#FF7721" }}>A</span>BOU<span style={{ color: "#FF7721" }}>T</span> US
+                <heading className="page_heading" >
+                    <span style={{color:"#F47721"}}>about us</span>
                 </heading>
             </div>
 

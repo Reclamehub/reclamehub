@@ -7,7 +7,7 @@ export const AboutExperties=()=>{
 return(
     <Container>
         <div className="heading_div">
-       <heading className="page_heading" style={{color:"#ff7721"}}> our experties</heading>
+       <heading className="page_heading" style={{color:"#ff7721"}}> our expertise</heading>
        </div>
        <div style={{marginBottom:"3%"}}>
        <text className="heading_description">Our expertise is in determining what makes a firm unique, attractive, and lucrative.</text>

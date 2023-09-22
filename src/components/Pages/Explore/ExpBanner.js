@@ -1,15 +1,39 @@
 import React from 'react'
+import { useEffect, useRef, useState } from "react";
 import { Container } from "react-bootstrap"
+import {Box,Text} from "@chakra-ui/react"
 import "./ExpBanner.css"
 
 const ExpBanner = () => {
+  let wordArray = ["Entrepreneurial", "tech-savvy", "inovation",]
+
+	const [curWord, setCurWord] = useState(wordArray[0]);
+	const [isActive, setIsActive] = useState(true);
+
+	const index = useRef(0);
+	useEffect(() => {
+		let interval = null;
+		if (isActive) {
+			interval = setInterval(() => {
+				index.current++;
+				setCurWord(wordArray[index.current]);
+				if (index.current === wordArray.length - 1) {
+					setIsActive(false);
+				}
+			}, 2000);
+		}
+		return () => clearInterval(interval);
+	});
   return (
     <div>
           <Container className='exp_container'>
-          <div className='exp_top_heading_wrapper'>
-            <div className='exp_top_heading_div'>
-              <heading className="exp_heading">Welcome to Reclame Hub, Where Entrepreneurial, Tech-Savvy Innovation Meets Excellence</heading>
-            </div>
+     
+          <Box className="exp_top_heading_wrapper">
+		    	<Box className='exp_top_heading_div'>
+        <Text >welcome to reclame hub </Text>
+           <Text >where <span style={{color:"#ff7722"}}>{curWord}</span></Text>
+		      <Text > meets excellence</Text>
+          </Box>
             <div className='exp_top_text_div'>
               <text>
               Reclame Hub is Leading the Way in Business Registration, Company Incorporation, CA Consultancy, Business License
@@ -23,8 +47,8 @@ const ExpBanner = () => {
              
               {/* <button className='exp_btn'> live chat</button> */}
             </div>
-          </div>
-          <div>
+            </Box>
+          <div className='exp_top_img'>
             <img src="Ellipse60.png" alt="explore-top-img" />
           </div>
         </Container>

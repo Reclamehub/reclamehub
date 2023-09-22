@@ -19,6 +19,8 @@ import "./Explore.css"
 
 export const Explore = () => {
   const { colorMode } = useColorMode();
+  
+
   return (
     <>
       <Box bg={useColorModeValue('#fffffff', '#000')} color={useColorModeValue('#000', '#ffffff')} fontFamily={"poppins"} margin={"auto"} >

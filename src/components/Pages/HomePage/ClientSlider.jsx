@@ -59,7 +59,7 @@ export const ClientSlider = () => {
               </div>
             ))}
           </Slider>
-          <Box><Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"15px"} >Explore More</Button></Link></Box>
+          <Box className='expMore_btn_div'><Link to="/service" ><Button border="2px solid white" backgroundColor={"transparent"} fontWeight={"500"} _hover={{ bg: "#F47721", color: "white", border: "2px solid #F47721" }} borderRadius={"30px"} marginBottom={"15px"} textAlign={"center"} className='expMore_btn'>Explore More</Button></Link></Box>
         </Container>
       </Box>
     </>
