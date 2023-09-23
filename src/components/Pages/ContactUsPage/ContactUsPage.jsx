@@ -10,7 +10,7 @@ export const ContactUsPage = () => {
 
     //   }, [])
     return (
-        <section id="contact">
+        <section id="contact" style={{paddingTop:"4%"}}>
             <Box bg={useColorModeValue('white', "black")} >
                 <div style={{ marginTop: '-4%' }}>
                     <ContactForm heading="contact us"/>
