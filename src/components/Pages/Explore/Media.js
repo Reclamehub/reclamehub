@@ -19,12 +19,12 @@ const Media = () => {
             </div>
             <div className='media_card_wrapper1'>
                 <MediaCard  img="mstory.png" />
-                <MediaCard img= "m24.png"/>
                 <MediaCard img="mm.png" />
+                <MediaCard img="mnoida.png" />
             </div>
             <div className='media_card_wrapper2'>
                 <div>
- <MediaCard img="mnoida.png" />
+ <MediaCard img="mdaily.png" />
                 </div>
                 <div>
 <MediaCard img="mgoogle.png"/>
