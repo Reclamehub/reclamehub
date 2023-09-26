@@ -8,7 +8,7 @@
 .exp_top_heading_wrapper {
     width: 60%;
     display: flex;
-    flex-wrap: wrap;
+ flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     text-align: left;
@@ -17,15 +17,16 @@ margin-top: 20px;
 }
 
 .exp_top_heading_div {
-    margin: 0% 0px 3% 0px;
+    margin: 0% auto 3% 0px;
     font-size: 2.8vw;
     font-weight: 580;
     text-transform: uppercase;
-    color: #000;
+  
    
 }
 
 .exp_top_text_div {
+    margin: 0% auto 3% 0px;
     text-transform: capitalize;
     font-size: 18px;
     font-weight: 400;
@@ -35,10 +36,8 @@ margin-top: 20px;
 
 .exp_btn_div {
     text-align: center;
-    width: 80%;
-    display: flex;
-    justify-content: flex-start;
-    gap: 10%;
+   display: flex;
+     justify-content: flex-start;
     margin: 5% auto 5% 0px;
 
 }
@@ -49,8 +48,8 @@ margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.4% 0px;
-    width: 160px;
+    text-align: center;
+  padding: 7px 20px;
     font-size: 15px;
     font-weight: 500;
     border: 2px solid #F47721;
@@ -84,6 +83,7 @@ margin-top: 20px;
 
     .exp_btn {
         font-size: 10px;
+        padding: 4px 15px;
     }
     .exp_top_img{
         width: 30%;
