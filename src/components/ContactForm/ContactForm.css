@@ -126,6 +126,12 @@ textarea:valid~label {
     margin-bottom: 20px;
 
   }
+  .submit_btn {
+    font-size: 12px;
+    font-family: poppins;
+    padding: 8px 10px ;
+    border-radius: 10px;
+  }
 }
 
 /* tablet-css */

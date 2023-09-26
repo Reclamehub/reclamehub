@@ -61,10 +61,10 @@ export const DA = () => {
                 {/* .............................................................................................................. */}
                 <Container className="smm_img_container">
                     <div className="smm_img_div">
-                        <img src="orm1.png" alt="orm1.png"/>
+                        <img src="DA1.png" alt="DAimg.png"/>
                     </div>
                     <div className="smm_img_div">
-                        <img src="orm2.png" alt="orm2.png"/>
+                        <img src="DA2.png" alt="DAimg2.png"/>
                     </div>
                 </Container>
                 {/* why-should-you-content */}
@@ -75,7 +75,25 @@ export const DA = () => {
                         <img className="Qmark_img" src="Qmark.png" alt="Qmark" />
                     </div>
                     <div className="heading_descp_div smm_heading2_descp">
-                        <text className="heading_description2">We are experts at digital advertising and have a customized approach to your audience all the data is been what measured and then we look into it. We as a digital marketing agency try to boost the effectiveness of your digital marketing operations. With our expert digital advertising services, you can efficiently reach your target audience, attract quality visitors to your website, and create measurable business outcomes. </text>
+                        <text className="heading_description2">We're not just another digital advertising agency. We get to know your audience like no one else and back it all up with real, actionable data. So, why us? Well, let's get into that.</text>
+                    </div>
+                </Container>
+                 <Container className="smm_heading3_container">
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
+                        <img src="arrow-vector.png" />
+                        <heading className="smm_heading3">Custom-Crafted Campaigns</heading>
+                    </div>
+                    <div className="smm_text3_div">
+                        <text className="smm-text3">We're not about those cookie-cutter solutions. Your brand is unique, so your advertising should be too. We create campaigns that are as unique as you are.</text>
+                    </div>
+                </Container>
+                <Container className="smm_heading3_container">
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
+                        <img src="arrow-vector.png" />
+                        <heading className="smm_heading3"> It's All in the Data</heading>
+                    </div>
+                    <div className="smm_text3_div">
+                        <text className="smm-text3"> Sure, gut feelings are great, but hard data? That's gold. We dig deep into analytics to make sure you're getting the biggest bang for your buck.</text>
                     </div>
                 </Container>
 

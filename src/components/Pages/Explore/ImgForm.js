@@ -58,10 +58,10 @@ function FormComponent({ onFormSubmit }) {
   
       emailjs
         .sendForm(
-          "service_j2btiyq",
-          "template_1d6c5fr",
+          "service_sqrxhou",
+          "template_bxzq0gi",
           form.current,
-          "yTENAXa-3HYEajU5K"
+          "g1usBjsnmmxZopkCp"
         )
         .then(
           (result) => {
