@@ -60,12 +60,16 @@ export const AD = () => {
                 />
                 {/* .............................................................................................................. */}
                 <Container className="smm_img_container">
+                <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="orm1.png" />
                     </div>
+                    </Box>
+                    <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="orm2.png" alt="orm2.png"/>
                     </div>
+                    </Box>
                 </Container>
                 {/* why-should-you-content */}
                 <Container className="smm_heading2_container">
@@ -75,14 +79,30 @@ export const AD = () => {
                         <img className="Qmark_img" src="Qmark.png" alt="Qmark" />
                     </div>
                     <div className="heading_descp_div smm_heading2_descp">
-                        <text className="heading_description2">All you need is high-quality video production so here we are with the top-notch quality and quantity. No need to worry we provide the best output ever, which takes less time and export best quality
-                            <br />
-                            <br />
-                            Make captivating video content a part of your digital marketing plan. You can produce aesthetically gorgeous, emotionally resonant, and highly engaging videos that captivate your audience's attention and deliver real outcomes with our experienced video ad and film services.
-                        </text>
+                        <text className="heading_description2">Want to turn your brand into a digital powerhouse? You've come to the right place. At Reclame Hub, we're experts in crafting mobile apps that aren't just eye-candy, they really work.
+                          <br />
+                         </text>
                     </div>
                 </Container>
-
+{/* -------------------------------- */}
+<Container className="smm_heading3_container">
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
+                        <img src="arrow-vector.png" />
+                        <heading className="smm_heading3">Custom-Fit Solutions</heading>
+                    </div>
+                    <div className="smm_text3_div">
+                        <text className="smm-text3">One-size-fits-all is not our style. We dig deep to understand your unique business needs and build an app that's a perfect match.</text>
+                    </div>
+                </Container>
+                <Container className="smm_heading3_container">
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
+                        <img src="arrow-vector.png" />
+                        <heading className="smm_heading3"> Straight Talk, No Jargon</heading>
+                    </div>
+                    <div className="smm_text3_div">
+                        <text className="smm-text3">We keep it real and keep you in the loop. No tech-speak or complications, just a clear path to your digital success.</text>
+                    </div>
+                </Container>
                 <ContactForm heading="Talk to Our Experts"/>
                 <Connect />
             </Box>

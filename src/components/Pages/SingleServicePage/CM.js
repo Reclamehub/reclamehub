@@ -41,8 +41,8 @@ export const CM = () => {
         {
             id: 4,
             title4: "Phase 5",
-            heading4: "",
-            text4: "We believe in the potential of data-driven decision-making and continuous optimization. We will closely monitor the performance of your campaign, measure critical indicators, and do in-depth analysis throughout. These insights will be used by our specialists to create data-driven optimizations, changing targeting, message, and creative aspects to optimize campaign performance and maximize your ROI."
+            heading4: "Data-Driven Insights and Real-Time Adjustments",
+            text4: "The digital world's always changing, so we never set it and forget it. We constantly monitor crucial KPIs like click-through rates and social shares. Real-time adjustments are our game; if something's off, we tweak it, and if it's spot on, we amplify. No second-guessing, just results."
 
         },
 
@@ -59,13 +59,17 @@ export const CM = () => {
                     title4={SMMTableData[4].title4} heading4={SMMTableData[4].heading4} text4={SMMTableData[4].text4}
                 />
                 {/* .............................................................................................................. */}
-                <Container className="smm_img_container">
+               <Container className="smm_img_container">
+                <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="orm1.png" alt="orm2.png"/>
                     </div>
+                    </Box>
+                    <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="orm2.png" alt="orm2.png"/>
                     </div>
+                    </Box>
                 </Container>
                 {/* why-should-you-content */}
                 <Container className="smm_heading2_container">
@@ -75,14 +79,30 @@ export const CM = () => {
                         <img className="Qmark_img" src="Qmark.png" alt="Qmark" />
                     </div>
                     <div className="heading_descp_div smm_heading2_descp">
-                        <text className="heading_description2">DAll you need is high-quality video production so here we are with the top-notch quality and quantity. No need to worry we provide the best output ever, which takes less time and export best quality
-                            <br />
-                            <br />
-                            Make captivating video content a part of your digital marketing plan. You can produce aesthetically gorgeous, emotionally resonant, and highly engaging videos that captivate your audience's attention and deliver real outcomes with our experienced video ad and film services.
-                        </text>
+                        <text className="heading_description2">Our team isn't just a one-trick pony; we're experts in both digital marketing and campaign execution. We customize every strategy to fit your brand like a glove, focusing on tangible outcomes that matter to you. We're always up-to-date on the latest industry tricks, and we keep things transparent, so you're never left in the dark.
+                          <br />
+                         </text>
                     </div>
                 </Container>
-
+{/* ------------------------------------- */}
+<Container className="smm_heading3_container">
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
+                        <img src="arrow-vector.png" />
+                        <heading className="smm_heading3"> Campaign Marketing Expertise</heading>
+                    </div>
+                    <div className="smm_text3_div">
+                        <text className="smm-text3">Our team consists of expert campaign marketers that specialize in developing and executing effective campaigns across a wide range of sectors. We stay current on the newest trends, strategies, and technology to keep your campaigns on the cutting edge of innovation.</text>
+                    </div>
+                </Container>
+                <Container className="smm_heading3_container">
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
+                        <img src="arrow-vector.png" />
+                        <heading className="smm_heading3">Customized Approach</heading>
+                    </div>
+                    <div className="smm_text3_div">
+                        <text className="smm-text3"> We recognize that each business is unique. Our campaign marketing services are customized to your individual goals, target audience, and industry standards. We'll create personalized tactics and creative concepts that complement your brand identity and campaign goals.</text>
+                    </div>
+                </Container>
                 <ContactForm heading="Talk to Our Experts"/>
                 <Connect />
             </Box>

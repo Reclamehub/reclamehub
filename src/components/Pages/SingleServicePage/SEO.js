@@ -49,7 +49,7 @@ export const SEO = () => {
     return (
         <>
             <Box bg={useColorModeValue('white', "black")} fontFamily={"poppins"}>
-                <SingleSrvcBanner title1={BannerData[0].title1} title2={BannerData[0].title2} descp={BannerData[0].descp} />
+                <SingleSrvcBanner title1={BannerData[8].title1} title2={BannerData[8].title2} descp={BannerData[8].descp} />
                 <SingleSrvcList
                     title0={SeoTableData[0].title0} heading0={SeoTableData[0].heading0} text0={SeoTableData[0].text0}
                     title1={SeoTableData[1].title1} heading1={SeoTableData[1].heading1} text1={SeoTableData[1].text1}
@@ -59,12 +59,16 @@ export const SEO = () => {
                 />
                  {/* .............................................................................................................. */}
                  <Container className="smm_img_container">
+                 <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="seo2.png" alt="seo2.png"/>
                     </div>
+                    </Box>
+                    <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="seo1.png"alt="seo1.png" />
                     </div>
+                    </Box>
                 </Container>
                 {/* why-should-you-content */}
                 <Container className="smm_heading2_container">

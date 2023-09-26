@@ -13,7 +13,7 @@ export const GD = () => {
             id: 0,
             title0: "Phase 1",
             heading0: "Brand Identity Design",
-            text0: " A solid brand identity is essential for creating identification and a consistent visual presence. Our graphic designers will collaborate with you to create a brand identity that expresses your beliefs, connects with your target audience, and distinguishes you from the competition. From logo design to color schemes and typography, we'll develop a visually appealing brand identity that matches the personality of your company."
+            text0: "A solid brand identity is essential for creating identification and a consistent visual presence. Our graphic designers will collaborate with you to create a brand identity that expresses your beliefs, connects with your target audience, and distinguishes you from the competition. From logo design to color schemes and typography, we'll develop a visually appealing brand identity that matches the personality of your company."
 
 
         },
@@ -28,14 +28,14 @@ export const GD = () => {
             id: 2,
             title2: "Phase 3",
             heading2: "Social media graphics",
-            text2: " Social media visuals that are engaging are vital for attracting attention in congested news feeds. Our graphic designers will produce eye-catching images that are consistent with your brand's identity and successfully express your message. We'll make sure your social media presence stands out and encourages interaction with your target audience, from social media posts to cover photos and profile photographs"
+            text2: "Social media visuals that are engaging are vital for attracting attention in congested news feeds. Our graphic designers will produce eye-catching images that are consistent with your brand's identity and successfully express your message. We'll make sure your social media presence stands out and encourages interaction with your target audience, from social media posts to cover photos and profile photographs"
 
         },
         {
             id: 3,
             title3: "Phase 4",
             heading3: "Data visualization and infographics",
-            text3: " Data-driven content is becoming increasingly popular in digital marketing. Our graphic designers are experts in creating attractive infographics and data visualizations that turn difficult information into visually appealing images. We'll work with you to display your data in a visually appealing way that attracts your audience and improves comprehension."
+            text3: "Data-driven content is becoming increasingly popular in digital marketing. Our graphic designers are experts in creating attractive infographics and data visualizations that turn difficult information into visually appealing images. We'll work with you to display your data in a visually appealing way that attracts your audience and improves comprehension."
 
         },
         {
@@ -60,12 +60,16 @@ export const GD = () => {
                 />
                 {/* .............................................................................................................. */}
                 <Container className="smm_img_container">
+                <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
-                        <img src="orm1.png" alt="orm1.png" />
+                        <img src="GD1.png" alt="GD1.png" />
                     </div>
+                    </Box>
+                    <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
-                        <img src="orm2.png"alt="orm2.png" />
-                    </div>
+                        <img src="GD2.png"alt="GD2.png" />
+</div>
+</Box>
                 </Container>
                 {/* why-should-you-content */}
                 <Container className="smm_heading2_container">
@@ -75,7 +79,7 @@ export const GD = () => {
                         <img className="Qmark_img" src="Qmark.png" alt="Qmark" />
                     </div>
                     <div className="heading_descp_div smm_heading2_descp">
-                        <text className="heading_description2">Use aesthetically appealing visuals to boost the effectiveness of your digital marketing activities. You can improve your brand, engage your target audience, and create meaningful conversions with our expert graphic design services.</text>
+                        <text className="heading_description2">When it comes to graphic design, we're the real deal. We combine expert skills with a keen eye for detail and a knack for meeting deadlines. And hey, we're all about customization and data-driven results. Trust us, we've got your design needs covered.</text>
                     </div>
                 </Container>
 
@@ -97,24 +101,8 @@ export const GD = () => {
                         <text className="smm-text3">We believe in adapting our graphic designs to your exact requirements. Our designers will work with you closely to understand your brand, target audience, and campaign objectives, ensuring that our designs are consistent with your brand identity and successfully deliver your message</text>
                     </div>
                 </Container>
-                <Container className="smm_heading3_container">
-                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
-                        <img src="arrow-vector.png" />
-                        <heading className="smm_heading3"> Attention to Detail</heading>
-                    </div>
-                    <div className="smm_text3_div">
-                        <text className="smm-text3"> We have a great eye for detail and are devoted to creating high-quality designs. To guarantee that your visuals are aesthetically attractive and polished, our graphic designers pay close attention to every detail, from color palettes and font to layout and composition.</text>
-                    </div>
-                </Container>
-                <Container className="smm_heading3_container">
-                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
-                        <img src="arrow-vector.png" />
-                        <heading className="smm_heading3"> Timely Delivery</heading>
-                    </div>
-                    <div className="smm_text3_div">
-                        <text className="smm-text3"> We understand the significance of fulfilling deadlines in digital marketing efforts. Our staff is dedicated to producing high-quality designs on time, helping you to stay on track with your project.</text>
-                    </div>
-                </Container>
+               
+               
                 <ContactForm heading="Talk to Our Experts"/>
                 <Connect />
             </Box>

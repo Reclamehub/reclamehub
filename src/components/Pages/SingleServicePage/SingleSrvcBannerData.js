@@ -8,7 +8,7 @@ const BannerData = [
     {
         id: 1,
         title1: "Content",
-        title2: " writer",
+        title2: " marketing",
         descp: "High-quality content is the driving factor behind successful online companies in today's digital market. In addition to attracting and retaining your target audience, compelling and engaging content positions your brand as an industry authority."
 
     },
@@ -22,8 +22,8 @@ const BannerData = [
     {
         id: 3,
         title1: "graphic",
-        title2: " designing",
-        descp: "High-quality content is the driving factor behind successful online companies in today's digital market. In addition to attracting and retaining your target audience, compelling and engaging content positions your brand as an industry authority."
+        title2: " DESIGNING",
+        descp: "In the digital era, visual material is critical for catching attention, engaging people, and effectively communicating your business message. It is critical to have aesthetically attractive and effective visuals that create a lasting impression in the competitive world of digital marketing. That's where our expert graphic design services come in. We can help you develop attractive images that enhance your brand and inspire significant engagement with our experience in graphic design and digital marketing."
 
     },
     {
@@ -58,7 +58,7 @@ const BannerData = [
         id: 8,
         title1: "seo",
         title2: " development",
-        descp: "The SEO development Services of Reclame Hub are truly stunning that are crafted to boost your online presence, and organic traffic to deliver absolutely staggering results SEO is an ongoing and rewarding effort! Our remarkably dedicated team absolutely soars your website in search rankings leaving the competition in dust! Join us on this quest for SEO excellence and digital visibility together. "
+        descp: "The SEO development Services of Reclame Hub are truly stunning that are crafted to boost your online presence, and organic traffic to deliver absolutely staggering results SEO is an ongoing and rewarding effort! Our remarkably dedicated team absolutely soars your website in search rankings leaving the competition in dust! Join us on this quest for SEO excellence and digital visibility together.        "
 
     },
     {
@@ -70,8 +70,8 @@ const BannerData = [
     },
     {
         id: 10,
-        title1: "app design &",
-        title2: " development",
+        title1: "app development &",
+        title2: " marketing",
         descp: "We at our Reclame Hub understand the value of having a strong online presence and efficiently reaching your target audience. A well-designed and user-friendly mobile application is crucial for businesses of all sizes in today's digital world. Our talented app developers are available to assist you in developing creative and engaging mobile apps that will elevate your brand and drive growth."
 
     },

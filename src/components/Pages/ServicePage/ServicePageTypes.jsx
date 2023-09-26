@@ -212,6 +212,7 @@ export const ServicePageTypes = () => {
                             <div className="service_heading_div">
                                 <h2 className="contentBox_headings" style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw", }}>APP DESIGN & DEVELOPMENT</h2>
                                 <p className="Scard_para">Reclame Hub specialises in app design and development, crafting intuitive and visually appealing applications that deliver outstanding user experiences. We'll bring your ideas to life, ensuring seamless functionality and a polished interface.
+
                                 </p>
                            <button className="srvc_type_btn"onClick={()=>{history("/app-design-development")}} >Know More</button>
                             </div>

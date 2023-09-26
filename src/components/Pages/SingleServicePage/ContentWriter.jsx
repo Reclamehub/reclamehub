@@ -60,12 +60,16 @@ export const ContentWriter = () => {
                 />
                 {/* .............................................................................................................. */}
                 <Container className="smm_img_container">
+                <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="cw1.png" alt="cw2.png" />
                     </div>
+                    </Box>
+                    <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
-                        <img src="cw2.png" alt="cw2.png"/>
+                        <img style={{margin:"auto"}} src="cw2.png" alt="cw2.png"/>
                     </div>
+                    </Box>
                 </Container>
                 {/* why-should-you-content */}
                 <Container className="smm_heading2_container">
@@ -75,11 +79,28 @@ export const ContentWriter = () => {
                         <img className="Qmark_img" src="Qmark.png" alt="Qmark" />
                     </div>
                     <div className="heading_descp_div smm_heading2_descp">
-                        <text className="heading_description2">Don't allow the difficulties of developing great content to stifle your brand's growth. We here at Reclame HUB provide high content, Timeliness and creative delivery of content.<br /><br />
-                            partner with us for professional content development services to maximize the potential of your brand and promote meaningful connections with your target audience.
-                            Contact us now to see how we can assist you in creating amazing content that elevates your brand and produces results.
+                        <text className="heading_description2">
+                        Don't let the challenges of creating standout content put a damper on your brand's growth. Here at Reclame Hub, we're all about delivering top-quality content on time, every time, with a creative flair that's uniquely us.
+        </text>
+                    </div>
+                </Container>
 
-                        </text>
+                <Container className="smm_heading3_container">
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
+                        <img src="arrow-vector.png" />
+                        <heading className="smm_heading3"> Expertise That's Second to None</heading>
+                    </div>
+                    <div className="smm_text3_div">
+                        <text className="smm-text3">Our content creators are seasoned pros who know the ins and outs of SEO and the latest content strategies. They're not just good at what they do; they're the best.</text>
+                    </div>
+                </Container>
+                <Container className="smm_heading3_container">
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
+                        <img src="arrow-vector.png" />
+                        <heading className="smm_heading3"> Tailored Strategies</heading>
+                    </div>
+                    <div className="smm_text3_div">
+                        <text className="smm-text3">One size doesn't fit all in the content world. That's why we create customized content plans that perfectly fit your brand, sector, and target audience. No cookie-cutter solutions here.</text>
                     </div>
                 </Container>
 

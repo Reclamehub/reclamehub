@@ -60,12 +60,16 @@ export const DA = () => {
                 />
                 {/* .............................................................................................................. */}
                 <Container className="smm_img_container">
+                <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="DA1.png" alt="DAimg.png"/>
                     </div>
+                    </Box>
+                    <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="DA2.png" alt="DAimg2.png"/>
                     </div>
+                    </Box>
                 </Container>
                 {/* why-should-you-content */}
                 <Container className="smm_heading2_container">
@@ -93,7 +97,7 @@ export const DA = () => {
                         <heading className="smm_heading3"> It's All in the Data</heading>
                     </div>
                     <div className="smm_text3_div">
-                        <text className="smm-text3"> Sure, gut feelings are great, but hard data? That's gold. We dig deep into analytics to make sure you're getting the biggest bang for your buck.</text>
+                        <text className="smm-text3">Sure, gut feelings are great, but hard data? That's gold. We dig deep into analytics to make sure you're getting the biggest bang for your buck.</text>
                     </div>
                 </Container>
 

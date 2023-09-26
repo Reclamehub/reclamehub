@@ -60,12 +60,16 @@ export const ORM = () => {
                 />
                 {/* .............................................................................................................. */}
                 <Container className="smm_img_container">
+                <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="orm1.png" alt="orm1.png"/>
                     </div>
+                    </Box>
+                    <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="orm2.png"alt="orm2.png" />
                     </div>
+                    </Box>
                 </Container>
                 {/* why-should-you-content */}
                 <Container className="smm_heading2_container">
@@ -75,17 +79,17 @@ export const ORM = () => {
                         <img className="Qmark_img" src="Qmark.png" alt="Qmark" />
                     </div>
                     <div className="heading_descp_div smm_heading2_descp">
-                        <text className="heading_description2">We don’t provide the best but we provide the creative, innovative and engaging content which could flood your social media with likes comments and shares.</text>
+                        <text className="heading_description2">Your online reputation matters to us. We offer experienced, personalized, and proactive services to protect and boost your brand. Here's why you should choose us.</text>
                     </div>
                 </Container>
 
                 <Container className="smm_heading3_container">
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
                         <img src="arrow-vector.png" />
-                        <heading className="smm_heading3"> Expertise and experience</heading>
+                        <heading className="smm_heading3"> Expertise</heading>
                     </div>
                     <div className="smm_text3_div">
-                        <text className="smm-text3">Our reputation management team has vast expertise in navigating the difficult terrain of online reputation management. We remain up to speed on the newest trends, methodologies, and platforms in order to implement the most successful strategy for your company</text>
+                        <text className="smm-text3">Our reputation management team has vast expertise in navigating the difficult terrain of online reputation management. We remain up to speed on the newest trends, methodologies, and platforms in order to implement the most successful strategy for your company.</text>
                     </div>
                 </Container>
                 <Container className="smm_heading3_container">
@@ -97,24 +101,7 @@ export const ORM = () => {
                         <text className="smm-text3">We recognize that each brand and individual is unique. Our reputation management services are customized to your individual goals and needs. We will collaborate closely with you to create a tailored approach that is consistent with your brand identity and objectives.</text>
                     </div>
                 </Container>
-                <Container className="smm_heading3_container">
-                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
-                        <img src="arrow-vector.png" />
-                        <heading className="smm_heading3"> Confidentiality</heading>
-                    </div>
-                    <div className="smm_text3_div">
-                        <text className="smm-text3">We understand the value of secrecy and discretion in reputation management. You can rely on us to handle your reputation with caution and professionally while keeping sensitive information protected.</text>
-                    </div>
-                </Container>
-                <Container className="smm_heading3_container">
-                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
-                        <img src="arrow-vector.png" />
-                        <heading className="smm_heading3"> NOTED</heading>
-                    </div>
-                    <div className="smm_text3_div">
-                        <text className="smm-text3">Your internet reputation is a significant asset that must be carefully managed and protected. You can protect your brand's image, create trust with your audience, and improve your online presence with our expert online reputation management services. Contact us today to see how we can assist you with navigating the digital world and maintaining a good and impactful online presence.</text>
-                    </div>
-                </Container>
+               
                 <ContactForm heading="Talk to Our Experts"/>
                 <Connect />
             </Box>

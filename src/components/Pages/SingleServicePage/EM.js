@@ -75,14 +75,30 @@ export const EM = () => {
                         <img className="Qmark_img" src="Qmark.png" alt="Qmark" />
                     </div>
                     <div className="heading_descp_div smm_heading2_descp">
-                        <text className="heading_description2">All you need is high-quality video production so here we are with the top-notch quality and quantity. No need to worry we provide the best output ever, which takes less time and export best quality
+                        <text className="heading_description2">Get ready to experience an absolute shift in email marketing services by signing up with us! With our help, you'll see a major boost in effectiveness, leading to huge subscriber engagement and an irresistible urge to open those emails. Get ready for a great deal of success.
                             <br />
-                            <br />
-                            Make captivating video content a part of your digital marketing plan. You can produce aesthetically gorgeous, emotionally resonant, and highly engaging videos that captivate your audience's attention and deliver real outcomes with our experienced video ad and film services.
-                        </text>
+                          </text>
                     </div>
                 </Container>
-
+{/* ------------------ ----------------------*/}
+ <Container className="smm_heading3_container">
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
+                        <img src="arrow-vector.png" />
+                        <heading className="smm_heading3"> Real Numbers, Real Results</heading>
+                    </div>
+                    <div className="smm_text3_div">
+                        <text className="smm-text3">We focus on what works. No guesswork, just solid data driving our choices.</text>
+                    </div>
+                </Container>
+                <Container className="smm_heading3_container">
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
+                        <img src="arrow-vector.png" />
+                        <heading className="smm_heading3">Made Just for You</heading>
+                    </div>
+                    <div className="smm_text3_div">
+                        <text className="smm-text3"> No one-size-fits-all stuff here. We listen to what you want and make it happen.</text>
+                    </div>
+                </Container>
 
                 <ContactForm heading="Talk to Our Experts"/>
                 <Connect />

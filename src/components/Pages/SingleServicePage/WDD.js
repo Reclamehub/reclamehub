@@ -60,12 +60,16 @@ export const WDD = () => {
                 />
                 {/* .............................................................................................................. */}
                 <Container className="smm_img_container">
+                <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="orm1.png" alt="orm1.png"/>
                     </div>
+                    </Box>
+                    <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="orm2.png"alt="orm2.png" />
                     </div>
+                    </Box>
                 </Container>
                 {/* why-should-you-content */}
                 <Container className="smm_heading2_container">
@@ -75,55 +79,30 @@ export const WDD = () => {
                         <img className="Qmark_img" src="Qmark.png" alt="Qmark" />
                     </div>
                     <div className="heading_descp_div smm_heading2_descp">
-                        <text className="heading_description2">Digital Marketing and Web Development knowledge: Our staff combines the best of both worlds, with knowledge in digital marketing techniques and web development skills. We understand the complexities of designing websites that are both visually attractive and optimized for digital marketing success.</text>
+                        <text className="heading_description2">We've got the tech chops and the marketing savvy to take your website from "meh" to "wow." We're not just making pretty websites here; we're crafting digital experiences that tick all your marketing boxes. Ready for a website that's both a beauty and a brain? You know where to find us.</text>
                     </div>
                 </Container>
 
                 <Container className="smm_heading3_container">
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
                         <img src="arrow-vector.png" alt="arrow-vectorpng" />
-                        <heading className="smm_heading3">Customized Solutions for Your Brand</heading>
+                        <heading className="smm_heading3">Digital Marketing and Web Development knowledge</heading>
+                    </div>
+                    <div className="smm_text3_div">
+                        <text className="smm-text3">Our staff combines the best of both worlds, with knowledge in digital marketing techniques and web development skills. We understand the complexities of designing websites that are both visually attractive and optimized for digital marketing success.</text>
+                    </div>
+                </Container>
+                <Container className="smm_heading3_container">
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
+                        <img src="arrow-vector.png" alt="arrow-vectorpng"/>
+                        <heading className="smm_heading3"> Customized Solutions for Your Brand</heading>
                     </div>
                     <div className="smm_text3_div">
                         <text className="smm-text3">We believe in personalization. Our web design and development services are customized to your unique brand objectives, target audience, and industry standards. We'll design a website that complements your brand identity and digital marketing goals.</text>
                     </div>
                 </Container>
-                <Container className="smm_heading3_container">
-                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
-                        <img src="arrow-vector.png" alt="arrow-vectorpng"/>
-                        <heading className="smm_heading3"> Cutting-Edge Technology and Trends</heading>
-                    </div>
-                    <div className="smm_text3_div">
-                        <text className="smm-text3">We keep up with the newest web design and development trends to ensure that your website has the most innovative features and functionality. We'll use cutting-edge technology to make your website stand out from the crowd, from responsive design to interactive aspects.</text>
-                    </div>
-                </Container>
-                <Container className="smm_heading3_container">
-                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
-                        <img src="arrow-vector.png" alt="arrow-vectorpng"/>
-                        <heading className="smm_heading3"> Timely Delivery and Support</heading>
-                    </div>
-                    <div className="smm_text3_div">
-                        <text className="smm-text3">We respect your time and work hard to complete your website within the agreed-upon dates. Our staff is committed to providing continuous support and maintenance to guarantee that your website is safe, up to current, and performing at its best.</text>
-                    </div>
-                </Container>
-                <Container className="smm_heading3_container">
-                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
-                        <img src="arrow-vector.png" alt="arrow-vectorpng" />
-                        <heading className="smm_heading3"> Timely Delivery</heading>
-                    </div>
-                    <div className="smm_text3_div">
-                        <text className="smm-text3"> We understand the significance of fulfilling deadlines in digital marketing efforts. Our staff is dedicated to producing high-quality designs on time, helping you to stay on track with your project.</text>
-                    </div>
-                </Container>
-                <Container className="smm_heading3_container">
-                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
-                        <img src="arrow-vector.png" alt="arrow-vectorpng" />
-                        <heading className="smm_heading3"> NOTED</heading>
-                    </div>
-                    <div className="smm_text3_div">
-                        <text className="smm-text3">A website that is aesthetically beautiful, user-friendly, and optimized is critical to the success of any digital marketing campaign. You can build a strong online presence, engage your target audience, and reach your conversion goals with our expert web design and development services.</text>
-                    </div>
-                </Container>
+               
+               
                 <ContactForm heading="Talk to Our Experts"/>
                 <Connect />
             </Box>

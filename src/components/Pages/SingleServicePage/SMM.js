@@ -60,12 +60,16 @@ export const SMM = () => {
                 />
                 {/* .............................................................................................................. */}
                 <Container className="smm_img_container">
+                <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="smm1.png" alt="smm1.png"/>
                     </div>
+                </Box>
+                <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="smm2.png"alt="smm2.png" />
                     </div>
+                    </Box>
                 </Container>
                 {/* why-should-you-content */}
                 <Container className="smm_heading2_container">
@@ -97,24 +101,7 @@ export const SMM = () => {
                         <text className="smm-text3">We believe in taking a personalised approach to social media management. We'll take the time to understand your brand, goals, and target audience before developing a tailored plan to meet your needs</text>
                     </div>
                 </Container>
-                <Container className="smm_heading3_container">
-                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
-                        <img src="arrow-vector.png" />
-                        <heading className="smm_heading3"> Consistency and timeliness</heading>
-                    </div>
-                    <div className="smm_text3_div">
-                        <text className="smm-text3">When it comes to social media management, consistency is essential. We'll keep your social media profiles fresh and entertaining by posting new material on a regular basis. Our team will also reply quickly to comments and messages, ensuring a great customer experience.</text>
-                    </div>
-                </Container>
-                <Container className="smm_heading3_container">
-                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
-                        <img src="arrow-vector.png" />
-                        <heading className="smm_heading3"> Creativity and innovation</heading>
-                    </div>
-                    <div className="smm_text3_div">
-                        <text className="smm-text3">Whether it be social media or website, we believe that to make it trending and eye catching tio viewers it should be something more than aesthetic and less than beyond imagination.</text>
-                    </div>
-                </Container>
+               
                 <ContactForm heading="Talk to Our Experts"/>
                 <Connect />
             </Box>

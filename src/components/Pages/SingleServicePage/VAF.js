@@ -36,7 +36,7 @@ export const VAF = () => {
             id: 3,
             title3: "Phase 4",
             heading3: "Testimonial and Case Study films",
-            text3: "Explainer and tutorial films are great tools for explaining complicated topics, highlighting product benefits, and educating your audience. Our video production team will work with you to develop informative and compelling explainer and tutorial films that explain your services clearly, solve frequent pain points, and lead viewers through the process. These films may be used to supplement the material on your website, shared on social media, or included in email marketing campaigns"
+            text3: "Explainer and tutorial films are great tools for explaining complicated topics, highlighting product benefits, and educating your audience. Our video production team will work with you to develop informative and compelling explainer and tutorial films that explain your services clearly, solve frequent pain points, and lead viewers through the process. These films may be used to supplement the material on your website, shared on social media, or included in email marketing campaigns."
 
         },
         {
@@ -61,12 +61,16 @@ export const VAF = () => {
                 />
                 {/* .............................................................................................................. */}
                 <Container className="smm_img_container">
+                <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="orm1.png" alt="orm1.png"/>
                     </div>
+                    </Box>
+                    <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
                     <div className="smm_img_div">
                         <img src="orm2.png"alt="orm2.png" />
                     </div>
+                    </Box>
                 </Container>
                 {/* why-should-you-content */}
                 <Container className="smm_heading2_container">
@@ -76,13 +80,29 @@ export const VAF = () => {
                         <img className="Qmark_img" src="Qmark.png" alt="Qmark" />
                     </div>
                     <div className="heading_descp_div smm_heading2_descp">
-                        <text className="heading_description2">All you need is high-quality video production so here we are with the top-notch quality and quantity. No need to worry we provide the best output ever, which takes less time and export best quality</text>
+                        <text className="heading_description2">Our track record speaks for itself, but let's put it into terms that resonate with what you're looking for.</text>
                         <br />
-                        <br />
-                        <text> Make captivating video content a part of your digital marketing plan. You can produce aesthetically gorgeous, emotionally resonant, and highly engaging videos that captivate your audience's attention and deliver real outcomes with our experienced video ad and film services.</text>
+                       </div>
+                </Container>
+{/* ................ */}
+<Container className="smm_heading3_container">
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
+                        <img src="arrow-vector.png" />
+                        <heading className="smm_heading3"> Expertise and experience</heading>
+                    </div>
+                    <div className="smm_text3_div">
+                        <text className="smm-text3">Our creative team brings together years of hands-on experience in video production and digital marketing. We're not just specialists; we're industry experts who know how to make your brand shine.</text>
                     </div>
                 </Container>
-
+                <Container className="smm_heading3_container">
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5%" }}>
+                        <img src="arrow-vector.png" />
+                        <heading className="smm_heading3">Customization Tailored to You</heading>
+                    </div>
+                    <div className="smm_text3_div">
+                        <text className="smm-text3">We don't believe in a one-size-fits-all approach. Our services are custom-tailored to meet your specific needs and vision, making each project a unique masterpiece that speaks to your target audience.</text>
+                    </div>
+                </Container>
 
                 <ContactForm heading="Talk to Our Experts"/>
                 <Connect />
