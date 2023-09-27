@@ -26,7 +26,7 @@ const serviceData = [
         simg: "gif5.gif",
         heading: `ONLINE  REPUTATION `,
         headingTwo: `MANAGEMENT`,
-        desc: `Want to take control of your online presence, then join the best Digital marketing agency.  `
+        desc: `Want to be the talk of the online world? Come on board with our Digital Marketing Agency. We're experts in making sure people see the best version of your business. Trust us, your customers will be singing your praises in no time. `
 
     },
     {
@@ -34,7 +34,7 @@ const serviceData = [
         simg: "gif3.gif",
         heading: `GRAPHIC  `,
         headingTwo: `DESIGNING`,
-        desc: `Whether you're looking to give your website a fresh new look, launch an impactful social media campaign, or enhance your overall digital footprint, our graphic design services can help.`
+        desc: `Let us bring your vision to life and create stunning visuals that will captivate your audience and leave a lasting impression.`
 
     },
     {
@@ -42,7 +42,7 @@ const serviceData = [
         simg: "gif22.gif",
         heading: `WEB DESIGN &`,
         headingTwo: `DEVELOPMENT`,
-        desc: `Elevate your Brand to new heights with stunning website that captivate your audience. `
+        desc: `Elevate your Brand to new heights with stunning websites that captivate your audience. Trust us to handle the technical aspects, so you can focus on growing your online presence.`
 
     },
     {
@@ -63,14 +63,14 @@ const serviceData = [
         simg: "gif7.gif",
         heading: `EMAIL `,
         headingTwo: `MARKETING`,
-        desc: `Start using our services today and witness the transformation in your marketing strategy! With email marketing.`
+        desc: `Start using our services today and witness the transformation in your marketing strategy! With email marketing, we provide the key to reclaiming engagement, nurturing prospects, and skyrocketing conversions. `
     },
     {
         id: 9,
         simg: "gif9.gif",
         heading: `CAMPAIGN `,
         headingTwo: `MARKETING`,
-        desc: `We help businesses succeed in the digital age! We are here to boost your online presence.`
+        desc: `We help businesses succeed in the digital age! We are here to boost your online presence and produce remarkable outcomes with our cutting-edge methods and unique solutions.`
     },
 
 ]

@@ -25,7 +25,7 @@ export const AboutCoreValue = () => {
                 <Box backgroundColor="#F47721" w={{ base: "100%", sm: "80%", md: "65%", lg: "55%", xl: "55%" }} m="auto" borderRadius={"20px"}
                     padding={{ base: "10px 10px 10px 10px", sm: "10px 10px 10px 10px", md: "10px 10px 10px 10px", lg: "50px 50px 50px 50px", xl: "50px 50px 50px 50px" }}
                     fontWeight={"550"} fontSize={{ base: "10px", sm: "10px", md: "12px", lg: "16px", xl: "16px" }} lineHeight={"2.5em"}
-                    marginTop={{ base: "4%", sm: "4%", md: "4%", lg: "4%", xl: "4%" }}>
+                    marginTop={{ base: "3%", sm: "3%", md: "3%", lg: "3%", xl: "3%" }}>
 
 
                     <Box><Text>Innovation</Text></Box>
