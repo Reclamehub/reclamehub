@@ -1,4 +1,4 @@
-.connect_btn{
+.connect_btn {
     text-align: center;
     font-family: poppins;
     text-transform: capitalize;
@@ -9,23 +9,25 @@
     border-radius: 30px;
 }
 
-.connect_btn:hover{
-background-color: #ff7721;
-color: #ffffff;
+.connect_btn:hover {
+    background-color: #ff7721;
+    color: #ffffff;
 }
+
 @media (max-width: 480px) {
-    .connect_btn{
-        padding: 3px 12px ;
-        font-size: 12px !important;
-        font-weight: 500;
-    background: none;
-    outline: 2px solid #ff7721 !important;
-    border-radius: 30px;
-    text-transform: capitalize;
+    .connect_btn {
+        padding: 2px 10px;
+        font-size: 11px !important;
+        font-weight: 550;
+        background: none;
+        outline: 2px solid #ff7721 !important;
+        border-radius: 30px;
+        text-align: center;
+        text-transform: capitalize;
     }
-  
-  }
-  
-  
-  /* Media Query for Tablets Ipads portrait mode */
-  @media (min-width: 768px) and (max-width: 1024px) {}
+
+}
+
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {}

@@ -6,8 +6,20 @@ import { Connect } from "../../Connect/Connect"
 import BannerData from "./SingleSrvcBannerData"
 import SingleSrvcBanner from "../SingleServicePage/SingleSrvcBanner"
 import SingleSrvcList from "./SingleSrvcList"
+import SingleSrvcListMobile from "./SingleSrvcListMobile"
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 export const SMM = () => {
+    const settings = {
+        dots: true, // Show navigation dots
+        infinite: true, // Enable infinite scrolling
+        speed: 500, // Transition speed in milliseconds
+        slidesToShow: 1, // Number of slides to show at a time
+        slidesToScroll: 1, // Number of slides to scroll at a time
+      };
     const SMMTableData = [
         {
             id: 0,
@@ -51,6 +63,7 @@ export const SMM = () => {
         <>
             <Box bg={useColorModeValue('white', "black")} fontFamily={"poppins"}>
                 <SingleSrvcBanner title1={BannerData[0].title1} title2={BannerData[0].title2} descp={BannerData[0].descp} />
+                <Box display={{ base: "none", sm: "none", md: "inline", lg: "inline", xl: "inline" }} fontFamily={"poppins"} margin={"auto"} >
                 <SingleSrvcList
                     title0={SMMTableData[0].title0} heading0={SMMTableData[0].heading0} text0={SMMTableData[0].text0}
                     title1={SMMTableData[1].title1} heading1={SMMTableData[1].heading1} text1={SMMTableData[1].text1}
@@ -58,6 +71,34 @@ export const SMM = () => {
                     title3={SMMTableData[3].title3} heading3={SMMTableData[3].heading3} text3={SMMTableData[3].text3}
                     title4={SMMTableData[4].title4} heading4={SMMTableData[4].heading4} text4={SMMTableData[4].text4}
                 />
+                </Box>
+                <Box display={{ base: "inline", sm: "inline", md: "none", lg: "none", xl: "none" }} margin={"auto"} >
+             
+      <Slider {...settings}>
+       <div>
+          <SingleSrvcListMobile
+            title={SMMTableData[0].title0}
+            heading={SMMTableData[0].heading0}
+            text={SMMTableData[0].text0}
+         />
+        </div>
+        <div>
+          <SingleSrvcListMobile
+            title={SMMTableData[1].title1}
+            heading={SMMTableData[1].heading1}
+            text={SMMTableData[1].text1}
+            // Add other props for Slide 2
+          />
+        </div>
+        <div>
+          <SingleSrvcListMobile
+            title={SMMTableData[0].title0}
+            heading={SMMTableData[0].heading0}
+            text={SMMTableData[0].text0}
+         />
+        </div>
+        </Slider>
+                </Box>
                 {/* .............................................................................................................. */}
                 <Container className="smm_img_container">
                 <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>

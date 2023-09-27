@@ -1,0 +1,6 @@
+.SSL_heading_div{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}

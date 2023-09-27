@@ -1,4 +1,7 @@
 /* singlesrvc-Banner_css */
+.single_srvc_list_section{
+  display: inline;
+}
 .singlesrvcBanner_container {
   padding-top: 20px;
   margin-bottom: 5%;

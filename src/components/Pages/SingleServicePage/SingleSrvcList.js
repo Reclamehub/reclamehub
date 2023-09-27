@@ -6,8 +6,8 @@ import "./SingleSrvcList.css"
 const SingleSrvcTable = (props) => {
 
   return (
-    <>
-      <Container>
+<>
+<Container>
         <div className='table_main_heading'>
           <p>here comes <span style={{ color: "#ff7721" }}>our services...</span></p>
         </div>
@@ -81,6 +81,7 @@ const SingleSrvcTable = (props) => {
           </Box>
         </main>
       </Container>
+
     </>
   );
 };

@@ -18,7 +18,7 @@ export const Footer = () => {
 
                     <Box> <Link to="/"><Image h={{ base: "50px", sm: "30px", md: "50px", lg: "50px", xl: "50px" }} src="navicon.png" bgColor={"white"} borderRadius={"60px"} border="1px solid black" color={"white"} alt="reclame-icon" /></Link></Box>
 
-                    <Box mt={{ base: "5px", sm: "7px", md: "10px", lg: "10px", xl: "10px" }}><Text className="footer-desc" fontSize={{ base: "3vw", sm: "2vw", md: "1vw", lg: "1vw", xl: ".9vw" }}>
+                    <Box mt={{ base: "5px", sm: "7px", md: "10px", lg: "10px", xl: "10px" }}><Text className="footer-desc" fontSize={{ base: "2.5vw", sm: "2.5vw", md: "1vw", lg: "1vw", xl: ".9vw" }}>
 We Have A Young Team From Professional Backgrounds Who Are Waiting To Transform Your Brand With Their Infectious Passion For Storytelling In This Digital World. An Army Of Creative Thinkers In Noida Who Spend A Productive Amount Of Their Time On Digital Media To Explore And Grow Rapidly.</Text></Box>
 
                     <Box mt={{ base: "20px", sm: "20px", md: "10px", lg: "10px", xl: "10px" }} width={"90%"} >
@@ -42,7 +42,7 @@ We Have A Young Team From Professional Backgrounds Who Are Waiting To Transform 
                     <Link className="footer_working_link" to="/email-marketing"><Text className="foot-sub-text">EMAIL MARKETING</Text></Link>
                 </Box>
 
-                <Box>
+                <Box textAlign={"left"}>
                     <Heading className="footer-sub-heading" fontSize={{ base: "3vw", sm: "3vw", md: "1.5vw", lg: "1.5vw", xl: "1.5vw" }}>QUICK LINKS</Heading>
 
                     <Text className="foot-sub-text" _hover={{ color: "#F47721" }} mt={{ base: "5px", sm: "7px", md: "10px", lg: "20px", xl: "25px" }}><Link to="/blog"> BLOGS </Link></Text>

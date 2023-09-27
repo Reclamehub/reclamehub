@@ -38,7 +38,7 @@ export const HomePageTop = () => {
 			</Box>
 			<Flex className="home-btn-img">
 			<div style={{marginTop:"3.5%"}} className="home_top_btn_div">
-        <Link to ="/contact"><button className="connect_btn">get started</button></Link> 
+          <Link to ="/contact"><button className="connect_btn">get started</button></Link> 
          </div>
 				<Box className="home-top-img-box"><Image className="home-top-img" src="imagegrp.png" alt="home-top-img" /></Box>
 			</Flex>
