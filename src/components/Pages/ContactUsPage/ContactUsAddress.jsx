@@ -18,7 +18,7 @@ export const ContactUsAddress = () => {
                                 <BiMessageDetail style={{ marginTop: "2px" }} size="30px" color="#F47721" />
                                 <text style={{ marginLeft: "2%", fontWeight: "bold" }}>WRITE TO US</text>
                             </div>
-                            <div style={{ textAlign: "left", marginTop: "8px", marginLeft: "35px" }}>
+                            <div style={{ textAlign: "left", marginTop: "3px", marginLeft: "35px" }}>
                                 <text style={{ fontWeight: "500", color: "#FF7721" }}><a href="mailto:">info@reclamehub.com </a></text>
                             </div>
                         </div>
@@ -27,10 +27,10 @@ export const ContactUsAddress = () => {
                         <Box borderTop={useColorModeValue('1px solid #F47721', "1px solid white")} p="0px" display={""} textAlign={"left"} gap={"10px"} >
                             <div style={{ padding: "15px" }}>
                                 <div style={{ display: "flex", justifyContent: "left", alignItems: "center" }}>
-                                    <CiLocationOn style={{ marginTop: "-2px", }} size="35px" color="#F47721" />
+                                    <CiLocationOn style={{ marginTop: "-2px", }} size="32px" color="#F47721" />
                                     <text style={{ marginLeft: "2%", fontWeight: "bold" }}>OUR LOCATION</text>
                                 </div>
-                                <div style={{ marginLeft: "35px", textAlign: "left", marginTop: "8px", width: "" }}>
+                                <div style={{ marginLeft: "35px", textAlign: "left", marginTop: "3px", width: "" }}>
                                     <text>8th Floor Iconic Tower<br /> Sector 62 Noida 201301</text><br />
                                     <text><span style={{ color: '#F47721', fontWeight: "500" }}> Uttar Pradesh <br />India</span></text>
                                 </div>
@@ -42,10 +42,10 @@ export const ContactUsAddress = () => {
                     <Box borderLeft={useColorModeValue('1px solid #F47721', "1px solid white")} padding={"10px"} w={{ base: "100%", sm: "80%", md: "50%", lg: "50%", xl: "50%" }} borderTop={"1px solid #ff2277"}>
 
                         <div style={{ display: "flex", justifyContent: "left", alignItems: "center" }}>
-                            <BsFillTelephoneFill style={{ marginTop: "2px", }} size="25px" color="#F47721" />
+                            <BsFillTelephoneFill style={{ marginTop: "2px",marginLeft:"10px" }} size="23px" color="#F47721" />
                             <text style={{ marginLeft: "2%", fontWeight: "bold" }}>CALL US</text>
                         </div>
-                        <div style={{ display: "flex", justifyContent: "left", alignItems: "center", marginLeft: "30px", fontWeight: "500" }}>
+                        <div style={{ display: "flex", justifyContent: "left", alignItems: "center", marginLeft: "35px", fontWeight: "500" }}>
                             <text><a href="tel:+9120190055">+91-9120190055</a></text>
                         </div>
 

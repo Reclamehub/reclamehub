@@ -10,13 +10,13 @@ export const BlogOne=()=>{
         <br />
 
     <Box textAlign={"left"} w="90%" margin={"auto"} alignItems={"center"} fontFamily={"poppins"} bg={useColorModeValue('white', 'black')}>
-        <h1 style={{fontFamily:"poppins",fontSize:"4vw",fontWeight:"bold"}}  fontSize={"14vw"} color="red">15 Effective Digital Marketing Strategies for Small Businesses</h1>
+        <h2 style={{fontFamily:"poppins",fontSize:"3.2vw",fontWeight:"bold"}}  fontSize={"14vw"} color="red">15 Effective Digital Marketing Strategies for Small Businesses</h2>
 <br />
 <Box   ><Image w="80%" margin={"auto"} src="feature.png" alt="digital-marketing" /></Box>
 
 
 <br />
-        <Text>Marketing is one of the most essential things whenever you sell your product, not even sell it is also important whenever you buy something. Every little bit of product or brand is important whether it be your traditional market or digital market. 
+ <Text>Marketing is one of the most essential things whenever you sell your product, not even sell it is also important whenever you buy something. Every little bit of product or brand is important whether it be your traditional market or digital market. 
 
 <br />
 <br />

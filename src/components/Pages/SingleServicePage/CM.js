@@ -41,7 +41,7 @@ export const CM = () => {
         {
             id: 4,
             title4: "Phase 5",
-            heading4: "Data-Driven Insights and Real-Time Adjustments",
+            heading4: " Real-Time Adjustments",
             text4: "The digital world's always changing, so we never set it and forget it. We constantly monitor crucial KPIs like click-through rates and social shares. Real-time adjustments are our game; if something's off, we tweak it, and if it's spot on, we amplify. No second-guessing, just results."
 
         },

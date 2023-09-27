@@ -36,7 +36,7 @@ return(
             </div>
             <div style={{maxWidth:"90%",margin:"auto"}}>
                 <heading className="experties_card_heading">graphic<br/> designing</heading><br/><br/>
-                <text className="experties_card_text" > Whether you're looking to give your website a fresh new look, launch an impactful social media campaign, or enhance your overall digital footprint, our graphic design services can help. </text>
+                <text className="experties_card_text" > Let us bring your vision to life and create stunning visuals that will captivate your audience and leave a lasting impression. </text>
             </div>
             </div>
             </Box>

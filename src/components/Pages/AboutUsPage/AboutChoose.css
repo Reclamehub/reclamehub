@@ -20,11 +20,11 @@
     height: 100%;
     width: 80%;
     padding: 15% 25px;
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: #fff;
     box-shadow: 2px 2px 2px 5px rgba(128, 128, 128, 0.6);

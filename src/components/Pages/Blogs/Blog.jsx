@@ -12,7 +12,7 @@ export const Blog=()=>{
     return(
     <Box w="100%"  m="auto" fontFamily={"poppins"} bg={useColorModeValue('white', 'black')}>
         <div className="heading_div">
-<heading className="page_heading"><span style={{color:"#ff7722"}}>B</span>l<span style={{color:"#ff7722"}}>o</span>g</heading>
+<heading className="page_heading"><span style={{color:"#f47721"}}>BLOG</span></heading>
 </div>
 
             
