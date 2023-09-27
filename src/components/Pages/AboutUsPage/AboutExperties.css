@@ -33,11 +33,13 @@
 }
 
 .experties_img {
-height: 300px;
+height: 270px;
  margin-bottom: 10px;
  margin: auto;
 }
-
+.expertise_card_hdiv{
+    margin-bottom: 10px;
+}
 .experties_card_heading {
     font-weight: 600;
     font-family: poppins;
@@ -53,8 +55,12 @@ height: 300px;
 
 @media (max-width: 767px) {
     .experties_img {
-        max-height: 250px;
+        max-height: 220px;
 
+    }
+    .experties_card_text{
+        font-size: 13.5px;
+        line-height: normal;
     }
 }
 

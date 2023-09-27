@@ -21,8 +21,12 @@ return(
                 <img className="experties_img" src="gif1.gif" alt="experties-img1"/>
             </div>
             <div style={{maxWidth:"90%",margin:"auto"}}>
-                <heading className="experties_card_heading"> social media <br/> management</heading><br/><br/>
-                <text className="experties_card_text" >Tired of feeling overwhelmed by the never-ending demands of social media? Let us take control and transform your social media presence.  </text>
+            <div className="expertise_card_hdiv">
+                <heading className="experties_card_heading"> social media <br/> management</heading>
+                </div>
+                <div>
+                <text className="experties_card_text" >Tired of feeling overwhelmed by the never-ending demands of social media? Let us take control and transform your social media presence.  </text>
+            </div>
             </div>
         </div>
         </Box>
@@ -35,8 +39,12 @@ return(
                 <img  className="experties_img" src="gif3.gif" alt="experties-img2"/>
             </div>
             <div style={{maxWidth:"90%",margin:"auto"}}>
-                <heading className="experties_card_heading">graphic<br/> designing</heading><br/><br/>
-                <text className="experties_card_text" > Let us bring your vision to life and create stunning visuals that will captivate your audience and leave a lasting impression. </text>
+            <div className="expertise_card_hdiv">
+                <heading className="experties_card_heading">graphic<br/> designing</heading>
+                </div>
+                <div>
+              <text className="experties_card_text" > Let us bring your vision to life and create stunning visuals that will captivate your audience and leave a lasting impression.</text>
+              </div>
             </div>
             </div>
             </Box>
@@ -49,8 +57,12 @@ return(
                 <img className="experties_img" src="abtgif11.gif" alt="experties-img3"/>
             </div>
             <div style={{maxWidth:"90%",margin:"auto"}}>
-                <heading className="experties_card_heading">web design<br/>& development</heading><br/><br/>
-                <text className="experties_card_text">Elevate your Brand to new heights with stunning website that captivate your audience. </text>
+                <div className="expertise_card_hdiv">
+                <heading className="experties_card_heading">web design<br/>& development</heading>
+                </div>
+                <div>
+                <text className="experties_card_text">Elevate your Brand to new heights with stunning websites that captivate your audience. Trust us to handle the technical aspects, so you can focus on growing your online presence. </text>
+            </div>
             </div>
         </div>
             </Box>
