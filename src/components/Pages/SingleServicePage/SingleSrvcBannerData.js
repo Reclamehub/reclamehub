@@ -49,9 +49,9 @@ const BannerData = [
     },
     {
         id: 7,
-        title1: "emailer",
+        title1: "email",
         title2: " marketing",
-        descp: "Emailer marketing is still one of the most efficient and cost-effective ways to contact and engage your target audience. It enables you to make direct contacts, cultivate relationships, and drive conversions. Our digital marketing business provides complete email marketing services to help you maximize the value of this useful instrument. Our skilled team will design and execute smart email campaigns that deliver the correct message at the right time to the appropriate audience, maximizing the impact of your campaign and achieving significant business outcomes."
+        descp: "Email marketing is still one of the most efficient and cost-effective ways to contact and engage your target audience. It enables you to make direct contacts, cultivate relationships, and drive conversions. Our digital marketing business provides complete email marketing services to help you maximize the value of this useful instrument. Our skilled team will design and execute smart email campaigns that deliver the correct message at the right time to the appropriate audience, maximizing the impact of your campaign and achieving significant business outcomes."
 
     },
     {

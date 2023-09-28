@@ -61,9 +61,9 @@ const serviceData = [
     {
         id: 8,
         simg: "gif7.gif",
-        heading: `EMAILER `,
+        heading: `EMAIL `,
         headingTwo: `MARKETING`,
-        desc: `Start using our services today and witness the transformation in your marketing strategy! With emailer marketing, we provide the key to reclaiming engagement, nurturing prospects, and skyrocketing conversions. `
+        desc: `Start using our services today and witness the transformation in your marketing strategy! With email marketing, we provide the key to reclaiming engagement, nurturing prospects, and skyrocketing conversions. `
     },
     {
         id: 9,
