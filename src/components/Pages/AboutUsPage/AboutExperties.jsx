@@ -1,5 +1,6 @@
 import { Box, Flex, Heading, Image, Text, useColorMode, useColorModeValue } from "@chakra-ui/react"
 import {Container,Row,Col} from "react-bootstrap"
+import { Link } from "react-router-dom"
 import "./AboutExperties.css"
 export const AboutExperties=()=>{
 
@@ -16,6 +17,7 @@ return(
        <Row>
         <Col lg={4} md={9} sm={12} className="experties_col">
        <Box className="experties_card_div" bg={useColorModeValue('#fff','#1D1D1D')} >
+        <Link to="/social-media-management">
         <div style={{padding:"10px"}} >
             <div >
                 <img className="experties_img" src="gif1.gif" alt="experties-img1"/>
@@ -29,11 +31,13 @@ return(
             </div>
             </div>
         </div>
+        </Link>
         </Box>
         </Col>
         <Col lg={4} md={9} sm={12} className="experties_col">
        
         <Box className="experties_card_div" bg={useColorModeValue('#fff','#1D1D1D')} >
+        <Link to="/graphic-designing">
         <div style={{padding:"10px"}}>
             <div>
                 <img  className="experties_img" src="gif3.gif" alt="experties-img2"/>
@@ -47,11 +51,13 @@ return(
               </div>
             </div>
             </div>
+            </Link>
             </Box>
      
         </Col>
         <Col lg={4} md={9} sm={12} className="experties_col">
         <Box className="experties_card_div" bg={useColorModeValue('#fff','#1D1D1D')} >
+        <Link to="/web-design-development">
         <div style={{padding:"10px"}} >
             <div>
                 <img className="experties_img" src="abtgif11.gif" alt="experties-img3"/>
@@ -65,6 +71,7 @@ return(
             </div>
             </div>
         </div>
+        </Link>
             </Box>
         </Col>
        </Row>
