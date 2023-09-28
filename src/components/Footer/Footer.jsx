@@ -52,7 +52,7 @@ We Have A Young Team From Professional Backgrounds Who Are Waiting To Transform 
                 </Box>
 
                 <Box>
-                    <Heading className="footer-sub-heading" fontSize={{ base: "3vw", sm: "3vw", md: "1.5vw", lg: "1.5vw", xl: "1.5vw" }}>CONTACT US</Heading>
+                    <Heading className="footer-sub-heading " style={{marginLeft:"0px"}} fontSize={{ base: "3vw", sm: "3vw", md: "1.5vw", lg: "1.5vw", xl: "1.5vw" }}>CONTACT US</Heading>
 
                  <Text className="foot-sub-text ph_link" mt={{ base: "5px", sm: "7px", md: "10px", lg: "20px", xl: "25px" }}> <a href="tel:9120190055">+91-9120190055</a></Text>
                     <Text className="foot-sub-text em_link"> <a href="mailto:">info@reclamehub.com </a></Text>

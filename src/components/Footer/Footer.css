@@ -8,16 +8,16 @@ font-size: 1vw;
 
 } */
 .footer-sub-heading{
- 
    padding-top: 25px;
     text-align: left;
     font-size: 1vw;
-    margin-right: auto;
+ margin-right: auto !important;
     text-transform: uppercase; 
 }
 
 .foot-sub-text {
     margin-bottom: 10px;
+    margin-left: 2px;
     font-size: 1vw;
     text-align: left;
     font-weight: 500;

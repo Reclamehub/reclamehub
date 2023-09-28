@@ -4,3 +4,16 @@
     justify-content: flex-start;
     text-align: left;
 }
+.SSL_title_text_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    text-align: left;
+}
+.ssl_title_div{
+margin-bottom: 10px;
+}
+.ssl_text_div{
+
+}

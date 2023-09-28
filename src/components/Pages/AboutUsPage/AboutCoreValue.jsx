@@ -8,7 +8,7 @@ export const AboutCoreValue = () => {
                 <heading className="page_heading" style={{ color: "#ff7721" }}> OUR CORE VALUES</heading>
             </div>
             <div className="heading_descp_div">
-                <text className="heading_description">We value innovation and accountability As key aspects of our operations</text>
+                <text className="heading_description">We value innovation and accountability As key aspects of our operations.</text>
             </div>
 
             <Flex color="white" m="auto" flexDirection={{ base: "column", sm: "column", md: "row", lg: "row", xl: "row" }}

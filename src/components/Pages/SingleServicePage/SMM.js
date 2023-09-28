@@ -14,11 +14,13 @@ import 'slick-carousel/slick/slick-theme.css';
 
 export const SMM = () => {
     const settings = {
-        dots: true, // Show navigation dots
-        infinite: true, // Enable infinite scrolling
-        speed: 500, // Transition speed in milliseconds
-        slidesToShow: 1, // Number of slides to show at a time
-        slidesToScroll: 1, // Number of slides to scroll at a time
+        dots: true,         // Show navigation dots
+  infinite: true,     // Enable infinite scrolling
+  speed: 2000,         // Transition speed in milliseconds
+  slidesToShow: 1,    // Number of slides to show at a time
+  slidesToScroll: 1,  // Number of slides to scroll at a time
+  autoplay: true,     // Enable auto-sliding
+  autoplaySpeed: 5000 
       };
     const SMMTableData = [
         {
@@ -92,9 +94,23 @@ export const SMM = () => {
         </div>
         <div>
           <SingleSrvcListMobile
-            title={SMMTableData[0].title0}
-            heading={SMMTableData[0].heading0}
-            text={SMMTableData[0].text0}
+            title={SMMTableData[2].title2}
+            heading={SMMTableData[2].heading2}
+            text={SMMTableData[2].text2}
+         />
+        </div>
+        <div>
+          <SingleSrvcListMobile
+            title={SMMTableData[3].title3}
+            heading={SMMTableData[3].heading3}
+            text={SMMTableData[3].text3}
+         />
+        </div>
+        <div>
+          <SingleSrvcListMobile
+            title={SMMTableData[4].title4}
+            heading={SMMTableData[4].heading4}
+            text={SMMTableData[4].text4}
          />
         </div>
         </Slider>

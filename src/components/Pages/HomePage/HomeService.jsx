@@ -89,7 +89,7 @@ export const HomeService = () => {
                 <heading className="page_heading" >services we provide</heading>
             </div>
             <div className="heading_descp_div srvc_heading_descp">
-                <text className="heading_description " style={{ color: "#ffffff", textTransform: "capitalize", }}> Your Aim, Our Assistance. The services provided are as follows :</text>
+                <text className="heading_description " style={{ color: "#ffffff", textTransform: "capitalize", }}> Your Aim, Our Assistance. The services provided are as follows:</text>
             </div>
 
    {/* <Box className="hservice_cards_container" bg={useColorModeValue('#ffffff','#1D1D1D')}>   </Box> */}
