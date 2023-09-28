@@ -42,7 +42,12 @@
     font-weight: 400;
     margin-bottom: auto;
 }
-
+@media (max-width: 480px) {
+    .exphelp_card_div{
+        width: 95%;
+        margin: 30px  auto;
+    }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
     .exphelp_card_div {
         max-width: 19rem;

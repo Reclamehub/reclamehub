@@ -24,7 +24,8 @@
 }
 @media (max-width: 480px) {
     .expchoose_card_div{
-        max-width: 100%;
+        width: 95%;
+        margin: 35px auto 0px auto;
     }
 }
 /*  */

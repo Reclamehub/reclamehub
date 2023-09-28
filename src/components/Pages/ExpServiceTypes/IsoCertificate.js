@@ -30,7 +30,7 @@ const IsoCertificate = () => {
             <heading className="exp_iso_heading">What is ISO?</heading>
         </div>
         <div className='exp_iso_text_div'>
-            <text>An ISO Certification is Management System Certification of any Single ISO Standard (i.e ISO 9001) or Multiple standard Management System Certification together (i.e ISO 9001, ISO 14001, ISO 45001 etc so on) -There are many contractual ISO Standards which is published by International Organization for Standardization (ISO). These Contractual Standards are ISO 9001, ISO 14001, ISO 45001, ISO 22000, ISO 27001, ISO 13485 etc and many more. Which are being adopted by the organization for implementation and ISO Certification. These Standards are the contractual standards. Developed by Technical committee members of International Organization for Standardization. These ISO Standards adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT). Where each ISO Standard has their own specific purpose for use in the organization for ISO Certification. All the requirements provided in the Management System Standards are in generic in nature, that is it can be adopted for implementation by any type, size of the organization irrespective of their nature of activities. for Example, you can see below the purpose of different ISO Standards are given below:</text>
+            <text>International Standardization Organization (ISO) was founded in 1947. Its main objective is to create guidelines and standards for different types of industries. Because no one could tell which product was good for the customer. Thus,  ISO Came into existence and made some international standards for different kinds of products and services so the customer can trust the quality. Its main purpose is to maintain Quality in the international marketplace. ISO also make guidelines for some industries so all the international organization will work on the same format. It makes it easy to coordinate with local authorities and customers.</text>
         </div>
     </Container>
 
@@ -39,7 +39,7 @@ const IsoCertificate = () => {
             <heading className="exp_iso_heading">What is IAF ?</heading>
         </div>
         <div className='exp_iso_text_div'>
-            <text>IAF stands for International Accreditation Forum. IAF is the world most recognised association of global Accreditation bodies and that are responsible for conformity assessment in various fields of quality management systems. An ISO Certification issued by IAF member accreditation body carries more value and recognition in the world. Even though, Government authorities prefer it for fulfilling eligibility criteria of government tenders.</text>
+            <text>International Accreditation Forum (IAF) is an organization that brings accreditation bodies from different countries and regions. An ISO Certification endorsed by an IAF member holds significant international recognition. It can take your organization's product/service to the next level. Also, ISO Certificates approved by IAF members are required for many government tenders. It can increase the chances of getting that tender. </text>
         </div>
     </Container>
 

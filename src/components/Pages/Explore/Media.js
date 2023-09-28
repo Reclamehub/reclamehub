@@ -23,10 +23,10 @@ const Media = () => {
                 <MediaCard img="mnoida.png" />
             </div>
             <div className='media_card_wrapper2'>
-                <div>
+                <div className='d-flex justify-content-center'>
  <MediaCard img="mdaily.png" />
                 </div>
-                <div>
+                <div className='d-flex justify-content-center'>
 <MediaCard img="mgoogle.png"/>
                 </div>
             </div>

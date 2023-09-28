@@ -7,6 +7,7 @@ const Card = (props) => {
   return (
     // explore-help + service-cards
     <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} width={"100%"}>
+      <Container>
     <div className='exphelpcard_container'>
       <div className='exphelp_card_div'>
     <div>
@@ -20,6 +21,7 @@ const Card = (props) => {
       </div>
       </div>
     </div>
+    </Container>
     </Box>
   )
 }

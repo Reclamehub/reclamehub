@@ -129,9 +129,6 @@ input:-webkit-autofill {
   transition: 0.2s;
 color: #000;
 }
-
-
-
 .form_submit_btn {
   margin-top: 25px;
   margin-bottom: 15px;
@@ -149,8 +146,13 @@ color: #000;
   display: flex;
   justify-content: flex-start;
 }
-
-
+@media (max-width: 767px) {
+.image-with-form {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+}
+}
 @media (max-width: 767px) {
   .cards_imgform_wrapper {
     display: flex;

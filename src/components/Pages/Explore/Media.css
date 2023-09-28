@@ -22,7 +22,7 @@
 
     .media_card_wrapper2 {
         flex-direction: column;
-        margin: auto;
+        justify-content: center;
         gap: 0px;
     }
 }
