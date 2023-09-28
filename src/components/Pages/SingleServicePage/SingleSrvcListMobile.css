@@ -1,4 +1,6 @@
+
 .SSL_heading_div{
+    font-size: 3.5vw;
     text-transform: capitalize;
     display: flex;
     justify-content: flex-start;
@@ -15,5 +17,21 @@
 margin-bottom: 10px;
 }
 .ssl_text_div{
-
+font-size: 16px;
 }
+
+@media (max-width: 768px) {
+    .ssl_title_div {
+  font-size: 12px;
+  font-weight: 500;
+    }
+  
+    .ssl_text_div {
+      font-size: 11px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    
+  }

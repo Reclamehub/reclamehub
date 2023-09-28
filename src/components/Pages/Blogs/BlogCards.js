@@ -7,7 +7,7 @@ import "./BlogCard.css"
 const BlogCards = (props) => {
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate('/effective-digital-marketing-startegies-for-small-businesses');
+        navigate('/effective-digital-marketing-strategies-for-small-businesses');
     };
   return (
    <Card className='blog_card'>

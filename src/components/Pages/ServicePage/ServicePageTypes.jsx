@@ -155,9 +155,9 @@ export const ServicePageTypes = () => {
                     <Box   fontFamily={"poppins"} boxShadow={"xl"} bg={useColorModeValue('white', '#3D3A3A')} borderRadius={"1px 9rem 9rem 1px"}>
                         <div className="service_content_div">
                             <div className="service_heading_div">
-                                <h2 className="contentBox_headings" style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw", }}>email marketing</h2>
+                                <h2 className="contentBox_headings" style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw", }}>emailer marketing</h2>
                                 <p className="Scard_para">
-                                Supercharge your marketing efforts with our cutting-edge Email Marketing Services! We recognize the importance of efficient email marketing in building engagement, nurturing prospects, and increasing conversions. Our skilled staff is ready to assist you in realizing the full potential of this highly targeted and cost-effective marketing channel.
+                                Supercharge your marketing efforts with our cutting-edge Emailer Marketing Services! We recognize the importance of efficient emailer marketing in building engagement, nurturing prospects, and increasing conversions. Our skilled staff is ready to assist you in realizing the full potential of this highly targeted and cost-effective marketing channel.
                                 </p>
                                 <button className="srvc_type_btn"onClick={()=>{history("/email-marketing")}} >Know More</button>
                             </div>

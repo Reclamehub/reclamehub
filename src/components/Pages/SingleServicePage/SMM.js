@@ -14,13 +14,13 @@ import 'slick-carousel/slick/slick-theme.css';
 
 export const SMM = () => {
     const settings = {
-        dots: true,         // Show navigation dots
-  infinite: true,     // Enable infinite scrolling
-  speed: 2000,         // Transition speed in milliseconds
-  slidesToShow: 1,    // Number of slides to show at a time
-  slidesToScroll: 1,  // Number of slides to scroll at a time
-  autoplay: true,     // Enable auto-sliding
-  autoplaySpeed: 5000 
+        dots: false,      
+  infinite: true,    
+  speed: 8000,         
+  slidesToShow: 1,    
+  slidesToScroll: 1,  
+  autoplay: true,   
+  autoplaySpeed: 9000 
       };
     const SMMTableData = [
         {
@@ -74,8 +74,10 @@ export const SMM = () => {
                     title4={SMMTableData[4].title4} heading4={SMMTableData[4].heading4} text4={SMMTableData[4].text4}
                 />
                 </Box>
-                <Box display={{ base: "inline", sm: "inline", md: "none", lg: "none", xl: "none" }} margin={"auto"} >
-             
+<Box  display={{ base: "inline", sm: "inline", md: "none", lg: "none", xl: "none" }} margin={"auto"} padding={"2px"}  >
+<Container className='SSL_heading_div'>
+    <p>here comes <span style={{ color: "#ff7721" }}>our services...</span></p>
+    </Container>          
       <Slider {...settings}>
        <div>
           <SingleSrvcListMobile

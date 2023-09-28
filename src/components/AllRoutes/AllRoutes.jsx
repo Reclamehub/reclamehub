@@ -61,7 +61,7 @@ export const AllRoutes = () => {
             <Route path="/campaign-marketing" element={<CM />} />
             <Route path="/app-design-development" element={<AD />} />
             <Route path="/ISO-Certification" element={<IsoCertificate />} />
-            <Route path="/effective-digital-marketing-startegies-for-small-businesses" element={<BlogOne />} />
+            <Route path="/effective-digital-marketing-strategies-for-small-businesses" element={<BlogOne />} />
     {/* <Route path="/:id" element={<SingleBlog />} />
             <Route path="/single" element={<SingleBlogPage />} /> */}
         </Routes>

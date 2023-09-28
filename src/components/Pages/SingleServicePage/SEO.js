@@ -5,8 +5,21 @@ import { Connect } from "../../Connect/Connect"
 import BannerData from "./SingleSrvcBannerData"
 import SingleSrvcBanner from "../SingleServicePage/SingleSrvcBanner"
 import SingleSrvcList from "./SingleSrvcList"
+import SingleSrvcListMobile from "./SingleSrvcListMobile"
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export const SEO = () => {
+    const settings = {
+        dots: false,      
+  infinite: true,    
+  speed: 8000,         
+  slidesToShow: 1,    
+  slidesToScroll: 1,  
+  autoplay: true,   
+  autoplaySpeed: 9000 
+      };
     const SeoTableData = [
         {
             id: 0,
@@ -50,6 +63,7 @@ export const SEO = () => {
         <>
             <Box bg={useColorModeValue('white', "black")} fontFamily={"poppins"}>
                 <SingleSrvcBanner title1={BannerData[8].title1} title2={BannerData[8].title2} descp={BannerData[8].descp} />
+                <Box display={{ base: "none", sm: "none", md: "inline", lg: "inline", xl: "inline" }} fontFamily={"poppins"} margin={"auto"} >
                 <SingleSrvcList
                     title0={SeoTableData[0].title0} heading0={SeoTableData[0].heading0} text0={SeoTableData[0].text0}
                     title1={SeoTableData[1].title1} heading1={SeoTableData[1].heading1} text1={SeoTableData[1].text1}
@@ -57,6 +71,51 @@ export const SEO = () => {
                     title3={SeoTableData[3].title3} heading3={SeoTableData[3].heading3} text3={SeoTableData[3].text3}
                     title4={SeoTableData[4].title4} heading4={SeoTableData[4].heading4} text4={SeoTableData[4].text4}
                 />
+                </Box>
+                {/* --------- */}
+                <Box  display={{ base: "inline", sm: "inline", md: "none", lg: "none", xl: "none" }} margin={"auto"} padding={"2px"}  >
+<Container className='SSL_heading_div'>
+    <p>here comes <span style={{ color: "#ff7721" }}>our services...</span></p>
+    </Container>          
+      <Slider {...settings}>
+       <div>
+          <SingleSrvcListMobile
+            title={SeoTableData[0].title0}
+            heading={SeoTableData[0].heading0}
+            text={SeoTableData[0].text0}
+         />
+        </div>
+        <div>
+          <SingleSrvcListMobile
+            title={SeoTableData[1].title1}
+            heading={SeoTableData[1].heading1}
+            text={SeoTableData[1].text1}
+            // Add other props for Slide 2
+          />
+        </div>
+        <div>
+          <SingleSrvcListMobile
+            title={SeoTableData[2].title2}
+            heading={SeoTableData[2].heading2}
+            text={SeoTableData[2].text2}
+         />
+        </div>
+        <div>
+          <SingleSrvcListMobile
+            title={SeoTableData[3].title3}
+            heading={SeoTableData[3].heading3}
+            text={SeoTableData[3].text3}
+         />
+        </div>
+        <div>
+          <SingleSrvcListMobile
+            title={SeoTableData[4].title4}
+            heading={SeoTableData[4].heading4}
+            text={SeoTableData[4].text4}
+         />
+        </div>
+        </Slider>
+                </Box>
                  {/* .............................................................................................................. */}
                  <Container className="smm_img_container">
                  <Box bg={useColorModeValue('#fff', "#1D1D1D")} margin={"auto"} borderRadius={"25px"}>
