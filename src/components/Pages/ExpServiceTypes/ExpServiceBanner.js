@@ -29,7 +29,7 @@ const ExpBanner = (props) => {
           <Container className='expiso_container'>
      
           <Box className="expiso_top_heading_wrapper">
-	<Box className='expiso_top_heading_div' color={useColorModeValue('#fff' ,'#f47721')}>
+	<Box className='expiso_top_heading_div' color={useColorModeValue('#000' ,'#f47721')}>
       <heading>{props.heading}</heading>
           </Box>
             <div className='expiso_top_text_div'>
