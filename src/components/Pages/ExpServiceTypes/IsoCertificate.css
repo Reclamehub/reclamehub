@@ -1,3 +1,13 @@
+.box-shadow{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 5px 2px #f1f0f0;
+}
+.inner_box{
+    padding: 10px 0px;
+}
 .exp_iso_heading_div{
     font-size: 2vw;
     text-transform: capitalize;
@@ -14,10 +24,11 @@
     flex-direction: column;
     justify-content: flex-start;
     text-align: left;
-    line-height: normal;
+    
 }
 .ptag_heading{
     font-size: 18px;
     font-weight: 500;
     color: #f47721;
+    line-height: normal;
 }
