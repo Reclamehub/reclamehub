@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useRef, useState } from "react";
 import { Container } from "react-bootstrap"
-import {Box,Text} from "@chakra-ui/react"
+import {Box,useColorModeValue} from "@chakra-ui/react"
 import "./ExpServiceBanner.css"
 
 const ExpBanner = (props) => {
@@ -29,7 +29,7 @@ const ExpBanner = (props) => {
           <Container className='expiso_container'>
      
           <Box className="expiso_top_heading_wrapper">
-		    	<Box className='expiso_top_heading_div'>
+	<Box className='expiso_top_heading_div' color={useColorModeValue('#fff' ,'#f47721')}>
       <heading>{props.heading}</heading>
           </Box>
             <div className='expiso_top_text_div'>

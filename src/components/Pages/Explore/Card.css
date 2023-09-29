@@ -1,8 +1,6 @@
-.exphelpcard_container {}
-
 .exphelp_card_div {
     display: flex;
-    flex-wrap: wrap;
+   flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
