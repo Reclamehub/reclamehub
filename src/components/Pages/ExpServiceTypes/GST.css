@@ -1,0 +1,22 @@
+.doc_rq_boxes{
+    border: 1px solid #f47721;
+    border-radius: 15px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center !important;
+    text-align: left;
+    margin-top: 1rem;
+    width: 45vw;
+}
+/*  */
+@media (max-width: 480px) {
+.doc_rq_boxes{
+    width: 100%;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .doc_rq_boxes{
+        width: 100%;
+    }
+}

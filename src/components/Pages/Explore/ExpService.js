@@ -25,12 +25,21 @@ const ExpService = () => {
             <div>
               <Card img="scopyicon.png" title1="copy right" text="Creativity is like a prized jewel. Our copyright services protect your creations by registering them, giving you exclusive rights, and prohibiting unauthorized use or infringement. You can relax knowing that our trustworthy and comprehensive assistance is going to set you up to concentrate on growth and development." />
             </div>
+            <div>
+              <Link to ="/FSSAI-Registration">
             <Card img="sfssaiicon.png" title1="fssai" text="FSSAI protects the quality of your product through Food Safety. Our services ensure you sail the safe waters of food standards, ensuring your culinary treasures are compliant and safe for all who partake." />
+          </Link>
           </div>
+          </div>
+
           <div>
-            <Card img="stmicon.png" title1="trademark" text="Your brand is sacred, mate. Protecting your brand with trademark registration establishes a strong legal foundation for your business. So sit back and relax. Our crew is there to guide you through the process, safeguarding your brand from any infringement by anyone who dares cross its path. 
-" />
-            <Card img="sgsticon.png" title1="gst msme" text="In the tumultuous environment of taxes, GST registration is your guiding star. Our crew ensures you are compliant with all regulations, leaving you free to focus on sailing toward your goals." />
+            <Card img="stmicon.png" title1="trademark" text="Your brand is sacred, mate. Protecting your brand with trademark registration establishes a strong legal foundation for your business. So sit back and relax. Our crew is there to guide you through the process, safeguarding your brand from any infringement by anyone who dares cross its path. " />
+            <div>
+              <Link to ="/GST-MSME">
+              <Card img="sgsticon.png" title1="gst msme" text="In the tumultuous environment of taxes, GST registration is your guiding star. Our crew ensures you are compliant with all regulations, leaving you free to focus on sailing toward your goals." />
+              </Link>
+            </div>
+           
 
           </div>
         </div>

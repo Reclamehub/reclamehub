@@ -122,7 +122,7 @@ input:-webkit-autofill {
 
 .exp_form_labels {
   position: absolute;
-  top: 2px;
+  top: 12px;
   left: 10px;
   font-size: 15px;
  pointer-events: none;

@@ -16,7 +16,7 @@
     color: #f47721;
 }
 .exp_iso_text_div{
-    font-size: 17px;
+    font-size: 16px;
     text-align: left;
 }
 .exp_iso_pTag_div{
@@ -31,6 +31,9 @@
     font-weight: 500;
     color: #f47721;
     line-height: normal;
+}
+.pTag_text{
+    font-size: 16px ;
 }
 /*  */
 @media (max-width: 480px) {

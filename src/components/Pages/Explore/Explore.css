@@ -9,9 +9,8 @@
     display: flex;
     justify-content: flex-end;
     gap: 3%;
-    
-}
-
+    }
+  
 .expbg_container {
     margin-top: 5%;
     padding: 15px 0px;
