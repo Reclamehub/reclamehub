@@ -2,7 +2,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-    padding: 20px 0px;
+    padding: 20px 2px;
     box-shadow: 0px 0px 5px 2px #f1f0f0;
 }
 .inner_box{
@@ -32,3 +32,25 @@
     color: #f47721;
     line-height: normal;
 }
+/*  */
+@media (max-width: 480px) {
+    .box-shadow{
+   padding: 20px 12px;
+     }
+    .exp_iso_heading_div{
+        font-size: 4vw;
+   }
+    .exp_iso_text_div{
+        font-size: 12px;
+      }
+      .ptag_heading{
+  font-size: 14px;
+    }
+    .pTag_text{
+        font-size: 12px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+

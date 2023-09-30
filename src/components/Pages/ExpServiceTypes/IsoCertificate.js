@@ -86,110 +86,110 @@ ISO certification can avoid many potential legal issues because each country has
         </div><br/>
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Quality Management and Assurance:</p>
-            <p> ISO 9001 - Uses for Quality Management Systems</p>
-            <p> ISO 9000 - Uses for Fundamentals and Vocabulary</p>
-            <p> ISO 9004 - Uses for Quality Management for Sustained Success</p>
+            <p className='pTag_text'> ISO 9001 - Uses for Quality Management Systems</p>
+            <p className='pTag_text'> ISO 9000 - Uses for Fundamentals and Vocabulary</p>
+            <p className='pTag_text'> ISO 9004 - Uses for Quality Management for Sustained Success</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Environmental Management:</p>
-            <p>  ISO 14001 - Uses for Environmental Management Systems</p>
-            <p>  ISO 14000 - Uses for Environmental Management - Overview and Principles</p>
-            <p>  ISO 14004 - Uses for Environmental Management Systems - General Guidelines  </p>
+            <p className='pTag_text'>  ISO 14001 - Uses for Environmental Management Systems</p>
+            <p className='pTag_text'>  ISO 14000 - Uses for Environmental Management - Overview and Principles</p>
+            <p className='pTag_text'>  ISO 14004 - Uses for Environmental Management Systems - General Guidelines  </p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'> Information Security:</p>
-            <p> ISO/IEC 27001 - Uses for Information Security Management Systems</p>
-            <p> ISO/IEC 27002 - Uses for Code of Practice for Information Security controls</p>
+            <p className='pTag_text'> ISO/IEC 27001 - Uses for Information Security Management Systems</p>
+            <p className='pTag_text'> ISO/IEC 27002 - Uses for Code of Practice for Information Security controls</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Occupational Health and Safety:</p>
-            <p> ISO 45001 - Uses for Occupational Health and Safety Management Systems</p>
+            <p className='pTag_text'> ISO 45001 - Uses for Occupational Health and Safety Management Systems</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
-            <p>Food Safety Management:</p>
-            <p> ISO 22000 -  Uses for Food Safety Management Systems</p>
+            <p className='pTag_text'>Food Safety Management:</p>
+            <p className='pTag_text'> ISO 22000 -  Uses for Food Safety Management Systems</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Energy Management:</p>
-            <p> ISO 50001 - Uses for Energy Management Systems</p>
+            <p className='pTag_text'> ISO 50001 - Uses for Energy Management Systems</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Risk Management:</p>
-            <p> ISO 31000 - Uses for Risk Management - Principles and Guidelines</p>
+            <p className='pTag_text'> ISO 31000 - Uses for Risk Management - Principles and Guidelines</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Medical Devices: </p>
-            <p>ISO 13485 - Uses for Medical Devices - Quality Management Systems</p>
+            <p className='pTag_text'>ISO 13485 - Uses for Medical Devices - Quality Management Systems</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Automotive:</p>
-            <p> ISO 26262 - Uses for Functional Safety for Road Vehicles</p>
+            <p className='pTag_text'> ISO 26262 - Uses for Functional Safety for Road Vehicles</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Aerospace:</p>
-            <p> ISO 26262 - Uses for Functional Safety for Road Vehicles</p>
+            <p className='pTag_text'> ISO 26262 - Uses for Functional Safety for Road Vehicles</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>IT and Software:</p>
-            <p> ISO/IEC 20000 - Uses for IT Service Management</p>
-            <p>ISO/IEC 12207 - Uses for Software Life Cycle Processes</p>
-            <p>ISO/IEC 27018 - Uses for Protection of Personally Identifiable Information in Public Clouds</p>
+            <p className='pTag_text'> ISO/IEC 20000 - Uses for IT Service Management</p>
+            <p className='pTag_text'>ISO/IEC 12207 - Uses for Software Life Cycle Processes</p>
+            <p className='pTag_text'>ISO/IEC 27018 - Uses for Protection of Personally Identifiable Information in Public Clouds</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Social Responsibility:</p>
-            <p>ISO 26000 - Uses for Guidance on Social Responsibility</p>
+            <p className='pTag_text'>ISO 26000 - Uses for Guidance on Social Responsibility</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Energy Efficiency:</p>
-            <p> ISO 50002 - Uses for Energy Audits. </p>
+            <p className='pTag_text'> ISO 50002 - Uses for Energy Audits. </p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Supply Chain Management:</p>
-            <p> ISO 28000 - Uses for Specification for Security Management Systems for the Supply Chain</p>
+            <p className='pTag_text'> ISO 28000 - Uses for Specification for Security Management Systems for the Supply Chain</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Country Codes:</p>
-            <p> ISO 3166 - Uses for Codes for the Names of Countries</p>
+            <p className='pTag_text'> ISO 3166 - Uses for Codes for the Names of Countries</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Language and Script Codes:</p>
-            <p> ISO 639 -  Uses for Codes for the Representation of Names of Languages </p>
-            <p>ISO 15924 - Codes for the Representation of Names of Scripts</p>
+            <p className='pTag_text'> ISO 639 -  Uses for Codes for the Representation of Names of Languages </p>
+            <p className='pTag_text'>ISO 15924 - Codes for the Representation of Names of Scripts</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Paper Sizes:</p>
-            <p> ISO 216 - Uses for Paper Sizes</p>
+            <p className='pTag_text'> ISO 216 - Uses for Paper Sizes</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Photography:</p>
-            <p> ISO 12232 - Uses for Digital Still Camera Image Quality</p>
+            <p className='pTag_text'> ISO 12232 - Uses for Digital Still Camera Image Quality</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Quality of Water:</p>
-            <p> ISO 5667 - Uses for Water Quality Sampling</p>
+            <p className='pTag_text'> ISO 5667 - Uses for Water Quality Sampling</p>
             </div>
 
             <div className='exp_iso_pTag_div'>
             <p className='ptag_heading'>Currencies:</p>
-            <p>ISO 4217 - Uses for Codes for the Representation of Currencies</p>
+            <p className='pTag_text'>ISO 4217 - Uses for Codes for the Representation of Currencies</p>
             </div>
        
     </Container>

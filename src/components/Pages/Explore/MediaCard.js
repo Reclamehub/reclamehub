@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 import { Box, useColorModeValue,  } from "@chakra-ui/react"
 import "./MediaCard.css"
 
@@ -6,7 +7,7 @@ const MediaCard = (props) => {
  
   return (
     // media-cards
-    <div className='expmedia_card_container'>
+    <Container className='expmedia_card_container'>
       <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} width={"100%"} borderRadius={"10px"}>
       <div className='expmedia_card_div'>
         <div>
@@ -16,7 +17,7 @@ const MediaCard = (props) => {
       </div>
       </div>
     </Box>
-    </div>
+    </Container>
   )
 }
 
