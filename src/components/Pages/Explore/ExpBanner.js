@@ -36,7 +36,7 @@ const ExpBanner = () => {
           </Box>
             <div className='exp_top_text_div'>
               <text>
-              Reclame Hub is Leading the Way in Business Registration, Company Incorporation, CA Consultancy, Business License
+              Start your journey with our contemporary ideas and profound expertise.
            </text>
             </div>
             <div className='exp_btn_div'>

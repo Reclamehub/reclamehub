@@ -54,3 +54,6 @@
     height: 100%;
     width: 100%;
 }
+.client_exp_btn:hover{
+outline: none !important;
+}

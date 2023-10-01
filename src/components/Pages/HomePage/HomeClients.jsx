@@ -94,7 +94,7 @@ export const HomeClients = () => {
                             )}
                         </Box>
                        
-                        <Box className="expMore_btn_div" marginTop={"0%"}><Link to ="/service">< button className="expMore_btn">Explore More</button></Link></Box>
+                        <Box className="expMore_btn_div mt-0" ><Link to ="/service">< button style={{outline:"1px solid #000"}} className="expMore_btn client_exp_btn">Explore More</button></Link></Box>
                        
                     </Box>
 

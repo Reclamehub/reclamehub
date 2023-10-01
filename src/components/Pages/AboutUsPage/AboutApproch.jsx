@@ -18,7 +18,7 @@ export const AboutApproch = () => {
                     <Col sm={12} md={6} lg={6} xl={6} className="aboutapproch_col">
                         <div className="approch_cardtext_div">
                             {/* <heading className="chooseBox_heading">let's team up !</heading><br/> */}
-                            <text ><span style={{ color: "#FF7721", fontWeight: "bold" }}>Reclame Hub  </span> we have developed a unique approach that combines strategic thinking, data-driven insights, and creative excellence to deliver impactful marketing solutions. Our approach is tailored to each client's specific needs and objectives, ensuring a customized strategy that maximizes results. Here's an overview of our approach
+                            <text ><span style={{ color: "#FF7721", fontWeight: "bold" }}>Reclame Hub  </span> we have developed a unique approach that combines strategic thinking, data-driven insights, and creative excellence to deliver impactful marketing solutions. Our approach is tailored to each client's specific needs and objectives, ensuring a customized strategy that maximizes results. Here's an overview of our approach.
                             </text>
                         </div>
 

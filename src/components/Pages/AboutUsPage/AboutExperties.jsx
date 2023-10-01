@@ -2,8 +2,10 @@ import { Box, Flex, Heading, Image, Text, useColorMode, useColorModeValue } from
 import {Container,Row,Col} from "react-bootstrap"
 import { Link } from "react-router-dom"
 import "./AboutExperties.css"
-export const AboutExperties=()=>{
 
+
+export const AboutExperties=()=>{
+    const { colorMode } = useColorMode();
 
 return(
     <Container>
@@ -23,7 +25,10 @@ return(
                 <img className="experties_img" src="gif1.gif" alt="experties-img1"/>
             </div>
             <div style={{maxWidth:"90%",margin:"auto"}}>
-            <div className="expertise_card_hdiv">
+            <div className="expertise_card_hdiv"
+                  style={{
+                    color: colorMode === "light" ? "#f47721" : "#f47721",
+            }}>
                 <heading className="experties_card_heading"> social media <br/> management</heading>
                 </div>
                 <div>
@@ -43,7 +48,11 @@ return(
                 <img  className="experties_img" src="gif3.gif" alt="experties-img2"/>
             </div>
             <div style={{maxWidth:"90%",margin:"auto"}}>
-            <div className="expertise_card_hdiv">
+            <div className="expertise_card_hdiv"
+                                    style={{
+                                        color: colorMode === "light" ? "#f47721" : "#f47721",
+                                }}>
+            
                 <heading className="experties_card_heading">graphic<br/> designing</heading>
                 </div>
                 <div>
@@ -63,7 +72,10 @@ return(
                 <img className="experties_img" src="abtgif11.gif" alt="experties-img3"/>
             </div>
             <div style={{maxWidth:"90%",margin:"auto"}}>
-                <div className="expertise_card_hdiv">
+                <div className="expertise_card_hdiv"
+                      style={{
+                        color: colorMode === "light" ? "#f47721" : "#f47721",
+                }}>
                 <heading className="experties_card_heading">web design<br/>& development</heading>
                 </div>
                 <div>

@@ -101,11 +101,17 @@ export const HomeService = () => {
                         backgroundColor: colorMode === "light" ? '#ff9450' : "#1D1D1D",
                     }}
                      key={el.id} >
-                        <div className="hservice_img">
+                        <div className="hservice_img"
+                        >
                         <img  style={{maxHeight:"100%"}}src={el.simg} />
                         </div>
                       <div className="srvc_card_text_wrapper" style={{ fontFamily: "poppins" }}>
-                            <heading className="hservice_cards_heading"> {el.heading} <br /> {el.headingTwo}</heading>
+                        <div 
+                        style={{
+                            color: colorMode === "light" ? "#000" : "#f47721",
+                    }}>
+                        <heading className="hservice_cards_heading"> {el.heading} <br /> {el.headingTwo}</heading>
+                            </div>
                             <p className="hservice_cards_text">{el.desc}</p>
                         </div>
                         </div>

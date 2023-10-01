@@ -55,7 +55,7 @@ export const ServicePageTypes = () => {
                         <div className="service_content_div">
                             <div className="service_heading_div">
                                 <h2 className="contentBox_headings" style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw", }}>online reputation management</h2>
-                                <p className="Scard_para">Our Reliable Marketing services in Noida, India, specializes in delivering effective marketing solutions tailored to your specific needs. Our team looks into the necessity of having a strong online presence to manage brand reputation successfully. 
+                                <p className="Scard_para">Our Reliable Marketing services dedicated to monitoring and controlling public perception and reputation of the businesses on the internet. Our team looks into the necessity of having a strong online presence to manage online brand reputation. 
                                 </p>
                                 <button className="srvc_type_btn" onClick={()=>{history("/online-reputation-management")}}>Know More</button>
                             </div>
@@ -114,8 +114,7 @@ export const ServicePageTypes = () => {
                             <div className="service_heading_div">
                                 <h2 className="contentBox_headings" style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw", }}>digital advertisement</h2>
                                 <p className="Scard_para"> 
-                                To accelerate your digital marketing presence, we are here to gear you up. Our whole suite of digital marketing services is designed to increase 
-                                your online visibility, produce targeted visitors, and generate significant results.
+                                To accelerate your digital marketing presence, we are here to gear you up. Our whole suite of digital marketing services is designed to increase your online visibility, produce targeted visitors, and generate significant results. We'll help you manage the ever-changing digital world and remain ahead of the competition with our data-driven strategies and industry experience
                                  </p>
                                 <button className="srvc_type_btn"onClick={()=>{history("/digital-advertisement")}} >Know More</button>
                             </div>
@@ -180,7 +179,7 @@ export const ServicePageTypes = () => {
                             </div>
                             <div className="Rservice_heading_div">
                                 <h2 className="contentBox_headings" style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw", }}>seo development</h2>
-                                <p className="Scard_para"> We boost your online presence and bring the secret sauce for organic visitors effortlessly. So, why wait? Connect with us, We'll create strong content, do keyword research, optimize every page, build awesome links, and give your social media a makeover.</p>
+                                <p className="Scard_para"> We boost your online presence and bring the secret sauce for organic visitors effortlessly. So, why wait? Connect with us, We'll create strong content, do keyword research, optimize every page, build awesome links, and give your social media a makeover. Get ready to climb the search engine charts and attract a crowd of fans!</p>
                                 <button className="srvc_type_btn"onClick={()=>{history("/seo-development")}} >Know More</button>
                             </div>
                         </div>
@@ -195,7 +194,7 @@ export const ServicePageTypes = () => {
                             </div>
                             <div className="Rservice_heading_div">
                                 <h2 className="contentBox_headings" style={{ textTransform: "uppercase", fontWeight: "700",fontSize:"2vw", }}>campaign marketing</h2>
-                                <p className="Scard_para">At Reclame Hub, our collaborative approach with our clients to meet with expertly crafted campaigns perfectly aligns with their unique business goals. We'll help you pinpoint your target audience, create captivating content, and deliver results that you can actually measure. </p>
+                                <p className="Scard_para">At Reclame Hub, our collaborative approach with our clients to meet with expertly crafted campaigns perfectly aligns with their unique business goals. We'll help you pinpoint your target audience, create captivating content, and deliver results that you can actually measure. So, let's get the preparation done!</p>
                                 <button className="srvc_type_btn"onClick={()=>{history("/campaign-marketing")}} >Know More</button>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import ExpServiceBanner from "./ExpServiceBanner"
-import { Container } from 'react-bootstrap'
+import { Card, Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import {Box,useColorModeValue} from "@chakra-ui/react"
 import FssaiCards from './FssaiCards'
@@ -16,10 +16,15 @@ import "./Fssai.css"
   <Container fluid className='box-shadow'>
   <Container className='d-flex flex-column justify-content-start align-items-start inner_box '>
         <div className='exp_iso_heading_div '>
-            <heading className="">What is FSSAI ?</heading>
+            <heading className="">About FSSAI Registration</heading>
         </div>
         <div className='exp_iso_text_div'>
-            <text>FSSAI License and Registration is required for any food business in India that manufactures, stores, transports, or distributes food. Depending on the size and nature of the company, FSSAI registration or license may be required. In the FSSAI Registration process, the FBO will get a 14 digit number that needs to be printed on food packages. Obtaining a FSSAI license can provide the food business with legal benefits, build goodwill, ensure food safety, create consumer awareness, and assist in business expansion. IndiaFilings can help you obtain an FSSAI license throughout the country very quickly. We also help to get FSSAI registration. Our experts will guide you in selecting the proper food category and license.</text>
+           <p>The Food Safety and Standards Authority of India (FSSAI) is a statutory authority operating under the Ministry of Health and Family Welfare, Government of India. FSSAI is committed to ensuring the highest standards of quality and safety of food products across the nation for all food products available in India. </p>
+           <p>Are you a part of the active food production or distribution industry? The Food Safety and Standards Authority of India (FSSAI) being a regulatory body mandates for all food business operators to undergo a registration process. This essential step not only demonstrates your commitment to excellence but also ensures compliance with the stringent regulations set forth by FSSAI. It guarantees that the food you procure and offer to your customers is of the highest quality and safety standards.</p>
+           <p>If you're venturing into the realm of food manufacturing, selling, or distribution, it's essential to familiarize yourself with the FSSAI licence. When it comes to obtaining the necessary licences for your food business, the Food Safety and Standards Authority of India (FSSAI) offers two distinct types:</p>
+        <li>State Licence: This licence is a mandatory requirement for businesses operating within one state on a medium scale.</li>
+        <li>Central Licence: The Central License is a mandatory requirement for businesses with headquarters operating in multiple states. With this essential licence, you can access a world of opportunities to showcase your unique offerings.</li>
+        <p>f you want to get an FSSAI licence, your business needs to meet certain requirements. You have to get a registered place and qualified personnel. The application process can be complex, so businesses might want to consider getting professional help from us.</p>
         </div>
     </Container>
     </Container>
@@ -27,10 +32,10 @@ import "./Fssai.css"
     <Container fluid className='box-shadow'>
   <Container className='d-flex flex-column justify-content-start align-items-start inner_box '>
         <div className='exp_iso_heading_div '>
-            <heading className="">HOW TO APPLY FSSAI REGISTRATION ONLINE ?</heading>
+            <heading className="">Who Needs An FSSAI License?</heading>
         </div>
         <div className='exp_iso_text_div'>
-            <text>The Food Safety and Standards Authority of India (FSSAI) is a statutory authority operating under the Ministry of Health and Family Welfare, Government of India. FSSAI is committed to ensuring the highest standards of quality and safety of food products across the nation for all food products available in India. </text>
+            <text>The FSSAI License is a mandatory requirement for various entities involved in the food business. Whether you are a manufacturer, distributor, retailer, or even Wholesaler, Supplier, Food Processor, Transporter, Distributor, Canteen, restaurant, Club, storage, or others.</text>
         </div>
     </Container>
     </Container>
@@ -54,13 +59,37 @@ import "./Fssai.css"
 </wrapper>
 <wrapper className="fssai_cards_wrapper2">
   <div>
-    <FssaiCards img="expfssaiicon.png" title="Lowering the risk of food recalls" text="FSSAI licence guarantee that businesses adhere to proper food safety procedures. "/>
+    <FssaiCards img="expfssaiicon.png" title1="Lowering the risk of food recalls" text="FSSAI licence guarantee that businesses adhere to proper food safety procedures. "/>
   </div>
   <div>
-    <FssaiCards img="expfssaiicon.png" title="Government Funding and Loans" text="The registration process for obtaining a Food License provides food business operators (FBOs) with valuable opportunities to access government loans and funding. These financial resources are readily available to support and empower FBOs in their food-related ventures."/>
+    <FssaiCards img="expfssaiicon.png" title1="Government Funding and Loans" text="The registration process for obtaining a Food License provides food business operators (FBOs) with valuable opportunities to access government loans and funding. These financial resources are readily available to support and empower FBOs in their food-related ventures."/>
   </div>
 </wrapper>
 </Container>
+    </Container>
+    </Container>
+
+    <Container fluid className='box-shadow'>
+  <Container className='d-flex flex-column justify-content-start align-items-start inner_box '>
+        <div className='exp_iso_heading_div '>
+            <heading className="">Key Steps for Successful FSSAI Registration Online</heading>
+        </div>
+      <wrapper className="big_cards_wrapper">
+        <div className='big_card1_div'>
+          <p className="big_card_title">Begin by scheduling a consultation</p>
+          <p className='big_card_text'>Feel free to contact our specialists for a complimentary consultation. At our website, we take pride in providing a comprehensive evaluation of your requirements and expert guidance throughout the entire process.</p>
+        </div>
+
+        <div className='big_card2_div'>
+          <p className="big_card_title"> Comprehensive Documentation</p>
+          <p className='big_card_text'>Help us in collecting all the necessary documents that are required for FSSAI registration with confidence. Our team is excited to assist you with the preparation and organisation of every necessary document!</p>
+        </div>
+
+        <div className='big_card3_div'>
+          <p className="big_card_title"> Application and Follow-up</p>
+          <p className='big_card_text'>Make sure to carefully review your application to ensure all the details are complete. We will handle the entire application process on your behalf, ensuring that all necessary information is accurately provided. </p>
+        </div>
+      </wrapper>
     </Container>
     </Container>
   </Box>

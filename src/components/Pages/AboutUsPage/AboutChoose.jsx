@@ -7,7 +7,7 @@ export const AboutChoose=()=>{
     return (
     <Container style={{margin:"auto"}}>
         <div className="aboutChoose_headingImg_div"> 
-        <heading className="page_heading"><span style={{fontSize:"80px",fontWeight:"800",color:"gray"}} >?</span> <span style={{color:"orangered"}}> WHY CHOOSE </span> <span>RECLAME HUB </span></heading>
+        <heading className="page_heading"><span style={{fontSize:"80px",fontWeight:"800",color:"gray"}} >?</span> <span style={{color:"#f47721"}}> WHY CHOOSE </span> <span>RECLAME HUB </span></heading>
         <img style={{height:"80px"}} src="quesimg.png"  alt="reclame"/>
        </div>
        <div className="heading_descp_div" >

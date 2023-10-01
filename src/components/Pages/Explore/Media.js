@@ -12,7 +12,7 @@ const Media = () => {
          <heading>in the media</heading>
                 </div>
                 <div className='exp_text_div'>
-                    <text>Reclame hub is ridiculously fantastic In media world </text>
+                    <text>Reclame hub is ridiculously fantastic In media world. </text>
                 </div>
             </div>
             <div>

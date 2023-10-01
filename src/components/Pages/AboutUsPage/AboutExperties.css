@@ -50,8 +50,7 @@ height: 270px;
     font-size: 14px;
     font-family: poppins;
     text-transform: capitalize;
-    color: #FF7721;
-}
+  }
 
 @media (max-width: 767px) {
     .experties_img {
