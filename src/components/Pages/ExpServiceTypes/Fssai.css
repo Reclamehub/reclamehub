@@ -4,7 +4,8 @@
 }
 .fssai_cards_wrapper2{
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
+    gap: 75px;
 }
 .fssai_cards_main_container{
     display: flex;
@@ -49,6 +50,7 @@ margin: 2rem auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: 0px;
     }
     .fssai_cards_main_container{
         gap: 0px;

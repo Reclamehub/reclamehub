@@ -6,7 +6,7 @@ export const AboutVision = () => {
 
 
     return (
-        <Container style={{ margin: "auto" }}>
+        <Container  style={{ margin: "auto" }}>
             <Container className="visionContent_container">
                 <Row>
                     <Col sm={12} md={6} lg={6} xl={6} className="aboutvision_col">
