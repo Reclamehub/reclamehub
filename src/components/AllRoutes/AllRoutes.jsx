@@ -24,8 +24,9 @@ import { useLocation } from "react-router-dom";
 import {Explore} from "../Pages/Explore/Explore"
 import { ContactUsAddress } from "../Pages/ContactUsPage/ContactUsAddress"
 import IsoCertificate from "../Pages/ExpServiceTypes/IsoCertificate"
-import {GST} from "../Pages/ExpServiceTypes/GST"
+import {MSME} from "../Pages/ExpServiceTypes/MSME"
 import {Fssai} from "../Pages/ExpServiceTypes/Fssai"
+import {PAN} from "../Pages/ExpServiceTypes/PAN"
 const ScrollToTop = ({ children }) => {
     const { pathname } = useLocation();
   
@@ -63,8 +64,9 @@ export const AllRoutes = () => {
             <Route path="/campaign-marketing" element={<CM />} />
             <Route path="/app-design-development" element={<AD />} />
             <Route path="/ISO-Certification" element={<IsoCertificate />} />
-            <Route path="/GST-MSME" element={<GST/>}/>
+            <Route path="/MSME-Registration" element={<MSME/>}/>
             <Route path="/FSSAI-Registration" element={<Fssai/>}/>
+            <Route path="/About-PAN" element={<PAN/>}/>
             <Route path="/effective-digital-marketing-strategies-for-small-businesses" element={<BlogOne />} />
     {/* <Route path="/:id" element={<SingleBlog />} />
             <Route path="/single" element={<SingleBlogPage />} /> */}

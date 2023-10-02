@@ -3,11 +3,14 @@
     justify-content: space-around;
    align-items: center;
 }
-
-.dropdown {
-
+.drop-down:hover{
+    color: #F47721;
 }
 
+/* .dropdown-menu:focus,.dropdown-menu .dropdown-item:hover .dropdown-menu:active .dropdown-menu::after .dropdown-item:active{
+    background-color: transparent !important; 
+    color: #000 !important; 
+  } */
 .drop-btn {
 text-transform: uppercase;
 font-size: 16px;
@@ -17,6 +20,12 @@ font-size: 15px;
 text-transform: uppercase;
 font-weight: 500;
 }
+
+.dropdown-item:active{
+ background-color: #fff;
+ color: #000;
+    }
+
 .drop-item-heading{
 color: #F47721;
 font-size: 16px;

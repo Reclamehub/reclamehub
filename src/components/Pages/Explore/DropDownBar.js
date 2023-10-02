@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Box,useColorModeValue } from '@chakra-ui/react';
 import "./DropDownBar.css";
+import { Link } from 'react-router-dom';
 
 function DropDownBar() {
   return (
@@ -13,15 +14,17 @@ function DropDownBar() {
               Business License
             </button>
             <ul className="dropdown-menu">
-              <li><a className="dropdown-item" >
+              <li>
+                <div className="dropdown-item" >
                 <span className='drop-item-heading'><p>Business Registration</p></span>
-                <p>iso certification</p>
-                <p>msme registration</p>
-                <p>fssai registration</p>
-                <p>pan</p>
+               <p className='drop-down'>  <Link  to ="/ISO-Certification">iso certification </Link></p>
+                <p className='drop-down'> <Link to="/MSME-Registration">msme registration</Link></p>
+                <p className='drop-down'> <Link to="/FSSAI-Registration">fssai registration</Link></p>
+                <p className='drop-down'><Link to="/About-PAN">pan</Link></p>
                 <p>tan</p>
-                <p>trade licence in delhi</p>
-              </a></li>
+                <p>trade licence </p>
+              </div>
+              </li>
             </ul>
           </div>
 
