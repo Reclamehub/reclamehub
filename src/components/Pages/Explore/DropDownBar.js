@@ -35,8 +35,8 @@ function DropDownBar() {
             <ul className="dropdown-menu">
               <li><a className="dropdown-item" >
                 <span className='drop-item-heading'><p>Trademark</p></span>
-                <p>trade mark</p>
-                <p>Trademark oppositions</p>
+                <p className='drop-down'><Link  to ="/About-TradeMark">trademark </Link></p>
+                <p className='drop-down'> <Link to="/TradeMark-Objection"> Trademark objection</Link></p>
                 <p>Trademark hearing</p>
                 <p>patent</p>
                 <p>copyright</p>

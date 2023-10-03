@@ -29,6 +29,8 @@ import {Fssai} from "../Pages/ExpServiceTypes/Fssai"
 import {PAN} from "../Pages/ExpServiceTypes/PAN"
 import {TAN} from "../Pages/ExpServiceTypes/TAN"
 import {TLO} from "../Pages/ExpServiceTypes/TLO"
+import TradeMark from "../Pages/ExpServiceTypes/TradeMark"
+import TradeMarkObjection from "../Pages/ExpServiceTypes/TradeMarkObjection"
 const ScrollToTop = ({ children }) => {
     const { pathname } = useLocation();
   
@@ -71,6 +73,8 @@ export const AllRoutes = () => {
             <Route path="/About-PAN" element={<PAN/>}/>
             <Route path="/About-TAN" element={<TAN/>}/>
             <Route path="/Trade-License" element={<TLO/>}/>
+            <Route path="/About-TradeMark" element={<TradeMark/>}/>
+            <Route path="/TradeMark-Objection" element={<TradeMarkObjection/>}/>
             <Route path="/effective-digital-marketing-strategies-for-small-businesses" element={<BlogOne />} />
     {/* <Route path="/:id" element={<SingleBlog />} />
             <Route path="/single" element={<SingleBlogPage />} /> */}
