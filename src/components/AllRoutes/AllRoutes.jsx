@@ -27,6 +27,8 @@ import IsoCertificate from "../Pages/ExpServiceTypes/IsoCertificate"
 import {MSME} from "../Pages/ExpServiceTypes/MSME"
 import {Fssai} from "../Pages/ExpServiceTypes/Fssai"
 import {PAN} from "../Pages/ExpServiceTypes/PAN"
+import {TAN} from "../Pages/ExpServiceTypes/TAN"
+import {TLO} from "../Pages/ExpServiceTypes/TLO"
 const ScrollToTop = ({ children }) => {
     const { pathname } = useLocation();
   
@@ -67,6 +69,8 @@ export const AllRoutes = () => {
             <Route path="/MSME-Registration" element={<MSME/>}/>
             <Route path="/FSSAI-Registration" element={<Fssai/>}/>
             <Route path="/About-PAN" element={<PAN/>}/>
+            <Route path="/About-TAN" element={<TAN/>}/>
+            <Route path="/Trade-License" element={<TLO/>}/>
             <Route path="/effective-digital-marketing-strategies-for-small-businesses" element={<BlogOne />} />
     {/* <Route path="/:id" element={<SingleBlog />} />
             <Route path="/single" element={<SingleBlogPage />} /> */}

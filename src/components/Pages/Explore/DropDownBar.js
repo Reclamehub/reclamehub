@@ -21,8 +21,8 @@ function DropDownBar() {
                 <p className='drop-down'> <Link to="/MSME-Registration">msme registration</Link></p>
                 <p className='drop-down'> <Link to="/FSSAI-Registration">fssai registration</Link></p>
                 <p className='drop-down'><Link to="/About-PAN">pan</Link></p>
-                <p>tan</p>
-                <p>trade licence </p>
+                <p className='drop-down'><Link to="/About-TAN">Tan</Link></p>
+                <p className='drop-down'><Link to="/Trade-License">TRADE LICENSE </Link></p>
               </div>
               </li>
             </ul>
