@@ -5,6 +5,7 @@ import {Box,useColorModeValue} from "@chakra-ui/react"
 import FssaiCards from './FssaiCards'
 import "./IsoCertificate.css"
 import "./TAN.css"
+import { TradeMarkCards } from './TradeMarkCards'
 
 const TradeMarkObjection = () => {
   return (
@@ -63,21 +64,21 @@ const TradeMarkObjection = () => {
 <Container fluid className='fssai_cards_main_container'> 
 <wrapper className="fssai_cards_wrapper1">
   <div>
-    <FssaiCards img="expfssaiicon.png" title1="How to resolve Trademark Objection?" text="The process of resolving a trademark objection involves various steps such as evidence demonstrating distinctive character and prior use while addressing the concerns raised by the objecting party and obtaining clearance for the trademark in question. "/>
+    <TradeMarkCards icon="1" text="The report and overview of authorized documents for trademark objection including the officially sanctioned and approved documents by the appropriate authority. "/>
   </div>
   <div>
-    <FssaiCards img="expfssaiicon.png" title1="What are the fees associated with filing a Trademark Objection?" text="The fee for trademark objection within the notice period is ₹2500, whereas the fee for trademark objection during the counter statement filing process is ₹3000. However, there are no prescribed charges associated with the third, fourth, and fifth stages."/>
+    <TradeMarkCards icon="2" text="The report must present a concise analysis of the features and significance of the basis of objection."/>
   </div>
   <div>
-    <FssaiCards img="expfssaiicon.png" title1="What is the importance of trademark objection in intellectual property?" text="Trademark objection is essential for the protection of trademark owners. The maintenance of trademark integrity and exclusivity promotes a fair and competitive market."/>
+    <TradeMarkCards icon="3" text="The document must contain consideration of the report pertaining to the examination of a trademark."/>
   </div>
 </wrapper>
 <wrapper className="fssai_cards_wrapper2">
   <div>
-    <FssaiCards img="expfssaiicon.png" title1="What is Trademark Objection?" text="The term “Trademark Objection” refers to the legal process in which an official authority questions the registration of a trademark due to potential conflicts with existing trademark or other legal requirements.When the trademark examiner expresses disapproval of the trademark. The trademark must adhere to all applicable rules and regulations. The trademark objection must be responded to within a period of thirty days. "/>
+    <TradeMarkCards icon="4"  text="The application fee should be paid as per the direction of our Officials."/>
   </div>
   <div>
-    <FssaiCards img="expfssaiicon.png" title1="What is the duration for responding to a Trademark Objection?" text="The response to trademark objection is prepared by the trademark experts and must submit a response within three days."/>
+    <TradeMarkCards icon="5"  text="The trademark objection must be varified from our expert ends before forwarding to the deputy registrar."/>
   </div>
 </wrapper>
 </Container>

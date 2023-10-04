@@ -6,7 +6,7 @@ const Card = (props) => {
   const { colorMode } = useColorMode();
   return (
     // explore-help + service-cards
-    <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} borderRadius={"10px"} fontFamily={"poppins"} margin={"auto"} width={"100%"}>
+    <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} borderRadius={"10px"} fontFamily={"poppins"} margin={"auto"} width={"100%"} className='card-box'>
       <Container className='exphelp_card_div'>
   <div className='expcard_icon_div'>
           <img src={props.img} className='expcard_icon' />

@@ -37,7 +37,7 @@ function DropDownBar() {
                 <span className='drop-item-heading'><p>Trademark</p></span>
                 <p className='drop-down'><Link  to ="/About-TradeMark">trademark </Link></p>
                 <p className='drop-down'> <Link to="/TradeMark-Objection"> Trademark objection</Link></p>
-                <p>Trademark hearing</p>
+                <p className='drop-down'><Link to="/TradeMark-Hearing">Trademark hearing</Link></p>
                 <p>patent</p>
                 <p>copyright</p>
               </a></li>

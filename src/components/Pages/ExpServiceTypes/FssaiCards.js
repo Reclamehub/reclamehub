@@ -5,8 +5,8 @@ import "./FssaiCards.css"
 
 const FssaiCards = (props) => {
   return (
-    <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} borderRadius={"10px"} fontFamily={"poppins"} margin={"auto"} width={"100%"}>
-    <Container className='fssai_card_div'>
+    <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} borderRadius={"10px"} fontFamily={"poppins"} margin={"auto"} width={""} className='card-box'>
+      <Container className='fssai_card_div'>
 <div className='fssai_icon_div'>
         <img src={props.img} className='fssai_icon' />
       </div>

@@ -5,7 +5,7 @@ import {Box,Text} from "@chakra-ui/react"
 import "./ExpBanner.css"
 
 const ExpBanner = () => {
-  let wordArray = ["Entrepreneurial", "tech-savvy", "inovation",]
+  let wordArray = ["Entrepreneurial", "tech-savvy", "innovation",]
 
 	const [curWord, setCurWord] = useState(wordArray[0]);
 	const [isActive, setIsActive] = useState(true);
