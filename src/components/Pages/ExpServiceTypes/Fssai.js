@@ -24,7 +24,7 @@ import "./Fssai.css"
            <p>If you're venturing into the realm of food manufacturing, selling, or distribution, it's essential to familiarize yourself with the FSSAI licence. When it comes to obtaining the necessary licences for your food business, the Food Safety and Standards Authority of India (FSSAI) offers two distinct types:</p>
         <li>State Licence: This licence is a mandatory requirement for businesses operating within one state on a medium scale.</li>
         <li>Central Licence: The Central License is a mandatory requirement for businesses with headquarters operating in multiple states. With this essential licence, you can access a world of opportunities to showcase your unique offerings.</li>
-        <p>f you want to get an FSSAI licence, your business needs to meet certain requirements. You have to get a registered place and qualified personnel. The application process can be complex, so businesses might want to consider getting professional help from us.</p>
+        <p>if you want to get an FSSAI licence, your business needs to meet certain requirements. You have to get a registered place and qualified personnel. The application process can be complex, so businesses might want to consider getting professional help from us.</p>
         </div>
     </Container>
     </Container>

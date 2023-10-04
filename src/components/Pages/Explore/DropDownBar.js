@@ -38,8 +38,8 @@ function DropDownBar() {
                 <p className='drop-down'><Link  to ="/About-TradeMark">trademark </Link></p>
                 <p className='drop-down'> <Link to="/TradeMark-Objection"> Trademark objection</Link></p>
                 <p className='drop-down'><Link to="/TradeMark-Hearing">Trademark hearing</Link></p>
+                <p className='drop-down'> <Link to="/CopyRight">copyright</Link></p>
                 <p>patent</p>
-                <p>copyright</p>
               </a></li>
             </ul>
           </div>

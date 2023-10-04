@@ -6,18 +6,20 @@ import "./MediaCard.css"
 const MediaCard = (props) => {
  
   return (
-    // media-cards
-    <Container className='expmedia_card_container'>
-      <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} width={"100%"} borderRadius={"10px"}>
+    <>
+   
+      <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} width={""} borderRadius={"10px"} className='card-box mt-5'>
+        <Container className='expmedia_card_container '>
       <div className='expmedia_card_div'>
-        <div>
-        <div className='media_card_text_div'>
+      <div className='media_card_text_div'>
          <img src={props.img} alt="media-icon"/>
-        </div>
       </div>
       </div>
-    </Box>
     </Container>
+    </Box>
+
+
+</>
   )
 }
 
