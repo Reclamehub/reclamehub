@@ -19,7 +19,7 @@ margin: auto;
 @media (max-width: 480px) {
     .expmedia_card_div{
         width: 95%;
-        margin: 25px auto 0px auto;
+        margin: 0px auto 0px auto;
     }
 }
 /*  */

@@ -8,7 +8,7 @@ const MediaCard = (props) => {
   return (
     <>
    
-      <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} width={""} borderRadius={"10px"} className='card-box mt-5'>
+      <Box bg={useColorModeValue('#ffffff', '#2D2D2D')} color={useColorModeValue('#000', '#fff')} fontFamily={"poppins"} margin={"auto"} width={""} borderRadius={"10px"} className='card-box' style={{marginTop:"2rem"}}>
         <Container className='expmedia_card_container '>
       <div className='expmedia_card_div'>
       <div className='media_card_text_div'>
