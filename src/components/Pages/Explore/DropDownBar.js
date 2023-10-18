@@ -39,7 +39,7 @@ function DropDownBar() {
                 <p className='drop-down'> <Link to="/TradeMark-Objection"> Trademark objection</Link></p>
                 <p className='drop-down'><Link to="/TradeMark-Hearing">Trademark hearing</Link></p>
                 <p className='drop-down'> <Link to="/CopyRight">copyright</Link></p>
-                <p>patent</p>
+                {/* <p>patent</p> */}
               </a></li>
             </ul>
           </div>

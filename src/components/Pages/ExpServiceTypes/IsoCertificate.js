@@ -13,6 +13,20 @@ const IsoCertificate = () => {
       <ExpServiceBanner heading="Claim the Best ISO Certification for Your Business" text="Apply the Best ISO Certification for your business. Our professionals at Reclame Hub Will Guide you and take care of the entire ISO Certification process of until you receive the Certification." img="expiso.png"/>
     </Container>
 
+    <Container fluid className='box-shadow'>
+  <Container className='d-flex flex-column justify-content-start align-items-start inner_box '>
+        <div className='exp_iso_heading_div '>
+            <heading className="">About ISO Certification</heading>
+        </div>
+        <div className='exp_iso_text_div'>
+           <p><span style={{color:"#f47721"}}>Increased Market share :</span> It helps you to get more customers and increase your market share.</p>
+           <p><span style={{color:"#f47721"}}>Trust factor :</span> It helps to build trust in customers for your brand.</p>
+           <p><span style={{color:"#f47721"}}>Reputation :</span> It increases your organization's reputation on the international level which could help you to get funding and investors. </p>
+           <p><span style={{color:"#f47721"}}>Futureproof :</span> ISO Certification helps avoid many legal issues regarding quality maintenance and the international market.</p>
+        </div>
+    </Container>
+    </Container>
+
 <Container fluid className='box-shadow'>
   <Container className='d-flex flex-column justify-content-start align-items-start inner_box '>
         <div className='exp_iso_heading_div '>
