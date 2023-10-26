@@ -43,7 +43,7 @@ setTimeout(() => {
 
     <Box className="App">
     {isLoading ? (
-      <LoadingSpinner /> // Display loading spinner when isLoading is true
+      <LoadingSpinner /> 
     ) : (
       <>
         <Navbar />
