@@ -33,6 +33,7 @@ import TradeMark from "../Pages/ExpServiceTypes/TradeMark"
 import TradeMarkObjection from "../Pages/ExpServiceTypes/TradeMarkObjection"
 import TradeMarkHearing from "../Pages/ExpServiceTypes/TradeMarkHearing"
 import CopyRight from "../Pages/ExpServiceTypes/CopyRight"
+import GstRegistration from "../Pages/ExpServiceTypes/GstRegistration"
 const ScrollToTop = ({ children }) => {
     const { pathname } = useLocation();
   
@@ -79,7 +80,10 @@ export const AllRoutes = () => {
             <Route path="/TradeMark-Objection" element={<TradeMarkObjection/>}/>
             <Route path="/TradeMark-Hearing" element={<TradeMarkHearing/>}/>
             <Route path="/CopyRight" element={<CopyRight/>}/>
+
+            <Route path ="/GST-Registration" element={<GstRegistration/>}/>
             <Route path="/effective-digital-marketing-strategies-for-small-businesses" element={<BlogOne />} />
+
     {/* <Route path="/:id" element={<SingleBlog />} />
             <Route path="/single" element={<SingleBlogPage />} /> */}
         </Routes>

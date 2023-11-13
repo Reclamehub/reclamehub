@@ -51,7 +51,7 @@ function DropDownBar() {
             <ul className="dropdown-menu">
               <li><a className="dropdown-item" >
                 <span className='drop-item-heading'><p>  india</p></span>
-                <p>gst registration</p>
+                <Link to="/GST-Registration"> <p>gst registration</p></Link>
                 <p>gst modification</p>
                 <p>gst cancellation</p>
                 <p>gst return filing</p>
