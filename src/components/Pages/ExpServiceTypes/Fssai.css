@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     gap: 35px;
+    margin-bottom: 20px;
 }
 .big_cards_wrapper{
 display: flex;
@@ -54,6 +55,7 @@ margin: 2rem auto;
     }
     .fssai_cards_main_container{
         gap: 0px;
+      
     }
     }
     /*  */

@@ -73,16 +73,16 @@ const CopyRight = () => {
     <TradeMarkCards icon="3" text="Our team provides a support system to track the progress of the application and stay updated with the progress of your project, the remaining parts, and all."/>
   </div>
 </wrapper>
-<wrapper className="fssai_cards_wrapper2">
+<wrapper className="fssai_cards_wrapper1">
   <div>
     <TradeMarkCards icon="4"  text="The copyright registration application form can be done online from the government copyright website or through our expert copyright team. "/>
   </div>
   <div>
     <TradeMarkCards icon="5"  text="Registrar's office reviews your application and determines whether it meets all the requirements for copyright protection."/>
   </div>
-  {/* <div>
+  <div>
     <TradeMarkCards icon="6"  text="Your certification goes to your doorstep after approval of the application as official proof of your copyright claim."/>
-  </div> */}
+  </div>
 </wrapper>
 </Container>
     </Container>

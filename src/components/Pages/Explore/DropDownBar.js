@@ -51,10 +51,10 @@ function DropDownBar() {
             <ul className="dropdown-menu">
               <li><a className="dropdown-item" >
                 <span className='drop-item-heading'><p>  india</p></span>
-                <Link to="/GST-Registration"> <p>gst registration</p></Link>
-                <p>gst modification</p>
-                <p>gst cancellation</p>
-                <p>gst return filing</p>
+                <Link to="/GST-Registration"> <p className='drop-down'>gst registration</p></Link>
+               <Link to="/GST-Modification"> <p className='drop-down'>gst modification</p></Link>
+                <Link to="/GST-Cancellation"><p className='drop-down'>gst cancellation</p></Link>
+                <Link to="/GST-Return-Filing"><p className='drop-down'>gst return filing</p></Link>
               </a></li>
             </ul>
           </div>
