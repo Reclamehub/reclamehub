@@ -4,11 +4,13 @@ import {Box,useColorModeValue} from "@chakra-ui/react"
 import {IoPersonOutline} from "react-icons/io5"
 import {MdOutlineMailOutline} from "react-icons/md"
 import {AiOutlinePhone,AiOutlineMail} from "react-icons/ai"
-import {SiMailgun} from "react-icons/si"
+import {SiGmail, SiMailgun} from "react-icons/si"
 import emailjs from 'emailjs-com';
 import ReactCardFlip from 'react-card-flip';
 import Swal from 'sweetalert2';
 import './ImgForm.css';
+
+// reclamehubservices@Gmail.com Reclame@1234
 
 function FormComponent({ onFormSubmit }) {
   const form = useRef();
@@ -58,10 +60,10 @@ function FormComponent({ onFormSubmit }) {
   
       emailjs
         .sendForm(
-          "service_w3ktjsk",
-          "template_a3o013e",
+          "service_uhfa1pi",
+          "template_45txf4i",
           form.current,
-          "BihB3-uJdJ7EBi-aV"
+          "AGpC4tXFE36qGchQd"
         )
         .then(
           (result) => {
